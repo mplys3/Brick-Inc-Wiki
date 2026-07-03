@@ -1,0 +1,64 @@
+﻿Id,Name,Sort,Mode,Grade,IsUltimate,TypeList,ValueType,ValueList,ValueUpAddList,ValueUpMulList,English
+6001,cd_special_coin,3,0,Common,False,Gold,Percent,20.0,,1.61562342119486,Special Coin
+6002,cd_reaction_cylinder,4,0,Common,False,Power,Percent,20.0,,1.61562342119486,Reactive Cylinder
+6003,cd_bullet_factory,5,0,Common,False,DefaultBulletRegen,Percent,1.0,1.0,1.0,Ammo Factory
+6004,cd_cargo_box,6,0,Common,False,DefaultBulletMax,Add,10.0,10.0,1.0,Large Cargo Box
+6005,cd_gunpowder,7,0,Common,False,DefaultWeaponDmg,Percent,80.0,,1.61562342119486,High-Purity Gunpowder
+6090,cd_ultimate_common,8,0,Common,True,AllWeaponDmg,Multiply,1.1,,1.2194660953393,Common Ultimate Card
+6011,cd_prime,9,0,Superior,False,Gold,Percent,25.0,,1.66810053720006,Top-Shelf Product
+6012,cd_tesla_coil,10,0,Superior,False,Power,Percent,25.0,,1.66810053720006,Tesla Coil
+6013,cd_platinum_shot,11,0,Superior,False,DefaultWeaponDmg,Percent,100.0,,1.66810053720006,Platinum Shot
+6014,cd_bronze_cannon,12,0,Superior,False,AllWeaponDmg,Percent,25.0,,1.66810053720006,Brass Cannon
+6015,cd_seal_of_bravery,13,0,Superior,False,WeaponEnhanceBonus,Percent,25.0,,1.66810053720006,Seal of Valor
+6091,cd_ultimate_superior,14,0,Superior,True,AllWeaponDmg,Multiply,1.25,,1.29039002429644,Uncommon Ultimate Card
+6021,cd_magic_glass,15,0,Rare,False,Gold,Percent,50.0,,1.74496981044402,Magic Magnifier
+6022,cd_silver_wing,16,0,Rare,False,Power,Percent,50.0,,1.74496981044402,Silver Wings
+6023,cd_statue_of_victory,17,0,Rare,False,AllWeaponDmg,Percent,50.0,,1.74496981044402,Statue of Victory
+6024,cd_golden_watch,18,0,Rare,False,WeaponEnhanceCostDown,Divide,1.5,,1.59461750315273,Gilded Pocket Watch
+6025,cd_clock_tower,19,0,Rare,False,RankPowerDown,Divide,1.5,,1.59461750315273,Great Clock Tower
+6092,cd_ultimate_rare,20,0,Rare,True,AllWeaponDmg,Multiply,1.5,,1.45548881208261,Rare Ultimate Card
+6031,cd_enterpreneur,21,0,Heroic,False,Gold,Percent,75.0,,1.90686461855897,Entrepreneur
+6032,cd_plasma_capsule,22,0,Heroic,False,Power,Percent,75.0,,1.90686461855897,Plasma Capsule
+6033,cd_sword_of_honor,23,0,Heroic,False,AllWeaponDmg,Percent,75.0,,1.90686461855897,Sword of Honor
+6034,cd_hunter,24,0,Heroic,False,CriDmg,Percent,75.0,,1.90686461855897,Hunter
+6035,cd_soul_flame,25,0,Heroic,False,PrestigeBonus,Percent,75.0,,1.90686461855897,Soul Flame
+6093,cd_ultimate_heroic,26,0,Heroic,True,AllWeaponDmg,Multiply,1.75,,1.64634250798609,Heroic Ultimate Card
+6041,cd_golden_vault,27,0,Epic,False,Gold,Multiply,2.0,,2.0,Golden Vault
+6042,cd_blood_arrow,28,0,Epic,False,CriChance,Add,1.0,1.0,1.5,Blood Arrow
+6043,cd_mirror_of_pain,29,0,Epic,False,CriDmg,Multiply,2.0,,2.0,Mirror of Pain
+6044,cd_quantum_cat,30,0,Epic,False,DoubleShotChance,Add,1.0,1.0,1.5,Quantum Cat
+6045,cd_thunder_brand,31,0,Epic,False,WeaponEnhanceBonus,Multiply,2.0,,2.0,Lightning Brand
+6046,cd_super_circuit,32,0,Epic,False,RankPowerDown,Divide,2.0,,2.0,Superconducting Circuit
+6047,cd_bell_of_return,33,0,Epic,False,PrestigeBonus,Multiply,2.0,,2.0,Bell of Return
+6048,cd_hypercell,34,0,Epic,False,Power,Multiply,2.0,,2.0,Hypercell
+6049,cd_scientist,35,0,Epic,False,SciencePoint,Percent,50.0,,1.74496981044402,Scientist
+6050,cd_chivalry,36,0,Epic,False,BattleStat,Percent,50.0,,1.74496981044402,Chivalry
+6094,cd_ultimate_epic,37,0,Epic,True,AllWeaponDmg,Multiply,2.0,,2.0,Epic Ultimate Card
+6061,cd_infinity_piggy_bank,38,0,Legendary,False,Gold,Multiply,4.0,,4.0,Endless Piggy Bank
+6062,cd_star_core,39,0,Legendary,False,Power,Multiply,4.0,,4.0,Starlight Core
+6063,cd_light_of_heaven,40,0,Legendary,False,AllWeaponDmg,Multiply,4.0,,4.0,Light of Heaven
+6064,cd_demolisher,41,0,Legendary,False,BlockHpDown,Divide,4.0,,4.0,Destroyer
+6065,cd_cosmo_situatior,42,0,Legendary,False,ResearchCostDown,Divide,4.0,,4.0,Cosmic Simulator
+6066,cd_mystic_brooch,43,0,Legendary,False,RankPowerDown,Divide,4.0,,4.0,Mystical Brooch
+6067,cd_holy_hall,44,0,Legendary,False,WeaponEnhanceBonus,Multiply,4.0,,4.0,Holy Corridor
+6068,cd_sage,45,0,Legendary,False,WeaponEnhanceCostDown,Divide,4.0,,4.0,Great Sage
+6069,cd_book_of_insight,46,0,Legendary,False,CriDmg,Multiply,4.0,,4.0,Book of Insight
+6070,cd_fall_compass,47,0,Legendary,False,SuperCriChance,Add,1.0,1.0,1.5,Compass of Doom
+6071,cd_shard_of_extinction,48,0,Legendary,False,SuperCriDmg,Multiply,4.0,,4.0,Shard of Extinction
+6072,cd_eternity_candlelight,49,0,Legendary,False,PrestigeBonus,Multiply,4.0,,4.0,Candlelight of Eternity
+6073,cd_magic_fountain_pen,50,0,Legendary,False,SciencePoint,Multiply,2.0,,2.0,Magic Fountain Pen
+6074,cd_excalibur,51,0,Legendary,False,BattleStat,Multiply,2.0,,2.0,Excalibur
+6075,cd_water,52,0,Legendary,False,Ether,Percent,25.0,,1.66810053720006,Primordial Water
+6095,cd_ultimate_legendary,53,0,Legendary,True,AllWeaponDmg,Multiply,4.0,,4.0,Legendary Ultimate Card
+6201,cd_m_horizon,55,0,Mystic,False,SciencePoint,Multiply,64.0,,64.0,Event Horizon
+6202,cd_m_eldorado,56,0,Mystic,False,Gold,Multiply,1024.0,,1024.0,El Dorado
+6203,cd_m_entropy,57,0,Mystic,False,Power,Multiply,1024.0,,1024.0,Entropy Core
+6204,cd_m_transcendent,58,0,Mystic,False,PrestigeBonus,Multiply,2048.0,,2048.0,Transcendent Being
+6205,cd_m_holy_grail,59,0,Mystic,False,RankPowerDown,Divide,10000.0,,10000.0,Holy Grail
+6206,cd_m_creation,60,0,Mystic,False,WeaponEnhanceCostDown,Divide,10000.0,,10000.0,Creation Cube
+6207,cd_m_akashic,61,0,Mystic,False,ResearchCostDown,Divide,10000.0,,10000.0,Akashic Records
+6208,cd_m_armageddon,62,0,Mystic,False,BlockHpDown,Divide,10000.0,,10000.0,Armageddon
+6209,cd_m_trishula,63,0,Mystic,False,AllWeaponDmg,Multiply,512.0,,512.0,Trishula
+6211,cd_m_artemis,65,0,Mystic,False,CriDmg,Multiply,512.0,,512.0,Bow of Artemis
+6214,cd_m_tesseract,68,0,Mystic,False,DStone,Multiply,16.0,,16.0,Mandala
+6215,cd_m_schrodinger,69,0,Mystic,False,QuantumPoint,Multiply,64.0,,64.0,Schrödinger's Labyrinth

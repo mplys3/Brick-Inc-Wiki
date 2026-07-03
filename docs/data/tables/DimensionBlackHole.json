@@ -1,0 +1,101 @@
+{
+  "type": "MasterDimensionBlackHole",
+  "index": 104,
+  "count": 7,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "UnlockCost",
+      "param": "unlockCost",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 3
+    },
+    {
+      "name": "PowValue",
+      "param": "powValue",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "DivideValue",
+      "param": "divideValue",
+      "kind": "double",
+      "index": 5
+    }
+  ],
+  "rows": [
+    {
+      "Id": 29001,
+      "Type": "Gold",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.7,
+      "DivideValue": 2.0
+    },
+    {
+      "Id": 29002,
+      "Type": "AllWeaponDmg",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.7,
+      "DivideValue": 2.0
+    },
+    {
+      "Id": 29003,
+      "Type": "AllWeaponSpd",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.15,
+      "DivideValue": 5.0
+    },
+    {
+      "Id": 29004,
+      "Type": "Ether",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.4,
+      "DivideValue": 3.5
+    },
+    {
+      "Id": 29005,
+      "Type": "SciencePoint",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.55,
+      "DivideValue": 2.5
+    },
+    {
+      "Id": 29006,
+      "Type": "QuantumPoint",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.55,
+      "DivideValue": 2.5
+    },
+    {
+      "Id": 29007,
+      "Type": "DStone",
+      "UnlockCost": 5,
+      "ValueType": "Percent",
+      "PowValue": 0.5,
+      "DivideValue": 3.0
+    }
+  ]
+}

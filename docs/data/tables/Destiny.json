@@ -1,0 +1,102 @@
+{
+  "type": "MasterDestiny",
+  "index": 107,
+  "count": 9,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "Pow",
+      "param": "pow",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "Cost",
+      "param": "cost",
+      "kind": "int",
+      "index": 4
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Pow": 1.0,
+      "Cost": 1
+    },
+    {
+      "Id": 2,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Pow": 1.0,
+      "Cost": 1
+    },
+    {
+      "Id": 3,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Pow": 0.75,
+      "Cost": 1
+    },
+    {
+      "Id": 4,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Pow": 0.75,
+      "Cost": 1
+    },
+    {
+      "Id": 5,
+      "Type": "BattleStat",
+      "ValueType": "Percent",
+      "Pow": 0.666,
+      "Cost": 1
+    },
+    {
+      "Id": 6,
+      "Type": "DStone",
+      "ValueType": "Percent",
+      "Pow": 0.333,
+      "Cost": 1
+    },
+    {
+      "Id": 7,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Pow": 0.5,
+      "Cost": 1
+    },
+    {
+      "Id": 8,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Pow": 0.5,
+      "Cost": 1
+    },
+    {
+      "Id": 9,
+      "Type": "DestinyEnergy",
+      "ValueType": "Percent",
+      "Pow": 1.0,
+      "Cost": 1
+    }
+  ]
+}

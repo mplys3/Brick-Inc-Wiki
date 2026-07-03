@@ -1,0 +1,3696 @@
+{
+  "type": "MasterDimensionTech",
+  "index": 100,
+  "count": 121,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "X",
+      "param": "x",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Y",
+      "param": "y",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "Circle",
+      "param": "circle",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "Number",
+      "param": "number",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "Left",
+      "param": "left",
+      "kind": "bool",
+      "index": 7
+    },
+    {
+      "name": "Right",
+      "param": "right",
+      "kind": "bool",
+      "index": 8
+    },
+    {
+      "name": "Up",
+      "param": "up",
+      "kind": "bool",
+      "index": 9
+    },
+    {
+      "name": "Down",
+      "param": "down",
+      "kind": "bool",
+      "index": 10
+    },
+    {
+      "name": "IsExpansion",
+      "param": "isExpansion",
+      "kind": "bool",
+      "index": 11
+    },
+    {
+      "name": "Grade",
+      "param": "grade",
+      "kind": "MasterStandardGradeType",
+      "index": 12
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 13,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "TargetList",
+      "param": "targetListOffset",
+      "kind": "VectorOffset",
+      "index": 14,
+      "element": "int"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 15,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 16,
+      "element": "double"
+    }
+  ],
+  "rows": [
+    {
+      "Id": 16536,
+      "Name": "A-4",
+      "Sort": 104,
+      "X": 0,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 36,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        8.0
+      ]
+    },
+    {
+      "Id": 16537,
+      "Name": "A-3",
+      "Sort": 103,
+      "X": 1,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 37,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        8.0
+      ]
+    },
+    {
+      "Id": 16538,
+      "Name": "A-2",
+      "Sort": 102,
+      "X": 2,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 38,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        8.0
+      ]
+    },
+    {
+      "Id": 16539,
+      "Name": "B-L3",
+      "Sort": 203,
+      "X": 3,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 39,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16540,
+      "Name": "B-L4",
+      "Sort": 204,
+      "X": 4,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 40,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16501,
+      "Name": "B-5",
+      "Sort": 255,
+      "X": 5,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "ValueList": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16502,
+      "Name": "B-R4",
+      "Sort": 214,
+      "X": 6,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16503,
+      "Name": "B-R3",
+      "Sort": 213,
+      "X": 7,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 3,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16504,
+      "Name": "C-6",
+      "Sort": 306,
+      "X": 8,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 4,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        30.0
+      ]
+    },
+    {
+      "Id": 16505,
+      "Name": "C-5",
+      "Sort": 305,
+      "X": 9,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 5,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        30.0
+      ]
+    },
+    {
+      "Id": 16506,
+      "Name": "C-4",
+      "Sort": 304,
+      "X": 10,
+      "Y": 0,
+      "Circle": 5,
+      "Number": 6,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        12.0
+      ]
+    },
+    {
+      "Id": 16535,
+      "Name": "A-5",
+      "Sort": 105,
+      "X": 0,
+      "Y": 1,
+      "Circle": 5,
+      "Number": 35,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 16429,
+      "Name": "A-EX",
+      "Sort": 199,
+      "X": 1,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 29,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "Gold",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "ValueList": [
+        50.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16430,
+      "Name": "A-1",
+      "Sort": 101,
+      "X": 2,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 30,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        8.0
+      ]
+    },
+    {
+      "Id": 16431,
+      "Name": "B-L2",
+      "Sort": 202,
+      "X": 3,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 31,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 16432,
+      "Name": "B-L1",
+      "Sort": 201,
+      "X": 4,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 32,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 16401,
+      "Name": "B-EX",
+      "Sort": 299,
+      "X": 5,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 1,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide",
+        "Divide"
+      ],
+      "ValueList": [
+        250.0,
+        250.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16402,
+      "Name": "B-R1",
+      "Sort": 211,
+      "X": 6,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 2,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 16403,
+      "Name": "B-R2",
+      "Sort": 212,
+      "X": 7,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 3,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 16404,
+      "Name": "C-7",
+      "Sort": 307,
+      "X": 8,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 4,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        30.0
+      ]
+    },
+    {
+      "Id": 16405,
+      "Name": "C-EX",
+      "Sort": 399,
+      "X": 9,
+      "Y": 1,
+      "Circle": 4,
+      "Number": 5,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "Power",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "ValueList": [
+        75.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16507,
+      "Name": "C-3",
+      "Sort": 303,
+      "X": 10,
+      "Y": 1,
+      "Circle": 5,
+      "Number": 7,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        12.0
+      ]
+    },
+    {
+      "Id": 16534,
+      "Name": "A-6",
+      "Sort": 106,
+      "X": 0,
+      "Y": 2,
+      "Circle": 5,
+      "Number": 34,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        12.0
+      ]
+    },
+    {
+      "Id": 16428,
+      "Name": "A-7",
+      "Sort": 107,
+      "X": 1,
+      "Y": 2,
+      "Circle": 4,
+      "Number": 28,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 16322,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 22,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16323,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 23,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown",
+        "KeepResearch"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Add"
+      ],
+      "ValueList": [
+        1000.0,
+        5.0
+      ]
+    },
+    {
+      "Id": 16324,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 24,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold",
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        -90.0,
+        -90.0
+      ]
+    },
+    {
+      "Id": 16301,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "KeepResearch",
+        "EnhanceResearch"
+      ],
+      "TargetList": [
+        0,
+        3184
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Percent"
+      ],
+      "ValueList": [
+        5.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 16302,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold",
+        "EnhanceResearch",
+        "EnhanceResearch"
+      ],
+      "TargetList": [
+        0,
+        3162,
+        3155
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        250.0,
+        200.0,
+        200.0
+      ]
+    },
+    {
+      "Id": 16303,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power",
+        "EnhanceResearch",
+        "ChallengeLicenceGold"
+      ],
+      "TargetList": [
+        0,
+        3172,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        250.0,
+        100.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 16304,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 2,
+      "Circle": 3,
+      "Number": 4,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16406,
+      "Name": "C-1",
+      "Sort": 301,
+      "X": 9,
+      "Y": 2,
+      "Circle": 4,
+      "Number": 6,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        12.0
+      ]
+    },
+    {
+      "Id": 16508,
+      "Name": "C-2",
+      "Sort": 302,
+      "X": 10,
+      "Y": 2,
+      "Circle": 5,
+      "Number": 8,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        12.0
+      ]
+    },
+    {
+      "Id": 16533,
+      "Name": "D-R3",
+      "Sort": 413,
+      "X": 0,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 33,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16427,
+      "Name": "D-R2",
+      "Sort": 412,
+      "X": 1,
+      "Y": 3,
+      "Circle": 4,
+      "Number": 27,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16321,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 3,
+      "Circle": 3,
+      "Number": 21,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown",
+        "KeepField"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Add"
+      ],
+      "ValueList": [
+        1000.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 16215,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 3,
+      "Circle": 2,
+      "Number": 15,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16216,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 3,
+      "Circle": 2,
+      "Number": 16,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceResearch",
+        "ChallengeLicenceGold"
+      ],
+      "TargetList": [
+        3154,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 16201,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 3,
+      "Circle": 2,
+      "Number": 1,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceResearch",
+        "EnhanceResearch"
+      ],
+      "TargetList": [
+        3142,
+        3151
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        500.0
+      ]
+    },
+    {
+      "Id": 16202,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 3,
+      "Circle": 2,
+      "Number": 2,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        100.0,
+        -99.0
+      ]
+    },
+    {
+      "Id": 16203,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 3,
+      "Circle": 2,
+      "Number": 3,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16305,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 3,
+      "Circle": 3,
+      "Number": 5,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg",
+        "CriDmg",
+        "WeaponEnhanceBonus"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16407,
+      "Name": "E-L2",
+      "Sort": 502,
+      "X": 9,
+      "Y": 3,
+      "Circle": 4,
+      "Number": 7,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        6.0
+      ]
+    },
+    {
+      "Id": 16509,
+      "Name": "E-L3",
+      "Sort": 503,
+      "X": 10,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 9,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        6.0
+      ]
+    },
+    {
+      "Id": 16532,
+      "Name": "D-R4",
+      "Sort": 414,
+      "X": 0,
+      "Y": 4,
+      "Circle": 5,
+      "Number": 32,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        75.0
+      ]
+    },
+    {
+      "Id": 16426,
+      "Name": "D-R1",
+      "Sort": 411,
+      "X": 1,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 26,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16320,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 4,
+      "Circle": 3,
+      "Number": 20,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceSoulAltar",
+        "EnhanceSoulAltar"
+      ],
+      "TargetList": [
+        41,
+        43
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        350.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 16214,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 4,
+      "Circle": 2,
+      "Number": 14,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus",
+        "EnhanceSoulAltar",
+        "EnhanceSoulAltar"
+      ],
+      "TargetList": [
+        0,
+        34,
+        37
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        1000.0,
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "Id": 16108,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 4,
+      "Circle": 1,
+      "Number": 8,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16101,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 4,
+      "Circle": 1,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        500.0
+      ]
+    },
+    {
+      "Id": 16102,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 4,
+      "Circle": 1,
+      "Number": 2,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16204,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 4,
+      "Circle": 2,
+      "Number": 4,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg",
+        "AllWeaponSpd",
+        "EnhanceEternityCube"
+      ],
+      "TargetList": [
+        0,
+        0,
+        1
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        250.0,
+        10.0,
+        200.0
+      ]
+    },
+    {
+      "Id": 16306,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 4,
+      "Circle": 3,
+      "Number": 6,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg",
+        "EnhanceEternityCube"
+      ],
+      "TargetList": [
+        0,
+        3
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        200.0
+      ]
+    },
+    {
+      "Id": 16408,
+      "Name": "E-L1",
+      "Sort": 501,
+      "X": 9,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 8,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        6.0
+      ]
+    },
+    {
+      "Id": 16510,
+      "Name": "E-L4",
+      "Sort": 504,
+      "X": 10,
+      "Y": 4,
+      "Circle": 5,
+      "Number": 10,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 16531,
+      "Name": "D-5",
+      "Sort": 455,
+      "X": 0,
+      "Y": 5,
+      "Circle": 5,
+      "Number": 31,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Add"
+      ],
+      "ValueList": [
+        75.0,
+        4.0
+      ]
+    },
+    {
+      "Id": 16425,
+      "Name": "D-EX",
+      "Sort": 499,
+      "X": 1,
+      "Y": 5,
+      "Circle": 4,
+      "Number": 25,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "PrestigeBonus",
+        "SoulEnhanceMaxLevelUp",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Add",
+        "Divide"
+      ],
+      "ValueList": [
+        150.0,
+        5.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16319,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 19,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        1000.0,
+        2.0
+      ]
+    },
+    {
+      "Id": 16213,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 5,
+      "Circle": 2,
+      "Number": 13,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus",
+        "EnhanceSoulAltar",
+        "MeditationTime"
+      ],
+      "TargetList": [
+        0,
+        39,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        150.0,
+        -50.0
+      ]
+    },
+    {
+      "Id": 16107,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 5,
+      "Circle": 1,
+      "Number": 7,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        4000.0
+      ]
+    },
+    {
+      "Id": 16001,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 5,
+      "Circle": 0,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": 0,
+      "TypeList": [
+        "None"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "None"
+      ],
+      "ValueList": [
+        0.0
+      ]
+    },
+    {
+      "Id": 16103,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 5,
+      "Circle": 1,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        1000.0
+      ]
+    },
+    {
+      "Id": 16205,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 5,
+      "Circle": 2,
+      "Number": 5,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "CriDmg",
+        "SuperCriDmg"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16307,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 7,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceEternityCube",
+        "EnhanceEternityCube"
+      ],
+      "TargetList": [
+        12,
+        17
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        400.0,
+        400.0
+      ]
+    },
+    {
+      "Id": 16409,
+      "Name": "E-EX",
+      "Sort": 599,
+      "X": 9,
+      "Y": 5,
+      "Circle": 4,
+      "Number": 9,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "AllWeaponDmg",
+        "CriDmg",
+        "AllWeaponSpd",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply",
+        "Percent",
+        "Divide"
+      ],
+      "ValueList": [
+        30.0,
+        20.0,
+        20.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16511,
+      "Name": "E-5",
+      "Sort": 555,
+      "X": 10,
+      "Y": 5,
+      "Circle": 5,
+      "Number": 11,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg",
+        "CriDmg",
+        "AllWeaponSpd"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        10.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 16530,
+      "Name": "D-L4",
+      "Sort": 404,
+      "X": 0,
+      "Y": 6,
+      "Circle": 5,
+      "Number": 30,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        4.0
+      ]
+    },
+    {
+      "Id": 16424,
+      "Name": "D-L1",
+      "Sort": 401,
+      "X": 1,
+      "Y": 6,
+      "Circle": 4,
+      "Number": 24,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    },
+    {
+      "Id": 16318,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 6,
+      "Circle": 3,
+      "Number": 18,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceSoulAltar",
+        "EnhanceDivineBeast"
+      ],
+      "TargetList": [
+        40,
+        9018
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        600.0,
+        250.0
+      ]
+    },
+    {
+      "Id": 16212,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 12,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceSoulAltar",
+        "ChallengeWallBlockHpDown",
+        "MeditationTime"
+      ],
+      "TargetList": [
+        50,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        250.0,
+        -90.0,
+        -50.0
+      ]
+    },
+    {
+      "Id": 16106,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 6,
+      "Circle": 1,
+      "Number": 6,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16105,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 6,
+      "Circle": 1,
+      "Number": 5,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk",
+        "BattleHp"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        500.0
+      ]
+    },
+    {
+      "Id": 16104,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 6,
+      "Circle": 1,
+      "Number": 4,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16206,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 6,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceEternityCube",
+        "ChallengeWallBlockHpDown"
+      ],
+      "TargetList": [
+        6,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        -95.0
+      ]
+    },
+    {
+      "Id": 16308,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 6,
+      "Circle": 3,
+      "Number": 8,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "EnhanceEternityCube"
+      ],
+      "TargetList": [
+        0,
+        8
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        350.0,
+        350.0
+      ]
+    },
+    {
+      "Id": 16410,
+      "Name": "E-R1",
+      "Sort": 511,
+      "X": 9,
+      "Y": 6,
+      "Circle": 4,
+      "Number": 10,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg",
+        "AllWeaponSpd"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        4.0,
+        10.0
+      ]
+    },
+    {
+      "Id": 16512,
+      "Name": "E-R4",
+      "Sort": 514,
+      "X": 10,
+      "Y": 6,
+      "Circle": 5,
+      "Number": 12,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg",
+        "AllWeaponSpd"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 16529,
+      "Name": "D-L3",
+      "Sort": 403,
+      "X": 0,
+      "Y": 7,
+      "Circle": 5,
+      "Number": 29,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    },
+    {
+      "Id": 16423,
+      "Name": "D-L2",
+      "Sort": 402,
+      "X": 1,
+      "Y": 7,
+      "Circle": 4,
+      "Number": 23,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    },
+    {
+      "Id": 16317,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 7,
+      "Circle": 3,
+      "Number": 17,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "KeepField",
+        "SoulEnhanceMaxLevelUp",
+        "EnhanceDivineBeast"
+      ],
+      "TargetList": [
+        0,
+        0,
+        9033
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Add",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        2.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16211,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 11,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16210,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 10,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp",
+        "EnhanceDivineBeast"
+      ],
+      "TargetList": [
+        0,
+        9039
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 16209,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 9,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown",
+        "DivineBeastHpDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -99.0,
+        -90.0
+      ]
+    },
+    {
+      "Id": 16208,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 8,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk",
+        "EnhanceDivineBeast"
+      ],
+      "TargetList": [
+        0,
+        9045
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        500.0
+      ]
+    },
+    {
+      "Id": 16207,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 7,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16309,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 7,
+      "Circle": 3,
+      "Number": 9,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "ArtifactDrop",
+        "ChallengeWallBlockHpDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        -75.0
+      ]
+    },
+    {
+      "Id": 16411,
+      "Name": "E-R2",
+      "Sort": 512,
+      "X": 9,
+      "Y": 7,
+      "Circle": 4,
+      "Number": 11,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg",
+        "AllWeaponSpd"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        4.0,
+        10.0
+      ]
+    },
+    {
+      "Id": 16513,
+      "Name": "E-R3",
+      "Sort": 513,
+      "X": 10,
+      "Y": 7,
+      "Circle": 5,
+      "Number": 13,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg",
+        "AllWeaponSpd"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        4.0,
+        10.0
+      ]
+    },
+    {
+      "Id": 16528,
+      "Name": "F-2",
+      "Sort": 602,
+      "X": 0,
+      "Y": 8,
+      "Circle": 5,
+      "Number": 28,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.5
+      ]
+    },
+    {
+      "Id": 16422,
+      "Name": "F-1",
+      "Sort": 601,
+      "X": 1,
+      "Y": 8,
+      "Circle": 4,
+      "Number": 22,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.5
+      ]
+    },
+    {
+      "Id": 16316,
+      "Name": "",
+      "Sort": 0,
+      "X": 2,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 16,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16315,
+      "Name": "",
+      "Sort": 0,
+      "X": 3,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 15,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "KeepField",
+        "EnhanceDivineBeast",
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "TargetList": [
+        0,
+        9030,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        400.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16314,
+      "Name": "",
+      "Sort": 0,
+      "X": 4,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 14,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "KeepField",
+        "EnhanceDivineBeast",
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "TargetList": [
+        0,
+        9048,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        300.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16313,
+      "Name": "",
+      "Sort": 0,
+      "X": 5,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 13,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "EnhanceDivineBeast",
+        "EnhanceDivineBeast"
+      ],
+      "TargetList": [
+        9054,
+        9057
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        300.0
+      ]
+    },
+    {
+      "Id": 16312,
+      "Name": "",
+      "Sort": 0,
+      "X": 6,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 12,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "GoldBrickChance",
+        "RuneChance",
+        "ForgeSpeed"
+      ],
+      "TargetList": [
+        0,
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        1.1,
+        1.1,
+        10.0
+      ]
+    },
+    {
+      "Id": 16311,
+      "Name": "",
+      "Sort": 0,
+      "X": 7,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 11,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": false,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningSpeed",
+        "ForgeSpeed"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        50.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16310,
+      "Name": "",
+      "Sort": 0,
+      "X": 8,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 10,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint",
+        "Ether"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        200.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 16412,
+      "Name": "H-7",
+      "Sort": 807,
+      "X": 9,
+      "Y": 8,
+      "Circle": 4,
+      "Number": 12,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        4.0
+      ]
+    },
+    {
+      "Id": 16514,
+      "Name": "H-6",
+      "Sort": 806,
+      "X": 10,
+      "Y": 8,
+      "Circle": 5,
+      "Number": 14,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        4.0
+      ]
+    },
+    {
+      "Id": 16527,
+      "Name": "F-3",
+      "Sort": 603,
+      "X": 0,
+      "Y": 9,
+      "Circle": 5,
+      "Number": 27,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.5
+      ]
+    },
+    {
+      "Id": 16421,
+      "Name": "F-EX",
+      "Sort": 699,
+      "X": 1,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 21,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "ValueList": [
+        7.5,
+        100.0
+      ]
+    },
+    {
+      "Id": 16420,
+      "Name": "F-7",
+      "Sort": 607,
+      "X": 2,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 20,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        3.0
+      ]
+    },
+    {
+      "Id": 16419,
+      "Name": "G-R2",
+      "Sort": 712,
+      "X": 3,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 19,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16418,
+      "Name": "G-R1",
+      "Sort": 711,
+      "X": 4,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 18,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16417,
+      "Name": "G-EX",
+      "Sort": 799,
+      "X": 5,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 17,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "RankSpecialBonusUp",
+        "RankSpecialBonusTime",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add",
+        "Divide"
+      ],
+      "ValueList": [
+        100.0,
+        5.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16416,
+      "Name": "G-L1",
+      "Sort": 701,
+      "X": 6,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 16,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16415,
+      "Name": "G-L2",
+      "Sort": 702,
+      "X": 7,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 15,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 16414,
+      "Name": "H-1",
+      "Sort": 801,
+      "X": 8,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 14,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    },
+    {
+      "Id": 16413,
+      "Name": "H-EX",
+      "Sort": 899,
+      "X": 9,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 13,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "SciencePoint",
+        "RankPowerDown"
+      ],
+      "TargetList": [
+        0,
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "ValueList": [
+        10.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 16515,
+      "Name": "H-5",
+      "Sort": 805,
+      "X": 10,
+      "Y": 9,
+      "Circle": 5,
+      "Number": 15,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        4.0
+      ]
+    },
+    {
+      "Id": 16526,
+      "Name": "F-4",
+      "Sort": 604,
+      "X": 0,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 26,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.5
+      ]
+    },
+    {
+      "Id": 16525,
+      "Name": "F-5",
+      "Sort": 605,
+      "X": 1,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 25,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        3.0
+      ]
+    },
+    {
+      "Id": 16524,
+      "Name": "F-6",
+      "Sort": 606,
+      "X": 2,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 24,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DStone"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        3.0
+      ]
+    },
+    {
+      "Id": 16523,
+      "Name": "G-R3",
+      "Sort": 713,
+      "X": 3,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 23,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusTime"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 16522,
+      "Name": "G-R4",
+      "Sort": 714,
+      "X": 4,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 22,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 16521,
+      "Name": "G-5",
+      "Sort": 705,
+      "X": 5,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 21,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp",
+        "RankSpecialBonusTime"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        50.0,
+        5.0
+      ]
+    },
+    {
+      "Id": 16520,
+      "Name": "G-L4",
+      "Sort": 704,
+      "X": 6,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 20,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusUp"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 16519,
+      "Name": "G-L3",
+      "Sort": 703,
+      "X": 7,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 19,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankSpecialBonusTime"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 16518,
+      "Name": "H-2",
+      "Sort": 802,
+      "X": 8,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 18,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    },
+    {
+      "Id": 16517,
+      "Name": "H-3",
+      "Sort": 803,
+      "X": 9,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 17,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    },
+    {
+      "Id": 16516,
+      "Name": "H-4",
+      "Sort": 804,
+      "X": 10,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 16,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "IsExpansion": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "TargetList": [
+        0
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        2.0
+      ]
+    }
+  ]
+}

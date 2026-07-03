@@ -1,0 +1,232 @@
+{
+  "type": "MasterModeDimension",
+  "index": 113,
+  "count": 10,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 2,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 3,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUpOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "double"
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 6
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 7
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Sort": 3,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0,
+        2.0
+      ],
+      "Cost": "1.00E+01",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 2,
+      "Sort": 4,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0
+      ],
+      "Cost": "1.00E+03",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 3,
+      "Sort": 5,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0
+      ],
+      "Cost": "1.00E+05",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 4,
+      "Sort": 6,
+      "TypeList": [
+        "RankPowerDown",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0,
+        2.0
+      ],
+      "Cost": "1.00E+07",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 5,
+      "Sort": 7,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0
+      ],
+      "Cost": "1.00E+09",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 6,
+      "Sort": 8,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0,
+        2.0
+      ],
+      "Cost": "1.00E+11",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 7,
+      "Sort": 9,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0
+      ],
+      "Cost": "1.00E+13",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 8,
+      "Sort": 10,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0
+      ],
+      "Cost": "1.00E+15",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 9,
+      "Sort": 11,
+      "TypeList": [
+        "RankPowerDown",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0,
+        2.0
+      ],
+      "Cost": "1.00E+17",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 10,
+      "Sort": 12,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 50,
+      "ValueUp": [
+        2.0
+      ],
+      "Cost": "1.00E+20",
+      "CostUp": 2.0
+    }
+  ]
+}

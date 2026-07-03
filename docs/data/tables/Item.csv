@@ -1,0 +1,10 @@
+﻿Id,Name,Type,English,Description
+8001,it_bomb,FastMining,Bomb,Instantly obtain <<{0}/3600f>> hour(s) worth of Mining rewards
+8002,it_drill,Gold,Drill,"For <<{0}/60>>m, amount of obtained Gold x{1}"
+8003,it_generator,Power,Generator,"For <<{0}/60>>m, amount of obtained Power x{1}"
+8004,it_furnace,AllWeaponDmg,Furnace,"For <<{0}/60>>m, all Weapon Damage +{1}%"
+8005,it_accel,AllWeaponSpd,Accelerator,"For <<{0}/60>>m, all Weapon Attack Speed +{1}%"
+8006,it_cat,AutoTap,Cat,Auto Tap for <<{0}/60>>m (Consumes no bullets)
+8007,it_radar,BlockHpDown,Radar,All Brick Durability ÷{1:0.##;0.##} for <<{0}/60>>m
+8008,it_flask,FastSciencePoint,Flask,Instantly produce <<{0}/3600>> hour(s) of Science Points
+8009,it_candle,FastEther,Candle,Instantly produce <<{0}/3600>> hour(s) of Ether

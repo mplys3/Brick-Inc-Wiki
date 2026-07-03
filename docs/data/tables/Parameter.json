@@ -1,0 +1,1821 @@
+{
+  "type": "MasterParameter",
+  "index": 69,
+  "count": 450,
+  "fields": [
+    {
+      "name": "Key",
+      "param": "keyOffset",
+      "kind": "StringOffset",
+      "index": 0
+    },
+    {
+      "name": "Value",
+      "param": "valueOffset",
+      "kind": "StringOffset",
+      "index": 1
+    }
+  ],
+  "rows": [
+    {
+      "Key": "bt_axe_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_axe_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_axe_atk",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_axe_rng",
+      "Value": "225"
+    },
+    {
+      "Key": "bt_bee_missile_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_bee_missile_atk",
+      "Value": "35.38257408"
+    },
+    {
+      "Key": "bt_bee_missile_rng",
+      "Value": "350"
+    },
+    {
+      "Key": "bt_bee_missile_l_split",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_shuriken_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_shuriken_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_shuriken_atk",
+      "Value": "7.040600798"
+    },
+    {
+      "Key": "bt_shuriken_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_shuriken_time",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_gatling_cnt",
+      "Value": "20"
+    },
+    {
+      "Key": "bt_gatling_cnt_l",
+      "Value": "30"
+    },
+    {
+      "Key": "bt_gatling_atk",
+      "Value": "2.736914129"
+    },
+    {
+      "Key": "bt_gatling_atk_l",
+      "Value": "5.473828259"
+    },
+    {
+      "Key": "bt_gatling_rng",
+      "Value": "60"
+    },
+    {
+      "Key": "bt_durian_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_durian_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_durian_atk",
+      "Value": "37.10320187"
+    },
+    {
+      "Key": "bt_durian_rng",
+      "Value": "375"
+    },
+    {
+      "Key": "bt_durian_thorn_cnt",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_durian_thorn_cnt_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_durian_thorn_atk",
+      "Value": "14.84128075"
+    },
+    {
+      "Key": "bt_durian_thorn_time",
+      "Value": "0.4"
+    },
+    {
+      "Key": "bt_durian_thorn_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_wheel_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_wheel_atk",
+      "Value": "25.07598784"
+    },
+    {
+      "Key": "bt_wheel_rng",
+      "Value": "350"
+    },
+    {
+      "Key": "bt_wheel_fire_atk",
+      "Value": "6.775345953"
+    },
+    {
+      "Key": "bt_wheel_fire_time",
+      "Value": "2.5"
+    },
+    {
+      "Key": "bt_wheel_fire_rng",
+      "Value": "100"
+    },
+    {
+      "Key": "bt_sniper_atk",
+      "Value": "48.34810637"
+    },
+    {
+      "Key": "bt_sniper_time",
+      "Value": "1.5"
+    },
+    {
+      "Key": "bt_sniper_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_rugby_ball_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_rugby_ball_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_rugby_ball_atk",
+      "Value": "47.55865568"
+    },
+    {
+      "Key": "bt_rugby_ball_rng",
+      "Value": "175"
+    },
+    {
+      "Key": "bt_rugby_ball_b",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_rugby_ball_b_l",
+      "Value": "9"
+    },
+    {
+      "Key": "bt_wheel_saw_atk",
+      "Value": "16.66666667"
+    },
+    {
+      "Key": "bt_wheel_saw_time",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_wheel_saw_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_wheel_saw_rng_l",
+      "Value": "400"
+    },
+    {
+      "Key": "bt_blaze_flask_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_blaze_flask_cnt_l",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_blaze_flask_atk",
+      "Value": "7.5"
+    },
+    {
+      "Key": "bt_blaze_flask_time",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_blaze_flask_rng",
+      "Value": "400"
+    },
+    {
+      "Key": "bt_elephant_foot_atk",
+      "Value": "63.31340134"
+    },
+    {
+      "Key": "bt_elephant_foot_rng",
+      "Value": "550"
+    },
+    {
+      "Key": "bt_elephant_foot_fire_atk",
+      "Value": "14.0778977"
+    },
+    {
+      "Key": "bt_elephant_foot_fire_time",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_elephant_foot_fire_rng",
+      "Value": "550"
+    },
+    {
+      "Key": "bt_billiard_ball_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_billiard_ball_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_billiard_ball_atk",
+      "Value": "11.57463226"
+    },
+    {
+      "Key": "bt_billiard_ball_time",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_billiard_ball_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_fidget_spinner_atk",
+      "Value": "28.19548872"
+    },
+    {
+      "Key": "bt_fidget_spinner_rng",
+      "Value": "250"
+    },
+    {
+      "Key": "bt_fidget_spinner_big_atk",
+      "Value": "27.81211372"
+    },
+    {
+      "Key": "bt_fidget_spinner_big_rng",
+      "Value": "325"
+    },
+    {
+      "Key": "bt_fidget_spinner_r_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_fidget_spinner_r_atk",
+      "Value": "13.90605686"
+    },
+    {
+      "Key": "bt_fidget_spinner_r_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_moon_flint_atk",
+      "Value": "14.1453831"
+    },
+    {
+      "Key": "bt_moon_flint_rng",
+      "Value": "175"
+    },
+    {
+      "Key": "bt_moon_flint_time",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_moon_flint_time_l",
+      "Value": "7"
+    },
+    {
+      "Key": "bt_moon_flint_spd",
+      "Value": "750"
+    },
+    {
+      "Key": "bt_moon_flint_spd_l",
+      "Value": "1125"
+    },
+    {
+      "Key": "bt_moon_flint_spark_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_moon_flint_spark_cnt_l",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_moon_flint_spark_atk",
+      "Value": "7.072691552"
+    },
+    {
+      "Key": "bt_moon_flint_spark_time",
+      "Value": "0.6"
+    },
+    {
+      "Key": "bt_moon_flint_spark_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_bunker_buster_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_bunker_buster_atk",
+      "Value": "7.405883563"
+    },
+    {
+      "Key": "bt_bunker_buster_time",
+      "Value": "2.2"
+    },
+    {
+      "Key": "bt_bunker_buster_rng",
+      "Value": "55"
+    },
+    {
+      "Key": "bt_bunker_buster_boom_period",
+      "Value": "0.8"
+    },
+    {
+      "Key": "bt_bunker_buster_boom_period_l",
+      "Value": "0.25"
+    },
+    {
+      "Key": "bt_bunker_buster_boom_atk",
+      "Value": "24.68627854"
+    },
+    {
+      "Key": "bt_bunker_buster_boom_rng",
+      "Value": "500/100"
+    },
+    {
+      "Key": "bt_trump_card_cnt",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_trump_card_cnt_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_trump_card_atk",
+      "Value": "5.696653216"
+    },
+    {
+      "Key": "bt_trump_card_time",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_trump_card_time_l",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_trump_card_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_golden_scissors_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_golden_scissors_atk",
+      "Value": "7.030700727"
+    },
+    {
+      "Key": "bt_golden_scissors_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_golden_scissors_tick",
+      "Value": "0.5"
+    },
+    {
+      "Key": "bt_golden_scissors_tick_l",
+      "Value": "0.2"
+    },
+    {
+      "Key": "bt_chandelier_atk",
+      "Value": "58.44155844"
+    },
+    {
+      "Key": "bt_chandelier_rng",
+      "Value": "425"
+    },
+    {
+      "Key": "bt_chandelier_rng_l",
+      "Value": "600"
+    },
+    {
+      "Key": "bt_chandelier_frag_cnt",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_chandelier_frag_cnt_l",
+      "Value": "18"
+    },
+    {
+      "Key": "bt_chandelier_frag_atk",
+      "Value": "19.48051948"
+    },
+    {
+      "Key": "bt_chandelier_frag_spd_min",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_chandelier_frag_spd_max",
+      "Value": "1000"
+    },
+    {
+      "Key": "bt_chandelier_frag_time_min",
+      "Value": "0.2"
+    },
+    {
+      "Key": "bt_chandelier_frag_time_max",
+      "Value": "0.6"
+    },
+    {
+      "Key": "bt_monomol_cutter_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_monomol_cutter_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_monomol_cutter_atk",
+      "Value": "74.39824945"
+    },
+    {
+      "Key": "bt_monomol_cutter_rng",
+      "Value": "100"
+    },
+    {
+      "Key": "bt_holy_sword_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_holy_sword_atk",
+      "Value": "17.69464105"
+    },
+    {
+      "Key": "bt_holy_sword_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_holy_sword_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_holy_sword_fire_atk",
+      "Value": "17.57616337"
+    },
+    {
+      "Key": "bt_holy_sword_fire_rng",
+      "Value": "120"
+    },
+    {
+      "Key": "bt_holy_sword_fire_time",
+      "Value": "1.5"
+    },
+    {
+      "Key": "bt_magic_wand_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_magic_wand_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_magic_wand_set",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_magic_wand_set_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_magic_wand_atk",
+      "Value": "13.81051381"
+    },
+    {
+      "Key": "bt_magic_wand_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_snowflake_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_snowflake_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_snowflake_atk",
+      "Value": "44.32624113"
+    },
+    {
+      "Key": "bt_snowflake_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_snowflake_thorn_cnt",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_snowflake_thorn_atk",
+      "Value": "18.79895561"
+    },
+    {
+      "Key": "bt_snowflake_thorn_time",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_snowflake_thorn_rng",
+      "Value": "60"
+    },
+    {
+      "Key": "bt_prism_cnt",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_prism_cnt_l",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_prism_atk",
+      "Value": "6.623686302"
+    },
+    {
+      "Key": "bt_prism_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_prism_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_mirrorball_atk",
+      "Value": "38.46153846"
+    },
+    {
+      "Key": "bt_mirrorball_atk_l",
+      "Value": "63.02521008"
+    },
+    {
+      "Key": "bt_mirrorball_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_chain_lighting_chain",
+      "Value": "20"
+    },
+    {
+      "Key": "bt_chain_lighting_chain_l",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_chain_lighting_atk",
+      "Value": "60"
+    },
+    {
+      "Key": "bt_chain_lighting_d",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_chain_lighting_d_l",
+      "Value": "600"
+    },
+    {
+      "Key": "bt_tornado_atk",
+      "Value": "14.24501425"
+    },
+    {
+      "Key": "bt_tornado_atk_l",
+      "Value": "19.23076923"
+    },
+    {
+      "Key": "bt_tornado_spd",
+      "Value": "250"
+    },
+    {
+      "Key": "bt_tornado_spd_l",
+      "Value": "175"
+    },
+    {
+      "Key": "bt_tornado_rng",
+      "Value": "375"
+    },
+    {
+      "Key": "bt_tornado_rng_l",
+      "Value": "550"
+    },
+    {
+      "Key": "bt_volcano_cnt",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_volcano_cnt_l",
+      "Value": "16"
+    },
+    {
+      "Key": "bt_volcano_atk",
+      "Value": "4.807692308"
+    },
+    {
+      "Key": "bt_volcano_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_volcano_time",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_nano_machine_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_nano_machine_cnt_l",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_nano_machine_atk",
+      "Value": "16.87763713"
+    },
+    {
+      "Key": "bt_ufo_atk",
+      "Value": "332.8804348"
+    },
+    {
+      "Key": "bt_ufo_time",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_ufo_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_ufo_rng_l",
+      "Value": "350"
+    },
+    {
+      "Key": "bt_meteor_shower_cnt",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_meteor_shower_cnt_l",
+      "Value": "20"
+    },
+    {
+      "Key": "bt_meteor_shower_atk",
+      "Value": "17.92114695"
+    },
+    {
+      "Key": "bt_meteor_shower_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_nova_atk",
+      "Value": "10.37344398"
+    },
+    {
+      "Key": "bt_nova_atk_l",
+      "Value": "11.67012448"
+    },
+    {
+      "Key": "bt_nova_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_nova_rng_l",
+      "Value": "400"
+    },
+    {
+      "Key": "bt_nova_sub_cnt",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_nova_sub_cnt_l",
+      "Value": "18"
+    },
+    {
+      "Key": "bt_nova_sub_atk",
+      "Value": "5.186721992"
+    },
+    {
+      "Key": "bt_nova_sub_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_nova_sub_time",
+      "Value": "2.5"
+    },
+    {
+      "Key": "bt_laser_cnt",
+      "Value": "20"
+    },
+    {
+      "Key": "bt_laser_cnt_l",
+      "Value": "30"
+    },
+    {
+      "Key": "bt_laser_atk",
+      "Value": "7.950298211"
+    },
+    {
+      "Key": "bt_laser_atk_l",
+      "Value": "15.90059642"
+    },
+    {
+      "Key": "bt_laser_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_thunder_hammer_atk",
+      "Value": "6.613756614"
+    },
+    {
+      "Key": "bt_thunder_hammer_time",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_thunder_hammer_rng",
+      "Value": "225"
+    },
+    {
+      "Key": "bt_thunder_hammer_rng_l",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_thunder_hammer_light_period",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_thunder_hammer_light_period_l",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_thunder_hammer_light_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_thunder_hammer_light_cnt_l",
+      "Value": "7"
+    },
+    {
+      "Key": "bt_thunder_hammer_light_d",
+      "Value": "9"
+    },
+    {
+      "Key": "bt_thunder_hammer_light_atk",
+      "Value": "10.58201058"
+    },
+    {
+      "Key": "bt_blackhole_atk",
+      "Value": "3.735632184"
+    },
+    {
+      "Key": "bt_blackhole_atk_l",
+      "Value": "4.781609195"
+    },
+    {
+      "Key": "bt_blackhole_rng",
+      "Value": "400"
+    },
+    {
+      "Key": "bt_blackhole_rng_l",
+      "Value": "500"
+    },
+    {
+      "Key": "bt_blackhole_time",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_blackhole_time_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_blackhole_tick",
+      "Value": "0.2"
+    },
+    {
+      "Key": "bt_portal_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_portal_cnt_l",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_portal_atk",
+      "Value": "4.605747973"
+    },
+    {
+      "Key": "bt_portal_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_portal_period",
+      "Value": "0.8"
+    },
+    {
+      "Key": "bt_portal_time",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_sphere_sub_atk",
+      "Value": "6.37755102"
+    },
+    {
+      "Key": "bt_sphere_sub_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_sphere_period",
+      "Value": "0.25"
+    },
+    {
+      "Key": "bt_sphere_period_l",
+      "Value": "0.1"
+    },
+    {
+      "Key": "bt_starlight_trip_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_starlight_trip_cnt_l",
+      "Value": "9"
+    },
+    {
+      "Key": "bt_starlight_trip_atk",
+      "Value": "8.802816901"
+    },
+    {
+      "Key": "bt_starlight_trip_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_starlight_trip_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_starlight_trip_time_l",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_piranha_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_piranha_cnt_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_piranha_atk",
+      "Value": "25.17482517"
+    },
+    {
+      "Key": "bt_piranha_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_piranha_b",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_piranha_b_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_umbrella_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_umbrella_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_umbrella_period",
+      "Value": "0.33"
+    },
+    {
+      "Key": "bt_umbrella_time",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_umbrella_sub_atk",
+      "Value": "4.652605459"
+    },
+    {
+      "Key": "bt_umbrella_sub_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_bigbang_fire",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_bigbang_fire_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_bigbang_cnt",
+      "Value": "15"
+    },
+    {
+      "Key": "bt_bigbang_atk",
+      "Value": "6.512890095"
+    },
+    {
+      "Key": "bt_bigbang_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_present_cnt",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_present_cnt_l",
+      "Value": "16"
+    },
+    {
+      "Key": "bt_present_atk",
+      "Value": "28.00179211"
+    },
+    {
+      "Key": "bt_present_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_egg_cnt",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_egg_cnt_l",
+      "Value": "16"
+    },
+    {
+      "Key": "bt_egg_atk",
+      "Value": "5.277044855"
+    },
+    {
+      "Key": "bt_egg_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_egg_rotation",
+      "Value": "180"
+    },
+    {
+      "Key": "bt_egg_rotation_l",
+      "Value": "180"
+    },
+    {
+      "Key": "bt_egg_distance",
+      "Value": "2.25"
+    },
+    {
+      "Key": "bt_egg_distance_l",
+      "Value": "3.5"
+    },
+    {
+      "Key": "bt_gas_barrel_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_gas_barrel_cnt_l",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_gas_barrel_atk",
+      "Value": "25.3164557"
+    },
+    {
+      "Key": "bt_gas_barrel_rng",
+      "Value": "100"
+    },
+    {
+      "Key": "bt_gas_barrel_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_gas_barrel_boom_atk",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_gas_barrel_boom_rng",
+      "Value": "350"
+    },
+    {
+      "Key": "bt_god_finger_cnt",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_god_finger_cnt_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_god_finger_atk",
+      "Value": "16.12903226"
+    },
+    {
+      "Key": "bt_god_finger_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_god_finger_time",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_thor_hammer_atk",
+      "Value": "79.36507937"
+    },
+    {
+      "Key": "bt_thor_hammer_atk_l",
+      "Value": "79.36507937"
+    },
+    {
+      "Key": "bt_thor_hammer_rng",
+      "Value": "250"
+    },
+    {
+      "Key": "bt_thor_hammer_rng_l",
+      "Value": "325"
+    },
+    {
+      "Key": "bt_thor_hammer_light_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_thor_hammer_light_cnt_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_thor_hammer_light_atk",
+      "Value": "7.936507937"
+    },
+    {
+      "Key": "bt_thor_hammer_light_chain",
+      "Value": "24"
+    },
+    {
+      "Key": "bt_thor_hammer_light_d",
+      "Value": "400"
+    },
+    {
+      "Key": "bt_atom_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_atom_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_atom_atk",
+      "Value": "6.067961165"
+    },
+    {
+      "Key": "bt_atom_center_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_atom_rng",
+      "Value": "100"
+    },
+    {
+      "Key": "bt_atom_rotation",
+      "Value": "540"
+    },
+    {
+      "Key": "bt_ascension_light_cnt",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_ascension_light_cnt_l",
+      "Value": "18"
+    },
+    {
+      "Key": "bt_ascension_light_atk",
+      "Value": "14.70588235"
+    },
+    {
+      "Key": "bt_ascension_light_atk_l",
+      "Value": "29.41176471"
+    },
+    {
+      "Key": "bt_ascension_light_rng",
+      "Value": "80"
+    },
+    {
+      "Key": "bt_top_toy_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_top_toy_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_top_toy_atk",
+      "Value": "13.8121547"
+    },
+    {
+      "Key": "bt_top_toy_atk_l",
+      "Value": "30.44311647"
+    },
+    {
+      "Key": "bt_top_toy_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_top_toy_rng_l",
+      "Value": "175"
+    },
+    {
+      "Key": "bt_top_toy_time",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_purify_flame_cnt",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_purify_flame_cnt_l",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_purify_flame_atk",
+      "Value": "17.42160279"
+    },
+    {
+      "Key": "bt_purify_flame_rng",
+      "Value": "400"
+    },
+    {
+      "Key": "bt_star_buster_cnt",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_star_buster_atk",
+      "Value": "4.285812247"
+    },
+    {
+      "Key": "bt_star_buster_time",
+      "Value": "2.2"
+    },
+    {
+      "Key": "bt_star_buster_rng",
+      "Value": "55"
+    },
+    {
+      "Key": "bt_star_buster_boom_period",
+      "Value": "0.8"
+    },
+    {
+      "Key": "bt_star_buster_boom_period_l",
+      "Value": "0.25"
+    },
+    {
+      "Key": "bt_star_buster_boom_atk",
+      "Value": "12.34313927"
+    },
+    {
+      "Key": "bt_star_buster_boom_rng",
+      "Value": "500/100"
+    },
+    {
+      "Key": "bt_prism_ex_cnt",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_prism_ex_cnt_l",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_prism_ex_atk",
+      "Value": "13.40827187"
+    },
+    {
+      "Key": "bt_prism_ex_rng",
+      "Value": "50"
+    },
+    {
+      "Key": "bt_prism_ex_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_q_machine_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_q_machine_cnt_l",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_q_machine_atk",
+      "Value": "24.53144932"
+    },
+    {
+      "Key": "bt_gym_ball_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_gym_ball_cnt_l",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_gym_ball_atk",
+      "Value": "21.18644068"
+    },
+    {
+      "Key": "bt_gym_ball_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_gym_ball_b",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_gym_ball_b_l",
+      "Value": "7"
+    },
+    {
+      "Key": "bt_holy_shield_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_holy_shield_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_holy_shield_atk",
+      "Value": "90.25270758"
+    },
+    {
+      "Key": "bt_holy_shield_rng",
+      "Value": "325"
+    },
+    {
+      "Key": "bt_holy_shield_sub_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_holy_shield_sub_atk",
+      "Value": "9.025270758"
+    },
+    {
+      "Key": "bt_holy_shield_sub_rng",
+      "Value": "100"
+    },
+    {
+      "Key": "bt_holy_shield_sub_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_ares_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_ares_cnt_l",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_ares_repeat",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_ares_repeat_l",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_ares_atk",
+      "Value": "8.561643836"
+    },
+    {
+      "Key": "bt_ares_rng",
+      "Value": "225"
+    },
+    {
+      "Key": "bt_hell_chain_cnt",
+      "Value": "22"
+    },
+    {
+      "Key": "bt_hell_chain_cnt_l",
+      "Value": "33"
+    },
+    {
+      "Key": "bt_hell_chain_atk",
+      "Value": "7.02247191"
+    },
+    {
+      "Key": "bt_hell_chain_atk_l",
+      "Value": "14.04494382"
+    },
+    {
+      "Key": "bt_hell_chain_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_zeus_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_zeus_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_zeus_atk",
+      "Value": "12.56281407"
+    },
+    {
+      "Key": "bt_zeus_rng",
+      "Value": "225"
+    },
+    {
+      "Key": "bt_zeus_thunder_period",
+      "Value": "0.07"
+    },
+    {
+      "Key": "bt_zeus_thunder_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_zeus_thunder_d",
+      "Value": "7"
+    },
+    {
+      "Key": "bt_zeus_thunder_atk",
+      "Value": "12.56281407"
+    },
+    {
+      "Key": "bt_god_punch_cnt",
+      "Value": "4"
+    },
+    {
+      "Key": "bt_god_punch_cnt_l",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_god_punch_atk",
+      "Value": "16.83501684"
+    },
+    {
+      "Key": "bt_god_punch_rng",
+      "Value": "1000"
+    },
+    {
+      "Key": "bt_soul_shuriken_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_soul_shuriken_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_soul_shuriken_atk",
+      "Value": "18.51851852"
+    },
+    {
+      "Key": "bt_soul_shuriken_rng",
+      "Value": "175"
+    },
+    {
+      "Key": "bt_soul_shuriken_time",
+      "Value": "2.5"
+    },
+    {
+      "Key": "bt_uranium_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_uranium_cnt_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_uranium_atk",
+      "Value": "13.73626374"
+    },
+    {
+      "Key": "bt_uranium_time",
+      "Value": "3.5"
+    },
+    {
+      "Key": "bt_uranium_rng",
+      "Value": "450"
+    },
+    {
+      "Key": "bt_odin_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_odin_cnt_l",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_odin_atk",
+      "Value": "16.83501684"
+    },
+    {
+      "Key": "bt_odin_rng",
+      "Value": "800"
+    },
+    {
+      "Key": "bt_diamond_scissors_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_diamond_scissors_cnt_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_diamond_scissors_atk",
+      "Value": "20.16129032"
+    },
+    {
+      "Key": "bt_diamond_scissors_rng",
+      "Value": "225"
+    },
+    {
+      "Key": "bt_diamond_scissors_tick",
+      "Value": "0.2"
+    },
+    {
+      "Key": "bt_cherry_banana_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_cherry_cnt",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_banana_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_cherry_sub_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_banana_sub_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_cherry_atk",
+      "Value": "33.73819163"
+    },
+    {
+      "Key": "bt_cherry_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_banana_atk",
+      "Value": "50.60728745"
+    },
+    {
+      "Key": "bt_banana_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_cherry_sub_atk",
+      "Value": "20.24291498"
+    },
+    {
+      "Key": "bt_cherry_sub_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_banana_sub_atk",
+      "Value": "30.36437247"
+    },
+    {
+      "Key": "bt_banana_sub_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_osiris_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_osiris_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_osiris_atk",
+      "Value": "43.10344828"
+    },
+    {
+      "Key": "bt_osiris_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_sun_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_sun_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_sun_atk",
+      "Value": "14.08450704"
+    },
+    {
+      "Key": "bt_sun_rng",
+      "Value": "800"
+    },
+    {
+      "Key": "bt_rat_cnt",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_rat_cnt_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_rat_atk",
+      "Value": "28.44141069"
+    },
+    {
+      "Key": "bt_rat_rng",
+      "Value": "250"
+    },
+    {
+      "Key": "bt_tsunami_cnt",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_tsunami_cnt_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_tsunami_atk",
+      "Value": "15.10574018"
+    },
+    {
+      "Key": "bt_tsunami_rng",
+      "Value": "500/125"
+    },
+    {
+      "Key": "bt_gale_cnt",
+      "Value": "24"
+    },
+    {
+      "Key": "bt_gale_cnt_l",
+      "Value": "36"
+    },
+    {
+      "Key": "bt_gale_atk",
+      "Value": "17.36111111"
+    },
+    {
+      "Key": "bt_gale_atk_l",
+      "Value": "34.72222222"
+    },
+    {
+      "Key": "bt_gale_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_light_orb_cnt",
+      "Value": "5"
+    },
+    {
+      "Key": "bt_light_orb_cnt_l",
+      "Value": "10"
+    },
+    {
+      "Key": "bt_light_orb_atk",
+      "Value": "15.24390244"
+    },
+    {
+      "Key": "bt_light_orb_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_light_orb_time",
+      "Value": "2.5"
+    },
+    {
+      "Key": "bt_chicken_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_chicken_cnt_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_chicken_atk",
+      "Value": "35.35790053"
+    },
+    {
+      "Key": "bt_chicken_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_chicken_b",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_chicken_b_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_chaos_orb_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_chaos_orb_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_chaos_orb_set",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_chaos_orb_set_l",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_chaos_orb_atk",
+      "Value": "6.335098078"
+    },
+    {
+      "Key": "bt_chaos_orb_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_party_missile_cnt",
+      "Value": "8"
+    },
+    {
+      "Key": "bt_party_missile_cnt_l",
+      "Value": "16"
+    },
+    {
+      "Key": "bt_party_missile_atk",
+      "Value": "67.01245091"
+    },
+    {
+      "Key": "bt_party_missile_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_mirror_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_mirror_cnt_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_mirror_atk",
+      "Value": "34.38018427"
+    },
+    {
+      "Key": "bt_mirror_rng",
+      "Value": "75/200"
+    },
+    {
+      "Key": "bt_mirror_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_mirror_time_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_coffee_cnt",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_coffee_cnt_l",
+      "Value": "6"
+    },
+    {
+      "Key": "bt_coffee_atk",
+      "Value": "15.63900995"
+    },
+    {
+      "Key": "bt_coffee_time",
+      "Value": "3.5"
+    },
+    {
+      "Key": "bt_coffee_rng",
+      "Value": "525"
+    },
+    {
+      "Key": "bt_extinction_cnt",
+      "Value": "12"
+    },
+    {
+      "Key": "bt_extinction_cnt_l",
+      "Value": "24"
+    },
+    {
+      "Key": "bt_extinction_atk",
+      "Value": "25.57727134"
+    },
+    {
+      "Key": "bt_extinction_rng",
+      "Value": "1200/175"
+    },
+    {
+      "Key": "bt_singular_point_cnt",
+      "Value": "24"
+    },
+    {
+      "Key": "bt_singular_point_cnt_l",
+      "Value": "36"
+    },
+    {
+      "Key": "bt_singular_point_atk",
+      "Value": "20.9675255"
+    },
+    {
+      "Key": "bt_singular_point_atk_l",
+      "Value": "41.93505099"
+    },
+    {
+      "Key": "bt_singular_point_rng",
+      "Value": "75"
+    },
+    {
+      "Key": "bt_pencil_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_pencil_cnt_l",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_pencil_atk",
+      "Value": "85.52284645"
+    },
+    {
+      "Key": "bt_pencil_rng",
+      "Value": "125"
+    },
+    {
+      "Key": "bt_pencil_time",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_dimension_box_cnt",
+      "Value": "1"
+    },
+    {
+      "Key": "bt_dimension_box_split",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_dimension_box_split_l",
+      "Value": "3"
+    },
+    {
+      "Key": "bt_dimension_box_atk",
+      "Value": "25.38071066"
+    },
+    {
+      "Key": "bt_dimension_box_1_rng",
+      "Value": "300"
+    },
+    {
+      "Key": "bt_dimension_box_2_rng",
+      "Value": "200"
+    },
+    {
+      "Key": "bt_dimension_box_3_rng",
+      "Value": "150"
+    },
+    {
+      "Key": "bt_dimension_box_time",
+      "Value": "2"
+    },
+    {
+      "Key": "bt_bowling_ball_atk",
+      "Value": "35"
+    },
+    {
+      "Key": "bt_bowling_ball_time",
+      "Value": "7"
+    },
+    {
+      "Key": "bt_bowling_ball_rng",
+      "Value": "325"
+    }
+  ]
+}

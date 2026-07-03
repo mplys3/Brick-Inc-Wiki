@@ -1,0 +1,2841 @@
+{
+  "type": "MasterMission",
+  "index": 120,
+  "count": 310,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "GroupId",
+      "param": "groupIdOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterMissionType",
+      "index": 3
+    },
+    {
+      "name": "Subtype",
+      "param": "subtypeOffset",
+      "kind": "StringOffset",
+      "index": 4
+    },
+    {
+      "name": "IsSequential",
+      "param": "isSequential",
+      "kind": "bool",
+      "index": 5
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Id": 10001,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "GetMissionPoint",
+      "Subtype": "daily",
+      "IsSequential": false,
+      "Sort": 4
+    },
+    {
+      "Id": 10002,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "Login",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 5
+    },
+    {
+      "Id": 10003,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 6
+    },
+    {
+      "Id": 10004,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 7
+    },
+    {
+      "Id": 10005,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "Research",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 8
+    },
+    {
+      "Id": 10006,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "EnhanceWeapon",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 9
+    },
+    {
+      "Id": 10012,
+      "GroupId": "daily",
+      "UnlockRank": 43,
+      "Type": "ChallengeWall",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 10
+    },
+    {
+      "Id": 10013,
+      "GroupId": "daily",
+      "UnlockRank": 43,
+      "Type": "ChallengeChaos",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 11
+    },
+    {
+      "Id": 10007,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 12
+    },
+    {
+      "Id": 10008,
+      "GroupId": "daily",
+      "UnlockRank": 4,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 13
+    },
+    {
+      "Id": 10009,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 14
+    },
+    {
+      "Id": 10010,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "Ads",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 15
+    },
+    {
+      "Id": 10011,
+      "GroupId": "daily",
+      "UnlockRank": 0,
+      "Type": "Mileage",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 16
+    },
+    {
+      "Id": 10101,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "GetMissionPoint",
+      "Subtype": "daily_epic",
+      "IsSequential": false,
+      "Sort": 18
+    },
+    {
+      "Id": 10102,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "Login",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 19
+    },
+    {
+      "Id": 10103,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "ClearBoard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 20
+    },
+    {
+      "Id": 10104,
+      "GroupId": "daily_epic",
+      "UnlockRank": 5,
+      "Type": "SoulUpgradeAndEnhance",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 21
+    },
+    {
+      "Id": 10105,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "LevelUpCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 22
+    },
+    {
+      "Id": 10106,
+      "GroupId": "daily_epic",
+      "UnlockRank": 5,
+      "Type": "Prestige",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 23
+    },
+    {
+      "Id": 10108,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 25
+    },
+    {
+      "Id": 10109,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 26
+    },
+    {
+      "Id": 10110,
+      "GroupId": "daily_epic",
+      "UnlockRank": 0,
+      "Type": "RefreshMileageShop",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 27
+    },
+    {
+      "Id": 10201,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "Login",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 29
+    },
+    {
+      "Id": 10202,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 30
+    },
+    {
+      "Id": 10203,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 31
+    },
+    {
+      "Id": 10204,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "ClearBoard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 32
+    },
+    {
+      "Id": 10205,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "GetGold",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 33
+    },
+    {
+      "Id": 10206,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "GetPower",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 34
+    },
+    {
+      "Id": 10207,
+      "GroupId": "ach",
+      "UnlockRank": 5,
+      "Type": "GetSoul",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 35
+    },
+    {
+      "Id": 10240,
+      "GroupId": "ach",
+      "UnlockRank": 12,
+      "Type": "GetEther",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 36
+    },
+    {
+      "Id": 10278,
+      "GroupId": "ach",
+      "UnlockRank": 43,
+      "Type": "GetEther",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 37
+    },
+    {
+      "Id": 10208,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "Research",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 38
+    },
+    {
+      "Id": 10209,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "EnhanceWeapon",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 39
+    },
+    {
+      "Id": 10210,
+      "GroupId": "ach",
+      "UnlockRank": 5,
+      "Type": "SoulUpgradeAndEnhance",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 40
+    },
+    {
+      "Id": 10211,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "EpicUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 41
+    },
+    {
+      "Id": 10212,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "RankUp",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 42
+    },
+    {
+      "Id": 10213,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 43
+    },
+    {
+      "Id": 10214,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "LevelUpCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 44
+    },
+    {
+      "Id": 10215,
+      "GroupId": "ach",
+      "UnlockRank": 4,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 45
+    },
+    {
+      "Id": 10216,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 46
+    },
+    {
+      "Id": 10217,
+      "GroupId": "ach",
+      "UnlockRank": 5,
+      "Type": "Prestige",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 47
+    },
+    {
+      "Id": 10219,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 49
+    },
+    {
+      "Id": 10220,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 50
+    },
+    {
+      "Id": 10221,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "RefreshMileageShop",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 51
+    },
+    {
+      "Id": 10222,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "Ads",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 52
+    },
+    {
+      "Id": 10223,
+      "GroupId": "ach",
+      "UnlockRank": 0,
+      "Type": "IAP",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 53
+    },
+    {
+      "Id": 10225,
+      "GroupId": "ach",
+      "UnlockRank": 10,
+      "Type": "GetSciencePoint",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 55
+    },
+    {
+      "Id": 10230,
+      "GroupId": "ach",
+      "UnlockRank": 10,
+      "Type": "InnovationUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 56
+    },
+    {
+      "Id": 10231,
+      "GroupId": "ach",
+      "UnlockRank": 10,
+      "Type": "InnovationWeaponUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 57
+    },
+    {
+      "Id": 10232,
+      "GroupId": "ach",
+      "UnlockRank": 10,
+      "Type": "InnovationBrickUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 58
+    },
+    {
+      "Id": 10233,
+      "GroupId": "ach",
+      "UnlockRank": 16,
+      "Type": "DevilOrderRankUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 59
+    },
+    {
+      "Id": 10234,
+      "GroupId": "ach",
+      "UnlockRank": 16,
+      "Type": "DevilOrderBlockUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 60
+    },
+    {
+      "Id": 10235,
+      "GroupId": "ach",
+      "UnlockRank": 18,
+      "Type": "DevilOrderDivineBeastUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 61
+    },
+    {
+      "Id": 10236,
+      "GroupId": "ach",
+      "UnlockRank": 25,
+      "Type": "WarAIResearchUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 62
+    },
+    {
+      "Id": 10237,
+      "GroupId": "ach",
+      "UnlockRank": 30,
+      "Type": "WarAISoulAltarUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 63
+    },
+    {
+      "Id": 10238,
+      "GroupId": "ach",
+      "UnlockRank": 34,
+      "Type": "GoldenCubeDivineBeastUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 64
+    },
+    {
+      "Id": 10239,
+      "GroupId": "ach",
+      "UnlockRank": 40,
+      "Type": "GoldenCubeInnovationUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 65
+    },
+    {
+      "Id": 10250,
+      "GroupId": "ach",
+      "UnlockRank": 12,
+      "Type": "AchievedTruthTree",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 66
+    },
+    {
+      "Id": 10251,
+      "GroupId": "ach",
+      "UnlockRank": 12,
+      "Type": "CompleteMeditation",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 67
+    },
+    {
+      "Id": 10252,
+      "GroupId": "ach",
+      "UnlockRank": 19,
+      "Type": "GetArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 68
+    },
+    {
+      "Id": 10253,
+      "GroupId": "ach",
+      "UnlockRank": 19,
+      "Type": "MergeArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 69
+    },
+    {
+      "Id": 10254,
+      "GroupId": "ach",
+      "UnlockRank": 19,
+      "Type": "DissolveArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 70
+    },
+    {
+      "Id": 10255,
+      "GroupId": "ach",
+      "UnlockRank": 19,
+      "Type": "EternityCubeActivation",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 71
+    },
+    {
+      "Id": 10260,
+      "GroupId": "ach",
+      "UnlockRank": 22,
+      "Type": "Forge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 72
+    },
+    {
+      "Id": 10261,
+      "GroupId": "ach",
+      "UnlockRank": 21,
+      "Type": "DivineBeastEx",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 73
+    },
+    {
+      "Id": 10277,
+      "GroupId": "ach",
+      "UnlockRank": 33,
+      "Type": "DivineBeastSurge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 74
+    },
+    {
+      "Id": 10262,
+      "GroupId": "ach",
+      "UnlockRank": 36,
+      "Type": "GetTachyon",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 75
+    },
+    {
+      "Id": 10241,
+      "GroupId": "ach",
+      "UnlockRank": 43,
+      "Type": "GetDStone",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 76
+    },
+    {
+      "Id": 10281,
+      "GroupId": "ach",
+      "UnlockRank": 43,
+      "Type": "DimensionAllianceScan",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 77
+    },
+    {
+      "Id": 10264,
+      "GroupId": "ach",
+      "UnlockRank": 49,
+      "Type": "OracleBlessingCharge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 78
+    },
+    {
+      "Id": 10265,
+      "GroupId": "ach",
+      "UnlockRank": 49,
+      "Type": "OracleRevelationUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 79
+    },
+    {
+      "Id": 10266,
+      "GroupId": "ach",
+      "UnlockRank": 61,
+      "Type": "OracleDestinyUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 80
+    },
+    {
+      "Id": 10279,
+      "GroupId": "ach",
+      "UnlockRank": 51,
+      "Type": "GetDFuel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 81
+    },
+    {
+      "Id": 10285,
+      "GroupId": "ach",
+      "UnlockRank": 51,
+      "Type": "StarSignVoyageDistance",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 82
+    },
+    {
+      "Id": 10280,
+      "GroupId": "ach",
+      "UnlockRank": 51,
+      "Type": "GetTimeCrystal",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 83
+    },
+    {
+      "Id": 10263,
+      "GroupId": "ach",
+      "UnlockRank": 53,
+      "Type": "GetQuantumPoint",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 84
+    },
+    {
+      "Id": 10267,
+      "GroupId": "ach",
+      "UnlockRank": 53,
+      "Type": "QuantumUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 85
+    },
+    {
+      "Id": 10268,
+      "GroupId": "ach",
+      "UnlockRank": 53,
+      "Type": "NetworkHubUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 86
+    },
+    {
+      "Id": 10271,
+      "GroupId": "ach",
+      "UnlockRank": 58,
+      "Type": "RuneIncineration",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 89
+    },
+    {
+      "Id": 10272,
+      "GroupId": "ach",
+      "UnlockRank": 58,
+      "Type": "AshUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 90
+    },
+    {
+      "Id": 10274,
+      "GroupId": "ach",
+      "UnlockRank": 58,
+      "Type": "GetDimensionalGear",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 92
+    },
+    {
+      "Id": 10275,
+      "GroupId": "ach",
+      "UnlockRank": 58,
+      "Type": "MergeDimensionalGear",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 93
+    },
+    {
+      "Id": 10276,
+      "GroupId": "ach",
+      "UnlockRank": 58,
+      "Type": "DissolveDimensionalGear",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 94
+    },
+    {
+      "Id": 10282,
+      "GroupId": "ach",
+      "UnlockRank": 58,
+      "Type": "GetCollapsePoint",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 95
+    },
+    {
+      "Id": 10283,
+      "GroupId": "ach",
+      "UnlockRank": 73,
+      "Type": "GetSEnergy",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 96
+    },
+    {
+      "Id": 10284,
+      "GroupId": "ach",
+      "UnlockRank": 73,
+      "Type": "SingularityUpgrade",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 97
+    },
+    {
+      "Id": 10301,
+      "GroupId": "pass_rank",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 100
+    },
+    {
+      "Id": 10302,
+      "GroupId": "pass_rank_epic",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 101
+    },
+    {
+      "Id": 10303,
+      "GroupId": "pass_rank_2",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 102
+    },
+    {
+      "Id": 10304,
+      "GroupId": "pass_rank_epic_2",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 103
+    },
+    {
+      "Id": 10305,
+      "GroupId": "pass_rank_3",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 104
+    },
+    {
+      "Id": 10306,
+      "GroupId": "pass_rank_epic_3",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 105
+    },
+    {
+      "Id": 10307,
+      "GroupId": "pass_rank_4",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 106
+    },
+    {
+      "Id": 10308,
+      "GroupId": "pass_rank_epic_4",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 107
+    },
+    {
+      "Id": 10309,
+      "GroupId": "pass_rank_5",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 108
+    },
+    {
+      "Id": 10310,
+      "GroupId": "pass_rank_epic_5",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 109
+    },
+    {
+      "Id": 10340,
+      "GroupId": "pass_rank_6",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 110
+    },
+    {
+      "Id": 10341,
+      "GroupId": "pass_rank_epic_6",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 111
+    },
+    {
+      "Id": 10311,
+      "GroupId": "pass_field",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 113
+    },
+    {
+      "Id": 10312,
+      "GroupId": "pass_field_epic",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 114
+    },
+    {
+      "Id": 10313,
+      "GroupId": "pass_field_2",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 115
+    },
+    {
+      "Id": 10314,
+      "GroupId": "pass_field_epic_2",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 116
+    },
+    {
+      "Id": 10315,
+      "GroupId": "pass_field_3",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 117
+    },
+    {
+      "Id": 10316,
+      "GroupId": "pass_field_epic_3",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 118
+    },
+    {
+      "Id": 10317,
+      "GroupId": "pass_field_4",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 119
+    },
+    {
+      "Id": 10318,
+      "GroupId": "pass_field_epic_4",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 120
+    },
+    {
+      "Id": 10319,
+      "GroupId": "pass_field_5",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 121
+    },
+    {
+      "Id": 10320,
+      "GroupId": "pass_field_epic_5",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 122
+    },
+    {
+      "Id": 10321,
+      "GroupId": "pass_field_6",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 123
+    },
+    {
+      "Id": 10322,
+      "GroupId": "pass_field_epic_6",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 124
+    },
+    {
+      "Id": 10351,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "LoginCount",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 126
+    },
+    {
+      "Id": 10352,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 127
+    },
+    {
+      "Id": 10353,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 128
+    },
+    {
+      "Id": 10354,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 129
+    },
+    {
+      "Id": 10355,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 130
+    },
+    {
+      "Id": 10356,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 131
+    },
+    {
+      "Id": 10357,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 132
+    },
+    {
+      "Id": 10358,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 133
+    },
+    {
+      "Id": 10359,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 134
+    },
+    {
+      "Id": 10360,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 135
+    },
+    {
+      "Id": 10361,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 136
+    },
+    {
+      "Id": 10362,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 137
+    },
+    {
+      "Id": 10363,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 138
+    },
+    {
+      "Id": 10364,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 139
+    },
+    {
+      "Id": 10365,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 140
+    },
+    {
+      "Id": 10366,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 141
+    },
+    {
+      "Id": 10367,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 142
+    },
+    {
+      "Id": 10368,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 143
+    },
+    {
+      "Id": 10369,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 144
+    },
+    {
+      "Id": 10370,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 145
+    },
+    {
+      "Id": 10371,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 146
+    },
+    {
+      "Id": 10372,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 147
+    },
+    {
+      "Id": 10373,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 148
+    },
+    {
+      "Id": 10374,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 149
+    },
+    {
+      "Id": 10375,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 150
+    },
+    {
+      "Id": 10376,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 151
+    },
+    {
+      "Id": 10377,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 152
+    },
+    {
+      "Id": 10378,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 153
+    },
+    {
+      "Id": 10379,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 154
+    },
+    {
+      "Id": 10380,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 155
+    },
+    {
+      "Id": 10381,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 156
+    },
+    {
+      "Id": 10382,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 157
+    },
+    {
+      "Id": 10383,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 158
+    },
+    {
+      "Id": 10384,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 159
+    },
+    {
+      "Id": 10385,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 160
+    },
+    {
+      "Id": 10386,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 161
+    },
+    {
+      "Id": 10387,
+      "GroupId": "traveler",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 162
+    },
+    {
+      "Id": 10021,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Login",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 164
+    },
+    {
+      "Id": 10022,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 165
+    },
+    {
+      "Id": 10023,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 166
+    },
+    {
+      "Id": 10024,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 167
+    },
+    {
+      "Id": 10025,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 168
+    },
+    {
+      "Id": 10026,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 169
+    },
+    {
+      "Id": 10027,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 170
+    },
+    {
+      "Id": 10028,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 171
+    },
+    {
+      "Id": 10029,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 172
+    },
+    {
+      "Id": 10030,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 173
+    },
+    {
+      "Id": 10031,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 174
+    },
+    {
+      "Id": 10032,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 175
+    },
+    {
+      "Id": 10033,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 176
+    },
+    {
+      "Id": 10034,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "ClearBoard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 177
+    },
+    {
+      "Id": 10035,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "ClearBoard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 178
+    },
+    {
+      "Id": 10036,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "ClearBoard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 179
+    },
+    {
+      "Id": 10037,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Forge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 180
+    },
+    {
+      "Id": 10038,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Forge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 181
+    },
+    {
+      "Id": 10039,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Forge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 182
+    },
+    {
+      "Id": 10040,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "GetArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 183
+    },
+    {
+      "Id": 10041,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "GetArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 184
+    },
+    {
+      "Id": 10042,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "GetArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 185
+    },
+    {
+      "Id": 10043,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "MaxLevelDivineBeast",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 186
+    },
+    {
+      "Id": 10044,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "MaxLevelDivineBeast",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 187
+    },
+    {
+      "Id": 10045,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "MaxLevelDivineBeast",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 188
+    },
+    {
+      "Id": 10046,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Mileage",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 189
+    },
+    {
+      "Id": 10047,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Mileage",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 190
+    },
+    {
+      "Id": 10048,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Mileage",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 191
+    },
+    {
+      "Id": 10049,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Mileage",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 192
+    },
+    {
+      "Id": 10050,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "Mileage",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 193
+    },
+    {
+      "Id": 10051,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "UseMagicClock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 194
+    },
+    {
+      "Id": 10052,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "UseMagicClock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 195
+    },
+    {
+      "Id": 10053,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "UseMagicClock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 196
+    },
+    {
+      "Id": 10054,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "UseMagicClock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 197
+    },
+    {
+      "Id": 10055,
+      "GroupId": "frontier",
+      "UnlockRank": 0,
+      "Type": "UseMagicClock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 198
+    },
+    {
+      "Id": 10401,
+      "GroupId": "attendance",
+      "UnlockRank": 0,
+      "Type": "Login",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 200
+    },
+    {
+      "Id": 10501,
+      "GroupId": "ch_licence",
+      "UnlockRank": 0,
+      "Type": "LicenceLevel",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 202
+    },
+    {
+      "Id": 10502,
+      "GroupId": "ch_licence",
+      "UnlockRank": 0,
+      "Type": "LicenceLevel",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 203
+    },
+    {
+      "Id": 10503,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 204
+    },
+    {
+      "Id": 10504,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveDmgRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 205
+    },
+    {
+      "Id": 10505,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveGoldRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 206
+    },
+    {
+      "Id": 10506,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDivePowerRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 207
+    },
+    {
+      "Id": 10507,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveSoulRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 208
+    },
+    {
+      "Id": 10508,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveSciencePointRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 209
+    },
+    {
+      "Id": 10509,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveDStoneRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 210
+    },
+    {
+      "Id": 10510,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 211
+    },
+    {
+      "Id": 10511,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardDmgRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 212
+    },
+    {
+      "Id": 10512,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardGoldRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 213
+    },
+    {
+      "Id": 10513,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardPowerRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 214
+    },
+    {
+      "Id": 10514,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardSoulRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 215
+    },
+    {
+      "Id": 10515,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardSciencePointRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 216
+    },
+    {
+      "Id": 10516,
+      "GroupId": "ch_dive",
+      "UnlockRank": 0,
+      "Type": "DimensionalDiveHardDStoneRank",
+      "Subtype": "",
+      "IsSequential": false,
+      "Sort": 217
+    },
+    {
+      "Id": 10601,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "AchievedRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 219
+    },
+    {
+      "Id": 10602,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "AchievedField",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 220
+    },
+    {
+      "Id": 10603,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "SoulAltarLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 221
+    },
+    {
+      "Id": 10604,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "LicenceLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 222
+    },
+    {
+      "Id": 10605,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "ChallengeWallDistance",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 223
+    },
+    {
+      "Id": 10606,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "ScienceRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 224
+    },
+    {
+      "Id": 10607,
+      "GroupId": "sage",
+      "UnlockRank": 16,
+      "Type": "DevilOrderRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 225
+    },
+    {
+      "Id": 10608,
+      "GroupId": "sage",
+      "UnlockRank": 25,
+      "Type": "WarAIRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 226
+    },
+    {
+      "Id": 10609,
+      "GroupId": "sage",
+      "UnlockRank": 34,
+      "Type": "GoldenCubeRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 227
+    },
+    {
+      "Id": 10610,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "MaxBoostLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 228
+    },
+    {
+      "Id": 10611,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "MaxCardLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 229
+    },
+    {
+      "Id": 10612,
+      "GroupId": "sage",
+      "UnlockRank": 0,
+      "Type": "MaxLevelDivineBeast",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 230
+    },
+    {
+      "Id": 10613,
+      "GroupId": "sage",
+      "UnlockRank": 19,
+      "Type": "GetArtifactLegend",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 231
+    },
+    {
+      "Id": 10618,
+      "GroupId": "sage",
+      "UnlockRank": 31,
+      "Type": "GetArtifactMystic",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 232
+    },
+    {
+      "Id": 10614,
+      "GroupId": "sage",
+      "UnlockRank": 19,
+      "Type": "EternityCubeActivation",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 233
+    },
+    {
+      "Id": 10615,
+      "GroupId": "sage",
+      "UnlockRank": 22,
+      "Type": "ForgeLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 234
+    },
+    {
+      "Id": 10616,
+      "GroupId": "sage",
+      "UnlockRank": 43,
+      "Type": "DimensionRank",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 236
+    },
+    {
+      "Id": 10617,
+      "GroupId": "sage",
+      "UnlockRank": 44,
+      "Type": "EnlightenLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 237
+    },
+    {
+      "Id": 10621,
+      "GroupId": "sage",
+      "UnlockRank": 44,
+      "Type": "AscensionLevel",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 238
+    },
+    {
+      "Id": 10619,
+      "GroupId": "sage",
+      "UnlockRank": 31,
+      "Type": "MysticCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 239
+    },
+    {
+      "Id": 10620,
+      "GroupId": "sage",
+      "UnlockRank": 36,
+      "Type": "SearchZoneCount",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 240
+    },
+    {
+      "Id": 10901,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "GetMissionPoint",
+      "Subtype": "wk_event",
+      "IsSequential": false,
+      "Sort": 247
+    },
+    {
+      "Id": 10902,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 248
+    },
+    {
+      "Id": 10903,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 249
+    },
+    {
+      "Id": 10904,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 250
+    },
+    {
+      "Id": 10905,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 251
+    },
+    {
+      "Id": 10906,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "GetSupriseRewardAndBuff",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 252
+    },
+    {
+      "Id": 10907,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 253
+    },
+    {
+      "Id": 10911,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "UseMagicClock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 254
+    },
+    {
+      "Id": 10908,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "Challenge",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 255
+    },
+    {
+      "Id": 10910,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "GetArtifact",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 256
+    },
+    {
+      "Id": 10912,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "GetBoosterPoint",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 257
+    },
+    {
+      "Id": 10909,
+      "GroupId": "wk_event",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 258
+    },
+    {
+      "Id": 10830,
+      "GroupId": "ev_main_2025_09",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2025_09",
+      "IsSequential": true,
+      "Sort": 336
+    },
+    {
+      "Id": 10831,
+      "GroupId": "ev_main_2025_09",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_09",
+      "IsSequential": false,
+      "Sort": 337
+    },
+    {
+      "Id": 10832,
+      "GroupId": "ev_main_2025_09_pass",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_09",
+      "IsSequential": false,
+      "Sort": 338
+    },
+    {
+      "Id": 10833,
+      "GroupId": "ev_main_2025_09",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_09",
+      "IsSequential": true,
+      "Sort": 339
+    },
+    {
+      "Id": 10834,
+      "GroupId": "ev_main_2025_09_mission",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 340
+    },
+    {
+      "Id": 10835,
+      "GroupId": "ev_main_2025_09_mission",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 341
+    },
+    {
+      "Id": 10836,
+      "GroupId": "ev_main_2025_09_mission",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 342
+    },
+    {
+      "Id": 10837,
+      "GroupId": "ev_main_2025_09_mission",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 343
+    },
+    {
+      "Id": 10838,
+      "GroupId": "ev_main_2025_09_mission_epic",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 344
+    },
+    {
+      "Id": 10839,
+      "GroupId": "ev_main_2025_09_mission_epic",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 345
+    },
+    {
+      "Id": 10840,
+      "GroupId": "ev_main_year_1_5",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_year_1_5",
+      "IsSequential": true,
+      "Sort": 347
+    },
+    {
+      "Id": 10841,
+      "GroupId": "ev_main_year_1_5",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_year_1_5",
+      "IsSequential": false,
+      "Sort": 348
+    },
+    {
+      "Id": 10843,
+      "GroupId": "ev_main_year_1_5",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_year_1_5",
+      "IsSequential": true,
+      "Sort": 349
+    },
+    {
+      "Id": 10850,
+      "GroupId": "ev_main_2025_11",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2025_11",
+      "IsSequential": true,
+      "Sort": 351
+    },
+    {
+      "Id": 10851,
+      "GroupId": "ev_main_2025_11",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_11",
+      "IsSequential": false,
+      "Sort": 352
+    },
+    {
+      "Id": 10852,
+      "GroupId": "ev_main_2025_11_pass",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_11",
+      "IsSequential": false,
+      "Sort": 353
+    },
+    {
+      "Id": 10853,
+      "GroupId": "ev_main_2025_11",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_11",
+      "IsSequential": true,
+      "Sort": 354
+    },
+    {
+      "Id": 10854,
+      "GroupId": "ev_main_2025_11_mission",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 355
+    },
+    {
+      "Id": 10855,
+      "GroupId": "ev_main_2025_11_mission",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 356
+    },
+    {
+      "Id": 10856,
+      "GroupId": "ev_main_2025_11_mission",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 357
+    },
+    {
+      "Id": 10857,
+      "GroupId": "ev_main_2025_11_mission",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 358
+    },
+    {
+      "Id": 10858,
+      "GroupId": "ev_main_2025_11_mission_epic",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 359
+    },
+    {
+      "Id": 10859,
+      "GroupId": "ev_main_2025_11_mission_epic",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 360
+    },
+    {
+      "Id": 10860,
+      "GroupId": "ev_main_2025_12_sp",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2025_12_sp",
+      "IsSequential": true,
+      "Sort": 362
+    },
+    {
+      "Id": 10861,
+      "GroupId": "ev_main_2025_12_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_12_sp",
+      "IsSequential": false,
+      "Sort": 363
+    },
+    {
+      "Id": 10862,
+      "GroupId": "ev_main_2025_12_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2025_12_sp",
+      "IsSequential": true,
+      "Sort": 364
+    },
+    {
+      "Id": 10863,
+      "GroupId": "ev_main_2026_01",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_01",
+      "IsSequential": true,
+      "Sort": 366
+    },
+    {
+      "Id": 10864,
+      "GroupId": "ev_main_2026_01",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_01",
+      "IsSequential": false,
+      "Sort": 367
+    },
+    {
+      "Id": 10865,
+      "GroupId": "ev_main_2026_01_pass",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_01",
+      "IsSequential": false,
+      "Sort": 368
+    },
+    {
+      "Id": 10866,
+      "GroupId": "ev_main_2026_01",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_01",
+      "IsSequential": true,
+      "Sort": 369
+    },
+    {
+      "Id": 10867,
+      "GroupId": "ev_main_2026_01_mission",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 370
+    },
+    {
+      "Id": 10868,
+      "GroupId": "ev_main_2026_01_mission",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 371
+    },
+    {
+      "Id": 10869,
+      "GroupId": "ev_main_2026_01_mission",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 372
+    },
+    {
+      "Id": 10870,
+      "GroupId": "ev_main_2026_01_mission",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 373
+    },
+    {
+      "Id": 10871,
+      "GroupId": "ev_main_2026_01_mission_epic",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 374
+    },
+    {
+      "Id": 10872,
+      "GroupId": "ev_main_2026_01_mission_epic",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 375
+    },
+    {
+      "Id": 10873,
+      "GroupId": "ev_main_2026_02_sp",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_02_sp",
+      "IsSequential": true,
+      "Sort": 377
+    },
+    {
+      "Id": 10874,
+      "GroupId": "ev_main_2026_02_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_02_sp",
+      "IsSequential": false,
+      "Sort": 378
+    },
+    {
+      "Id": 10875,
+      "GroupId": "ev_main_2026_02_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_02_sp",
+      "IsSequential": true,
+      "Sort": 379
+    },
+    {
+      "Id": 10876,
+      "GroupId": "ev_main_2026_03",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_03",
+      "IsSequential": true,
+      "Sort": 381
+    },
+    {
+      "Id": 10877,
+      "GroupId": "ev_main_2026_03",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_03",
+      "IsSequential": false,
+      "Sort": 382
+    },
+    {
+      "Id": 10878,
+      "GroupId": "ev_main_2026_03_pass",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_03",
+      "IsSequential": false,
+      "Sort": 383
+    },
+    {
+      "Id": 10879,
+      "GroupId": "ev_main_2026_03",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_03",
+      "IsSequential": true,
+      "Sort": 384
+    },
+    {
+      "Id": 10880,
+      "GroupId": "ev_main_2026_03_mission",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 385
+    },
+    {
+      "Id": 10881,
+      "GroupId": "ev_main_2026_03_mission",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 386
+    },
+    {
+      "Id": 10882,
+      "GroupId": "ev_main_2026_03_mission",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 387
+    },
+    {
+      "Id": 10883,
+      "GroupId": "ev_main_2026_03_mission",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 388
+    },
+    {
+      "Id": 10884,
+      "GroupId": "ev_main_2026_03_mission_epic",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 389
+    },
+    {
+      "Id": 10885,
+      "GroupId": "ev_main_2026_03_mission_epic",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 390
+    },
+    {
+      "Id": 10886,
+      "GroupId": "ev_main_2026_03_sp",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_03_sp",
+      "IsSequential": true,
+      "Sort": 392
+    },
+    {
+      "Id": 10887,
+      "GroupId": "ev_main_2026_03_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_03_sp",
+      "IsSequential": false,
+      "Sort": 393
+    },
+    {
+      "Id": 10888,
+      "GroupId": "ev_main_2026_03_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_03_sp",
+      "IsSequential": true,
+      "Sort": 394
+    },
+    {
+      "Id": 100001,
+      "GroupId": "ev_main_year_2",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_year_2",
+      "IsSequential": true,
+      "Sort": 396
+    },
+    {
+      "Id": 100002,
+      "GroupId": "ev_main_year_2",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_year_2",
+      "IsSequential": false,
+      "Sort": 397
+    },
+    {
+      "Id": 100003,
+      "GroupId": "ev_main_year_2",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_year_2",
+      "IsSequential": true,
+      "Sort": 398
+    },
+    {
+      "Id": 100004,
+      "GroupId": "ev_main_2026_05",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_05",
+      "IsSequential": true,
+      "Sort": 400
+    },
+    {
+      "Id": 100005,
+      "GroupId": "ev_main_2026_05",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_05",
+      "IsSequential": false,
+      "Sort": 401
+    },
+    {
+      "Id": 100006,
+      "GroupId": "ev_main_2026_05_pass",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_05",
+      "IsSequential": false,
+      "Sort": 402
+    },
+    {
+      "Id": 100007,
+      "GroupId": "ev_main_2026_05",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_05",
+      "IsSequential": true,
+      "Sort": 403
+    },
+    {
+      "Id": 100008,
+      "GroupId": "ev_main_2026_05_mission",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 404
+    },
+    {
+      "Id": 100009,
+      "GroupId": "ev_main_2026_05_mission",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 405
+    },
+    {
+      "Id": 100010,
+      "GroupId": "ev_main_2026_05_mission",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 406
+    },
+    {
+      "Id": 100011,
+      "GroupId": "ev_main_2026_05_mission",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 407
+    },
+    {
+      "Id": 100012,
+      "GroupId": "ev_main_2026_05_mission_epic",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 408
+    },
+    {
+      "Id": 100013,
+      "GroupId": "ev_main_2026_05_mission_epic",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 409
+    },
+    {
+      "Id": 100014,
+      "GroupId": "ev_main_2026_06_sp",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_06_sp",
+      "IsSequential": true,
+      "Sort": 411
+    },
+    {
+      "Id": 100015,
+      "GroupId": "ev_main_2026_06_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_06_sp",
+      "IsSequential": false,
+      "Sort": 412
+    },
+    {
+      "Id": 100016,
+      "GroupId": "ev_main_2026_06_sp",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_06_sp",
+      "IsSequential": true,
+      "Sort": 413
+    },
+    {
+      "Id": 100017,
+      "GroupId": "ev_main_2026_07",
+      "UnlockRank": 0,
+      "Type": "EventLogin",
+      "Subtype": "ev_main_2026_07",
+      "IsSequential": true,
+      "Sort": 415
+    },
+    {
+      "Id": 100018,
+      "GroupId": "ev_main_2026_07",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_07",
+      "IsSequential": false,
+      "Sort": 416
+    },
+    {
+      "Id": 100019,
+      "GroupId": "ev_main_2026_07_pass",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_07",
+      "IsSequential": false,
+      "Sort": 417
+    },
+    {
+      "Id": 100020,
+      "GroupId": "ev_main_2026_07",
+      "UnlockRank": 0,
+      "Type": "GetEventPoint",
+      "Subtype": "ev_main_2026_07",
+      "IsSequential": true,
+      "Sort": 418
+    },
+    {
+      "Id": 100021,
+      "GroupId": "ev_main_2026_07_mission",
+      "UnlockRank": 0,
+      "Type": "FireBullet",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 419
+    },
+    {
+      "Id": 100022,
+      "GroupId": "ev_main_2026_07_mission",
+      "UnlockRank": 0,
+      "Type": "GetMiningReward",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 420
+    },
+    {
+      "Id": 100023,
+      "GroupId": "ev_main_2026_07_mission",
+      "UnlockRank": 0,
+      "Type": "GetCard",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 421
+    },
+    {
+      "Id": 100024,
+      "GroupId": "ev_main_2026_07_mission",
+      "UnlockRank": 0,
+      "Type": "UseItem",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 422
+    },
+    {
+      "Id": 100025,
+      "GroupId": "ev_main_2026_07_mission_epic",
+      "UnlockRank": 0,
+      "Type": "BreakBlock",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 423
+    },
+    {
+      "Id": 100026,
+      "GroupId": "ev_main_2026_07_mission_epic",
+      "UnlockRank": 0,
+      "Type": "ActiveBooster",
+      "Subtype": "",
+      "IsSequential": true,
+      "Sort": 424
+    }
+  ]
+}

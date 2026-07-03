@@ -1,0 +1,303 @@
+{
+  "type": "MasterObservation",
+  "index": 116,
+  "count": 12,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "BonusId",
+      "param": "bonusId",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "ValueCommon",
+      "param": "valueCommon",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "Chance",
+      "param": "chance",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 5
+    },
+    {
+      "name": "ValueSuperioe",
+      "param": "valueSuperioe",
+      "kind": "double",
+      "index": 6
+    },
+    {
+      "name": "ValueRare",
+      "param": "valueRare",
+      "kind": "double",
+      "index": 7
+    },
+    {
+      "name": "ValueHeroic",
+      "param": "valueHeroic",
+      "kind": "double",
+      "index": 8
+    },
+    {
+      "name": "ValueEpic",
+      "param": "valueEpic",
+      "kind": "double",
+      "index": 9
+    },
+    {
+      "name": "SlotId",
+      "param": "slotId",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 11
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 12
+    },
+    {
+      "name": "SlotBonusGold",
+      "param": "slotBonusGoldOffset",
+      "kind": "StringOffset",
+      "index": 13
+    },
+    {
+      "name": "SlotBonusGoldUp",
+      "param": "slotBonusGoldUp",
+      "kind": "double",
+      "index": 14
+    }
+  ],
+  "rows": [
+    {
+      "Id": 101,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 1,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 102,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 2,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 103,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 3,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 104,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 4,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 105,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 5,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 106,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 6,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 107,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 7,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 108,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 8,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 109,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 9,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 110,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 10,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 111,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 11,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    },
+    {
+      "Id": 112,
+      "Type": "SlotBonus",
+      "BonusId": 0,
+      "ValueCommon": 0,
+      "Chance": 0,
+      "ValueType": "Percent",
+      "ValueSuperioe": 0,
+      "ValueRare": 0,
+      "ValueHeroic": 0,
+      "ValueEpic": 0,
+      "SlotId": 12,
+      "Value": 30.0,
+      "MaxLevel": 10,
+      "SlotBonusGold": "1.00E+03",
+      "SlotBonusGoldUp": 10.0
+    }
+  ]
+}

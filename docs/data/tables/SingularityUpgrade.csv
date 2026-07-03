@@ -1,0 +1,6 @@
+﻿Id,Name,Sort,MaxLevel,SubLevel,MainType,MainValueType,MainValueUp,SubType1,SubType1ValueType,SubType1ValueUp,SubType2,SubType2ValueType,SubType2ValueUp,MainCost,MainCostUp,SubCostMultiplier
+30001,qe_stabilization,3,10,5,SEnergy,Multiply,1.1,Gold,Multiply,1.2,Power,Multiply,1.2,1e1746,1.00E+20,100.0
+30002,qe_database,4,10,5,SciencePoint,Multiply,2.0,WeaponEnhanceCostDown,Divide,2.0,ResearchCostDown,Divide,2.0,7e1844,1.00E+20,100.0
+30005,qe_dynamics,7,10,5,AllWeaponDmg,Multiply,3.0,CriDmg,Multiply,1.15,BlockHpDown,Divide,1.15,3.5e1942,1.00E+20,100.0
+30006,qe_time_control,8,10,5,QuantumPoint,Multiply,2.0,CosmicDialTick,Multiply,1.01,Ash,Multiply,1.04,5e2088,1.00E+20,100.0
+30009,qe_unified_field,11,10,5,DStone,Multiply,1.5,ScienceRank,Add,1.0,QuantumRank,Add,1.0,1.5e2192,1.00E+20,100.0

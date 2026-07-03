@@ -1,0 +1,114 @@
+﻿Id,Name,IsPremium,UnlockType,UnlockValue,UnlockMessageKey,UnlockMessageArguments,English
+12000,pf_unknown,False,0,0,,,
+12001,rk_f_soil,False,AchievedRank,1,,,Soil Class
+12002,rk_f_plant,False,AchievedRank,4,,,Plant Class
+12003,rk_f_fabric,False,AchievedRank,7,,,Fabric Class
+12004,rk_f_stone,False,AchievedRank,10,,,Rock Class
+12005,rk_f_metal,False,AchievedRank,13,,,Metal Class
+12006,rk_f_luxury,False,AchievedRank,16,,,Luxury Class
+12007,rk_f_high,False,AchievedRank,19,,,Magical Class
+12008,rk_f_light,False,AchievedRank,22,,,Light Class
+12009,rk_f_nature,False,AchievedRank,25,,,Nature Class
+12010,rk_f_star,False,AchievedRank,28,,,Star Class
+12011,rk_f_nova,False,AchievedRank,31,,,Nova Class
+12012,rk_f_blackhole,False,AchievedRank,34,,,Black Hole Class
+12013,rk_f_galaxy,False,AchievedRank,37,,,Galaxy Class
+12014,rk_f_universe,False,AchievedRank,40,,,Space Class
+12015,rk_f_demigod,False,AchievedRank,43,,,Demigod Class
+12016,rk_f_god_1,False,AchievedRank,46,,,God 1 Class
+12017,rk_f_god_2,False,AchievedRank,49,,,God 2 Class
+12018,rk_f_god_3,False,AchievedRank,52,,,God 3 Class
+12019,rk_f_true_god,False,AchievedRank,55,,,True God Class
+12020,rk_f_god_ex_1,False,AchievedRank,58,,,Super God 1 Class
+12021,rk_f_god_ex_2,False,AchievedRank,61,,,Super God 2 Class
+12022,rk_f_god_ex_3,False,AchievedRank,64,,,Super God 3 Class
+12023,rk_f_god_ex_4,False,AchievedRank,67,,,Super God 4 Class
+12024,rk_f_god_ex_5,False,AchievedRank,70,,,Super God 5 Class
+12025,rk_f_geometric,False,AchievedRank,73,,,Geometry Class
+12101,pf_2024_christmas,False,0,0,profile_unlock_message_event,"2024, name_ev_main_2024_12_sp",2024 Christmas
+12102,pf_2025_new_year_festival,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_01",2025 New Year's Festival
+12103,pf_2025_new_year_festival_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_01",《Golden》 2025 New Year's Festival
+12104,pf_2025_spring_picnic,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_03",2025 Spring Outing
+12105,pf_2025_spring_picnic_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_03",《Golden》 2025 Spring Outing
+12106,pf_2025_cherry_blossom,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_04_sp",2025 Cherry Blossoms
+12107,pf_2025_year_1,False,0,0,profile_unlock_message_event,"2025, name_ev_main_year_1",1st Anniversary
+12108,pf_2025_toy_box,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_05",2025 Toy
+12109,pf_2025_toy_box_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_05",《Golden》 2025 Toy
+12110,pf_2025_surf_splash,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_07",2025 Surf & Splash
+12111,pf_2025_surf_splash_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_07",《Golden》 2025 Surf & Splash
+12112,pf_2025_autumn_breeze,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_09",2025 Autumn Breeze
+12113,pf_2025_autumn_breeze_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_09",《Golden》 2025 Autumn Breeze
+12114,pf_2025_year_1_5,False,0,0,profile_unlock_message_event,"2025, name_ev_main_year_1_5",1.5 Year Anniversary
+12115,pf_2025_snowy_night,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_11",2025 Snowy Night
+12116,pf_2025_snowy_night_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_11",《Golden》 2025 Snowy Night
+12117,pf_2025_christmas,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_12_sp",2025 Christmas
+12118,pf_2026_brilliant_year,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_01",2026 A Brilliant New Year
+12119,pf_2026_brilliant_year_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_01",《Golden》 2026 A Brilliant New Year
+12120,pf_2026_valentine,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_02_sp",2026 Valentine
+12121,pf_2026_new_semester,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03",2026 Back to School
+12122,pf_2026_new_semester_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03",《Golden》2026 Back to School
+12123,pf_2026_easter,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03_sp",2026 Easter
+12124,pf_2026_year_2,False,0,0,profile_unlock_message_event,"2026, name_ev_main_year_2",2nd Anniversary
+12125,pf_2026_amusement_park,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_05",2026 Amusement Park
+12126,pf_2026_amusement_park_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_05",《Golden》2026 Amusement Park
+12127,pf_2026_football,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_06_sp",2026 Football
+12128,pf_2026_summer_adventure,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_07",2026 Summer Adventure
+12129,pf_2026_summer_adventure_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_07",《Golden》2026 Summer Adventure
+13000,pi_unknown,False,0,0,,,
+13001,pi_2024_christmas,False,0,0,profile_unlock_message_event,"2024, name_ev_main_2024_12_sp",
+13002,pi_2025_new_year_festival,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_01",
+13003,pi_2025_new_year_festival_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_01",
+13004,pi_2025_spring_picnic,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_03",
+13005,pi_2025_spring_picnic_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_03",
+13006,pi_2025_cherry_blossom,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_04_sp",
+13007,pi_2025_year_1,False,0,0,profile_unlock_message_event,"2025, name_ev_main_year_1",
+13008,pi_2025_toy_box,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_05",
+13009,pi_2025_toy_box_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_05",
+13010,pi_2025_surf_splash,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_07",
+13011,pi_2025_surf_splash_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_07",
+13012,pi_2025_autumn_breeze,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_09",
+13013,pi_2025_autumn_breeze_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_09",
+13014,pi_2025_year_1_5,False,0,0,profile_unlock_message_event,"2025, name_ev_main_year_1_5",
+13015,pi_2025_snowy_night,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_11",
+13016,pi_2025_snowy_night_gold,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_11",
+13017,pi_2025_christmas,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_12_sp",
+13018,pi_2026_brilliant_year,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_01",
+13019,pi_2026_brilliant_year_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_01",
+13020,pi_2026_valentine,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_02_sp",
+13021,pi_2026_new_semester,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03",
+13022,pi_2026_new_semester_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03",
+13023,pi_2026_easter,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03_sp",
+13024,pi_2026_year_2,False,0,0,profile_unlock_message_event,"2026, name_ev_main_year_2",
+13025,pi_2026_amusement_park,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_05",
+13026,pi_2026_amusement_park_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_05",
+13027,pi_2026_football,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_06_sp",
+13028,pi_2026_summer_adventure,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_07",
+13029,pi_2026_summer_adventure_gold,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_07",
+17000,pb_unknown,False,0,0,,,
+17001,pb_default,False,AchievedRank,1,,,Basic
+17002,pb_2025_spring_picnic,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_03",
+17003,pb_2025_spring_picnic_sp,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_03",《Special》 2025 Spring Outing
+17004,pb_2025_cherry_blossom,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_04_sp",
+17005,pb_2025_year_1,False,0,0,profile_unlock_message_event,"2025, name_ev_main_year_1",
+17006,pb_2025_toy_box,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_05",
+17007,pb_2025_toy_box_sp,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_05",《Special》 2025 Toy
+17008,pb_2025_surf_splash,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_07",
+17009,pb_2025_surf_splash_sp,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_07",《Special》 2025 Surf & Splash
+17010,pb_2025_autumn_breeze,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_09",
+17011,pb_2025_autumn_breeze_sp,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_09",《Special》 2025 Autumn Breeze
+17012,pb_2025_year_1_5,False,0,0,profile_unlock_message_event,"2025, name_ev_main_year_1_5",
+17013,pb_2025_snowy_night,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_11",
+17014,pb_2025_snowy_night_sp,True,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_11",《Special》 2025 Snowy Night
+17015,pb_2025_christmas,False,0,0,profile_unlock_message_event,"2025, name_ev_main_2025_12_sp",
+17016,pb_2026_brilliant_year,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_01",
+17017,pb_2026_brilliant_year_sp,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_01",《Special》 2026 A Brilliant New Year
+17020,pb_2026_valentine,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_02_sp",
+17021,pb_2026_new_semester,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03",Can be obtained from the following events: {0} {1}
+17022,pb_2026_new_semester_sp,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03",《Special》 Back to School 2026
+17023,pb_2026_easter,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_03_sp",
+17024,pb_2026_year_2,False,0,0,profile_unlock_message_event,"2026, name_ev_main_year_2",
+17025,pb_2026_amusement_park,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_05",
+17026,pb_2026_amusement_park_sp,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_05",《Special》2026 Amusement Park
+17027,pb_2026_football,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_06_sp",
+17028,pb_2026_summer_adventure,False,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_07",
+17029,pb_2026_summer_adventure_sp,True,0,0,profile_unlock_message_event,"2026, name_ev_main_2026_07",《Special》Summer Adventure

@@ -1,0 +1,14 @@
+﻿Id,Mark,IsCommonUpgrade,Type,MaxLevel,StorageSize,StorageSizeUp,StorageSizeCostCollapsePoint,StorageSizeCostUpCollapsePoint,StorageSizeCostCollapseShard,StorageSizeCostUpCollapseShard,CommonCost,CommonCostUp,ValueType,Value,ValueUp
+1,D,False,DimensionCreation,10,1.00E+03,10.0,1.00E+03,10.0,4,4,0,0,Multiply,1.0,2.0
+2,E,False,DimensionCollapse,10,1.00E+05,10.0,1.00E+05,10.0,4,4,0,0,Multiply,1.0,2.0
+3,F,False,"DimensionCreation, DimensionCollapse",10,1.00E+09,100.0,1.00E+09,100.0,10,10,0,0,Multiply,1.0,2.0
+4,G,False,DimensionCreationSpeed,10,1.00E+15,1000.0,1.00E+15,1000.0,6,6,0,0,Multiply,1.0,2.0
+5,H,False,DimensionCollapseSpeed,10,1.00E+18,1000.0,1.00E+18,1000.0,6,6,0,0,Multiply,1.0,2.0
+6,I,False,"DimensionCreationSpeed, DimensionCollapseSpeed",10,1.00E+24,100000.0,1.00E+24,100000.0,15,15,0,0,Multiply,1.0,2.0
+7,J,False,DimensionCollapseAccelBonus,10,1.00E+36,1000000.0,1.00E+36,1000000.0,10,10,0,0,Multiply,1.0,2.0
+8,K,False,DimensionCollapseAmplificationBonus,10,1.00E+42,1000000.0,1.00E+42,1000000.0,10,10,0,0,Multiply,1.0,2.0
+9,L,False,"DimensionCollapseAccelBonus, DimensionCollapseAmplificationBonus",10,1.00E+54,1000000000.0,1.00E+54,1000000000.0,25,25,0,0,Multiply,1.0,2.0
+10,M,False,CollapsePoint,10,1.00E+78,1000000000000.0,1.00E+78,1000000000000.0,30,30,0,0,Multiply,1.0,2.0
+101,C,True,CollapseDriveLevel,0,,0,,0,0,0,5,0,Add,0,1.0
+102,C,True,CollapseDriveDataTransferSpeed,0,,0,,0,0,0,1,0,Multiply,1.0,8.0
+103,C,True,CollapseDriveDataTransferEfficiency,0,,0,,0,0,0,2,0,Multiply,1.0,2.0

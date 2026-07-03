@@ -1,0 +1,8 @@
+﻿Id,Type,UnlockCost,ValueType,PowValue,DivideValue
+29001,Gold,5,Percent,0.7,2.0
+29002,AllWeaponDmg,5,Percent,0.7,2.0
+29003,AllWeaponSpd,5,Percent,0.15,5.0
+29004,Ether,5,Percent,0.4,3.5
+29005,SciencePoint,5,Percent,0.55,2.5
+29006,QuantumPoint,5,Percent,0.55,2.5
+29007,DStone,5,Percent,0.5,3.0

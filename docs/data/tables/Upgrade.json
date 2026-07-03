@@ -1,0 +1,8746 @@
+{
+  "type": "MasterUpgrade",
+  "index": 64,
+  "count": 319,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "IsTierBasic",
+      "param": "isTierBasic",
+      "kind": "bool",
+      "index": 3
+    },
+    {
+      "name": "Tier",
+      "param": "tier",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "Unlock",
+      "param": "unlock",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 7,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 9
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 10,
+      "element": "double"
+    },
+    {
+      "name": "ValueUpList",
+      "param": "valueUpListOffset",
+      "kind": "VectorOffset",
+      "index": 11,
+      "element": "double"
+    },
+    {
+      "name": "ValueUpType",
+      "param": "valueUpType",
+      "kind": "MasterUpgradeValueType",
+      "index": 12
+    },
+    {
+      "name": "CostType",
+      "param": "costType",
+      "kind": "MasterElementType",
+      "index": 13
+    },
+    {
+      "name": "CostId",
+      "param": "costId",
+      "kind": "int",
+      "index": 14
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 15
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 16
+    },
+    {
+      "name": "CostUpType",
+      "param": "costUpType",
+      "kind": "MasterUpgradeValueType",
+      "index": 17
+    }
+  ],
+  "rows": [
+    {
+      "Id": 3011,
+      "Name": "up_hard_bullet",
+      "Sort": 3,
+      "IsTierBasic": false,
+      "Tier": 1,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        20.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.50E+01",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Solid Bullet"
+    },
+    {
+      "Id": 3012,
+      "Name": "up_fast_load",
+      "Sort": 4,
+      "IsTierBasic": false,
+      "Tier": 1,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultBulletRegen"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+01",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Quick Reload"
+    },
+    {
+      "Id": 3013,
+      "Name": "up_large_box",
+      "Sort": 5,
+      "IsTierBasic": false,
+      "Tier": 1,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultBulletMax"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+02",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Large Ammo Box"
+    },
+    {
+      "Id": 3020,
+      "Name": "",
+      "Sort": 6,
+      "IsTierBasic": true,
+      "Tier": 2,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponBounce"
+      ],
+      "MaxLevel": 1,
+      "ValueType": 0,
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3021,
+      "Name": "up_coolant",
+      "Sort": 7,
+      "IsTierBasic": false,
+      "Tier": 2,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponSpd"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+02",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Coolant"
+    },
+    {
+      "Id": 3022,
+      "Name": "up_magazine",
+      "Sort": 8,
+      "IsTierBasic": false,
+      "Tier": 2,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultBulletRegen",
+        "DefaultBulletMax"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        0.2,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+02",
+      "CostUp": 1.75,
+      "CostUpType": "Multiply",
+      "English": "Large Magazine"
+    },
+    {
+      "Id": 3023,
+      "Name": "up_barrel",
+      "Sort": 9,
+      "IsTierBasic": false,
+      "Tier": 2,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+02",
+      "CostUp": 4.0,
+      "CostUpType": "Multiply",
+      "English": "Barrel Extension"
+    },
+    {
+      "Id": 3024,
+      "Name": "up_battery",
+      "Sort": 10,
+      "IsTierBasic": false,
+      "Tier": 2,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 2,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.50E+03",
+      "CostUp": 5.0,
+      "CostUpType": "Multiply",
+      "English": "Battery"
+    },
+    {
+      "Id": 3030,
+      "Name": "",
+      "Sort": 11,
+      "IsTierBasic": true,
+      "Tier": 3,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "TapBuff"
+      ],
+      "MaxLevel": 1,
+      "ValueType": 0,
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3031,
+      "Name": "up_process_tech",
+      "Sort": 12,
+      "IsTierBasic": false,
+      "Tier": 3,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.50E+03",
+      "CostUp": 1.35,
+      "CostUpType": "Multiply",
+      "English": "Manufacturing Tech"
+    },
+    {
+      "Id": 3032,
+      "Name": "up_inertia",
+      "Sort": 13,
+      "IsTierBasic": false,
+      "Tier": 3,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "TapBuffMax"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+04",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Inertia Engine"
+    },
+    {
+      "Id": 3033,
+      "Name": "up_gunpowder",
+      "Sort": 14,
+      "IsTierBasic": false,
+      "Tier": 3,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+04",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Gunpowder Refinement"
+    },
+    {
+      "Id": 3034,
+      "Name": "up_steel_ammo",
+      "Sort": 15,
+      "IsTierBasic": false,
+      "Tier": 3,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 2,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.50E+05",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply",
+      "English": "Steel Warhead"
+    },
+    {
+      "Id": 3040,
+      "Name": "",
+      "Sort": 16,
+      "IsTierBasic": true,
+      "Tier": 4,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponSpd"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3041,
+      "Name": "up_ammo_refiller",
+      "Sort": 17,
+      "IsTierBasic": false,
+      "Tier": 4,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultBulletRegen",
+        "DefaultBulletMax"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        0.1,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+05",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Fast Mag"
+    },
+    {
+      "Id": 3042,
+      "Name": "up_fire_in_turn",
+      "Sort": 18,
+      "IsTierBasic": false,
+      "Tier": 4,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.50E+05",
+      "CostUp": 1.7,
+      "CostUpType": "Multiply",
+      "English": "Successive Fire"
+    },
+    {
+      "Id": 3043,
+      "Name": "up_light_ammo",
+      "Sort": 19,
+      "IsTierBasic": false,
+      "Tier": 4,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BulletSpd"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.50E+05",
+      "CostUp": 1.7,
+      "CostUpType": "Multiply",
+      "English": "Lightweight Ammo"
+    },
+    {
+      "Id": 3044,
+      "Name": "up_blueprint",
+      "Sort": 20,
+      "IsTierBasic": false,
+      "Tier": 4,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.4
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+06",
+      "CostUp": 3.5,
+      "CostUpType": "Multiply",
+      "English": "Blueprint"
+    },
+    {
+      "Id": 3045,
+      "Name": "up_pressure",
+      "Sort": 21,
+      "IsTierBasic": false,
+      "Tier": 4,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        4.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+09",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply",
+      "English": "Pressure Chamber"
+    },
+    {
+      "Id": 3050,
+      "Name": "",
+      "Sort": 22,
+      "IsTierBasic": true,
+      "Tier": 5,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponUpgrade"
+      ],
+      "MaxLevel": 1,
+      "ValueType": 0,
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3051,
+      "Name": "up_giant_gear",
+      "Sort": 23,
+      "IsTierBasic": false,
+      "Tier": 5,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "TapBuffMax"
+      ],
+      "MaxLevel": 30,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+08",
+      "CostUp": 1.3,
+      "CostUpType": "Multiply",
+      "English": "Giant Gear"
+    },
+    {
+      "Id": 3052,
+      "Name": "up_factory",
+      "Sort": 24,
+      "IsTierBasic": false,
+      "Tier": 5,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 75,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+08",
+      "CostUp": 1.13,
+      "CostUpType": "Multiply",
+      "English": "Mass Production"
+    },
+    {
+      "Id": 3053,
+      "Name": "up_carbonfiber",
+      "Sort": 25,
+      "IsTierBasic": false,
+      "Tier": 5,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        5.0,
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.50E+09",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Carbon Fiber Cable"
+    },
+    {
+      "Id": 3054,
+      "Name": "up_coal_generator",
+      "Sort": 26,
+      "IsTierBasic": false,
+      "Tier": 5,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+10",
+      "CostUp": 1.55,
+      "CostUpType": "Multiply",
+      "English": "Coal Generator"
+    },
+    {
+      "Id": 3055,
+      "Name": "up_next_gen_weapon",
+      "Sort": 27,
+      "IsTierBasic": false,
+      "Tier": 5,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponEnhance"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+13",
+      "CostUp": 1.55,
+      "CostUpType": "Multiply",
+      "English": "Next-gen Weapon"
+    },
+    {
+      "Id": 3060,
+      "Name": "",
+      "Sort": 28,
+      "IsTierBasic": true,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3061,
+      "Name": "up_cutting_tech",
+      "Sort": 29,
+      "IsTierBasic": false,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriChance"
+      ],
+      "MaxLevel": 15,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.00E+11",
+      "CostUp": 2.25,
+      "CostUpType": "Multiply",
+      "English": "Surface Analysis"
+    },
+    {
+      "Id": 3062,
+      "Name": "up_heat_tech",
+      "Sort": 30,
+      "IsTierBasic": false,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "TapBuffBonus"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+11",
+      "CostUp": 3.0,
+      "CostUpType": "Multiply",
+      "English": "Heat Preservation Tech"
+    },
+    {
+      "Id": 3063,
+      "Name": "up_aero",
+      "Sort": 31,
+      "IsTierBasic": false,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BulletDuration"
+      ],
+      "MaxLevel": 40,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.50E+12",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Aerodynamic Tech"
+    },
+    {
+      "Id": 3064,
+      "Name": "up_concrete",
+      "Sort": 32,
+      "IsTierBasic": false,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        15.0,
+        30.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.50E+12",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Concrete Platform"
+    },
+    {
+      "Id": 3065,
+      "Name": "up_lab",
+      "Sort": 33,
+      "IsTierBasic": false,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 30,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.00E+11",
+      "CostUp": 1.66,
+      "CostUpType": "Multiply",
+      "English": "Research Center"
+    },
+    {
+      "Id": 3066,
+      "Name": "up_contract",
+      "Sort": 34,
+      "IsTierBasic": false,
+      "Tier": 6,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.50E+15",
+      "CostUp": 200.0,
+      "CostUpType": "Multiply",
+      "English": "Contract"
+    },
+    {
+      "Id": 3070,
+      "Name": "",
+      "Sort": 35,
+      "IsTierBasic": true,
+      "Tier": 7,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "TapBuffMax"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3071,
+      "Name": "up_furnace",
+      "Sort": 36,
+      "IsTierBasic": false,
+      "Tier": 7,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.50E+15",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply",
+      "English": "Furnace"
+    },
+    {
+      "Id": 3072,
+      "Name": "up_steel_frame",
+      "Sort": 37,
+      "IsTierBasic": false,
+      "Tier": 7,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        10.0,
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.75E+16",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Steel Frame"
+    },
+    {
+      "Id": 3073,
+      "Name": "up_insulate",
+      "Sort": 38,
+      "IsTierBasic": false,
+      "Tier": 7,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 15,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+16",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Insulation Coating"
+    },
+    {
+      "Id": 3074,
+      "Name": "up_explode",
+      "Sort": 39,
+      "IsTierBasic": false,
+      "Tier": 7,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 30,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+17",
+      "CostUp": 1.4,
+      "CostUpType": "Multiply",
+      "English": "Explosive Warhead"
+    },
+    {
+      "Id": 3075,
+      "Name": "up_x_ray",
+      "Sort": 40,
+      "IsTierBasic": false,
+      "Tier": 7,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 3,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+18",
+      "CostUp": 100.0,
+      "CostUpType": "Multiply",
+      "English": "X-Ray Analysis"
+    },
+    {
+      "Id": 3080,
+      "Name": "",
+      "Sort": 41,
+      "IsTierBasic": true,
+      "Tier": 8,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3081,
+      "Name": "up_armor_piercing",
+      "Sort": 42,
+      "IsTierBasic": false,
+      "Tier": 8,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 80,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        5.0,
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.75E+19",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Armor-Piercing Bullet"
+    },
+    {
+      "Id": 3082,
+      "Name": "up_titanium_ammo",
+      "Sort": 43,
+      "IsTierBasic": false,
+      "Tier": 8,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        7.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.00E+19",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Titanium Warhead"
+    },
+    {
+      "Id": 3083,
+      "Name": "up_automation",
+      "Sort": 44,
+      "IsTierBasic": false,
+      "Tier": 8,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+19",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Automated Production"
+    },
+    {
+      "Id": 3084,
+      "Name": "up_material_innov",
+      "Sort": 45,
+      "IsTierBasic": false,
+      "Tier": 8,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BulletSize"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+21",
+      "CostUp": 1.6,
+      "CostUpType": "Multiply",
+      "English": "Material Innovation"
+    },
+    {
+      "Id": 3085,
+      "Name": "up_dna_capsule",
+      "Sort": 46,
+      "IsTierBasic": false,
+      "Tier": 8,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+25",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply",
+      "English": "DNA Capsule"
+    },
+    {
+      "Id": 3090,
+      "Name": "",
+      "Sort": 47,
+      "IsTierBasic": true,
+      "Tier": 9,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3091,
+      "Name": "up_resonance",
+      "Sort": 48,
+      "IsTierBasic": false,
+      "Tier": 9,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.2
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.00E+24",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Resonant Frequency Generator"
+    },
+    {
+      "Id": 3092,
+      "Name": "up_ultrasonic",
+      "Sort": 49,
+      "IsTierBasic": false,
+      "Tier": 9,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriChance"
+      ],
+      "MaxLevel": 40,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+25",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply",
+      "English": "Ultrasonic Sensor"
+    },
+    {
+      "Id": 3093,
+      "Name": "up_alloy",
+      "Sort": 50,
+      "IsTierBasic": false,
+      "Tier": 9,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        5.0,
+        20.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+25",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Alloy Platform"
+    },
+    {
+      "Id": 3094,
+      "Name": "up_ai",
+      "Sort": 51,
+      "IsTierBasic": false,
+      "Tier": 9,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 75,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+25",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "A.I. Design"
+    },
+    {
+      "Id": 3095,
+      "Name": "up_anti_vibration",
+      "Sort": 52,
+      "IsTierBasic": false,
+      "Tier": 9,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 15,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.50E+27",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Anti-Vibration Design"
+    },
+    {
+      "Id": 3100,
+      "Name": "",
+      "Sort": 53,
+      "IsTierBasic": true,
+      "Tier": 10,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DoubleShotChance"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3101,
+      "Name": "up_liquid_nitrogen",
+      "Sort": 54,
+      "IsTierBasic": false,
+      "Tier": 10,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DoubleShotChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+27",
+      "CostUp": 1.13,
+      "CostUpType": "Multiply",
+      "English": "Liquid Nitrogen Refrigerant"
+    },
+    {
+      "Id": 3102,
+      "Name": "up_alchemy",
+      "Sort": 55,
+      "IsTierBasic": false,
+      "Tier": 10,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.25E+29",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Alchemy"
+    },
+    {
+      "Id": 3103,
+      "Name": "up_obsidian",
+      "Sort": 56,
+      "IsTierBasic": false,
+      "Tier": 10,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 150,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        5.0,
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.50E+29",
+      "CostUp": 1.05,
+      "CostUpType": "Multiply",
+      "English": "Obsidian Coating"
+    },
+    {
+      "Id": 3104,
+      "Name": "up_catalyst",
+      "Sort": 57,
+      "IsTierBasic": false,
+      "Tier": 10,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 40,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9.00E+30",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Oxidation Catalyst"
+    },
+    {
+      "Id": 3105,
+      "Name": "up_certificate",
+      "Sort": 58,
+      "IsTierBasic": false,
+      "Tier": 10,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 2,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+32",
+      "CostUp": 100.0,
+      "CostUpType": "Multiply",
+      "English": "Government Certificate"
+    },
+    {
+      "Id": 3110,
+      "Name": "",
+      "Sort": 59,
+      "IsTierBasic": true,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriChance"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3111,
+      "Name": "up_mana_injection",
+      "Sort": 60,
+      "IsTierBasic": false,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.75E+32",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Mana Injection"
+    },
+    {
+      "Id": 3112,
+      "Name": "up_mythril",
+      "Sort": 61,
+      "IsTierBasic": false,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd",
+        "BulletSpd"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        0.5,
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+33",
+      "CostUp": 1.6,
+      "CostUpType": "Multiply",
+      "English": "Mythril Barrel"
+    },
+    {
+      "Id": 3113,
+      "Name": "up_amplify",
+      "Sort": 62,
+      "IsTierBasic": false,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BulletDuration",
+        "BulletSize"
+      ],
+      "MaxLevel": 30,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        1.0,
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+34",
+      "CostUp": 1.4,
+      "CostUpType": "Multiply",
+      "English": "Amplification Magic"
+    },
+    {
+      "Id": 3114,
+      "Name": "up_spell",
+      "Sort": 63,
+      "IsTierBasic": false,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        3.0,
+        15.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+34",
+      "CostUp": 1.08,
+      "CostUpType": "Multiply",
+      "English": "Reinforcement Magic"
+    },
+    {
+      "Id": 3115,
+      "Name": "up_foundation",
+      "Sort": 64,
+      "IsTierBasic": false,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.25E+34",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Research Foundation"
+    },
+    {
+      "Id": 3116,
+      "Name": "up_ori_blade",
+      "Sort": 65,
+      "IsTierBasic": false,
+      "Tier": 11,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 200,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.00E+34",
+      "CostUp": 1.04,
+      "CostUpType": "Multiply",
+      "English": "Orichalcum Blade"
+    },
+    {
+      "Id": 3120,
+      "Name": "",
+      "Sort": 66,
+      "IsTierBasic": true,
+      "Tier": 12,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3121,
+      "Name": "up_nano_tech",
+      "Sort": 67,
+      "IsTierBasic": false,
+      "Tier": 12,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+36",
+      "CostUp": 1.35,
+      "CostUpType": "Multiply",
+      "English": "Nano Tech"
+    },
+    {
+      "Id": 3122,
+      "Name": "up_phase_analyzer",
+      "Sort": 68,
+      "IsTierBasic": false,
+      "Tier": 12,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+37",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Phase Analysis"
+    },
+    {
+      "Id": 3123,
+      "Name": "up_spectroscope",
+      "Sort": 69,
+      "IsTierBasic": false,
+      "Tier": 12,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 80,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+37",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Radiation Spectrometer"
+    },
+    {
+      "Id": 3124,
+      "Name": "up_dna_scissors",
+      "Sort": 70,
+      "IsTierBasic": false,
+      "Tier": 12,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+37",
+      "CostUp": 1.45,
+      "CostUpType": "Multiply",
+      "English": "Gene Scissors"
+    },
+    {
+      "Id": 3125,
+      "Name": "up_laser",
+      "Sort": 71,
+      "IsTierBasic": false,
+      "Tier": 12,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "MaxLevel": 2,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+39",
+      "CostUp": 10000.0,
+      "CostUpType": "Multiply",
+      "English": "High-powered Laser Cutter"
+    },
+    {
+      "Id": 3130,
+      "Name": "",
+      "Sort": 72,
+      "IsTierBasic": true,
+      "Tier": 13,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3131,
+      "Name": "up_superconductor",
+      "Sort": 73,
+      "IsTierBasic": false,
+      "Tier": 13,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 40,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.50E+42",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Superconductor"
+    },
+    {
+      "Id": 3132,
+      "Name": "up_nano_coating",
+      "Sort": 74,
+      "IsTierBasic": false,
+      "Tier": 13,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 180,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        15.0,
+        20.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+43",
+      "CostUp": 1.08,
+      "CostUpType": "Multiply",
+      "English": "Nano Coating"
+    },
+    {
+      "Id": 3133,
+      "Name": "up_data_satellite",
+      "Sort": 75,
+      "IsTierBasic": false,
+      "Tier": 13,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 92,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.00E+43",
+      "CostUp": 1.18,
+      "CostUpType": "Multiply",
+      "English": "Data Satellite"
+    },
+    {
+      "Id": 3134,
+      "Name": "up_memory_alloy",
+      "Sort": 76,
+      "IsTierBasic": false,
+      "Tier": 13,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 125,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        4.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.50E+44",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Memory Alloy"
+    },
+    {
+      "Id": 3135,
+      "Name": "up_magnetic_crusher",
+      "Sort": 77,
+      "IsTierBasic": false,
+      "Tier": 13,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 4,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+45",
+      "CostUp": 100.0,
+      "CostUpType": "Multiply",
+      "English": "Magnetic Mineral Crusher"
+    },
+    {
+      "Id": 3140,
+      "Name": "",
+      "Sort": 78,
+      "IsTierBasic": true,
+      "Tier": 14,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3141,
+      "Name": "up_gravity_field",
+      "Sort": 79,
+      "IsTierBasic": false,
+      "Tier": 14,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 222,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        4.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.00E+47",
+      "CostUp": 1.09,
+      "CostUpType": "Multiply",
+      "English": "Gravity Field Theory"
+    },
+    {
+      "Id": 3142,
+      "Name": "up_q_computer",
+      "Sort": 80,
+      "IsTierBasic": false,
+      "Tier": 14,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9.00E+48",
+      "CostUp": 1.21,
+      "CostUpType": "Multiply",
+      "English": "Quantum Computer"
+    },
+    {
+      "Id": 3143,
+      "Name": "up_nuclear_ammo",
+      "Sort": 81,
+      "IsTierBasic": false,
+      "Tier": 14,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 111,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0,
+        9.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.30E+49",
+      "CostUp": 1.21,
+      "CostUpType": "Multiply",
+      "English": "Fission Bullet"
+    },
+    {
+      "Id": 3144,
+      "Name": "up_earthquake",
+      "Sort": 82,
+      "IsTierBasic": false,
+      "Tier": 14,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 99,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9.90E+50",
+      "CostUp": 1.23,
+      "CostUpType": "Multiply",
+      "English": "Earthquake Generator"
+    },
+    {
+      "Id": 3150,
+      "Name": "",
+      "Sort": 83,
+      "IsTierBasic": true,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SuperCriChance"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3151,
+      "Name": "up_sun",
+      "Sort": 84,
+      "IsTierBasic": false,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "MaxLevel": 150,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        5.0,
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+56",
+      "CostUp": 1.13,
+      "CostUpType": "Multiply",
+      "English": "Artificial Sun"
+    },
+    {
+      "Id": 3152,
+      "Name": "up_neutron_ammo",
+      "Sort": 85,
+      "IsTierBasic": false,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SuperCriDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 125,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        4.0,
+        16.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.00E+57",
+      "CostUp": 1.17,
+      "CostUpType": "Multiply",
+      "English": "Neutron Bullet"
+    },
+    {
+      "Id": 3153,
+      "Name": "up_sub_vacuum",
+      "Sort": 86,
+      "IsTierBasic": false,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BulletDuration"
+      ],
+      "MaxLevel": 40,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+58",
+      "CostUp": 1.65,
+      "CostUpType": "Multiply",
+      "English": "Sub-vacuum Generator"
+    },
+    {
+      "Id": 3154,
+      "Name": "up_material_convert",
+      "Sort": 87,
+      "IsTierBasic": false,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 300,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.50E+59",
+      "CostUp": 1.07,
+      "CostUpType": "Multiply",
+      "English": "Convert Material"
+    },
+    {
+      "Id": 3155,
+      "Name": "up_evolution",
+      "Sort": 88,
+      "IsTierBasic": false,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 70,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9.50E+59",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Evolution Accelerator"
+    },
+    {
+      "Id": 3156,
+      "Name": "up_graviton_ammo",
+      "Sort": 89,
+      "IsTierBasic": false,
+      "Tier": 15,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        111.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+61",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply",
+      "English": "Graviton Bullet"
+    },
+    {
+      "Id": 3160,
+      "Name": "",
+      "Sort": 90,
+      "IsTierBasic": true,
+      "Tier": 16,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3161,
+      "Name": "up_prediction",
+      "Sort": 91,
+      "IsTierBasic": false,
+      "Tier": 16,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SuperCriChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.05
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.00E+64",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply",
+      "English": "Uncertainty Predictor"
+    },
+    {
+      "Id": 3162,
+      "Name": "up_terraforming",
+      "Sort": 92,
+      "IsTierBasic": false,
+      "Tier": 16,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 200,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.50E+66",
+      "CostUp": 1.12,
+      "CostUpType": "Multiply",
+      "English": "Terraformer"
+    },
+    {
+      "Id": 3163,
+      "Name": "up_planet_computer",
+      "Sort": 93,
+      "IsTierBasic": false,
+      "Tier": 16,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 195,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.2
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+67",
+      "CostUp": 1.14,
+      "CostUpType": "Multiply",
+      "English": "Planet Computer"
+    },
+    {
+      "Id": 3164,
+      "Name": "up_photon_crusher",
+      "Sort": 94,
+      "IsTierBasic": false,
+      "Tier": 16,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+69",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Photon Crusher"
+    },
+    {
+      "Id": 3165,
+      "Name": "up_gene_copy",
+      "Sort": 95,
+      "IsTierBasic": false,
+      "Tier": 16,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 2,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+74",
+      "CostUp": 1000000.0,
+      "CostUpType": "Multiply",
+      "English": "Gene Replicator"
+    },
+    {
+      "Id": 3170,
+      "Name": "",
+      "Sort": 96,
+      "IsTierBasic": true,
+      "Tier": 17,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        6.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3171,
+      "Name": "up_super_ai",
+      "Sort": 97,
+      "IsTierBasic": false,
+      "Tier": 17,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 300,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.33
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+75",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Artificial Superintelligence"
+    },
+    {
+      "Id": 3172,
+      "Name": "up_higgs_gluon",
+      "Sort": 98,
+      "IsTierBasic": false,
+      "Tier": 17,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 250,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        88.0,
+        22.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9.00E+76",
+      "CostUp": 1.12,
+      "CostUpType": "Multiply",
+      "English": "Higgs-Gluon Capsule"
+    },
+    {
+      "Id": 3173,
+      "Name": "up_stellar_engine",
+      "Sort": 99,
+      "IsTierBasic": false,
+      "Tier": 17,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DoubleShotChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.05
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+77",
+      "CostUp": 1.36,
+      "CostUpType": "Multiply",
+      "English": "Stellar Engine"
+    },
+    {
+      "Id": 3174,
+      "Name": "up_quark_cube",
+      "Sort": 100,
+      "IsTierBasic": false,
+      "Tier": 17,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 60,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.00E+79",
+      "CostUp": 1.65,
+      "CostUpType": "Multiply",
+      "English": "Quark Hypercube"
+    },
+    {
+      "Id": 3175,
+      "Name": "up_rearrange",
+      "Sort": 101,
+      "IsTierBasic": false,
+      "Tier": 17,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 300,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+81",
+      "CostUp": 1.08,
+      "CostUpType": "Multiply",
+      "English": "Molecular Rearrangement Tech"
+    },
+    {
+      "Id": 3180,
+      "Name": "",
+      "Sort": 102,
+      "IsTierBasic": true,
+      "Tier": 18,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        7.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3181,
+      "Name": "up_tachyon",
+      "Sort": 103,
+      "IsTierBasic": false,
+      "Tier": 18,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.50E+90",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Tachyon Network",
+      "Description": "Tachyon Fuel Production {0:+,0.#;-,0.#}%"
+    },
+    {
+      "Id": 3182,
+      "Name": "up_space_collapse",
+      "Sort": 104,
+      "IsTierBasic": false,
+      "Tier": 18,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 150,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.16
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.50E+93",
+      "CostUp": 1.22,
+      "CostUpType": "Multiply",
+      "English": "Space Collapse Device"
+    },
+    {
+      "Id": 3183,
+      "Name": "up_antimatter",
+      "Sort": 105,
+      "IsTierBasic": false,
+      "Tier": 18,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        15.0,
+        15.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+95",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Antimatter Bullet"
+    },
+    {
+      "Id": 3184,
+      "Name": "up_dyson_sphere",
+      "Sort": 106,
+      "IsTierBasic": false,
+      "Tier": 18,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 900,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.11
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+97",
+      "CostUp": 1.03,
+      "CostUpType": "Multiply",
+      "English": "Dyson Sphere"
+    },
+    {
+      "Id": 3185,
+      "Name": "up_quantum_realm",
+      "Sort": 107,
+      "IsTierBasic": false,
+      "Tier": 18,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+100",
+      "CostUp": 500.0,
+      "CostUpType": "Multiply",
+      "English": "Quantum Realm Portal"
+    },
+    {
+      "Id": 3190,
+      "Name": "",
+      "Sort": 108,
+      "IsTierBasic": true,
+      "Tier": 19,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        8.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3191,
+      "Name": "up_blackhole_bomb",
+      "Sort": 109,
+      "IsTierBasic": false,
+      "Tier": 19,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 111,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        9.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+107",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Blackhole Bomb"
+    },
+    {
+      "Id": 3192,
+      "Name": "up_galaxy_furnace",
+      "Sort": 110,
+      "IsTierBasic": false,
+      "Tier": 19,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 333,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+112",
+      "CostUp": 1.07,
+      "CostUpType": "Multiply",
+      "English": "Galaxy Furnace"
+    },
+    {
+      "Id": 3193,
+      "Name": "up_dark_matter",
+      "Sort": 111,
+      "IsTierBasic": false,
+      "Tier": 19,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 666,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        1.5,
+        1.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+115",
+      "CostUp": 1.04,
+      "CostUpType": "Multiply",
+      "English": "Dark Matter Control"
+    },
+    {
+      "Id": 3194,
+      "Name": "up_multiverse_connect",
+      "Sort": 112,
+      "IsTierBasic": false,
+      "Tier": 19,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "MaxLevel": 999,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.00E+118",
+      "CostUp": 1.025,
+      "CostUpType": "Multiply",
+      "English": "Multiverse Connection"
+    },
+    {
+      "Id": 3200,
+      "Name": "",
+      "Sort": 113,
+      "IsTierBasic": true,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        9.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "",
+      "CostUp": 0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3201,
+      "Name": "up_time_compression",
+      "Sort": 114,
+      "IsTierBasic": false,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 250,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        0.04,
+        0.04
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.00E+130",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Time Compression Device"
+    },
+    {
+      "Id": 3202,
+      "Name": "up_dimension_overlap",
+      "Sort": 115,
+      "IsTierBasic": false,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power",
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 1000,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        0.01,
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+132",
+      "CostUp": 1.05,
+      "CostUpType": "Multiply",
+      "English": "Dimension Overlap"
+    },
+    {
+      "Id": 3203,
+      "Name": "up_antigravity",
+      "Sort": 116,
+      "IsTierBasic": false,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 32,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+138",
+      "CostUp": 4.0,
+      "CostUpType": "Multiply",
+      "English": "Anti-gravity Chamber"
+    },
+    {
+      "Id": 3204,
+      "Name": "up_particle_creator",
+      "Sort": 117,
+      "IsTierBasic": false,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+142",
+      "CostUp": 1000.0,
+      "CostUpType": "Multiply",
+      "English": "Particle Generator"
+    },
+    {
+      "Id": 3205,
+      "Name": "up_multiverse_material",
+      "Sort": 118,
+      "IsTierBasic": false,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+154",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Multiverse Mineral"
+    },
+    {
+      "Id": 3206,
+      "Name": "up_helical_engine",
+      "Sort": 119,
+      "IsTierBasic": false,
+      "Tier": 20,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+163",
+      "CostUp": 1.33,
+      "CostUpType": "Multiply",
+      "English": "Helical Engine"
+    },
+    {
+      "Id": 3210,
+      "Name": "",
+      "Sort": 120,
+      "IsTierBasic": true,
+      "Tier": 21,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        15.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "162",
+      "CostUp": 201.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3211,
+      "Name": "up_demigod",
+      "Sort": 121,
+      "IsTierBasic": false,
+      "Tier": 21,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 300,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.03
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.00E+176",
+      "CostUp": 1.3,
+      "CostUpType": "Multiply",
+      "English": "Demigod Power Pill"
+    },
+    {
+      "Id": 3212,
+      "Name": "up_divine_forge",
+      "Sort": 122,
+      "IsTierBasic": false,
+      "Tier": 21,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 300,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.03
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.00E+190",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply",
+      "English": "Divine Smithy"
+    },
+    {
+      "Id": 3213,
+      "Name": "up_god_sign",
+      "Sort": 123,
+      "IsTierBasic": false,
+      "Tier": 21,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 750,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        0.5,
+        2.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5.00E+204",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Divine Mark"
+    },
+    {
+      "Id": 3214,
+      "Name": "up_giga_egg",
+      "Sort": 124,
+      "IsTierBasic": false,
+      "Tier": 21,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 1000,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.50E+216",
+      "CostUp": 1.075,
+      "CostUpType": "Multiply",
+      "English": "Gigawatt Egg"
+    },
+    {
+      "Id": 3220,
+      "Name": "",
+      "Sort": 125,
+      "IsTierBasic": true,
+      "Tier": 22,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "235",
+      "CostUp": 270.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3221,
+      "Name": "up_genius_dove",
+      "Sort": 126,
+      "IsTierBasic": false,
+      "Tier": 22,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 99,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.00E+237",
+      "CostUp": 2.5,
+      "CostUpType": "Multiply",
+      "English": "Genius Pigeon"
+    },
+    {
+      "Id": 3222,
+      "Name": "up_ares",
+      "Sort": 127,
+      "IsTierBasic": false,
+      "Tier": 22,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 250,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        1.5,
+        7.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8.00E+247",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Wrath of Ares"
+    },
+    {
+      "Id": 3223,
+      "Name": "up_god",
+      "Sort": 128,
+      "IsTierBasic": false,
+      "Tier": 22,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.50E+262",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "G.O.D. System"
+    },
+    {
+      "Id": 3224,
+      "Name": "up_hades",
+      "Sort": 129,
+      "IsTierBasic": false,
+      "Tier": 22,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6.00E+267",
+      "CostUp": 100000.0,
+      "CostUpType": "Multiply",
+      "English": "Gates of Hades"
+    },
+    {
+      "Id": 3230,
+      "Name": "",
+      "Sort": 130,
+      "IsTierBasic": true,
+      "Tier": 23,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        9.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "299",
+      "CostUp": 334.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3231,
+      "Name": "up_omni_core",
+      "Sort": 131,
+      "IsTierBasic": false,
+      "Tier": 23,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        7.0,
+        7.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9.00E+302",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Omnipotent Core"
+    },
+    {
+      "Id": 3232,
+      "Name": "up_zeus",
+      "Sort": 132,
+      "IsTierBasic": false,
+      "Tier": 23,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3E+312",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Zeus's Lightning Strike"
+    },
+    {
+      "Id": 3233,
+      "Name": "up_creation_engine",
+      "Sort": 133,
+      "IsTierBasic": false,
+      "Tier": 23,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 999,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4.5E+322",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Creation Engine"
+    },
+    {
+      "Id": 3234,
+      "Name": "up_dimensional_stitcher",
+      "Sort": 134,
+      "IsTierBasic": false,
+      "Tier": 23,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2E+340",
+      "CostUp": 10000.0,
+      "CostUpType": "Multiply",
+      "English": "Dimensional Sealer"
+    },
+    {
+      "Id": 3240,
+      "Name": "",
+      "Sort": 135,
+      "IsTierBasic": true,
+      "Tier": 24,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        4.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "364",
+      "CostUp": 396.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3241,
+      "Name": "up_god_fist",
+      "Sort": 136,
+      "IsTierBasic": false,
+      "Tier": 24,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BattleStat"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1e354",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Divine Fist"
+    },
+    {
+      "Id": 3242,
+      "Name": "up_god_will",
+      "Sort": 137,
+      "IsTierBasic": false,
+      "Tier": 24,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power",
+        "DefaultWeaponDmg"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        2.0,
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.5e369",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Divine Will"
+    },
+    {
+      "Id": 3243,
+      "Name": "up_god_halo",
+      "Sort": 138,
+      "IsTierBasic": false,
+      "Tier": 24,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2E+394",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Divine Halo"
+    },
+    {
+      "Id": 3244,
+      "Name": "up_dove_god",
+      "Sort": 139,
+      "IsTierBasic": false,
+      "Tier": 24,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5e396",
+      "CostUp": 100.0,
+      "CostUpType": "Multiply",
+      "English": "Pigeon God"
+    },
+    {
+      "Id": 3250,
+      "Name": "",
+      "Sort": 140,
+      "IsTierBasic": true,
+      "Tier": 25,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        4.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "420",
+      "CostUp": 458.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3251,
+      "Name": "up_olorun",
+      "Sort": 141,
+      "IsTierBasic": false,
+      "Tier": 25,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 250,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6e420",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply",
+      "English": "Olorun's Blessing"
+    },
+    {
+      "Id": 3252,
+      "Name": "up_viracocha",
+      "Sort": 142,
+      "IsTierBasic": false,
+      "Tier": 25,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2e432",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Viracocha's Touch"
+    },
+    {
+      "Id": 3253,
+      "Name": "up_nexus",
+      "Sort": 143,
+      "IsTierBasic": false,
+      "Tier": 25,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 750,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5e450",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Nexus Network"
+    },
+    {
+      "Id": 3254,
+      "Name": "up_gungnir",
+      "Sort": 144,
+      "IsTierBasic": false,
+      "Tier": 25,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 1000,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1e460",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Gungnir System"
+    },
+    {
+      "Id": 3260,
+      "Name": "",
+      "Sort": 145,
+      "IsTierBasic": true,
+      "Tier": 26,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "490",
+      "CostUp": 522.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3261,
+      "Name": "up_osiris",
+      "Sort": 146,
+      "IsTierBasic": false,
+      "Tier": 26,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 300,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.33
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8e480",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply",
+      "English": "Osiris Protocol"
+    },
+    {
+      "Id": 3262,
+      "Name": "up_ra",
+      "Sort": 147,
+      "IsTierBasic": false,
+      "Tier": 26,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.22
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1e496",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Sun of Ra Gateway"
+    },
+    {
+      "Id": 3263,
+      "Name": "up_horus",
+      "Sort": 148,
+      "IsTierBasic": false,
+      "Tier": 26,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "CriDmg",
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 1000,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "3.5e508",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Horus' Gaze"
+    },
+    {
+      "Id": 3264,
+      "Name": "up_creation_light",
+      "Sort": 149,
+      "IsTierBasic": false,
+      "Tier": 26,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9e529",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Light of Creation"
+    },
+    {
+      "Id": 3270,
+      "Name": "",
+      "Sort": 150,
+      "IsTierBasic": true,
+      "Tier": 27,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "546",
+      "CostUp": 585.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3271,
+      "Name": "up_enki",
+      "Sort": 151,
+      "IsTierBasic": false,
+      "Tier": 27,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 111,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        7.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1.5e544",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Enki's Sea"
+    },
+    {
+      "Id": 3272,
+      "Name": "up_enril",
+      "Sort": 152,
+      "IsTierBasic": false,
+      "Tier": 27,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 150,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        5.0,
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.5e560",
+      "CostUp": 1.75,
+      "CostUpType": "Multiply",
+      "English": "Enlil's Wings"
+    },
+    {
+      "Id": 3273,
+      "Name": "up_anu",
+      "Sort": 153,
+      "IsTierBasic": false,
+      "Tier": 27,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 1111,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        7.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.5e572",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Anu's World"
+    },
+    {
+      "Id": 3274,
+      "Name": "up_transcendence",
+      "Sort": 154,
+      "IsTierBasic": false,
+      "Tier": 27,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4e596",
+      "CostUp": 1000000000.0,
+      "CostUpType": "Multiply",
+      "English": "Transcendent Device"
+    },
+    {
+      "Id": 3280,
+      "Name": "",
+      "Sort": 155,
+      "IsTierBasic": true,
+      "Tier": 28,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "614",
+      "CostUp": 664.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3281,
+      "Name": "up_origin_fire",
+      "Sort": 156,
+      "IsTierBasic": false,
+      "Tier": 28,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5e620",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Primordial Fire"
+    },
+    {
+      "Id": 3282,
+      "Name": "up_chaos_orb",
+      "Sort": 157,
+      "IsTierBasic": false,
+      "Tier": 28,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "MaxLevel": 999,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "6e635",
+      "CostUp": 1.15,
+      "CostUpType": "Multiply",
+      "English": "Orb of Chaos"
+    },
+    {
+      "Id": 3283,
+      "Name": "up_mirror_of_truth",
+      "Sort": 158,
+      "IsTierBasic": false,
+      "Tier": 28,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown",
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 99,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "1e650",
+      "CostUp": 5.0,
+      "CostUpType": "Multiply",
+      "English": "Mirror of Truth"
+    },
+    {
+      "Id": 3284,
+      "Name": "up_worldline_control",
+      "Sort": 159,
+      "IsTierBasic": false,
+      "Tier": 28,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "9e679",
+      "CostUp": 100000.0,
+      "CostUpType": "Multiply",
+      "English": "Worldline Control"
+    },
+    {
+      "Id": 3290,
+      "Name": "",
+      "Sort": 160,
+      "IsTierBasic": true,
+      "Tier": 29,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "694",
+      "CostUp": 776.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3291,
+      "Name": "up_copy_machine",
+      "Sort": 161,
+      "IsTierBasic": false,
+      "Tier": 29,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 1000,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "4e720",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Dimension Duplicator"
+    },
+    {
+      "Id": 3292,
+      "Name": "up_omni_card",
+      "Sort": 162,
+      "IsTierBasic": false,
+      "Tier": 29,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 98,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpList": [
+        0.5,
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "8e738",
+      "CostUp": 4.0,
+      "CostUpType": "Multiply",
+      "English": "Omnipotent Discount Card"
+    },
+    {
+      "Id": 3293,
+      "Name": "up_setting_button",
+      "Sort": 163,
+      "IsTierBasic": false,
+      "Tier": 29,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 500,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.5e772",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply",
+      "English": "Global Settings Button"
+    },
+    {
+      "Id": 3294,
+      "Name": "up_overall_god",
+      "Sort": 164,
+      "IsTierBasic": false,
+      "Tier": 29,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BattleStat",
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        10.0,
+        100.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5e849",
+      "CostUp": 1000.0,
+      "CostUpType": "Multiply",
+      "English": "Absolute Divine Power"
+    },
+    {
+      "Id": 3300,
+      "Name": "",
+      "Sort": 165,
+      "IsTierBasic": true,
+      "Tier": 30,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 1,
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "838",
+      "CostUp": 940.0,
+      "CostUpType": 0
+    },
+    {
+      "Id": 3301,
+      "Name": "up_critical_point",
+      "Sort": 166,
+      "IsTierBasic": false,
+      "Tier": 30,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2e830",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply",
+      "English": "Critical Point Meter"
+    },
+    {
+      "Id": 3302,
+      "Name": "up_superstring",
+      "Sort": 167,
+      "IsTierBasic": false,
+      "Tier": 30,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 900,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "5e890",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply",
+      "English": "Superstring Dimension"
+    },
+    {
+      "Id": 3303,
+      "Name": "up_hyper_dimension",
+      "Sort": 168,
+      "IsTierBasic": false,
+      "Tier": 30,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 999,
+      "ValueType": "Divide",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "2.5e944",
+      "CostUp": 1.1,
+      "CostUpType": "Multiply",
+      "English": "Hyperdimensional Space"
+    },
+    {
+      "Id": 3304,
+      "Name": "up_infinite_polygon",
+      "Sort": 169,
+      "IsTierBasic": false,
+      "Tier": 30,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "SciencePoint",
+        "QuantumPoint"
+      ],
+      "MaxLevel": 9999,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        1.0,
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "7.5e976",
+      "CostUp": 1.02,
+      "CostUpType": "Multiply",
+      "English": "Infinite Polyhedron"
+    },
+    {
+      "Id": 4001,
+      "Name": "ep_d_weapon",
+      "Sort": 172,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultWeaponSpd"
+      ],
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Launchpad"
+    },
+    {
+      "Id": 4002,
+      "Name": "ep_bullet_regen",
+      "Sort": 173,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultBulletRegen"
+      ],
+      "MaxLevel": 30,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Bullet Reload"
+    },
+    {
+      "Id": 4003,
+      "Name": "ep_bullet_max",
+      "Sort": 174,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "DefaultBulletMax"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Max Bullets"
+    },
+    {
+      "Id": 4004,
+      "Name": "ep_weapon_dmg_1",
+      "Sort": 175,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapons Damage I"
+    },
+    {
+      "Id": 4005,
+      "Name": "ep_weapon_dmg_2",
+      "Sort": 176,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4004,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapons Damage II"
+    },
+    {
+      "Id": 4053,
+      "Name": "ep_weapon_dmg_3",
+      "Sort": 177,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4005,
+      "UnlockRank": 43,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "120",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapons Damage III"
+    },
+    {
+      "Id": 4006,
+      "Name": "ep_weapon_spd_1",
+      "Sort": 178,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 60,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "40",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapons Fire I"
+    },
+    {
+      "Id": 4007,
+      "Name": "ep_weapon_spd_2",
+      "Sort": 179,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4006,
+      "UnlockRank": 0,
+      "TypeList": [
+        "AllWeaponSpd"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.2
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "40",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapons Fire II"
+    },
+    {
+      "Id": 4008,
+      "Name": "ep_gold_1",
+      "Sort": 180,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Gold I"
+    },
+    {
+      "Id": 4009,
+      "Name": "ep_gold_2",
+      "Sort": 181,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4008,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Gold II"
+    },
+    {
+      "Id": 4054,
+      "Name": "ep_gold_3",
+      "Sort": 182,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4009,
+      "UnlockRank": 43,
+      "TypeList": [
+        "Gold"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Gold III"
+    },
+    {
+      "Id": 4010,
+      "Name": "ep_power_1",
+      "Sort": 183,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Power I"
+    },
+    {
+      "Id": 4011,
+      "Name": "ep_power_2",
+      "Sort": 184,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4010,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Power II"
+    },
+    {
+      "Id": 4055,
+      "Name": "ep_power_3",
+      "Sort": 185,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4011,
+      "UnlockRank": 43,
+      "TypeList": [
+        "Power"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Power III"
+    },
+    {
+      "Id": 4012,
+      "Name": "ep_tap_buff_bonus_1",
+      "Sort": 186,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 3,
+      "TypeList": [
+        "TapBuffBonus"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tap Buff Bonus I"
+    },
+    {
+      "Id": 4013,
+      "Name": "ep_tap_buff_bonus_2",
+      "Sort": 187,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4012,
+      "UnlockRank": 3,
+      "TypeList": [
+        "TapBuffBonus"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tap Buff Bonus II"
+    },
+    {
+      "Id": 4014,
+      "Name": "ep_tap_buff_max_1",
+      "Sort": 188,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 3,
+      "TypeList": [
+        "TapBuffMax"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tap Buffs Max Value I"
+    },
+    {
+      "Id": 4015,
+      "Name": "ep_tap_buff_max_2",
+      "Sort": 189,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4014,
+      "UnlockRank": 3,
+      "TypeList": [
+        "TapBuffMax"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tap Buffs Max Value II"
+    },
+    {
+      "Id": 4016,
+      "Name": "ep_prestige_1",
+      "Sort": 190,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 5,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Prestige I"
+    },
+    {
+      "Id": 4017,
+      "Name": "ep_prestige_2",
+      "Sort": 191,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4016,
+      "UnlockRank": 5,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Prestige II"
+    },
+    {
+      "Id": 4056,
+      "Name": "ep_prestige_3",
+      "Sort": 192,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4017,
+      "UnlockRank": 43,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Prestige III"
+    },
+    {
+      "Id": 4018,
+      "Name": "ep_mining_speed",
+      "Sort": 193,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 6,
+      "TypeList": [
+        "MiningSpeed"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Mining Speed I"
+    },
+    {
+      "Id": 4019,
+      "Name": "ep_mining_time_limit_1",
+      "Sort": 194,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 6,
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "MaxLevel": 120,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        600.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Mining Rewards Capacity I"
+    },
+    {
+      "Id": 4075,
+      "Name": "ep_mining_time_limit_2",
+      "Sort": 195,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4019,
+      "UnlockRank": 6,
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "MaxLevel": 72,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        300.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Mining Rewards Capacity II"
+    },
+    {
+      "Id": 4076,
+      "Name": "ep_mining_time_limit_3",
+      "Sort": 196,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4075,
+      "UnlockRank": 43,
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "MaxLevel": 72,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        300.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Mining Rewards Capacity III"
+    },
+    {
+      "Id": 4020,
+      "Name": "ep_upgrade_1",
+      "Sort": 197,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 6,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Research I"
+    },
+    {
+      "Id": 4021,
+      "Name": "ep_upgrade_2",
+      "Sort": 198,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4020,
+      "UnlockRank": 6,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "120",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Research II"
+    },
+    {
+      "Id": 4057,
+      "Name": "ep_upgrade_3",
+      "Sort": 199,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4021,
+      "UnlockRank": 43,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Research III"
+    },
+    {
+      "Id": 4022,
+      "Name": "ep_weapon_lv_effect_1",
+      "Sort": 200,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 7,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapon Enhancement Effect I"
+    },
+    {
+      "Id": 4023,
+      "Name": "ep_weapon_lv_effect_2",
+      "Sort": 201,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4022,
+      "UnlockRank": 7,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapon Enhancement Effect II"
+    },
+    {
+      "Id": 4058,
+      "Name": "ep_weapon_lv_effect_3",
+      "Sort": 202,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4023,
+      "UnlockRank": 43,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "120",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapon Enhancement Effect III"
+    },
+    {
+      "Id": 4024,
+      "Name": "ep_weapon_lv_cost_1",
+      "Sort": 203,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 7,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapon Cost I"
+    },
+    {
+      "Id": 4025,
+      "Name": "ep_weapon_lv_cost_2",
+      "Sort": 204,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4024,
+      "UnlockRank": 7,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "120",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapon Cost II"
+    },
+    {
+      "Id": 4059,
+      "Name": "ep_weapon_lv_cost_3",
+      "Sort": 205,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4025,
+      "UnlockRank": 43,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Weapon Cost III"
+    },
+    {
+      "Id": 4026,
+      "Name": "ep_rank_1",
+      "Sort": 206,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 8,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Rank Up I"
+    },
+    {
+      "Id": 4027,
+      "Name": "ep_rank_2",
+      "Sort": 207,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4026,
+      "UnlockRank": 8,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Rank Up II"
+    },
+    {
+      "Id": 4060,
+      "Name": "ep_rank_3",
+      "Sort": 208,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4027,
+      "UnlockRank": 43,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "200",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Rank Up III"
+    },
+    {
+      "Id": 4028,
+      "Name": "ep_cri_1",
+      "Sort": 209,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 9,
+      "TypeList": [
+        "CriChance"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.2
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "40",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Crit Rate I"
+    },
+    {
+      "Id": 4029,
+      "Name": "ep_cri_2",
+      "Sort": 210,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4028,
+      "UnlockRank": 9,
+      "TypeList": [
+        "CriChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "40",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Crit Rate II"
+    },
+    {
+      "Id": 4030,
+      "Name": "ep_cri_dmg_1",
+      "Sort": 211,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 9,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Crit Damage I"
+    },
+    {
+      "Id": 4031,
+      "Name": "ep_cri_dmg_2",
+      "Sort": 212,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4030,
+      "UnlockRank": 9,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Crit Damage II"
+    },
+    {
+      "Id": 4061,
+      "Name": "ep_cri_dmg_3",
+      "Sort": 213,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4031,
+      "UnlockRank": 43,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Crit Damage III"
+    },
+    {
+      "Id": 4032,
+      "Name": "ep_rune",
+      "Sort": 214,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 10,
+      "TypeList": [
+        "RuneChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Rune"
+    },
+    {
+      "Id": 4033,
+      "Name": "ep_gold_brick",
+      "Sort": 215,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 11,
+      "TypeList": [
+        "GoldBrickChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Gold Brick"
+    },
+    {
+      "Id": 4034,
+      "Name": "ep_diamond_brick",
+      "Sort": 216,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 11,
+      "TypeList": [
+        "DiamondBrickChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "30",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Diamond Brick"
+    },
+    {
+      "Id": 4035,
+      "Name": "ep_brick_1",
+      "Sort": 217,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 13,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "120",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Brick I"
+    },
+    {
+      "Id": 4036,
+      "Name": "ep_brick_2",
+      "Sort": 218,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4035,
+      "UnlockRank": 13,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "180",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Brick II"
+    },
+    {
+      "Id": 4062,
+      "Name": "ep_brick_3",
+      "Sort": 219,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4036,
+      "UnlockRank": 43,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "220",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Brick III"
+    },
+    {
+      "Id": 4041,
+      "Name": "ep_double_shot_new_1",
+      "Sort": 222,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 17,
+      "TypeList": [
+        "DoubleShotChance"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.2
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "60",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 4042,
+      "Name": "ep_double_shot_new_2",
+      "Sort": 223,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4041,
+      "UnlockRank": 17,
+      "TypeList": [
+        "DoubleShotChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "60",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 4039,
+      "Name": "ep_science_1",
+      "Sort": 224,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 19,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Science I"
+    },
+    {
+      "Id": 4040,
+      "Name": "ep_science_2",
+      "Sort": 225,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4039,
+      "UnlockRank": 19,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Science II"
+    },
+    {
+      "Id": 4063,
+      "Name": "ep_science_3",
+      "Sort": 226,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4040,
+      "UnlockRank": 43,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Science III"
+    },
+    {
+      "Id": 4064,
+      "Name": "ep_forge_1",
+      "Sort": 227,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 22,
+      "TypeList": [
+        "ForgeSpeed"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Forging I"
+    },
+    {
+      "Id": 4065,
+      "Name": "ep_forge_2",
+      "Sort": 228,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4064,
+      "UnlockRank": 22,
+      "TypeList": [
+        "ForgeSpeed"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Forging II"
+    },
+    {
+      "Id": 4066,
+      "Name": "ep_ether_1",
+      "Sort": 229,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 23,
+      "TypeList": [
+        "Ether"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Ether I"
+    },
+    {
+      "Id": 4067,
+      "Name": "ep_ether_2",
+      "Sort": 230,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4066,
+      "UnlockRank": 23,
+      "TypeList": [
+        "Ether"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Ether II"
+    },
+    {
+      "Id": 4068,
+      "Name": "ep_ether_3",
+      "Sort": 231,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4067,
+      "UnlockRank": 43,
+      "TypeList": [
+        "Ether"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "120",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Ether III"
+    },
+    {
+      "Id": 4043,
+      "Name": "ep_battle_hp_1",
+      "Sort": 232,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 27,
+      "TypeList": [
+        "BattleHp"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Combat HP I"
+    },
+    {
+      "Id": 4044,
+      "Name": "ep_battle_hp_2",
+      "Sort": 233,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4043,
+      "UnlockRank": 27,
+      "TypeList": [
+        "BattleHp"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Combat HP II"
+    },
+    {
+      "Id": 4069,
+      "Name": "ep_battle_hp_3",
+      "Sort": 234,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4044,
+      "UnlockRank": 43,
+      "TypeList": [
+        "BattleHp"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Combat HP III"
+    },
+    {
+      "Id": 4045,
+      "Name": "ep_battle_atk_1",
+      "Sort": 235,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 27,
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Combat ATK I"
+    },
+    {
+      "Id": 4046,
+      "Name": "ep_battle_atk_2",
+      "Sort": 236,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4045,
+      "UnlockRank": 27,
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "50",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Combat ATK II"
+    },
+    {
+      "Id": 4070,
+      "Name": "ep_battle_atk_3",
+      "Sort": 237,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4046,
+      "UnlockRank": 43,
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Combat ATK III"
+    },
+    {
+      "Id": 4047,
+      "Name": "ep_super_cri_1",
+      "Sort": 238,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 31,
+      "TypeList": [
+        "SuperCriChance"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.2
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Super Crit I"
+    },
+    {
+      "Id": 4048,
+      "Name": "ep_super_cri_2",
+      "Sort": 239,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4047,
+      "UnlockRank": 31,
+      "TypeList": [
+        "SuperCriChance"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "80",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Super Crit II"
+    },
+    {
+      "Id": 4049,
+      "Name": "ep_super_cri_dmg_1",
+      "Sort": 240,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 31,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Super Crit Damage I"
+    },
+    {
+      "Id": 4050,
+      "Name": "ep_super_cri_dmg_2",
+      "Sort": 241,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4049,
+      "UnlockRank": 31,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Super Crit Damage II"
+    },
+    {
+      "Id": 4071,
+      "Name": "ep_super_cri_dmg_3",
+      "Sort": 242,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4050,
+      "UnlockRank": 43,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Super Crit Damage III"
+    },
+    {
+      "Id": 4072,
+      "Name": "ep_tachyon_1",
+      "Sort": 243,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 36,
+      "TypeList": [
+        "Tachyon"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tachyon I"
+    },
+    {
+      "Id": 4073,
+      "Name": "ep_tachyon_2",
+      "Sort": 244,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4072,
+      "UnlockRank": 36,
+      "TypeList": [
+        "Tachyon"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tachyon II"
+    },
+    {
+      "Id": 4074,
+      "Name": "ep_tachyon_3",
+      "Sort": 245,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4073,
+      "UnlockRank": 43,
+      "TypeList": [
+        "Tachyon"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Tachyon III"
+    },
+    {
+      "Id": 4051,
+      "Name": "ep_dstone_1",
+      "Sort": 246,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 43,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dimensional Energy I"
+    },
+    {
+      "Id": 4052,
+      "Name": "ep_dstone_2",
+      "Sort": 247,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4051,
+      "UnlockRank": 43,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dimensional Energy II"
+    },
+    {
+      "Id": 4077,
+      "Name": "ep_dstone_3",
+      "Sort": 248,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4052,
+      "UnlockRank": 52,
+      "TypeList": [
+        "DStone"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.25
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dimensional Energy III"
+    },
+    {
+      "Id": 4078,
+      "Name": "ep_revelation_1",
+      "Sort": 249,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 49,
+      "TypeList": [
+        "RevelationLight"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Revelation I"
+    },
+    {
+      "Id": 4079,
+      "Name": "ep_revelation_2",
+      "Sort": 250,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4078,
+      "UnlockRank": 49,
+      "TypeList": [
+        "RevelationLight"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Revelation II"
+    },
+    {
+      "Id": 4080,
+      "Name": "ep_revelation_3",
+      "Sort": 251,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4079,
+      "UnlockRank": 58,
+      "TypeList": [
+        "RevelationLight"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Revelation III"
+    },
+    {
+      "Id": 4081,
+      "Name": "ep_d_fuel_1",
+      "Sort": 252,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 51,
+      "TypeList": [
+        "DFuel"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dimensional Fuel I"
+    },
+    {
+      "Id": 4082,
+      "Name": "ep_d_fuel_2",
+      "Sort": 253,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4081,
+      "UnlockRank": 51,
+      "TypeList": [
+        "DFuel"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dimensional Fuel II"
+    },
+    {
+      "Id": 4083,
+      "Name": "ep_d_fuel_3",
+      "Sort": 254,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4082,
+      "UnlockRank": 58,
+      "TypeList": [
+        "DFuel"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dimensional Fuel III"
+    },
+    {
+      "Id": 4093,
+      "Name": "ep_dial_1",
+      "Sort": 255,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 51,
+      "TypeList": [
+        "CosmicDialTick"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dial I"
+    },
+    {
+      "Id": 4094,
+      "Name": "ep_dial_2",
+      "Sort": 256,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4093,
+      "UnlockRank": 51,
+      "TypeList": [
+        "CosmicDialTick"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dial II"
+    },
+    {
+      "Id": 4095,
+      "Name": "ep_dial_3",
+      "Sort": 257,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4094,
+      "UnlockRank": 58,
+      "TypeList": [
+        "CosmicDialTick"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        0.5
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Dial III"
+    },
+    {
+      "Id": 4084,
+      "Name": "ep_quantum_1",
+      "Sort": 258,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 53,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "200",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Quantum I"
+    },
+    {
+      "Id": 4085,
+      "Name": "ep_quantum_2",
+      "Sort": 259,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4084,
+      "UnlockRank": 53,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "200",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Quantum II"
+    },
+    {
+      "Id": 4086,
+      "Name": "ep_quantum_3",
+      "Sort": 260,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4085,
+      "UnlockRank": 58,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "300",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Quantum III"
+    },
+    {
+      "Id": 4087,
+      "Name": "ep_ash_1",
+      "Sort": 261,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Apocalyptic Ash I"
+    },
+    {
+      "Id": 4088,
+      "Name": "ep_ash_2",
+      "Sort": 262,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4087,
+      "UnlockRank": 58,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Apocalyptic Ash II"
+    },
+    {
+      "Id": 4089,
+      "Name": "ep_ash_3",
+      "Sort": 263,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4088,
+      "UnlockRank": 67,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Apocalyptic Ash III"
+    },
+    {
+      "Id": 4090,
+      "Name": "ep_destiny_1",
+      "Sort": 264,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 61,
+      "TypeList": [
+        "DestinyEnergy"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        5.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Destiny I"
+    },
+    {
+      "Id": 4091,
+      "Name": "ep_destiny_2",
+      "Sort": 265,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4090,
+      "UnlockRank": 61,
+      "TypeList": [
+        "DestinyEnergy"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Destiny II"
+    },
+    {
+      "Id": 4092,
+      "Name": "ep_destiny_3",
+      "Sort": 266,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 4091,
+      "UnlockRank": 67,
+      "TypeList": [
+        "DestinyEnergy"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": 0,
+      "CostId": 0,
+      "Cost": "250",
+      "CostUp": 0,
+      "CostUpType": "Add",
+      "English": "Destiny III"
+    },
+    {
+      "Id": 19001,
+      "Name": "",
+      "Sort": 269,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 18,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "24000",
+      "CostUp": 6000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19002,
+      "Name": "",
+      "Sort": 270,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 30,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Blessing",
+      "CostId": 0,
+      "Cost": "24",
+      "CostUp": 6.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19003,
+      "Name": "",
+      "Sort": 271,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 42,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 5,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "ExStar",
+      "CostId": 0,
+      "Cost": "8",
+      "CostUp": 2.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19004,
+      "Name": "",
+      "Sort": 272,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 46,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "240000",
+      "CostUp": 60000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19005,
+      "Name": "",
+      "Sort": 273,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 50,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": "40",
+      "CostUp": 10.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19006,
+      "Name": "",
+      "Sort": 274,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 54,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinStone",
+      "CostId": 0,
+      "Cost": "2",
+      "CostUp": 0.5,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19007,
+      "Name": "",
+      "Sort": 275,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 57,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 19,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "800000",
+      "CostUp": 200000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19008,
+      "Name": "",
+      "Sort": 276,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 60,
+      "TypeList": [
+        "MeditationSkillLevel"
+      ],
+      "MaxLevel": 19,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 25.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19101,
+      "Name": "",
+      "Sort": 279,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 44,
+      "TypeList": [
+        "DimensionAlliancePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStone",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19102,
+      "Name": "",
+      "Sort": 280,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 44,
+      "TypeList": [
+        "DimensionAlliancePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStone",
+      "CostId": 0,
+      "Cost": "3",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19103,
+      "Name": "",
+      "Sort": 281,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 44,
+      "TypeList": [
+        "DimensionAlliancePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStone",
+      "CostId": 0,
+      "Cost": "5",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19104,
+      "Name": "",
+      "Sort": 282,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 44,
+      "TypeList": [
+        "DimensionAlliancePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStone",
+      "CostId": 0,
+      "Cost": "7",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19105,
+      "Name": "",
+      "Sort": 283,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 44,
+      "TypeList": [
+        "DimensionAlliancePoint"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStone",
+      "CostId": 0,
+      "Cost": "9",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19090,
+      "Name": "",
+      "Sort": 284,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 44,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Map",
+      "CostId": 0,
+      "Cost": "20",
+      "CostUp": 20.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19091,
+      "Name": "",
+      "Sort": 285,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 46,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "100000",
+      "CostUp": 100000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19092,
+      "Name": "",
+      "Sort": 286,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 49,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Blessing",
+      "CostId": 0,
+      "Cost": "5",
+      "CostUp": 5.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19093,
+      "Name": "",
+      "Sort": 287,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 52,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "ExStar",
+      "CostId": 0,
+      "Cost": "2",
+      "CostUp": 2.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19094,
+      "Name": "",
+      "Sort": 288,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 55,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "750000",
+      "CostUp": 750000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19095,
+      "Name": "",
+      "Sort": 289,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": "20",
+      "CostUp": 20.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19096,
+      "Name": "",
+      "Sort": 290,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 61,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinStone",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 1.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19097,
+      "Name": "",
+      "Sort": 291,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 64,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "1500000",
+      "CostUp": 1500000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19098,
+      "Name": "",
+      "Sort": 292,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 67,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": "125",
+      "CostUp": 125.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19099,
+      "Name": "",
+      "Sort": 293,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 70,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStar",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 1.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19100,
+      "Name": "",
+      "Sort": 294,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 72,
+      "TypeList": [
+        "DimensionAllianceSkillLevel"
+      ],
+      "MaxLevel": 9,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Map",
+      "CostId": 1,
+      "Cost": "3",
+      "CostUp": 3.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19061,
+      "Name": "",
+      "Sort": 296,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 48,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "100000",
+      "CostUp": 100000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19062,
+      "Name": "",
+      "Sort": 297,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 51,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Blessing",
+      "CostId": 0,
+      "Cost": "5",
+      "CostUp": 5.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19063,
+      "Name": "",
+      "Sort": 298,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 54,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "ExStar",
+      "CostId": 0,
+      "Cost": "2",
+      "CostUp": 2.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19064,
+      "Name": "",
+      "Sort": 299,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 57,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "750000",
+      "CostUp": 750000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19065,
+      "Name": "",
+      "Sort": 300,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 60,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": "20",
+      "CostUp": 20.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19066,
+      "Name": "",
+      "Sort": 301,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 63,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinStone",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 1.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19067,
+      "Name": "",
+      "Sort": 302,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 66,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "1500000",
+      "CostUp": 1500000.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19068,
+      "Name": "",
+      "Sort": 303,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 69,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": "125",
+      "CostUp": 125.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19069,
+      "Name": "",
+      "Sort": 304,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 72,
+      "TypeList": [
+        "TruthPathCellLevel"
+      ],
+      "MaxLevel": 11,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStar",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 1.0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19011,
+      "Name": "cu_chaos_chamber_artifact_1",
+      "Sort": 306,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ArtifactDrop"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "250000",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19012,
+      "Name": "cu_chaos_chamber_artifact_2",
+      "Sort": 307,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ArtifactDrop"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Map",
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19013,
+      "Name": "cu_chaos_chamber_artifact_3",
+      "Sort": 308,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "ArtifactDrop"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Map",
+      "CostId": 1,
+      "Cost": "5",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19021,
+      "Name": "cu_chaos_chamber_map_1",
+      "Sort": 309,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 1,
+      "TypeList": [
+        "MapDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "250000",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19022,
+      "Name": "cu_chaos_chamber_map_2",
+      "Sort": 310,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 41,
+      "TypeList": [
+        "MapDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": "25",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19023,
+      "Name": "cu_chaos_chamber_map_3",
+      "Sort": 311,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 41,
+      "TypeList": [
+        "MapDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "RuinStone",
+      "CostId": 0,
+      "Cost": "2",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19031,
+      "Name": "cu_chaos_chamber_ruin_1",
+      "Sort": 312,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 1,
+      "TypeList": [
+        "RuinDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "500000",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19032,
+      "Name": "cu_chaos_chamber_ruin_2",
+      "Sort": 313,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "RuinDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": "150",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19081,
+      "Name": "cu_drop_scroll_1",
+      "Sort": 314,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 51,
+      "TypeList": [
+        "ScrollDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "750000",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19082,
+      "Name": "cu_drop_scroll_2",
+      "Sort": 315,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "ScrollDrop"
+      ],
+      "MaxLevel": 50,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        0.01
+      ],
+      "ValueUpType": "Add",
+      "CostType": "DStar",
+      "CostId": 0,
+      "Cost": "2",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19071,
+      "Name": "cu_chaos_chamber_lagrange_1",
+      "Sort": 317,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "LagrangeDrop"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "750000",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19072,
+      "Name": "cu_chaos_chamber_lagrange_2",
+      "Sort": 318,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "LagrangeDrop"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Map",
+      "CostId": 0,
+      "Cost": "125",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19073,
+      "Name": "cu_chaos_chamber_lagrange_3",
+      "Sort": 319,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 58,
+      "TypeList": [
+        "LagrangeDrop"
+      ],
+      "MaxLevel": 25,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Map",
+      "CostId": 1,
+      "Cost": "6",
+      "CostUp": 0,
+      "CostUpType": "Add"
+    },
+    {
+      "Id": 19041,
+      "Name": "cu_oracle_miracle_1",
+      "Sort": 321,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlessingEnergy"
+      ],
+      "MaxLevel": 150,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "Gold",
+      "CostId": 0,
+      "Cost": "1.00E+185",
+      "CostUp": 10.0,
+      "CostUpType": "Multiply",
+      "English": "Oracle: Miracle"
+    },
+    {
+      "Id": 19042,
+      "Name": "cu_oracle_miracle_2",
+      "Sort": 322,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "BlessingEnergy"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "BlessEnergy",
+      "CostId": 0,
+      "Cost": "10",
+      "CostUp": 1.2,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19043,
+      "Name": "cu_oracle_miracle_3",
+      "Sort": 323,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "MiracleCrystalConversionCapacity"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "BlessEnergy",
+      "CostId": 0,
+      "Cost": "10",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19044,
+      "Name": "cu_oracle_miracle_4",
+      "Sort": 324,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "MiracleCrystalConversionTime"
+      ],
+      "MaxLevel": 599,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        -0.1
+      ],
+      "ValueUpType": "Add",
+      "CostType": "BlessEnergy",
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 1.04,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19045,
+      "Name": "cu_oracle_miracle_5",
+      "Sort": 325,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "MiracleCrystal"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.05
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "MiracleCrystal",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19046,
+      "Name": "cu_oracle_miracle_6",
+      "Sort": 326,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "MiracleChance"
+      ],
+      "MaxLevel": 90,
+      "ValueType": "Add",
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "MiracleCrystal",
+      "CostId": 0,
+      "Cost": "100",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19047,
+      "Name": "cu_oracle_miracle_7",
+      "Sort": 327,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "MiracleValue"
+      ],
+      "MaxLevel": 99,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.0
+      ],
+      "ValueUpType": "Add",
+      "CostType": "MiracleCrystal",
+      "CostId": 0,
+      "Cost": "500",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19051,
+      "Name": "cu_ragnarok_doomfire_1",
+      "Sort": 328,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "RuneIncinerationCapacity"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "1000",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply",
+      "English": "Ragnarok: Doomfire"
+    },
+    {
+      "Id": 19052,
+      "Name": "cu_ragnarok_doomfire_2",
+      "Sort": 329,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "RuneIncinerationSpeed"
+      ],
+      "MaxLevel": 150,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.05
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "Rune",
+      "CostId": 0,
+      "Cost": "8000",
+      "CostUp": 1.06,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19054,
+      "Name": "cu_ragnarok_doomfire_4",
+      "Sort": 330,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 75,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.05
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "Ether",
+      "CostId": 0,
+      "Cost": "1000000",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19055,
+      "Name": "cu_ragnarok_doomfire_5",
+      "Sort": 331,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 75,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.05
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "Tachyon",
+      "CostId": 0,
+      "Cost": "1.00E+09",
+      "CostUp": 1.5,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19056,
+      "Name": "cu_ragnarok_doomfire_6",
+      "Sort": 332,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 75,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.05
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "DFuel",
+      "CostId": 0,
+      "Cost": "1.00E+22",
+      "CostUp": 2.0,
+      "CostUpType": "Multiply"
+    },
+    {
+      "Id": 19053,
+      "Name": "cu_ragnarok_doomfire_3",
+      "Sort": 333,
+      "IsTierBasic": false,
+      "Tier": 0,
+      "Unlock": 0,
+      "UnlockRank": 0,
+      "TypeList": [
+        "Ash"
+      ],
+      "MaxLevel": 100,
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpList": [
+        1.05
+      ],
+      "ValueUpType": "Multiply",
+      "CostType": "Ash",
+      "CostId": 0,
+      "Cost": "1",
+      "CostUp": 1.25,
+      "CostUpType": "Multiply"
+    }
+  ]
+}

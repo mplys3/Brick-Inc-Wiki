@@ -1,0 +1,141 @@
+{
+  "type": "MasterTier",
+  "index": 63,
+  "count": 30,
+  "fields": [
+    {
+      "name": "Tier",
+      "param": "tier",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Research",
+      "param": "research",
+      "kind": "int",
+      "index": 1
+    }
+  ],
+  "rows": [
+    {
+      "Tier": 1,
+      "Research": 0
+    },
+    {
+      "Tier": 2,
+      "Research": 10
+    },
+    {
+      "Tier": 3,
+      "Research": 15
+    },
+    {
+      "Tier": 4,
+      "Research": 20
+    },
+    {
+      "Tier": 5,
+      "Research": 30
+    },
+    {
+      "Tier": 6,
+      "Research": 55
+    },
+    {
+      "Tier": 7,
+      "Research": 50
+    },
+    {
+      "Tier": 8,
+      "Research": 45
+    },
+    {
+      "Tier": 9,
+      "Research": 75
+    },
+    {
+      "Tier": 10,
+      "Research": 75
+    },
+    {
+      "Tier": 11,
+      "Research": 110
+    },
+    {
+      "Tier": 12,
+      "Research": 160
+    },
+    {
+      "Tier": 13,
+      "Research": 100
+    },
+    {
+      "Tier": 14,
+      "Research": 140
+    },
+    {
+      "Tier": 15,
+      "Research": 160
+    },
+    {
+      "Tier": 16,
+      "Research": 190
+    },
+    {
+      "Tier": 17,
+      "Research": 170
+    },
+    {
+      "Tier": 18,
+      "Research": 260
+    },
+    {
+      "Tier": 19,
+      "Research": 310
+    },
+    {
+      "Tier": 20,
+      "Research": 460
+    },
+    {
+      "Tier": 21,
+      "Research": 350
+    },
+    {
+      "Tier": 22,
+      "Research": 500
+    },
+    {
+      "Tier": 23,
+      "Research": 230
+    },
+    {
+      "Tier": 24,
+      "Research": 300
+    },
+    {
+      "Tier": 25,
+      "Research": 280
+    },
+    {
+      "Tier": 26,
+      "Research": 530
+    },
+    {
+      "Tier": 27,
+      "Research": 420
+    },
+    {
+      "Tier": 28,
+      "Research": 330
+    },
+    {
+      "Tier": 29,
+      "Research": 370
+    },
+    {
+      "Tier": 30,
+      "Research": 370
+    }
+  ]
+}

@@ -1,0 +1,1083 @@
+{
+  "type": "MasterRank",
+  "index": 59,
+  "count": 79,
+  "fields": [
+    {
+      "name": "Rank",
+      "param": "rank",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Tier",
+      "param": "tier",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "TierRank",
+      "param": "tierRank",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "UnlockContents",
+      "param": "unlockContentsOffset",
+      "kind": "VectorOffset",
+      "index": 4,
+      "element": "string"
+    },
+    {
+      "name": "Frame",
+      "param": "frameOffset",
+      "kind": "StringOffset",
+      "index": 5
+    },
+    {
+      "name": "Power",
+      "param": "powerOffset",
+      "kind": "StringOffset",
+      "index": 6
+    },
+    {
+      "name": "SingularityEnergy",
+      "param": "singularityEnergyOffset",
+      "kind": "StringOffset",
+      "index": 7
+    },
+    {
+      "name": "GoldBonus",
+      "param": "goldBonusOffset",
+      "kind": "StringOffset",
+      "index": 8
+    }
+  ],
+  "rows": [
+    {
+      "Rank": 1,
+      "Tier": 1,
+      "TierRank": 1,
+      "Name": "rk_dirt",
+      "UnlockContents": [],
+      "Frame": "rk_f_soil",
+      "Power": "0.00E+00",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+00",
+      "English": "Dirt"
+    },
+    {
+      "Rank": 2,
+      "Tier": 1,
+      "TierRank": 2,
+      "Name": "rk_sand",
+      "UnlockContents": [],
+      "Frame": "rk_f_soil",
+      "Power": "1.00E+04",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+00",
+      "English": "Sand"
+    },
+    {
+      "Rank": 3,
+      "Tier": 1,
+      "TierRank": 3,
+      "Name": "rk_clay",
+      "UnlockContents": [
+        "mine"
+      ],
+      "Frame": "rk_f_soil",
+      "Power": "5.00E+04",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.20E+01",
+      "English": "Clay"
+    },
+    {
+      "Rank": 4,
+      "Tier": 1,
+      "TierRank": 4,
+      "Name": "rk_grass",
+      "UnlockContents": [
+        "challenge",
+        "challenge_wall"
+      ],
+      "Frame": "rk_f_plant",
+      "Power": "2.50E+05",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+01",
+      "English": "Grass"
+    },
+    {
+      "Rank": 5,
+      "Tier": 1,
+      "TierRank": 5,
+      "Name": "rk_vine",
+      "UnlockContents": [
+        "prestige",
+        "system_manager",
+        "game_event"
+      ],
+      "Frame": "rk_f_plant",
+      "Power": "3.00E+06",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+02",
+      "English": "Vine"
+    },
+    {
+      "Rank": 6,
+      "Tier": 1,
+      "TierRank": 6,
+      "Name": "rk_wood",
+      "UnlockContents": [
+        "challenge_licence"
+      ],
+      "Frame": "rk_f_plant",
+      "Power": "4.00E+07",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.50E+02",
+      "English": "Wood"
+    },
+    {
+      "Rank": 7,
+      "Tier": 1,
+      "TierRank": 7,
+      "Name": "rk_slik",
+      "UnlockContents": [
+        "soul_enhance"
+      ],
+      "Frame": "rk_f_fabric",
+      "Power": "8.00E+08",
+      "SingularityEnergy": "",
+      "GoldBonus": "8.00E+02",
+      "English": "Silk"
+    },
+    {
+      "Rank": 8,
+      "Tier": 1,
+      "TierRank": 8,
+      "Name": "rk_velvet",
+      "UnlockContents": [],
+      "Frame": "rk_f_fabric",
+      "Power": "4.50E+10",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+03",
+      "English": "Velvet"
+    },
+    {
+      "Rank": 9,
+      "Tier": 1,
+      "TierRank": 9,
+      "Name": "rk_carbon",
+      "UnlockContents": [],
+      "Frame": "rk_f_fabric",
+      "Power": "5.00E+12",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+03",
+      "English": "Carbon"
+    },
+    {
+      "Rank": 10,
+      "Tier": 2,
+      "TierRank": 1,
+      "Name": "rk_quartz",
+      "UnlockContents": [
+        "science",
+        "innovation_lab"
+      ],
+      "Frame": "rk_f_stone",
+      "Power": "4.00E+15",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.25E+04",
+      "English": "Quartz"
+    },
+    {
+      "Rank": 11,
+      "Tier": 2,
+      "TierRank": 2,
+      "Name": "rk_rock",
+      "UnlockContents": [],
+      "Frame": "rk_f_stone",
+      "Power": "1.00E+19",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+04",
+      "English": "Rock"
+    },
+    {
+      "Rank": 12,
+      "Tier": 2,
+      "TierRank": 3,
+      "Name": "rk_moonrock",
+      "UnlockContents": [
+        "art_society",
+        "garden_of_truth"
+      ],
+      "Frame": "rk_f_stone",
+      "Power": "3.00E+22",
+      "SingularityEnergy": "",
+      "GoldBonus": "7.50E+04",
+      "English": "Moon Rock"
+    },
+    {
+      "Rank": 13,
+      "Tier": 2,
+      "TierRank": 4,
+      "Name": "rk_iron",
+      "UnlockContents": [],
+      "Frame": "rk_f_metal",
+      "Power": "1.25E+26",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+05",
+      "English": "Iron"
+    },
+    {
+      "Rank": 14,
+      "Tier": 2,
+      "TierRank": 5,
+      "Name": "rk_steel",
+      "UnlockContents": [],
+      "Frame": "rk_f_metal",
+      "Power": "7.50E+29",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+05",
+      "English": "Steel"
+    },
+    {
+      "Rank": 15,
+      "Tier": 2,
+      "TierRank": 6,
+      "Name": "rk_titanium",
+      "UnlockContents": [],
+      "Frame": "rk_f_metal",
+      "Power": "5.00E+33",
+      "SingularityEnergy": "",
+      "GoldBonus": "8.50E+05",
+      "English": "Titanium"
+    },
+    {
+      "Rank": 16,
+      "Tier": 2,
+      "TierRank": 7,
+      "Name": "rk_silver",
+      "UnlockContents": [
+        "devil_order"
+      ],
+      "Frame": "rk_f_luxury",
+      "Power": "4.00E+37",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+06",
+      "English": "Silver"
+    },
+    {
+      "Rank": 17,
+      "Tier": 2,
+      "TierRank": 8,
+      "Name": "rk_gold",
+      "UnlockContents": [],
+      "Frame": "rk_f_luxury",
+      "Power": "5.00E+41",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+06",
+      "English": "Gold"
+    },
+    {
+      "Rank": 18,
+      "Tier": 2,
+      "TierRank": 9,
+      "Name": "rk_diamond",
+      "UnlockContents": [
+        "devil_order_curse"
+      ],
+      "Frame": "rk_f_luxury",
+      "Power": "7.50E+45",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.40E+07",
+      "English": "Diamond"
+    },
+    {
+      "Rank": 19,
+      "Tier": 3,
+      "TierRank": 1,
+      "Name": "rk_obsidian",
+      "UnlockContents": [
+        "sanctum",
+        "challenge_chaos"
+      ],
+      "Frame": "rk_f_high",
+      "Power": "1.50E+50",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+07",
+      "English": "Obsidian"
+    },
+    {
+      "Rank": 20,
+      "Tier": 3,
+      "TierRank": 2,
+      "Name": "rk_mithril",
+      "UnlockContents": [],
+      "Frame": "rk_f_high",
+      "Power": "2.00E+55",
+      "SingularityEnergy": "",
+      "GoldBonus": "7.00E+07",
+      "English": "Mythril"
+    },
+    {
+      "Rank": 21,
+      "Tier": 3,
+      "TierRank": 3,
+      "Name": "rk_ori",
+      "UnlockContents": [
+        "divine_beast_ex"
+      ],
+      "Frame": "rk_f_high",
+      "Power": "3.00E+60",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+08",
+      "English": "Orichalcum"
+    },
+    {
+      "Rank": 22,
+      "Tier": 3,
+      "TierRank": 4,
+      "Name": "rk_crystal",
+      "UnlockContents": [
+        "forge"
+      ],
+      "Frame": "rk_f_light",
+      "Power": "1.00E+66",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+08",
+      "English": "Crystal"
+    },
+    {
+      "Rank": 23,
+      "Tier": 3,
+      "TierRank": 5,
+      "Name": "rk_prism",
+      "UnlockContents": [],
+      "Frame": "rk_f_light",
+      "Power": "2.50E+71",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+09",
+      "English": "Prism"
+    },
+    {
+      "Rank": 24,
+      "Tier": 3,
+      "TierRank": 6,
+      "Name": "rk_scopic",
+      "UnlockContents": [],
+      "Frame": "rk_f_light",
+      "Power": "1.50E+77",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.75E+09",
+      "English": "Kaleidoscope"
+    },
+    {
+      "Rank": 25,
+      "Tier": 3,
+      "TierRank": 7,
+      "Name": "rk_thunder",
+      "UnlockContents": [
+        "war_ai"
+      ],
+      "Frame": "rk_f_nature",
+      "Power": "3.00E+83",
+      "SingularityEnergy": "",
+      "GoldBonus": "8.00E+09",
+      "English": "Lightning"
+    },
+    {
+      "Rank": 26,
+      "Tier": 3,
+      "TierRank": 8,
+      "Name": "rk_tornado",
+      "UnlockContents": [],
+      "Frame": "rk_f_nature",
+      "Power": "1.50E+89",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+10",
+      "English": "Tornado"
+    },
+    {
+      "Rank": 27,
+      "Tier": 3,
+      "TierRank": 9,
+      "Name": "rk_volcano",
+      "UnlockContents": [],
+      "Frame": "rk_f_nature",
+      "Power": "2.00E+95",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+10",
+      "English": "Volcano"
+    },
+    {
+      "Rank": 28,
+      "Tier": 3,
+      "TierRank": 10,
+      "Name": "rk_moon",
+      "UnlockContents": [],
+      "Frame": "rk_f_star",
+      "Power": "8.00E+101",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+11",
+      "English": "Moon"
+    },
+    {
+      "Rank": 29,
+      "Tier": 3,
+      "TierRank": 11,
+      "Name": "rk_comet",
+      "UnlockContents": [],
+      "Frame": "rk_f_star",
+      "Power": "2.00E+109",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.50E+11",
+      "English": "Comet"
+    },
+    {
+      "Rank": 30,
+      "Tier": 3,
+      "TierRank": 12,
+      "Name": "rk_star",
+      "UnlockContents": [
+        "war_ai_soul_altar"
+      ],
+      "Frame": "rk_f_star",
+      "Power": "3.00E+117",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.25E+12",
+      "English": "Star"
+    },
+    {
+      "Rank": 31,
+      "Tier": 4,
+      "TierRank": 1,
+      "Name": "rk_nova",
+      "UnlockContents": [],
+      "Frame": "rk_f_nova",
+      "Power": "2.00E+125",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+12",
+      "English": "Nova"
+    },
+    {
+      "Rank": 32,
+      "Tier": 4,
+      "TierRank": 2,
+      "Name": "rk_supernova",
+      "UnlockContents": [],
+      "Frame": "rk_f_nova",
+      "Power": "1.00E+133",
+      "SingularityEnergy": "",
+      "GoldBonus": "7.00E+12",
+      "English": "Supernova"
+    },
+    {
+      "Rank": 33,
+      "Tier": 4,
+      "TierRank": 3,
+      "Name": "rk_hypernova",
+      "UnlockContents": [
+        "divine_beast_surge"
+      ],
+      "Frame": "rk_f_nova",
+      "Power": "5.00E+140",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+13",
+      "English": "Hypernova"
+    },
+    {
+      "Rank": 34,
+      "Tier": 4,
+      "TierRank": 4,
+      "Name": "rk_blackhole",
+      "UnlockContents": [
+        "golden_cube"
+      ],
+      "Frame": "rk_f_blackhole",
+      "Power": "4.00E+148",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.50E+13",
+      "English": "Black Hole"
+    },
+    {
+      "Rank": 35,
+      "Tier": 4,
+      "TierRank": 5,
+      "Name": "rk_whitehole",
+      "UnlockContents": [],
+      "Frame": "rk_f_blackhole",
+      "Power": "5.00E+156",
+      "SingularityEnergy": "",
+      "GoldBonus": "8.00E+13",
+      "English": "White Hole"
+    },
+    {
+      "Rank": 36,
+      "Tier": 4,
+      "TierRank": 6,
+      "Name": "rk_quasar",
+      "UnlockContents": [
+        "secret_area"
+      ],
+      "Frame": "rk_f_blackhole",
+      "Power": "3.50E+165",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+14",
+      "English": "Quasar"
+    },
+    {
+      "Rank": 37,
+      "Tier": 4,
+      "TierRank": 7,
+      "Name": "rk_star_cluster",
+      "UnlockContents": [],
+      "Frame": "rk_f_galaxy",
+      "Power": "3.00E+175",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+14",
+      "English": "Star Cluster"
+    },
+    {
+      "Rank": 38,
+      "Tier": 4,
+      "TierRank": 8,
+      "Name": "rk_galaxy",
+      "UnlockContents": [],
+      "Frame": "rk_f_galaxy",
+      "Power": "2.50E+186",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+15",
+      "English": "Galaxy"
+    },
+    {
+      "Rank": 39,
+      "Tier": 4,
+      "TierRank": 9,
+      "Name": "rk_galaxy_cluster",
+      "UnlockContents": [],
+      "Frame": "rk_f_galaxy",
+      "Power": "4.50E+198",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.25E+15",
+      "English": "Galaxy Cluster"
+    },
+    {
+      "Rank": 40,
+      "Tier": 4,
+      "TierRank": 10,
+      "Name": "rk_big_bang",
+      "UnlockContents": [
+        "golden_cube_innovation"
+      ],
+      "Frame": "rk_f_universe",
+      "Power": "5.00E+210",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+15",
+      "English": "Big Bang"
+    },
+    {
+      "Rank": 41,
+      "Tier": 4,
+      "TierRank": 11,
+      "Name": "rk_universe",
+      "UnlockContents": [
+        "secret_area_expansion"
+      ],
+      "Frame": "rk_f_universe",
+      "Power": "1.00E+223",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.25E+16",
+      "English": "Universe"
+    },
+    {
+      "Rank": 42,
+      "Tier": 4,
+      "TierRank": 12,
+      "Name": "rk_multiverse",
+      "UnlockContents": [],
+      "Frame": "rk_f_universe",
+      "Power": "5.00E+235",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.50E+16",
+      "English": "Multiverse"
+    },
+    {
+      "Rank": 43,
+      "Tier": 5,
+      "TierRank": 1,
+      "Name": "rk_demigod",
+      "UnlockContents": [
+        "dimension",
+        "dimension_gate",
+        "wheel_of_life"
+      ],
+      "Frame": "rk_f_demigod",
+      "Power": "2.50E+256",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+17",
+      "English": "Demigod"
+    },
+    {
+      "Rank": 44,
+      "Tier": 5,
+      "TierRank": 2,
+      "Name": "rk_ascended",
+      "UnlockContents": [],
+      "Frame": "rk_f_demigod",
+      "Power": "4.00E+284",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+17",
+      "English": "Ascended"
+    },
+    {
+      "Rank": 45,
+      "Tier": 5,
+      "TierRank": 3,
+      "Name": "rk_incarnation",
+      "UnlockContents": [],
+      "Frame": "rk_f_demigod",
+      "Power": "2E+325",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+18",
+      "English": "Incarnation"
+    },
+    {
+      "Rank": 46,
+      "Tier": 5,
+      "TierRank": 4,
+      "Name": "rk_heracles",
+      "UnlockContents": [
+        "truth_garden_expansion"
+      ],
+      "Frame": "rk_f_god_1",
+      "Power": "5E+383",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.50E+18",
+      "English": "Heracles"
+    },
+    {
+      "Rank": 47,
+      "Tier": 5,
+      "TierRank": 5,
+      "Name": "rk_perseus",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_1",
+      "Power": "3E+412",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+18",
+      "English": "Perseus"
+    },
+    {
+      "Rank": 48,
+      "Tier": 5,
+      "TierRank": 6,
+      "Name": "rk_theseus",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_1",
+      "Power": "5E+440",
+      "SingularityEnergy": "",
+      "GoldBonus": "7.50E+18",
+      "English": "Theseus"
+    },
+    {
+      "Rank": 49,
+      "Tier": 5,
+      "TierRank": 7,
+      "Name": "rk_odysseus",
+      "UnlockContents": [
+        "oracle"
+      ],
+      "Frame": "rk_f_god_2",
+      "Power": "1E+483",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+19",
+      "English": "Odysseus"
+    },
+    {
+      "Rank": 50,
+      "Tier": 5,
+      "TierRank": 8,
+      "Name": "rk_loki",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_2",
+      "Power": "8E+513",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.25E+19",
+      "English": "Loki"
+    },
+    {
+      "Rank": 51,
+      "Tier": 5,
+      "TierRank": 9,
+      "Name": "rk_thor",
+      "UnlockContents": [
+        "dimensional_archive"
+      ],
+      "Frame": "rk_f_god_2",
+      "Power": "4E+544",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+19",
+      "English": "Thor"
+    },
+    {
+      "Rank": 52,
+      "Tier": 5,
+      "TierRank": 10,
+      "Name": "rk_ares",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_3",
+      "Power": "7.5E+589",
+      "SingularityEnergy": "",
+      "GoldBonus": "8.00E+19",
+      "English": "Ares"
+    },
+    {
+      "Rank": 53,
+      "Tier": 5,
+      "TierRank": 11,
+      "Name": "rk_hades",
+      "UnlockContents": [
+        "nexus"
+      ],
+      "Frame": "rk_f_god_3",
+      "Power": "9E+622",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+20",
+      "English": "Hades"
+    },
+    {
+      "Rank": 54,
+      "Tier": 5,
+      "TierRank": 12,
+      "Name": "rk_zeus",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_3",
+      "Power": "4E+656",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+20",
+      "English": "Zeus"
+    },
+    {
+      "Rank": 55,
+      "Tier": 5,
+      "TierRank": 13,
+      "Name": "rk_god",
+      "UnlockContents": [
+        "dimension_expansion",
+        "challenge_dive"
+      ],
+      "Frame": "rk_f_true_god",
+      "Power": "2.5E+707",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+20",
+      "English": "God"
+    },
+    {
+      "Rank": 56,
+      "Tier": 5,
+      "TierRank": 14,
+      "Name": "rk_true_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_true_god",
+      "Power": "5.5E+742",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+21",
+      "English": "True God"
+    },
+    {
+      "Rank": 57,
+      "Tier": 5,
+      "TierRank": 15,
+      "Name": "rk_prime_god",
+      "UnlockContents": [
+        "challenge_dive_deep"
+      ],
+      "Frame": "rk_f_true_god",
+      "Power": "9E+777",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+21",
+      "English": "Prime God"
+    },
+    {
+      "Rank": 58,
+      "Tier": 6,
+      "TierRank": 1,
+      "Name": "rk_odin",
+      "UnlockContents": [
+        "ragnarok",
+        "warframe",
+        "challenge_lagrange"
+      ],
+      "Frame": "rk_f_god_ex_1",
+      "Power": "1e+837",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+21",
+      "English": "Odin"
+    },
+    {
+      "Rank": 59,
+      "Tier": 6,
+      "TierRank": 2,
+      "Name": "rk_olorun",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_1",
+      "Power": "3e873",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+22",
+      "English": "Olorun"
+    },
+    {
+      "Rank": 60,
+      "Tier": 6,
+      "TierRank": 3,
+      "Name": "rk_viracocha",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_1",
+      "Power": "7.5e909",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+22",
+      "English": "Viracocha"
+    },
+    {
+      "Rank": 61,
+      "Tier": 6,
+      "TierRank": 4,
+      "Name": "rk_osiris",
+      "UnlockContents": [
+        "oracle_expansion"
+      ],
+      "Frame": "rk_f_god_ex_2",
+      "Power": "2.5e961",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.50E+22",
+      "English": "Osiris"
+    },
+    {
+      "Rank": 62,
+      "Tier": 6,
+      "TierRank": 5,
+      "Name": "rk_ra",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_2",
+      "Power": "5e999",
+      "SingularityEnergy": "",
+      "GoldBonus": "6.00E+22",
+      "English": "Ra"
+    },
+    {
+      "Rank": 63,
+      "Tier": 6,
+      "TierRank": 6,
+      "Name": "rk_horus",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_2",
+      "Power": "3e1037",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+23",
+      "English": "Horus"
+    },
+    {
+      "Rank": 64,
+      "Tier": 6,
+      "TierRank": 7,
+      "Name": "rk_enki",
+      "UnlockContents": [
+        "dimensional_archive_expansion"
+      ],
+      "Frame": "rk_f_god_ex_3",
+      "Power": "1.5e1093",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.25E+23",
+      "English": "Enki"
+    },
+    {
+      "Rank": 65,
+      "Tier": 6,
+      "TierRank": 8,
+      "Name": "rk_enlil",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_3",
+      "Power": "4e1133",
+      "SingularityEnergy": "",
+      "GoldBonus": "4.00E+23",
+      "English": "Enlil"
+    },
+    {
+      "Rank": 66,
+      "Tier": 6,
+      "TierRank": 9,
+      "Name": "rk_anu",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_3",
+      "Power": "5e1173",
+      "SingularityEnergy": "",
+      "GoldBonus": "8.00E+23",
+      "English": "Anu"
+    },
+    {
+      "Rank": 67,
+      "Tier": 6,
+      "TierRank": 10,
+      "Name": "rk_primordial_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_4",
+      "Power": "1e1246",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.50E+24",
+      "English": "Primordial God"
+    },
+    {
+      "Rank": 68,
+      "Tier": 6,
+      "TierRank": 11,
+      "Name": "rk_chaos_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_4",
+      "Power": "2.5e1296",
+      "SingularityEnergy": "",
+      "GoldBonus": "3.00E+24",
+      "English": "Chaos God"
+    },
+    {
+      "Rank": 69,
+      "Tier": 6,
+      "TierRank": 12,
+      "Name": "rk_cosmic_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_4",
+      "Power": "8e1347",
+      "SingularityEnergy": "",
+      "GoldBonus": "7.50E+24",
+      "English": "Cosmic God"
+    },
+    {
+      "Rank": 70,
+      "Tier": 6,
+      "TierRank": 13,
+      "Name": "rk_dimension_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_5",
+      "Power": "4e1446",
+      "SingularityEnergy": "",
+      "GoldBonus": "2.00E+25",
+      "English": "Dimensional God"
+    },
+    {
+      "Rank": 71,
+      "Tier": 6,
+      "TierRank": 14,
+      "Name": "rk_omni_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_5",
+      "Power": "7.5e1514",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+25",
+      "English": "Omni God"
+    },
+    {
+      "Rank": 72,
+      "Tier": 6,
+      "TierRank": 15,
+      "Name": "rk_overall_god",
+      "UnlockContents": [],
+      "Frame": "rk_f_god_ex_5",
+      "Power": "3e1582",
+      "SingularityEnergy": "",
+      "GoldBonus": "1.00E+26",
+      "English": "Overall God"
+    },
+    {
+      "Rank": 73,
+      "Tier": 7,
+      "TierRank": 1,
+      "Name": "rk_point",
+      "UnlockContents": [
+        "singularity_panel"
+      ],
+      "Frame": "rk_f_geometric",
+      "Power": "5e1744",
+      "SingularityEnergy": "",
+      "GoldBonus": "5.00E+26",
+      "English": "Point"
+    },
+    {
+      "Rank": 74,
+      "Tier": 7,
+      "TierRank": 2,
+      "Name": "rk_line",
+      "UnlockContents": [],
+      "Frame": "rk_f_geometric",
+      "Power": "",
+      "SingularityEnergy": "1.00E+00",
+      "GoldBonus": "1.00E+27",
+      "English": "Line"
+    },
+    {
+      "Rank": 75,
+      "Tier": 7,
+      "TierRank": 3,
+      "Name": "rk_plane",
+      "UnlockContents": [],
+      "Frame": "rk_f_geometric",
+      "Power": "",
+      "SingularityEnergy": "2.50E+02",
+      "GoldBonus": "2.50E+27",
+      "English": "Plane"
+    },
+    {
+      "Rank": 76,
+      "Tier": 7,
+      "TierRank": 4,
+      "Name": "rk_solid",
+      "UnlockContents": [],
+      "Frame": "rk_f_geometric",
+      "Power": "",
+      "SingularityEnergy": "7.50E+04",
+      "GoldBonus": "5.00E+27",
+      "English": "Solid"
+    },
+    {
+      "Rank": 77,
+      "Tier": 7,
+      "TierRank": 5,
+      "Name": "rk_hypersolid",
+      "UnlockContents": [],
+      "Frame": "rk_f_geometric",
+      "Power": "",
+      "SingularityEnergy": "3.00E+08",
+      "GoldBonus": "1.00E+28",
+      "English": "Hypersolid"
+    },
+    {
+      "Rank": 78,
+      "Tier": 7,
+      "TierRank": 6,
+      "Name": "rk_singularity",
+      "UnlockContents": [],
+      "Frame": "rk_f_singularity",
+      "Power": "",
+      "SingularityEnergy": "5.00E+12",
+      "GoldBonus": "3.50E+28",
+      "English": "Singularity"
+    },
+    {
+      "Rank": 79,
+      "Tier": 7,
+      "TierRank": 7,
+      "Name": "rk_super_singularity",
+      "UnlockContents": [],
+      "Frame": "rk_f_singularity",
+      "Power": "",
+      "SingularityEnergy": "1.00E+17",
+      "GoldBonus": "1.00E+29",
+      "English": "Super-Singularity"
+    }
+  ]
+}

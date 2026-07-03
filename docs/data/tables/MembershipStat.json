@@ -1,0 +1,448 @@
+{
+  "type": "MasterMembershipStat",
+  "index": 134,
+  "count": 68,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "idOffset",
+      "kind": "StringOffset",
+      "index": 0
+    },
+    {
+      "name": "UpgradeType",
+      "param": "upgradeType",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 3
+    }
+  ],
+  "rows": [
+    {
+      "Id": "ms_booster",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_mission",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_power",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_power",
+      "UpgradeType": "Power",
+      "ValueType": "Multiply",
+      "Value": 4.0
+    },
+    {
+      "Id": "ms_power",
+      "UpgradeType": "DailyFreeGem",
+      "ValueType": "Add",
+      "Value": 10.0
+    },
+    {
+      "Id": "ms_power",
+      "UpgradeType": "DailyFreeMileage",
+      "ValueType": "Add",
+      "Value": 50.0
+    },
+    {
+      "Id": "ms_soul",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_soul",
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Multiply",
+      "Value": 4.0
+    },
+    {
+      "Id": "ms_soul",
+      "UpgradeType": "SoulEnhanceMaxLevelUp",
+      "ValueType": "Add",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_soul",
+      "UpgradeType": "DailyFreeGem",
+      "ValueType": "Add",
+      "Value": 20.0
+    },
+    {
+      "Id": "ms_soul",
+      "UpgradeType": "DailyFreeMileage",
+      "ValueType": "Add",
+      "Value": 150.0
+    },
+    {
+      "Id": "ms_science",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_science",
+      "UpgradeType": "SciencePoint",
+      "ValueType": "Multiply",
+      "Value": 4.0
+    },
+    {
+      "Id": "ms_science",
+      "UpgradeType": "ScienceRank",
+      "ValueType": "Add",
+      "Value": 50.0
+    },
+    {
+      "Id": "ms_science",
+      "UpgradeType": "DailyFreeGem",
+      "ValueType": "Add",
+      "Value": 30.0
+    },
+    {
+      "Id": "ms_science",
+      "UpgradeType": "DailyFreeMileage",
+      "ValueType": "Add",
+      "Value": 300.0
+    },
+    {
+      "Id": "ms_quantum",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "ms_quantum",
+      "UpgradeType": "QuantumPoint",
+      "ValueType": "Multiply",
+      "Value": 4.0
+    },
+    {
+      "Id": "ms_quantum",
+      "UpgradeType": "QuantumRank",
+      "ValueType": "Add",
+      "Value": 50.0
+    },
+    {
+      "Id": "ms_quantum",
+      "UpgradeType": "DailyFreeGem",
+      "ValueType": "Add",
+      "Value": 30.0
+    },
+    {
+      "Id": "ms_quantum",
+      "UpgradeType": "DailyFreeMileage",
+      "ValueType": "Add",
+      "Value": 300.0
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "Power",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "SciencePoint",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "Ether",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "ForgeSpeed",
+      "ValueType": "Percent",
+      "Value": 50.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "prism_pass",
+      "UpgradeType": "DStone",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "epic_gold",
+      "UpgradeType": "Gold",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_gold_2",
+      "UpgradeType": "Gold",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_power",
+      "UpgradeType": "Power",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_power_2",
+      "UpgradeType": "Power",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_research",
+      "UpgradeType": "ResearchCostDown",
+      "ValueType": "Percent",
+      "Value": -50.0
+    },
+    {
+      "Id": "epic_research_2",
+      "UpgradeType": "ResearchCostDown",
+      "ValueType": "Percent",
+      "Value": -66.0
+    },
+    {
+      "Id": "epic_rank",
+      "UpgradeType": "RankPowerDown",
+      "ValueType": "Percent",
+      "Value": -50.0
+    },
+    {
+      "Id": "epic_rank_2",
+      "UpgradeType": "RankPowerDown",
+      "ValueType": "Percent",
+      "Value": -66.0
+    },
+    {
+      "Id": "epic_weapon",
+      "UpgradeType": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_weapon_2",
+      "UpgradeType": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_brick",
+      "UpgradeType": "BlockHpDown",
+      "ValueType": "Percent",
+      "Value": -50.0
+    },
+    {
+      "Id": "epic_brick_2",
+      "UpgradeType": "BlockHpDown",
+      "ValueType": "Percent",
+      "Value": -66.0
+    },
+    {
+      "Id": "epic_enhance",
+      "UpgradeType": "WeaponEnhanceCostDown",
+      "ValueType": "Percent",
+      "Value": -50.0
+    },
+    {
+      "Id": "epic_enhance_2",
+      "UpgradeType": "WeaponEnhanceCostDown",
+      "ValueType": "Percent",
+      "Value": -66.0
+    },
+    {
+      "Id": "epic_soul",
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_soul_2",
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Id": "epic_soul_enhance",
+      "UpgradeType": "SoulEnhanceMaxLevelUp",
+      "ValueType": "Add",
+      "Value": 1.0
+    },
+    {
+      "Id": "epic_soul_enhance_2",
+      "UpgradeType": "SoulEnhanceMaxLevelUp",
+      "ValueType": "Add",
+      "Value": 1.0
+    },
+    {
+      "Id": "epic_science",
+      "UpgradeType": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_science_2",
+      "UpgradeType": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_forge",
+      "UpgradeType": "ForgeSpeed",
+      "ValueType": "Percent",
+      "Value": 5.0
+    },
+    {
+      "Id": "epic_forge_2",
+      "UpgradeType": "ForgeSpeed",
+      "ValueType": "Percent",
+      "Value": 10.0
+    },
+    {
+      "Id": "epic_battle",
+      "UpgradeType": "BattleHp",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_battle",
+      "UpgradeType": "BattleAtk",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_battle_2",
+      "UpgradeType": "BattleHp",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_battle_2",
+      "UpgradeType": "BattleAtk",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_ether",
+      "UpgradeType": "Ether",
+      "ValueType": "Percent",
+      "Value": 25.0
+    },
+    {
+      "Id": "epic_ether_2",
+      "UpgradeType": "Ether",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_tachyon",
+      "UpgradeType": "Tachyon",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_tachyon_2",
+      "UpgradeType": "Tachyon",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_dimension",
+      "UpgradeType": "DStone",
+      "ValueType": "Percent",
+      "Value": 10.0
+    },
+    {
+      "Id": "epic_dimension_2",
+      "UpgradeType": "DStone",
+      "ValueType": "Percent",
+      "Value": 20.0
+    },
+    {
+      "Id": "epic_d_fuel",
+      "UpgradeType": "DFuel",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_d_fuel_2",
+      "UpgradeType": "DFuel",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_dial",
+      "UpgradeType": "CosmicDialTick",
+      "ValueType": "Percent",
+      "Value": 25.0
+    },
+    {
+      "Id": "epic_dial_2",
+      "UpgradeType": "CosmicDialTick",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_quantum",
+      "UpgradeType": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_quantum_2",
+      "UpgradeType": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Id": "epic_destiny",
+      "UpgradeType": "DestinyEnergy",
+      "ValueType": "Percent",
+      "Value": 50.0
+    },
+    {
+      "Id": "epic_destiny_2",
+      "UpgradeType": "DestinyEnergy",
+      "ValueType": "Percent",
+      "Value": 100.0
+    }
+  ]
+}

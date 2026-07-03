@@ -1,0 +1,1349 @@
+{
+  "type": "MasterCard",
+  "index": 66,
+  "count": 63,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Mode",
+      "param": "mode",
+      "kind": "MasterGameModeType",
+      "index": 3
+    },
+    {
+      "name": "Grade",
+      "param": "grade",
+      "kind": "MasterStandardGradeType",
+      "index": 4
+    },
+    {
+      "name": "IsUltimate",
+      "param": "isUltimate",
+      "kind": "bool",
+      "index": 5
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 7
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 8,
+      "element": "double"
+    },
+    {
+      "name": "ValueUpAddList",
+      "param": "valueUpAddListOffset",
+      "kind": "VectorOffset",
+      "index": 9,
+      "element": "double"
+    },
+    {
+      "name": "ValueUpMulList",
+      "param": "valueUpMulListOffset",
+      "kind": "VectorOffset",
+      "index": 10,
+      "element": "double"
+    }
+  ],
+  "rows": [
+    {
+      "Id": 6001,
+      "Name": "cd_special_coin",
+      "Sort": 3,
+      "Mode": 0,
+      "Grade": "Common",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        20.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.61562342119486
+      ],
+      "English": "Special Coin"
+    },
+    {
+      "Id": 6002,
+      "Name": "cd_reaction_cylinder",
+      "Sort": 4,
+      "Mode": 0,
+      "Grade": "Common",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        20.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.61562342119486
+      ],
+      "English": "Reactive Cylinder"
+    },
+    {
+      "Id": 6003,
+      "Name": "cd_bullet_factory",
+      "Sort": 5,
+      "Mode": 0,
+      "Grade": "Common",
+      "IsUltimate": false,
+      "TypeList": [
+        "DefaultBulletRegen"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpAddList": [
+        1.0
+      ],
+      "ValueUpMulList": [
+        1.0
+      ],
+      "English": "Ammo Factory"
+    },
+    {
+      "Id": 6004,
+      "Name": "cd_cargo_box",
+      "Sort": 6,
+      "Mode": 0,
+      "Grade": "Common",
+      "IsUltimate": false,
+      "TypeList": [
+        "DefaultBulletMax"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        10.0
+      ],
+      "ValueUpAddList": [
+        10.0
+      ],
+      "ValueUpMulList": [
+        1.0
+      ],
+      "English": "Large Cargo Box"
+    },
+    {
+      "Id": 6005,
+      "Name": "cd_gunpowder",
+      "Sort": 7,
+      "Mode": 0,
+      "Grade": "Common",
+      "IsUltimate": false,
+      "TypeList": [
+        "DefaultWeaponDmg"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        80.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.61562342119486
+      ],
+      "English": "High-Purity Gunpowder"
+    },
+    {
+      "Id": 6090,
+      "Name": "cd_ultimate_common",
+      "Sort": 8,
+      "Mode": 0,
+      "Grade": "Common",
+      "IsUltimate": true,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.1
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.2194660953393
+      ],
+      "English": "Common Ultimate Card"
+    },
+    {
+      "Id": 6011,
+      "Name": "cd_prime",
+      "Sort": 9,
+      "Mode": 0,
+      "Grade": "Superior",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        25.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.66810053720006
+      ],
+      "English": "Top-Shelf Product"
+    },
+    {
+      "Id": 6012,
+      "Name": "cd_tesla_coil",
+      "Sort": 10,
+      "Mode": 0,
+      "Grade": "Superior",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        25.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.66810053720006
+      ],
+      "English": "Tesla Coil"
+    },
+    {
+      "Id": 6013,
+      "Name": "cd_platinum_shot",
+      "Sort": 11,
+      "Mode": 0,
+      "Grade": "Superior",
+      "IsUltimate": false,
+      "TypeList": [
+        "DefaultWeaponDmg"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        100.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.66810053720006
+      ],
+      "English": "Platinum Shot"
+    },
+    {
+      "Id": 6014,
+      "Name": "cd_bronze_cannon",
+      "Sort": 12,
+      "Mode": 0,
+      "Grade": "Superior",
+      "IsUltimate": false,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        25.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.66810053720006
+      ],
+      "English": "Brass Cannon"
+    },
+    {
+      "Id": 6015,
+      "Name": "cd_seal_of_bravery",
+      "Sort": 13,
+      "Mode": 0,
+      "Grade": "Superior",
+      "IsUltimate": false,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        25.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.66810053720006
+      ],
+      "English": "Seal of Valor"
+    },
+    {
+      "Id": 6091,
+      "Name": "cd_ultimate_superior",
+      "Sort": 14,
+      "Mode": 0,
+      "Grade": "Superior",
+      "IsUltimate": true,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.25
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.29039002429644
+      ],
+      "English": "Uncommon Ultimate Card"
+    },
+    {
+      "Id": 6021,
+      "Name": "cd_magic_glass",
+      "Sort": 15,
+      "Mode": 0,
+      "Grade": "Rare",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        50.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.74496981044402
+      ],
+      "English": "Magic Magnifier"
+    },
+    {
+      "Id": 6022,
+      "Name": "cd_silver_wing",
+      "Sort": 16,
+      "Mode": 0,
+      "Grade": "Rare",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        50.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.74496981044402
+      ],
+      "English": "Silver Wings"
+    },
+    {
+      "Id": 6023,
+      "Name": "cd_statue_of_victory",
+      "Sort": 17,
+      "Mode": 0,
+      "Grade": "Rare",
+      "IsUltimate": false,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        50.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.74496981044402
+      ],
+      "English": "Statue of Victory"
+    },
+    {
+      "Id": 6024,
+      "Name": "cd_golden_watch",
+      "Sort": 18,
+      "Mode": 0,
+      "Grade": "Rare",
+      "IsUltimate": false,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        1.5
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.59461750315273
+      ],
+      "English": "Gilded Pocket Watch"
+    },
+    {
+      "Id": 6025,
+      "Name": "cd_clock_tower",
+      "Sort": 19,
+      "Mode": 0,
+      "Grade": "Rare",
+      "IsUltimate": false,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        1.5
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.59461750315273
+      ],
+      "English": "Great Clock Tower"
+    },
+    {
+      "Id": 6092,
+      "Name": "cd_ultimate_rare",
+      "Sort": 20,
+      "Mode": 0,
+      "Grade": "Rare",
+      "IsUltimate": true,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.5
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.45548881208261
+      ],
+      "English": "Rare Ultimate Card"
+    },
+    {
+      "Id": 6031,
+      "Name": "cd_enterpreneur",
+      "Sort": 21,
+      "Mode": 0,
+      "Grade": "Heroic",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        75.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.90686461855897
+      ],
+      "English": "Entrepreneur"
+    },
+    {
+      "Id": 6032,
+      "Name": "cd_plasma_capsule",
+      "Sort": 22,
+      "Mode": 0,
+      "Grade": "Heroic",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        75.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.90686461855897
+      ],
+      "English": "Plasma Capsule"
+    },
+    {
+      "Id": 6033,
+      "Name": "cd_sword_of_honor",
+      "Sort": 23,
+      "Mode": 0,
+      "Grade": "Heroic",
+      "IsUltimate": false,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        75.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.90686461855897
+      ],
+      "English": "Sword of Honor"
+    },
+    {
+      "Id": 6034,
+      "Name": "cd_hunter",
+      "Sort": 24,
+      "Mode": 0,
+      "Grade": "Heroic",
+      "IsUltimate": false,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        75.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.90686461855897
+      ],
+      "English": "Hunter"
+    },
+    {
+      "Id": 6035,
+      "Name": "cd_soul_flame",
+      "Sort": 25,
+      "Mode": 0,
+      "Grade": "Heroic",
+      "IsUltimate": false,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        75.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.90686461855897
+      ],
+      "English": "Soul Flame"
+    },
+    {
+      "Id": 6093,
+      "Name": "cd_ultimate_heroic",
+      "Sort": 26,
+      "Mode": 0,
+      "Grade": "Heroic",
+      "IsUltimate": true,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        1.75
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.64634250798609
+      ],
+      "English": "Heroic Ultimate Card"
+    },
+    {
+      "Id": 6041,
+      "Name": "cd_golden_vault",
+      "Sort": 27,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Golden Vault"
+    },
+    {
+      "Id": 6042,
+      "Name": "cd_blood_arrow",
+      "Sort": 28,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "CriChance"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpAddList": [
+        1.0
+      ],
+      "ValueUpMulList": [
+        1.5
+      ],
+      "English": "Blood Arrow"
+    },
+    {
+      "Id": 6043,
+      "Name": "cd_mirror_of_pain",
+      "Sort": 29,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Mirror of Pain"
+    },
+    {
+      "Id": 6044,
+      "Name": "cd_quantum_cat",
+      "Sort": 30,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "DoubleShotChance"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpAddList": [
+        1.0
+      ],
+      "ValueUpMulList": [
+        1.5
+      ],
+      "English": "Quantum Cat"
+    },
+    {
+      "Id": 6045,
+      "Name": "cd_thunder_brand",
+      "Sort": 31,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Lightning Brand"
+    },
+    {
+      "Id": 6046,
+      "Name": "cd_super_circuit",
+      "Sort": 32,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Superconducting Circuit"
+    },
+    {
+      "Id": 6047,
+      "Name": "cd_bell_of_return",
+      "Sort": 33,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Bell of Return"
+    },
+    {
+      "Id": 6048,
+      "Name": "cd_hypercell",
+      "Sort": 34,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Hypercell"
+    },
+    {
+      "Id": 6049,
+      "Name": "cd_scientist",
+      "Sort": 35,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        50.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.74496981044402
+      ],
+      "English": "Scientist"
+    },
+    {
+      "Id": 6050,
+      "Name": "cd_chivalry",
+      "Sort": 36,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": false,
+      "TypeList": [
+        "BattleStat"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        50.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.74496981044402
+      ],
+      "English": "Chivalry"
+    },
+    {
+      "Id": 6094,
+      "Name": "cd_ultimate_epic",
+      "Sort": 37,
+      "Mode": 0,
+      "Grade": "Epic",
+      "IsUltimate": true,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Epic Ultimate Card"
+    },
+    {
+      "Id": 6061,
+      "Name": "cd_infinity_piggy_bank",
+      "Sort": 38,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Endless Piggy Bank"
+    },
+    {
+      "Id": 6062,
+      "Name": "cd_star_core",
+      "Sort": 39,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Starlight Core"
+    },
+    {
+      "Id": 6063,
+      "Name": "cd_light_of_heaven",
+      "Sort": 40,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Light of Heaven"
+    },
+    {
+      "Id": 6064,
+      "Name": "cd_demolisher",
+      "Sort": 41,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Destroyer"
+    },
+    {
+      "Id": 6065,
+      "Name": "cd_cosmo_situatior",
+      "Sort": 42,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Cosmic Simulator"
+    },
+    {
+      "Id": 6066,
+      "Name": "cd_mystic_brooch",
+      "Sort": 43,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Mystical Brooch"
+    },
+    {
+      "Id": 6067,
+      "Name": "cd_holy_hall",
+      "Sort": 44,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Holy Corridor"
+    },
+    {
+      "Id": 6068,
+      "Name": "cd_sage",
+      "Sort": 45,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Great Sage"
+    },
+    {
+      "Id": 6069,
+      "Name": "cd_book_of_insight",
+      "Sort": 46,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Book of Insight"
+    },
+    {
+      "Id": 6070,
+      "Name": "cd_fall_compass",
+      "Sort": 47,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "SuperCriChance"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        1.0
+      ],
+      "ValueUpAddList": [
+        1.0
+      ],
+      "ValueUpMulList": [
+        1.5
+      ],
+      "English": "Compass of Doom"
+    },
+    {
+      "Id": 6071,
+      "Name": "cd_shard_of_extinction",
+      "Sort": 48,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Shard of Extinction"
+    },
+    {
+      "Id": 6072,
+      "Name": "cd_eternity_candlelight",
+      "Sort": 49,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Candlelight of Eternity"
+    },
+    {
+      "Id": 6073,
+      "Name": "cd_magic_fountain_pen",
+      "Sort": 50,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Magic Fountain Pen"
+    },
+    {
+      "Id": 6074,
+      "Name": "cd_excalibur",
+      "Sort": 51,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "BattleStat"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2.0
+      ],
+      "English": "Excalibur"
+    },
+    {
+      "Id": 6075,
+      "Name": "cd_water",
+      "Sort": 52,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": false,
+      "TypeList": [
+        "Ether"
+      ],
+      "ValueType": "Percent",
+      "ValueList": [
+        25.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1.66810053720006
+      ],
+      "English": "Primordial Water"
+    },
+    {
+      "Id": 6095,
+      "Name": "cd_ultimate_legendary",
+      "Sort": 53,
+      "Mode": 0,
+      "Grade": "Legendary",
+      "IsUltimate": true,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        4.0
+      ],
+      "English": "Legendary Ultimate Card"
+    },
+    {
+      "Id": 6201,
+      "Name": "cd_m_horizon",
+      "Sort": 55,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        64.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        64.0
+      ],
+      "English": "Event Horizon"
+    },
+    {
+      "Id": 6202,
+      "Name": "cd_m_eldorado",
+      "Sort": 56,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        1024.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1024.0
+      ],
+      "English": "El Dorado"
+    },
+    {
+      "Id": 6203,
+      "Name": "cd_m_entropy",
+      "Sort": 57,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        1024.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        1024.0
+      ],
+      "English": "Entropy Core"
+    },
+    {
+      "Id": 6204,
+      "Name": "cd_m_transcendent",
+      "Sort": 58,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2048.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        2048.0
+      ],
+      "English": "Transcendent Being"
+    },
+    {
+      "Id": 6205,
+      "Name": "cd_m_holy_grail",
+      "Sort": 59,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10000.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        10000.0
+      ],
+      "English": "Holy Grail"
+    },
+    {
+      "Id": 6206,
+      "Name": "cd_m_creation",
+      "Sort": 60,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10000.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        10000.0
+      ],
+      "English": "Creation Cube"
+    },
+    {
+      "Id": 6207,
+      "Name": "cd_m_akashic",
+      "Sort": 61,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10000.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        10000.0
+      ],
+      "English": "Akashic Records"
+    },
+    {
+      "Id": 6208,
+      "Name": "cd_m_armageddon",
+      "Sort": 62,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10000.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        10000.0
+      ],
+      "English": "Armageddon"
+    },
+    {
+      "Id": 6209,
+      "Name": "cd_m_trishula",
+      "Sort": 63,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        512.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        512.0
+      ],
+      "English": "Trishula"
+    },
+    {
+      "Id": 6211,
+      "Name": "cd_m_artemis",
+      "Sort": 65,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        512.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        512.0
+      ],
+      "English": "Bow of Artemis"
+    },
+    {
+      "Id": 6214,
+      "Name": "cd_m_tesseract",
+      "Sort": 68,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        16.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        16.0
+      ],
+      "English": "Mandala"
+    },
+    {
+      "Id": 6215,
+      "Name": "cd_m_schrodinger",
+      "Sort": 69,
+      "Mode": 0,
+      "Grade": "Mystic",
+      "IsUltimate": false,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        64.0
+      ],
+      "ValueUpAddList": [],
+      "ValueUpMulList": [
+        64.0
+      ],
+      "English": "Schrödinger's Labyrinth"
+    }
+  ]
+}

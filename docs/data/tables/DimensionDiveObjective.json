@@ -1,0 +1,1260 @@
+{
+  "type": "MasterDimensionDiveObjective",
+  "index": 97,
+  "count": 25,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "IsHardOnly",
+      "param": "isHardOnly",
+      "kind": "bool",
+      "index": 1
+    },
+    {
+      "name": "RankTarget",
+      "param": "rankTargetOffset",
+      "kind": "StringOffset",
+      "index": 2
+    },
+    {
+      "name": "GoldBonus",
+      "param": "goldBonusOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "SpecialBonusType",
+      "param": "specialBonusTypeOffset",
+      "kind": "VectorOffset",
+      "index": 4,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "SpecialBonusValueType",
+      "param": "specialBonusValueTypeOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "SpecialBonusValue",
+      "param": "specialBonusValueOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "double"
+    },
+    {
+      "name": "DiveRankType",
+      "param": "diveRankType",
+      "kind": "MasterUpgradeType",
+      "index": 7
+    },
+    {
+      "name": "DiveRankValueType",
+      "param": "diveRankValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 8
+    },
+    {
+      "name": "DiveRankValue",
+      "param": "diveRankValue",
+      "kind": "double",
+      "index": 9
+    },
+    {
+      "name": "DmgLevelTarget",
+      "param": "dmgLevelTargetOffset",
+      "kind": "StringOffset",
+      "index": 10
+    },
+    {
+      "name": "DmgLevelType",
+      "param": "dmgLevelType",
+      "kind": "MasterUpgradeType",
+      "index": 11
+    },
+    {
+      "name": "DmgLevelValueType",
+      "param": "dmgLevelValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 12
+    },
+    {
+      "name": "DmgLevelValue",
+      "param": "dmgLevelValue",
+      "kind": "double",
+      "index": 13
+    },
+    {
+      "name": "GoldLevelTarget",
+      "param": "goldLevelTargetOffset",
+      "kind": "StringOffset",
+      "index": 14
+    },
+    {
+      "name": "GoldLevelType",
+      "param": "goldLevelType",
+      "kind": "MasterUpgradeType",
+      "index": 15
+    },
+    {
+      "name": "GoldLevelValueType",
+      "param": "goldLevelValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 16
+    },
+    {
+      "name": "GoldLevelValue",
+      "param": "goldLevelValue",
+      "kind": "double",
+      "index": 17
+    },
+    {
+      "name": "PowerLevelTarget",
+      "param": "powerLevelTargetOffset",
+      "kind": "StringOffset",
+      "index": 18
+    },
+    {
+      "name": "PowerLevelType",
+      "param": "powerLevelType",
+      "kind": "MasterUpgradeType",
+      "index": 19
+    },
+    {
+      "name": "PowerLevelValueType",
+      "param": "powerLevelValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 20
+    },
+    {
+      "name": "PowerLevelValue",
+      "param": "powerLevelValue",
+      "kind": "double",
+      "index": 21
+    },
+    {
+      "name": "SoulLevelTarget",
+      "param": "soulLevelTargetOffset",
+      "kind": "StringOffset",
+      "index": 22
+    },
+    {
+      "name": "SoulLevelType",
+      "param": "soulLevelType",
+      "kind": "MasterUpgradeType",
+      "index": 23
+    },
+    {
+      "name": "SoulLevelValueType",
+      "param": "soulLevelValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 24
+    },
+    {
+      "name": "SoulLevelValue",
+      "param": "soulLevelValue",
+      "kind": "double",
+      "index": 25
+    },
+    {
+      "name": "SciencePointLevelTarget",
+      "param": "sciencePointLevelTargetOffset",
+      "kind": "StringOffset",
+      "index": 26
+    },
+    {
+      "name": "SciencePointLevelType",
+      "param": "sciencePointLevelType",
+      "kind": "MasterUpgradeType",
+      "index": 27
+    },
+    {
+      "name": "SciencePointLevelValueType",
+      "param": "sciencePointLevelValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 28
+    },
+    {
+      "name": "SciencePointLevelValue",
+      "param": "sciencePointLevelValue",
+      "kind": "double",
+      "index": 29
+    },
+    {
+      "name": "DStoneLevelTarget",
+      "param": "dStoneLevelTargetOffset",
+      "kind": "StringOffset",
+      "index": 30
+    },
+    {
+      "name": "DStoneLevelType",
+      "param": "dStoneLevelType",
+      "kind": "MasterUpgradeType",
+      "index": 31
+    },
+    {
+      "name": "DStoneLevelValueType",
+      "param": "dStoneLevelValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 32
+    },
+    {
+      "name": "DStoneLevelValue",
+      "param": "dStoneLevelValue",
+      "kind": "double",
+      "index": 33
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "IsHardOnly": false,
+      "RankTarget": "",
+      "GoldBonus": "1.00E+00",
+      "SpecialBonusType": [],
+      "SpecialBonusValueType": [],
+      "SpecialBonusValue": [],
+      "DiveRankType": 0,
+      "DiveRankValueType": 0,
+      "DiveRankValue": 0,
+      "DmgLevelTarget": "",
+      "DmgLevelType": 0,
+      "DmgLevelValueType": 0,
+      "DmgLevelValue": 0,
+      "GoldLevelTarget": "",
+      "GoldLevelType": 0,
+      "GoldLevelValueType": 0,
+      "GoldLevelValue": 0,
+      "PowerLevelTarget": "",
+      "PowerLevelType": 0,
+      "PowerLevelValueType": 0,
+      "PowerLevelValue": 0,
+      "SoulLevelTarget": "",
+      "SoulLevelType": 0,
+      "SoulLevelValueType": 0,
+      "SoulLevelValue": 0,
+      "SciencePointLevelTarget": "",
+      "SciencePointLevelType": 0,
+      "SciencePointLevelValueType": 0,
+      "SciencePointLevelValue": 0,
+      "DStoneLevelTarget": "",
+      "DStoneLevelType": 0,
+      "DStoneLevelValueType": 0,
+      "DStoneLevelValue": 0
+    },
+    {
+      "Level": 2,
+      "IsHardOnly": false,
+      "RankTarget": "1e18",
+      "GoldBonus": "4.00E+00",
+      "SpecialBonusType": [
+        "Gold"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "AllWeaponDmg",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 200.0,
+      "DmgLevelTarget": "1e32",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 20.0,
+      "GoldLevelTarget": "1e15",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 25.0,
+      "PowerLevelTarget": "1e44",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 25.0,
+      "SoulLevelTarget": "1e46",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 50.0,
+      "SciencePointLevelTarget": "1e10",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 15.0,
+      "DStoneLevelTarget": "1e0",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 10.0
+    },
+    {
+      "Level": 3,
+      "IsHardOnly": false,
+      "RankTarget": "1e28",
+      "GoldBonus": "1.60E+01",
+      "SpecialBonusType": [
+        "Power"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        5.0
+      ],
+      "DiveRankType": "Gold",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 200.0,
+      "DmgLevelTarget": "1e36",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 20.0,
+      "GoldLevelTarget": "1e19",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 25.0,
+      "PowerLevelTarget": "1e50",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 25.0,
+      "SoulLevelTarget": "1e52",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 50.0,
+      "SciencePointLevelTarget": "1e12",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 15.0,
+      "DStoneLevelTarget": "1e2",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 10.0
+    },
+    {
+      "Level": 4,
+      "IsHardOnly": false,
+      "RankTarget": "1e38",
+      "GoldBonus": "6.40E+01",
+      "SpecialBonusType": [
+        "AllWeaponDmg"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "ScienceRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e40",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 40.0,
+      "GoldLevelTarget": "1e23",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 50.0,
+      "PowerLevelTarget": "1e56",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 50.0,
+      "SoulLevelTarget": "1e58",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 100.0,
+      "SciencePointLevelTarget": "1e14",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 30.0,
+      "DStoneLevelTarget": "1e4",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 20.0
+    },
+    {
+      "Level": 5,
+      "IsHardOnly": false,
+      "RankTarget": "1e48",
+      "GoldBonus": "2.56E+02",
+      "SpecialBonusType": [
+        "Gold"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "QuantumRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e44",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 40.0,
+      "GoldLevelTarget": "1e27",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 50.0,
+      "PowerLevelTarget": "1e62",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 50.0,
+      "SoulLevelTarget": "1e65",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 100.0,
+      "SciencePointLevelTarget": "1e16",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 30.0,
+      "DStoneLevelTarget": "1e6",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 20.0
+    },
+    {
+      "Level": 6,
+      "IsHardOnly": false,
+      "RankTarget": "1e59",
+      "GoldBonus": "1.02E+03",
+      "SpecialBonusType": [
+        "Power"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        5.0
+      ],
+      "DiveRankType": "SciencePoint",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 100.0,
+      "DmgLevelTarget": "1e50",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 60.0,
+      "GoldLevelTarget": "1e31",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 75.0,
+      "PowerLevelTarget": "1e69",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 75.0,
+      "SoulLevelTarget": "1e72",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 150.0,
+      "SciencePointLevelTarget": "1e17",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 45.0,
+      "DStoneLevelTarget": "1e8",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 30.0
+    },
+    {
+      "Level": 7,
+      "IsHardOnly": false,
+      "RankTarget": "1e70",
+      "GoldBonus": "4.10E+03",
+      "SpecialBonusType": [
+        "PrestigeBonus"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        10.0
+      ],
+      "DiveRankType": "QuantumPoint",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 100.0,
+      "DmgLevelTarget": "1e55",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 60.0,
+      "GoldLevelTarget": "1e36",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 75.0,
+      "PowerLevelTarget": "1e76",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 75.0,
+      "SoulLevelTarget": "1e80",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 150.0,
+      "SciencePointLevelTarget": "1e18",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 45.0,
+      "DStoneLevelTarget": "1e9",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 30.0
+    },
+    {
+      "Level": 8,
+      "IsHardOnly": false,
+      "RankTarget": "1e82",
+      "GoldBonus": "1.64E+04",
+      "SpecialBonusType": [
+        "DStone"
+      ],
+      "SpecialBonusValueType": [
+        "Percent"
+      ],
+      "SpecialBonusValue": [
+        35.0
+      ],
+      "DiveRankType": "ScienceRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e60",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 80.0,
+      "GoldLevelTarget": "1e41",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 100.0,
+      "PowerLevelTarget": "1e83",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 100.0,
+      "SoulLevelTarget": "1e88",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 200.0,
+      "SciencePointLevelTarget": "1e19",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 60.0,
+      "DStoneLevelTarget": "1e10",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 40.0
+    },
+    {
+      "Level": 9,
+      "IsHardOnly": false,
+      "RankTarget": "1e94",
+      "GoldBonus": "6.55E+04",
+      "SpecialBonusType": [
+        "SciencePoint"
+      ],
+      "SpecialBonusValueType": [
+        "Percent"
+      ],
+      "SpecialBonusValue": [
+        50.0
+      ],
+      "DiveRankType": "QuantumRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e66",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 80.0,
+      "GoldLevelTarget": "1e46",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 100.0,
+      "PowerLevelTarget": "1e90",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 100.0,
+      "SoulLevelTarget": "1e96",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 200.0,
+      "SciencePointLevelTarget": "1e20",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 60.0,
+      "DStoneLevelTarget": "1e11",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 40.0
+    },
+    {
+      "Level": 10,
+      "IsHardOnly": false,
+      "RankTarget": "1e107",
+      "GoldBonus": "2.62E+05",
+      "SpecialBonusType": [
+        "Gold"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "RankPowerDown",
+      "DiveRankValueType": "Divide",
+      "DiveRankValue": 100.0,
+      "DmgLevelTarget": "1e72",
+      "DmgLevelType": "Ether",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 100.0,
+      "GoldLevelTarget": "1e51",
+      "GoldLevelType": "Ether",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 100.0,
+      "PowerLevelTarget": "1e98",
+      "PowerLevelType": "Ether",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 100.0,
+      "SoulLevelTarget": "1e105",
+      "SoulLevelType": "Ether",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 100.0,
+      "SciencePointLevelTarget": "1e22",
+      "SciencePointLevelType": "Ether",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 100.0,
+      "DStoneLevelTarget": "1e12",
+      "DStoneLevelType": "Ether",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 100.0
+    },
+    {
+      "Level": 11,
+      "IsHardOnly": false,
+      "RankTarget": "1e120",
+      "GoldBonus": "1.05E+06",
+      "SpecialBonusType": [
+        "AllWeaponDmg"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "Rune",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 1.0,
+      "DmgLevelTarget": "1e78",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 100.0,
+      "GoldLevelTarget": "1e56",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 125.0,
+      "PowerLevelTarget": "1e106",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 125.0,
+      "SoulLevelTarget": "1e115",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 250.0,
+      "SciencePointLevelTarget": "1e23",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 75.0,
+      "DStoneLevelTarget": "1e13",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 50.0
+    },
+    {
+      "Level": 12,
+      "IsHardOnly": false,
+      "RankTarget": "1e133",
+      "GoldBonus": "4.19E+06",
+      "SpecialBonusType": [
+        "Power"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        5.0
+      ],
+      "DiveRankType": "AllWeaponDmg",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 300.0,
+      "DmgLevelTarget": "1e84",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 120.0,
+      "GoldLevelTarget": "1e62",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 150.0,
+      "PowerLevelTarget": "1e115",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 150.0,
+      "SoulLevelTarget": "1e127",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 300.0,
+      "SciencePointLevelTarget": "1e24",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 90.0,
+      "DStoneLevelTarget": "1e14",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 60.0
+    },
+    {
+      "Level": 13,
+      "IsHardOnly": false,
+      "RankTarget": "1e147",
+      "GoldBonus": "1.68E+07",
+      "SpecialBonusType": [
+        "SciencePoint"
+      ],
+      "SpecialBonusValueType": [
+        "Percent"
+      ],
+      "SpecialBonusValue": [
+        50.0
+      ],
+      "DiveRankType": "Gold",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 300.0,
+      "DmgLevelTarget": "1e90",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 120.0,
+      "GoldLevelTarget": "1e68",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 150.0,
+      "PowerLevelTarget": "1e125",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 150.0,
+      "SoulLevelTarget": "1e139",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 300.0,
+      "SciencePointLevelTarget": "1e25",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 90.0,
+      "DStoneLevelTarget": "1e16",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 60.0
+    },
+    {
+      "Level": 14,
+      "IsHardOnly": false,
+      "RankTarget": "1e160",
+      "GoldBonus": "6.71E+07",
+      "SpecialBonusType": [
+        "AllWeaponDmg"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "ScienceRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e96",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 140.0,
+      "GoldLevelTarget": "1e74",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 175.0,
+      "PowerLevelTarget": "1e135",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 175.0,
+      "SoulLevelTarget": "1e151",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 350.0,
+      "SciencePointLevelTarget": "1e26",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 105.0,
+      "DStoneLevelTarget": "1e17",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 70.0
+    },
+    {
+      "Level": 15,
+      "IsHardOnly": false,
+      "RankTarget": "1e173",
+      "GoldBonus": "2.68E+08",
+      "SpecialBonusType": [
+        "PrestigeBonus"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        10.0
+      ],
+      "DiveRankType": "QuantumRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e103",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 140.0,
+      "GoldLevelTarget": "1e80",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 175.0,
+      "PowerLevelTarget": "1e146",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 175.0,
+      "SoulLevelTarget": "1e163",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 350.0,
+      "SciencePointLevelTarget": "1e28",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 105.0,
+      "DStoneLevelTarget": "1e18",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 70.0
+    },
+    {
+      "Level": 16,
+      "IsHardOnly": false,
+      "RankTarget": "1e186",
+      "GoldBonus": "1.07E+09",
+      "SpecialBonusType": [
+        "Gold"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "SciencePoint",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 150.0,
+      "DmgLevelTarget": "1e110",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 160.0,
+      "GoldLevelTarget": "1e87",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 200.0,
+      "PowerLevelTarget": "1e157",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 200.0,
+      "SoulLevelTarget": "1e175",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 400.0,
+      "SciencePointLevelTarget": "1e29",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 120.0,
+      "DStoneLevelTarget": "1e19",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 80.0
+    },
+    {
+      "Level": 17,
+      "IsHardOnly": false,
+      "RankTarget": "1e200",
+      "GoldBonus": "4.29E+09",
+      "SpecialBonusType": [
+        "SciencePoint"
+      ],
+      "SpecialBonusValueType": [
+        "Percent"
+      ],
+      "SpecialBonusValue": [
+        50.0
+      ],
+      "DiveRankType": "QuantumPoint",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 150.0,
+      "DmgLevelTarget": "1e118",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 160.0,
+      "GoldLevelTarget": "1e94",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 200.0,
+      "PowerLevelTarget": "1e168",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 200.0,
+      "SoulLevelTarget": "1e187",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 400.0,
+      "SciencePointLevelTarget": "1e30",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 120.0,
+      "DStoneLevelTarget": "1e20",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 80.0
+    },
+    {
+      "Level": 18,
+      "IsHardOnly": false,
+      "RankTarget": "1e214",
+      "GoldBonus": "1.72E+10",
+      "SpecialBonusType": [
+        "Power"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        5.0
+      ],
+      "DiveRankType": "ScienceRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e126",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 180.0,
+      "GoldLevelTarget": "1e101",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 225.0,
+      "PowerLevelTarget": "1e180",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 225.0,
+      "SoulLevelTarget": "1e200",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 450.0,
+      "SciencePointLevelTarget": "1e31",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 135.0,
+      "DStoneLevelTarget": "1e21",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 90.0
+    },
+    {
+      "Level": 19,
+      "IsHardOnly": false,
+      "RankTarget": "1e230",
+      "GoldBonus": "6.87E+10",
+      "SpecialBonusType": [
+        "PrestigeBonus"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        10.0
+      ],
+      "DiveRankType": "QuantumRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 25.0,
+      "DmgLevelTarget": "1e136",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 180.0,
+      "GoldLevelTarget": "1e110",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 225.0,
+      "PowerLevelTarget": "1e194",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 225.0,
+      "SoulLevelTarget": "1e215",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 450.0,
+      "SciencePointLevelTarget": "1e33",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 135.0,
+      "DStoneLevelTarget": "1e23",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 90.0
+    },
+    {
+      "Level": 20,
+      "IsHardOnly": false,
+      "RankTarget": "1e250",
+      "GoldBonus": "2.75E+11",
+      "SpecialBonusType": [
+        "DStone"
+      ],
+      "SpecialBonusValueType": [
+        "Percent"
+      ],
+      "SpecialBonusValue": [
+        35.0
+      ],
+      "DiveRankType": "RankPowerDown",
+      "DiveRankValueType": "Divide",
+      "DiveRankValue": 250.0,
+      "DmgLevelTarget": "1e150",
+      "DmgLevelType": "Ether",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 100.0,
+      "GoldLevelTarget": "1e123",
+      "GoldLevelType": "Ether",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 100.0,
+      "PowerLevelTarget": "1e214",
+      "PowerLevelType": "Ether",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 100.0,
+      "SoulLevelTarget": "1e236",
+      "SoulLevelType": "Ether",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 100.0,
+      "SciencePointLevelTarget": "1e35",
+      "SciencePointLevelType": "Ether",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 100.0,
+      "DStoneLevelTarget": "1e25",
+      "DStoneLevelType": "Ether",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 100.0
+    },
+    {
+      "Level": 21,
+      "IsHardOnly": true,
+      "RankTarget": "1e266",
+      "GoldBonus": "1.10E+12",
+      "SpecialBonusType": [
+        "BlockHpDown"
+      ],
+      "SpecialBonusValueType": [
+        "Divide"
+      ],
+      "SpecialBonusValue": [
+        10.0
+      ],
+      "DiveRankType": "Rune",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 1.0,
+      "DmgLevelTarget": "1e160",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 200.0,
+      "GoldLevelTarget": "1e132",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 250.0,
+      "PowerLevelTarget": "1e228",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 250.0,
+      "SoulLevelTarget": "1e251",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 500.0,
+      "SciencePointLevelTarget": "1e36",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 150.0,
+      "DStoneLevelTarget": "1e26",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 100.0
+    },
+    {
+      "Level": 22,
+      "IsHardOnly": true,
+      "RankTarget": "1e282",
+      "GoldBonus": "4.40E+12",
+      "SpecialBonusType": [
+        "Gold"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "Gold",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 500.0,
+      "DmgLevelTarget": "1e170",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 220.0,
+      "GoldLevelTarget": "1e141",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 275.0,
+      "PowerLevelTarget": "1e231",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 275.0,
+      "SoulLevelTarget": "1e266",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 550.0,
+      "SciencePointLevelTarget": "1e37",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 165.0,
+      "DStoneLevelTarget": "1e27",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 110.0
+    },
+    {
+      "Level": 23,
+      "IsHardOnly": true,
+      "RankTarget": "1e300",
+      "GoldBonus": "1.76E+13",
+      "SpecialBonusType": [
+        "Power"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        5.0
+      ],
+      "DiveRankType": "Power",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 500.0,
+      "DmgLevelTarget": "1e182",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 220.0,
+      "GoldLevelTarget": "1e154",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 275.0,
+      "PowerLevelTarget": "1e245",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 275.0,
+      "SoulLevelTarget": "1e281",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 550.0,
+      "SciencePointLevelTarget": "1e38",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 165.0,
+      "DStoneLevelTarget": "1e28",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 110.0
+    },
+    {
+      "Level": 24,
+      "IsHardOnly": true,
+      "RankTarget": "1e320",
+      "GoldBonus": "7.04E+13",
+      "SpecialBonusType": [
+        "AllWeaponDmg"
+      ],
+      "SpecialBonusValueType": [
+        "Multiply"
+      ],
+      "SpecialBonusValue": [
+        3.0
+      ],
+      "DiveRankType": "SciencePoint",
+      "DiveRankValueType": "Percent",
+      "DiveRankValue": 300.0,
+      "DmgLevelTarget": "1e196",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 240.0,
+      "GoldLevelTarget": "1e164",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 300.0,
+      "PowerLevelTarget": "1e260",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 300.0,
+      "SoulLevelTarget": "1e299",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 600.0,
+      "SciencePointLevelTarget": "1e39",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 180.0,
+      "DStoneLevelTarget": "1e29",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 120.0
+    },
+    {
+      "Level": 25,
+      "IsHardOnly": true,
+      "RankTarget": "1e338",
+      "GoldBonus": "2.81E+14",
+      "SpecialBonusType": [
+        "RankPowerDown"
+      ],
+      "SpecialBonusValueType": [
+        "Divide"
+      ],
+      "SpecialBonusValue": [
+        25.0
+      ],
+      "DiveRankType": "ScienceRank",
+      "DiveRankValueType": "Add",
+      "DiveRankValue": 50.0,
+      "DmgLevelTarget": "1e208",
+      "DmgLevelType": "AllWeaponDmg",
+      "DmgLevelValueType": "Percent",
+      "DmgLevelValue": 240.0,
+      "GoldLevelTarget": "1e174",
+      "GoldLevelType": "Gold",
+      "GoldLevelValueType": "Percent",
+      "GoldLevelValue": 300.0,
+      "PowerLevelTarget": "1e272",
+      "PowerLevelType": "Power",
+      "PowerLevelValueType": "Percent",
+      "PowerLevelValue": 300.0,
+      "SoulLevelTarget": "1e317",
+      "SoulLevelType": "PrestigeBonus",
+      "SoulLevelValueType": "Percent",
+      "SoulLevelValue": 600.0,
+      "SciencePointLevelTarget": "1e40",
+      "SciencePointLevelType": "SciencePoint",
+      "SciencePointLevelValueType": "Percent",
+      "SciencePointLevelValue": 180.0,
+      "DStoneLevelTarget": "1e30",
+      "DStoneLevelType": "DStone",
+      "DStoneLevelValueType": "Percent",
+      "DStoneLevelValue": 120.0
+    }
+  ]
+}

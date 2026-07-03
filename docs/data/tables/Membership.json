@@ -1,0 +1,206 @@
+{
+  "type": "MasterMembership",
+  "index": 133,
+  "count": 46,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "idOffset",
+      "kind": "StringOffset",
+      "index": 0
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 1
+    }
+  ],
+  "rows": [
+    {
+      "Id": "ms_ads",
+      "Sort": 4
+    },
+    {
+      "Id": "ms_booster",
+      "Sort": 5
+    },
+    {
+      "Id": "ms_mission",
+      "Sort": 6
+    },
+    {
+      "Id": "ms_power",
+      "Sort": 7
+    },
+    {
+      "Id": "ms_soul",
+      "Sort": 8
+    },
+    {
+      "Id": "ms_science",
+      "Sort": 9
+    },
+    {
+      "Id": "ms_quantum",
+      "Sort": 10
+    },
+    {
+      "Id": "prism_pass",
+      "Sort": 12,
+      "English": "Prism Pass"
+    },
+    {
+      "Id": "epic_gold",
+      "Sort": 14
+    },
+    {
+      "Id": "epic_gold_2",
+      "Sort": 15
+    },
+    {
+      "Id": "epic_power",
+      "Sort": 16
+    },
+    {
+      "Id": "epic_power_2",
+      "Sort": 17
+    },
+    {
+      "Id": "epic_research",
+      "Sort": 18
+    },
+    {
+      "Id": "epic_research_2",
+      "Sort": 19
+    },
+    {
+      "Id": "epic_rank",
+      "Sort": 20
+    },
+    {
+      "Id": "epic_rank_2",
+      "Sort": 21
+    },
+    {
+      "Id": "epic_weapon",
+      "Sort": 22
+    },
+    {
+      "Id": "epic_weapon_2",
+      "Sort": 23
+    },
+    {
+      "Id": "epic_brick",
+      "Sort": 24
+    },
+    {
+      "Id": "epic_brick_2",
+      "Sort": 25
+    },
+    {
+      "Id": "epic_enhance",
+      "Sort": 26
+    },
+    {
+      "Id": "epic_enhance_2",
+      "Sort": 27
+    },
+    {
+      "Id": "epic_soul",
+      "Sort": 28
+    },
+    {
+      "Id": "epic_soul_2",
+      "Sort": 29
+    },
+    {
+      "Id": "epic_soul_enhance",
+      "Sort": 30
+    },
+    {
+      "Id": "epic_soul_enhance_2",
+      "Sort": 31
+    },
+    {
+      "Id": "epic_science",
+      "Sort": 32
+    },
+    {
+      "Id": "epic_science_2",
+      "Sort": 33
+    },
+    {
+      "Id": "epic_forge",
+      "Sort": 34
+    },
+    {
+      "Id": "epic_forge_2",
+      "Sort": 35
+    },
+    {
+      "Id": "epic_battle",
+      "Sort": 36
+    },
+    {
+      "Id": "epic_battle_2",
+      "Sort": 37
+    },
+    {
+      "Id": "epic_ether",
+      "Sort": 38
+    },
+    {
+      "Id": "epic_ether_2",
+      "Sort": 39
+    },
+    {
+      "Id": "epic_tachyon",
+      "Sort": 40
+    },
+    {
+      "Id": "epic_tachyon_2",
+      "Sort": 41
+    },
+    {
+      "Id": "epic_dimension",
+      "Sort": 42
+    },
+    {
+      "Id": "epic_dimension_2",
+      "Sort": 43
+    },
+    {
+      "Id": "epic_d_fuel",
+      "Sort": 44
+    },
+    {
+      "Id": "epic_d_fuel_2",
+      "Sort": 45
+    },
+    {
+      "Id": "epic_dial",
+      "Sort": 46
+    },
+    {
+      "Id": "epic_dial_2",
+      "Sort": 47
+    },
+    {
+      "Id": "epic_quantum",
+      "Sort": 48
+    },
+    {
+      "Id": "epic_quantum_2",
+      "Sort": 49
+    },
+    {
+      "Id": "epic_destiny",
+      "Sort": 50
+    },
+    {
+      "Id": "epic_destiny_2",
+      "Sort": 51
+    }
+  ]
+}

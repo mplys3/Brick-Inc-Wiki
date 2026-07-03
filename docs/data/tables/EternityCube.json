@@ -1,0 +1,1304 @@
+{
+  "type": "MasterEternityCube",
+  "index": 89,
+  "count": 41,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "ArtifactCount",
+      "param": "artifactCount",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Artifact1",
+      "param": "artifact1",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "Grade1",
+      "param": "grade1",
+      "kind": "MasterExtendedGradeType",
+      "index": 5
+    },
+    {
+      "name": "Artifact2",
+      "param": "artifact2",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "Grade2",
+      "param": "grade2",
+      "kind": "MasterExtendedGradeType",
+      "index": 7
+    },
+    {
+      "name": "Artifact3",
+      "param": "artifact3",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "Grade3",
+      "param": "grade3",
+      "kind": "MasterExtendedGradeType",
+      "index": 9
+    },
+    {
+      "name": "Artifact4",
+      "param": "artifact4",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "Grade4",
+      "param": "grade4",
+      "kind": "MasterExtendedGradeType",
+      "index": 11
+    },
+    {
+      "name": "Artifact5",
+      "param": "artifact5",
+      "kind": "int",
+      "index": 12
+    },
+    {
+      "name": "Grade5",
+      "param": "grade5",
+      "kind": "MasterExtendedGradeType",
+      "index": 13
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 14,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 15,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 16,
+      "element": "double"
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Sort": 3,
+      "UnlockRank": 0,
+      "ArtifactCount": 2,
+      "Artifact1": 15001,
+      "Grade1": "Heroic",
+      "Artifact2": 15002,
+      "Grade2": "Heroic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        100.0
+      ]
+    },
+    {
+      "Id": 2,
+      "Sort": 4,
+      "UnlockRank": 0,
+      "ArtifactCount": 3,
+      "Artifact1": 15004,
+      "Grade1": "Heroic",
+      "Artifact2": 15007,
+      "Grade2": "Heroic",
+      "Artifact3": 15010,
+      "Grade3": "Heroic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Power",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        100.0,
+        -80.0
+      ]
+    },
+    {
+      "Id": 3,
+      "Sort": 5,
+      "UnlockRank": 0,
+      "ArtifactCount": 2,
+      "Artifact1": 15012,
+      "Grade1": "Epic",
+      "Artifact2": 15011,
+      "Grade2": "Heroic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "BlockHpDown",
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "ValueList": [
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "Id": 4,
+      "Sort": 6,
+      "UnlockRank": 0,
+      "ArtifactCount": 2,
+      "Artifact1": 15015,
+      "Grade1": "Epic",
+      "Artifact2": 15002,
+      "Grade2": "Heroic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "CriDmg",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        100.0,
+        50.0
+      ]
+    },
+    {
+      "Id": 5,
+      "Sort": 7,
+      "UnlockRank": 0,
+      "ArtifactCount": 2,
+      "Artifact1": 15003,
+      "Grade1": "Epic",
+      "Artifact2": 15015,
+      "Grade2": "Epic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "PrestigeBonus",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        200.0,
+        1.0
+      ]
+    },
+    {
+      "Id": 6,
+      "Sort": 8,
+      "UnlockRank": 0,
+      "ArtifactCount": 4,
+      "Artifact1": 15011,
+      "Grade1": "Epic",
+      "Artifact2": 15012,
+      "Grade2": "Epic",
+      "Artifact3": 15001,
+      "Grade3": "Heroic",
+      "Artifact4": 15007,
+      "Grade4": "Heroic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "ValueList": [
+        1.77,
+        3.77
+      ]
+    },
+    {
+      "Id": 7,
+      "Sort": 9,
+      "UnlockRank": 0,
+      "ArtifactCount": 4,
+      "Artifact1": 15003,
+      "Grade1": "Epic",
+      "Artifact2": 15007,
+      "Grade2": "Epic",
+      "Artifact3": 15006,
+      "Grade3": "Heroic",
+      "Artifact4": 15013,
+      "Grade4": "Heroic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "RankPowerDown",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -33.0,
+        99.0
+      ]
+    },
+    {
+      "Id": 21,
+      "Sort": 10,
+      "UnlockRank": 0,
+      "ArtifactCount": 5,
+      "Artifact1": 15004,
+      "Grade1": "Epic",
+      "Artifact2": 15010,
+      "Grade2": "Epic",
+      "Artifact3": 15012,
+      "Grade3": "Epic",
+      "Artifact4": 15005,
+      "Grade4": "Heroic",
+      "Artifact5": 15015,
+      "Grade5": "Heroic",
+      "TypeList": [
+        "AllWeaponDmg",
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        66.0,
+        33.0
+      ]
+    },
+    {
+      "Id": 8,
+      "Sort": 11,
+      "UnlockRank": 0,
+      "ArtifactCount": 5,
+      "Artifact1": 15002,
+      "Grade1": "Epic",
+      "Artifact2": 15007,
+      "Grade2": "Epic",
+      "Artifact3": 15008,
+      "Grade3": "Epic",
+      "Artifact4": 15011,
+      "Grade4": "Epic",
+      "Artifact5": 15013,
+      "Grade5": "Epic",
+      "TypeList": [
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 9,
+      "Sort": 12,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15011,
+      "Grade1": "Legendary",
+      "Artifact2": 15008,
+      "Grade2": "Heroic",
+      "Artifact3": 15013,
+      "Grade3": "Heroic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "RankPowerDown",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -90.0,
+        10.0
+      ]
+    },
+    {
+      "Id": 10,
+      "Sort": 13,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15001,
+      "Grade1": "Legendary",
+      "Artifact2": 15006,
+      "Grade2": "Epic",
+      "Artifact3": 15009,
+      "Grade3": "Heroic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        300.0,
+        1.0
+      ]
+    },
+    {
+      "Id": 11,
+      "Sort": 14,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15007,
+      "Grade1": "Legendary",
+      "Artifact2": 15003,
+      "Grade2": "Epic",
+      "Artifact3": 15010,
+      "Grade3": "Heroic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -90.0,
+        -90.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 12,
+      "Sort": 15,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15012,
+      "Grade1": "Legendary",
+      "Artifact2": 15014,
+      "Grade2": "Epic",
+      "Artifact3": 15005,
+      "Grade3": "Heroic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "PrestigeBonus",
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 13,
+      "Sort": 16,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15010,
+      "Grade1": "Legendary",
+      "Artifact2": 15004,
+      "Grade2": "Epic",
+      "Artifact3": 15015,
+      "Grade3": "Epic",
+      "Artifact4": 15002,
+      "Grade4": "Heroic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        250.0,
+        75.0
+      ]
+    },
+    {
+      "Id": 14,
+      "Sort": 17,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15014,
+      "Grade1": "Legendary",
+      "Artifact2": 15002,
+      "Grade2": "Epic",
+      "Artifact3": 15009,
+      "Grade3": "Epic",
+      "Artifact4": 15008,
+      "Grade4": "Heroic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "BattleHp",
+        "PrestigeBonus",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        100.0,
+        200.0,
+        1.0
+      ]
+    },
+    {
+      "Id": 15,
+      "Sort": 18,
+      "UnlockRank": 43,
+      "ArtifactCount": 5,
+      "Artifact1": 15006,
+      "Grade1": "Legendary",
+      "Artifact2": 15002,
+      "Grade2": "Epic",
+      "Artifact3": 15010,
+      "Grade3": "Epic",
+      "Artifact4": 15005,
+      "Grade4": "Heroic",
+      "Artifact5": 15015,
+      "Grade5": "Heroic",
+      "TypeList": [
+        "Power",
+        "SciencePoint",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        100.0,
+        5.0
+      ]
+    },
+    {
+      "Id": 16,
+      "Sort": 19,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15004,
+      "Grade1": "Legendary",
+      "Artifact2": 15001,
+      "Grade2": "Epic",
+      "Artifact3": 15006,
+      "Grade3": "Epic",
+      "Artifact4": 15008,
+      "Grade4": "Epic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold",
+        "Power",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        333.0,
+        333.0,
+        111.0
+      ]
+    },
+    {
+      "Id": 17,
+      "Sort": 20,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15005,
+      "Grade1": "Legendary",
+      "Artifact2": 15015,
+      "Grade2": "Legendary",
+      "Artifact3": 15010,
+      "Grade3": "Heroic",
+      "Artifact4": 15011,
+      "Grade4": "Heroic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "BlockHpDown",
+        "DivineBeastHpDown",
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        10.0,
+        500.0
+      ]
+    },
+    {
+      "Id": 18,
+      "Sort": 21,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15003,
+      "Grade1": "Legendary",
+      "Artifact2": 15011,
+      "Grade2": "Legendary",
+      "Artifact3": 15009,
+      "Grade3": "Epic",
+      "Artifact4": 15012,
+      "Grade4": "Epic",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "SuperCriDmg",
+        "PrestigeBonus",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        6.0,
+        6.0,
+        10.0
+      ]
+    },
+    {
+      "Id": 19,
+      "Sort": 22,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15001,
+      "Grade1": "Legendary",
+      "Artifact2": 15005,
+      "Grade2": "Legendary",
+      "Artifact3": 15013,
+      "Grade3": "Legendary",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Power",
+        "RankPowerDown",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Divide",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        5.0,
+        300.0
+      ]
+    },
+    {
+      "Id": 22,
+      "Sort": 23,
+      "UnlockRank": 43,
+      "ArtifactCount": 5,
+      "Artifact1": 15002,
+      "Grade1": "Legendary",
+      "Artifact2": 15008,
+      "Grade2": "Legendary",
+      "Artifact3": 15009,
+      "Grade3": "Legendary",
+      "Artifact4": 15001,
+      "Grade4": "Epic",
+      "Artifact5": 15014,
+      "Grade5": "Epic",
+      "TypeList": [
+        "Gold",
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        500.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 20,
+      "Sort": 24,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15003,
+      "Grade1": "Legendary",
+      "Artifact2": 15004,
+      "Grade2": "Legendary",
+      "Artifact3": 15007,
+      "Grade3": "Legendary",
+      "Artifact4": 15014,
+      "Grade4": "Legendary",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "Power",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        400.0,
+        1000.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 23,
+      "Sort": 25,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15001,
+      "Grade1": "Mystic",
+      "Artifact2": 15009,
+      "Grade2": "Legendary",
+      "Artifact3": 15010,
+      "Grade3": "Legendary",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold",
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        2500.0,
+        -90.0,
+        -90.0
+      ]
+    },
+    {
+      "Id": 24,
+      "Sort": 26,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15012,
+      "Grade1": "Mystic",
+      "Artifact2": 15014,
+      "Grade2": "Legendary",
+      "Artifact3": 15015,
+      "Grade3": "Legendary",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "DivineBeastHpDown",
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -99.0,
+        999.0,
+        999.0
+      ]
+    },
+    {
+      "Id": 25,
+      "Sort": 27,
+      "UnlockRank": 43,
+      "ArtifactCount": 2,
+      "Artifact1": 15005,
+      "Grade1": "Mystic",
+      "Artifact2": 15014,
+      "Grade2": "Mystic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Power",
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        5000.0,
+        250.0
+      ]
+    },
+    {
+      "Id": 26,
+      "Sort": 28,
+      "UnlockRank": 43,
+      "ArtifactCount": 2,
+      "Artifact1": 15007,
+      "Grade1": "Mystic",
+      "Artifact2": 15009,
+      "Grade2": "Mystic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold",
+        "ResearchCostDown",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        1000.0,
+        -99.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 27,
+      "Sort": 29,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15004,
+      "Grade1": "Mystic",
+      "Artifact2": 15013,
+      "Grade2": "Mystic",
+      "Artifact3": 15006,
+      "Grade3": "Legendary",
+      "Artifact4": 15012,
+      "Grade4": "Legendary",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Divide"
+      ],
+      "ValueList": [
+        4000.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 28,
+      "Sort": 30,
+      "UnlockRank": 43,
+      "ArtifactCount": 4,
+      "Artifact1": 15003,
+      "Grade1": "Mystic",
+      "Artifact2": 15011,
+      "Grade2": "Mystic",
+      "Artifact3": 15005,
+      "Grade3": "Legendary",
+      "Artifact4": 15002,
+      "Grade4": "Legendary",
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "PrestigeBonus",
+        "BlockHpDown",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Divide",
+        "Percent"
+      ],
+      "ValueList": [
+        666.0,
+        66.0,
+        66.0
+      ]
+    },
+    {
+      "Id": 29,
+      "Sort": 31,
+      "UnlockRank": 43,
+      "ArtifactCount": 5,
+      "Artifact1": 15002,
+      "Grade1": "Mystic",
+      "Artifact2": 15014,
+      "Grade2": "Mystic",
+      "Artifact3": 15008,
+      "Grade3": "Legendary",
+      "Artifact4": 15007,
+      "Grade4": "Legendary",
+      "Artifact5": 15013,
+      "Grade5": "Legendary",
+      "TypeList": [
+        "Power",
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        1000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    {
+      "Id": 30,
+      "Sort": 32,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15006,
+      "Grade1": "Mystic",
+      "Artifact2": 15010,
+      "Grade2": "Mystic",
+      "Artifact3": 15015,
+      "Grade3": "Mystic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "WeaponEnhanceCostDown",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Divide",
+        "Add"
+      ],
+      "ValueList": [
+        5000.0,
+        100.0,
+        2.0
+      ]
+    },
+    {
+      "Id": 31,
+      "Sort": 33,
+      "UnlockRank": 43,
+      "ArtifactCount": 3,
+      "Artifact1": 15005,
+      "Grade1": "Mystic",
+      "Artifact2": 15008,
+      "Grade2": "Mystic",
+      "Artifact3": 15013,
+      "Grade3": "Mystic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "SciencePoint",
+        "Ether",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        999.0,
+        333.0,
+        111.0
+      ]
+    },
+    {
+      "Id": 33,
+      "Sort": 35,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15001,
+      "Grade1": "Mystic",
+      "Artifact2": 15010,
+      "Grade2": "LegendaryPlus2",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Gold",
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        1500.0,
+        600.0
+      ]
+    },
+    {
+      "Id": 34,
+      "Sort": 36,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15005,
+      "Grade1": "Mystic",
+      "Artifact2": 15003,
+      "Grade2": "LegendaryPlus2",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "Power",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Divide"
+      ],
+      "ValueList": [
+        2000.0,
+        80.0
+      ]
+    },
+    {
+      "Id": 35,
+      "Sort": 37,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15004,
+      "Grade1": "Mystic",
+      "Artifact2": 15013,
+      "Grade2": "LegendaryPlus2",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        150.0
+      ]
+    },
+    {
+      "Id": 36,
+      "Sort": 38,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15009,
+      "Grade1": "Mystic",
+      "Artifact2": 15006,
+      "Grade2": "LegendaryPlus2",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "PrestigeBonus",
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        2500.0,
+        250.0
+      ]
+    },
+    {
+      "Id": 37,
+      "Sort": 39,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15005,
+      "Grade1": "Mystic",
+      "Artifact2": 15014,
+      "Grade2": "Mystic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "SciencePoint",
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        300.0,
+        300.0
+      ]
+    },
+    {
+      "Id": 38,
+      "Sort": 40,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15007,
+      "Grade1": "Mystic",
+      "Artifact2": 15015,
+      "Grade2": "Mystic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "ScienceRank",
+        "QuantumRank"
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Add"
+      ],
+      "ValueList": [
+        25.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 39,
+      "Sort": 41,
+      "UnlockRank": 58,
+      "ArtifactCount": 2,
+      "Artifact1": 15011,
+      "Grade1": "Mystic",
+      "Artifact2": 15012,
+      "Grade2": "Mystic",
+      "Artifact3": 0,
+      "Grade3": 0,
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "AllWeaponDmg",
+        "Ash"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        2000.0,
+        200.0
+      ]
+    },
+    {
+      "Id": 40,
+      "Sort": 42,
+      "UnlockRank": 73,
+      "ArtifactCount": 3,
+      "Artifact1": 15006,
+      "Grade1": "Mystic",
+      "Artifact2": 15013,
+      "Grade2": "Mystic",
+      "Artifact3": 15014,
+      "Grade3": "Mystic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "PrestigeBonus",
+        "BattleHp",
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply",
+        "Multiply"
+      ],
+      "ValueList": [
+        50.0,
+        7.0,
+        7.0
+      ]
+    },
+    {
+      "Id": 41,
+      "Sort": 43,
+      "UnlockRank": 73,
+      "ArtifactCount": 3,
+      "Artifact1": 15010,
+      "Grade1": "Mystic",
+      "Artifact2": 15012,
+      "Grade2": "Mystic",
+      "Artifact3": 15015,
+      "Grade3": "Mystic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "RankPowerDown",
+        "Rune"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Add"
+      ],
+      "ValueList": [
+        100.0,
+        1.0
+      ]
+    },
+    {
+      "Id": 42,
+      "Sort": 44,
+      "UnlockRank": 73,
+      "ArtifactCount": 3,
+      "Artifact1": 15002,
+      "Grade1": "Mystic",
+      "Artifact2": 15005,
+      "Grade2": "Mystic",
+      "Artifact3": 15007,
+      "Grade3": "Mystic",
+      "Artifact4": 0,
+      "Grade4": 0,
+      "Artifact5": 0,
+      "Grade5": 0,
+      "TypeList": [
+        "SEnergy"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    }
+  ]
+}

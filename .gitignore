@@ -1,0 +1,17 @@
+# Local APK/decompile workspace
+$out/
+site/
+wiki_extract/
+*.apk
+*.xapk
+
+# Local instrumentation scratch files
+frida-*.js
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc

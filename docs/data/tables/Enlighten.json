@@ -1,0 +1,269 @@
+{
+  "type": "MasterEnlighten",
+  "index": 85,
+  "count": 10,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "SoulTarget",
+      "param": "soulTarget",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "SoulCost",
+      "param": "soulCostOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "SoulCostUp",
+      "param": "soulCostUp",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "MindTarget",
+      "param": "mindTarget",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "MindCost",
+      "param": "mindCostOffset",
+      "kind": "StringOffset",
+      "index": 6
+    },
+    {
+      "name": "MindCostUp",
+      "param": "mindCostUp",
+      "kind": "double",
+      "index": 7
+    },
+    {
+      "name": "TruthTarget",
+      "param": "truthTarget",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "TruthCost",
+      "param": "truthCost",
+      "kind": "int",
+      "index": 9
+    },
+    {
+      "name": "TruthCostUp",
+      "param": "truthCostUp",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "EnlightenCost",
+      "param": "enlightenCost",
+      "kind": "int",
+      "index": 11
+    },
+    {
+      "name": "CrystalEpic",
+      "param": "crystalEpic",
+      "kind": "int",
+      "index": 12
+    },
+    {
+      "name": "CrystalLegend",
+      "param": "crystalLegend",
+      "kind": "int",
+      "index": 13
+    },
+    {
+      "name": "CrystalMystic",
+      "param": "crystalMystic",
+      "kind": "int",
+      "index": 14
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "Bonus": 2,
+      "SoulTarget": 10000000,
+      "SoulCost": "1e341",
+      "SoulCostUp": 100.0,
+      "MindTarget": 10000000,
+      "MindCost": "1.00E+02",
+      "MindCostUp": 1.1,
+      "TruthTarget": 10000000,
+      "TruthCost": 5,
+      "TruthCostUp": 0,
+      "EnlightenCost": 50,
+      "CrystalEpic": 1,
+      "CrystalLegend": 3,
+      "CrystalMystic": 9
+    },
+    {
+      "Level": 2,
+      "Bonus": 4,
+      "SoulTarget": 20000000,
+      "SoulCost": "1e461",
+      "SoulCostUp": 100.0,
+      "MindTarget": 20000000,
+      "MindCost": "5.00E+02",
+      "MindCostUp": 1.1,
+      "TruthTarget": 20000000,
+      "TruthCost": 5,
+      "TruthCostUp": 0,
+      "EnlightenCost": 55,
+      "CrystalEpic": 2,
+      "CrystalLegend": 6,
+      "CrystalMystic": 18
+    },
+    {
+      "Level": 3,
+      "Bonus": 8,
+      "SoulTarget": 30000000,
+      "SoulCost": "1e588",
+      "SoulCostUp": 100.0,
+      "MindTarget": 30000000,
+      "MindCost": "1.50E+03",
+      "MindCostUp": 1.1,
+      "TruthTarget": 30000000,
+      "TruthCost": 5,
+      "TruthCostUp": 0,
+      "EnlightenCost": 60,
+      "CrystalEpic": 3,
+      "CrystalLegend": 9,
+      "CrystalMystic": 27
+    },
+    {
+      "Level": 4,
+      "Bonus": 32,
+      "SoulTarget": 40000000,
+      "SoulCost": "1e710",
+      "SoulCostUp": 100.0,
+      "MindTarget": 40000000,
+      "MindCost": "7.50E+03",
+      "MindCostUp": 1.1,
+      "TruthTarget": 40000000,
+      "TruthCost": 6,
+      "TruthCostUp": 0,
+      "EnlightenCost": 65,
+      "CrystalEpic": 5,
+      "CrystalLegend": 15,
+      "CrystalMystic": 45
+    },
+    {
+      "Level": 5,
+      "Bonus": 128,
+      "SoulTarget": 50000000,
+      "SoulCost": "1e842",
+      "SoulCostUp": 100.0,
+      "MindTarget": 50000000,
+      "MindCost": "3.50E+04",
+      "MindCostUp": 1.1,
+      "TruthTarget": 50000000,
+      "TruthCost": 6,
+      "TruthCostUp": 0,
+      "EnlightenCost": 70,
+      "CrystalEpic": 7,
+      "CrystalLegend": 21,
+      "CrystalMystic": 63
+    },
+    {
+      "Level": 6,
+      "Bonus": 512,
+      "SoulTarget": 60000000,
+      "SoulCost": "1e966",
+      "SoulCostUp": 100.0,
+      "MindTarget": 60000000,
+      "MindCost": "1.50E+05",
+      "MindCostUp": 1.1,
+      "TruthTarget": 60000000,
+      "TruthCost": 6,
+      "TruthCostUp": 0,
+      "EnlightenCost": 75,
+      "CrystalEpic": 10,
+      "CrystalLegend": 30,
+      "CrystalMystic": 90
+    },
+    {
+      "Level": 7,
+      "Bonus": 2500,
+      "SoulTarget": 70000000,
+      "SoulCost": "1e1097",
+      "SoulCostUp": 100.0,
+      "MindTarget": 70000000,
+      "MindCost": "5.00E+07",
+      "MindCostUp": 1.1,
+      "TruthTarget": 70000000,
+      "TruthCost": 7,
+      "TruthCostUp": 0,
+      "EnlightenCost": 80,
+      "CrystalEpic": 15,
+      "CrystalLegend": 45,
+      "CrystalMystic": 135
+    },
+    {
+      "Level": 8,
+      "Bonus": 15000,
+      "SoulTarget": 80000000,
+      "SoulCost": "1e1255",
+      "SoulCostUp": 100.0,
+      "MindTarget": 80000000,
+      "MindCost": "7.50E+09",
+      "MindCostUp": 1.1,
+      "TruthTarget": 80000000,
+      "TruthCost": 7,
+      "TruthCostUp": 0,
+      "EnlightenCost": 85,
+      "CrystalEpic": 20,
+      "CrystalLegend": 60,
+      "CrystalMystic": 180
+    },
+    {
+      "Level": 9,
+      "Bonus": 125000,
+      "SoulTarget": 90000000,
+      "SoulCost": "1e1473",
+      "SoulCostUp": 100.0,
+      "MindTarget": 90000000,
+      "MindCost": "8.00E+11",
+      "MindCostUp": 1.1,
+      "TruthTarget": 90000000,
+      "TruthCost": 7,
+      "TruthCostUp": 0,
+      "EnlightenCost": 90,
+      "CrystalEpic": 30,
+      "CrystalLegend": 90,
+      "CrystalMystic": 270
+    },
+    {
+      "Level": 10,
+      "Bonus": 2500000,
+      "SoulTarget": 100000000,
+      "SoulCost": "1e1790",
+      "SoulCostUp": 100.0,
+      "MindTarget": 100000000,
+      "MindCost": "2.00E+17",
+      "MindCostUp": 1.1,
+      "TruthTarget": 100000000,
+      "TruthCost": 10,
+      "TruthCostUp": 0,
+      "EnlightenCost": 95,
+      "CrystalEpic": 50,
+      "CrystalLegend": 150,
+      "CrystalMystic": 450
+    }
+  ]
+}

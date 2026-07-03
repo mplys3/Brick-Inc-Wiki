@@ -1,0 +1,393 @@
+{
+  "type": "MasterDimensionMilestone",
+  "index": 101,
+  "count": 60,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 3
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 2,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 1500.0
+    },
+    {
+      "Level": 3,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 3000.0
+    },
+    {
+      "Level": 4,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 5,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 6,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 7,
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 8,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 800.0
+    },
+    {
+      "Level": 9,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 10,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 11,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 12,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 1500.0
+    },
+    {
+      "Level": 13,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 3000.0
+    },
+    {
+      "Level": 14,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 15,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 16,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 17,
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 18,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 800.0
+    },
+    {
+      "Level": 19,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 20,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 21,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 22,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 1500.0
+    },
+    {
+      "Level": 23,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 3000.0
+    },
+    {
+      "Level": 24,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 25,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 26,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 27,
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 28,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 800.0
+    },
+    {
+      "Level": 29,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 30,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 31,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 32,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 1500.0
+    },
+    {
+      "Level": 33,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 3000.0
+    },
+    {
+      "Level": 34,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 35,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 36,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 37,
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 38,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 800.0
+    },
+    {
+      "Level": 39,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "Value": 100.0
+    },
+    {
+      "Level": 40,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 200.0
+    },
+    {
+      "Level": 41,
+      "Type": "SoulEnhanceMaxLevelUp",
+      "ValueType": "Add",
+      "Value": 2.0
+    },
+    {
+      "Level": 42,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 300.0
+    },
+    {
+      "Level": 43,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 500.0
+    },
+    {
+      "Level": 44,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 45,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 300.0
+    },
+    {
+      "Level": 46,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 47,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 48,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 250.0
+    },
+    {
+      "Level": 49,
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 50,
+      "Type": "BattleStat",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 51,
+      "Type": "SoulEnhanceMaxLevelUp",
+      "ValueType": "Add",
+      "Value": 2.0
+    },
+    {
+      "Level": 52,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 300.0
+    },
+    {
+      "Level": 53,
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 500.0
+    },
+    {
+      "Level": 54,
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 55,
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 300.0
+    },
+    {
+      "Level": 56,
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    },
+    {
+      "Level": 57,
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 58,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 250.0
+    },
+    {
+      "Level": 59,
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 100.0
+    },
+    {
+      "Level": 60,
+      "Type": "BattleStat",
+      "ValueType": "Percent",
+      "Value": 1000.0
+    }
+  ]
+}

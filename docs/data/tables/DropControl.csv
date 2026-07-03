@@ -1,0 +1,25 @@
+﻿Id,Name,Sort,MaxLevel,CostType,CostId,Cost,Value,English
+15001,af_golden_duck,4,8,RuinShard,0,25,0.25,Golden Duck
+15002,af_void_core,5,8,RuinShard,0,25,0.25,Void Core
+15003,af_eternal_flame,6,8,RuinShard,0,25,0.25,Eternal Flame
+15004,af_solar_reactor,7,8,RuinShard,0,25,0.25,Solar Reactor
+15005,af_transcendental_orb,8,8,RuinShard,0,25,0.25,Transcendent Orb
+15006,af_celestial_circle,9,8,RuinShard,0,25,0.25,Celestial Circle
+15007,af_quantum_dice,10,8,RuinShard,0,25,0.25,Quantum Dice
+15008,af_omega_lens,11,8,RuinShard,0,25,0.25,Omega Lens
+15009,af_key_of_creation,12,8,RuinShard,0,25,0.25,Key of Creation
+15010,af_arcane_hammer,13,8,RuinShard,0,25,0.25,Arcane Hammer
+15011,af_infernal_drive,14,8,RuinShard,0,25,0.25,Infernal Drive
+15012,af_book_of_death,15,8,RuinShard,0,25,0.25,Book of Death
+15013,af_dominator_crown,16,8,RuinShard,0,25,0.25,Dominator Crown
+15014,af_branch_of_life,17,8,RuinShard,0,25,0.25,Branch of Life
+15015,af_bloom_of_ruin,18,8,RuinShard,0,25,0.25,Flower of Ruin
+21001,dg_fractal_core,20,8,DShard,0,125,0.25,Fractal Core
+21002,dg_corrector_pen,21,8,DShard,0,125,0.25,Reality Correction Pen
+21003,dg_golden_cola,22,8,DShard,0,125,0.25,Golden Cola
+21004,dg_skein,23,8,DShard,0,125,0.25,Dimensional Thread
+21005,dg_spacetime_gauntlet,24,8,DShard,0,125,0.25,Spacetime Gauntlet
+21006,dg_ring_of_harmony,25,8,DShard,0,125,0.25,Ring of Harmony
+21007,dg_multiverse_bomb,26,8,DShard,0,125,0.25,Multiverse Bomb
+21008,dg_cosmo_star,27,8,DShard,0,125,0.25,Cosmo Star
+21009,dg_scissors,28,8,DShard,0,125,0.25,Dimensional Scissors

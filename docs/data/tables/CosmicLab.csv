@@ -1,0 +1,65 @@
+﻿Id,Target,Name,Sort,UpgradeLevel,Type,ValueType,Value,ValueUp,ValueUpType,CostType,CostId,Cost,CostUp,CostUpType,ExtraCostType,ExtraCostId,ExtraCost,ExtraCostUp,English
+1,0,cosmic_dial_expand,4,7,CosmicDial,Add,1.0,0,Add,MagicClock,1,10,10.0,Add,0,0,0,0,
+2,0,cosmic_dial_tick_1,5,11,CosmicDialTick,Multiply,1.07,0,Multiply,MagicClock,0,1,1.0,Add,0,0,0,0,
+3,0,cosmic_dial_tick_2,6,11,CosmicDialTick,Multiply,1.07,0,Multiply,Rune,0,250000,250000.0,Add,0,0,0,0,
+4,0,cosmic_dial_tick_3,7,11,CosmicDialTick,Multiply,1.07,0,Multiply,TimeCrystal,0,1,1.5,Multiply,0,0,0,0,
+101,25001,lb_engineering,10,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Engineering
+102,25002,lb_power,11,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Power
+103,25003,lb_authority,12,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Authority
+104,25004,lb_divinity,13,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Divinity
+105,25005,lb_golden,14,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Golden
+106,25006,lb_science,15,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Science
+107,25007,lb_weapon,16,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Weapon
+108,25008,lb_soul,17,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Soul
+109,25009,lb_strengthening,18,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Strengthening
+110,25010,lb_battle,19,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Battle
+111,25011,lb_destruction,20,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Destruction
+112,25012,lb_light,21,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Light
+113,25013,lb_analysis,22,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Analysis
+114,25014,lb_dimension,23,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Dimension
+115,25015,lb_quantum,24,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Quantum
+116,25016,lb_extinction,25,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Extinction
+117,25017,lb_future,26,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Future
+118,25018,lb_space,27,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,10,1.35,Multiply,MagicClock,0,1,0,Discipline: Space
+201,27001,ss_aries,29,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Aries
+202,27002,ss_taurus,30,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Taurus
+203,27003,ss_gemini,31,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Gemini
+204,27004,ss_cancer,32,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Cancer
+205,27005,ss_leo,33,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Leo
+206,27006,ss_virgo,34,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Virgo
+207,27007,ss_libra,35,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Libra
+208,27008,ss_scorpio,36,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Scorpio
+209,27009,ss_sagittarius,37,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Sagittarius
+210,27010,ss_capricorn,38,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Capricorn
+211,27011,ss_aquarius,39,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Aquarius
+212,27012,ss_pisces,40,100,0,Percent,2.0,2.0,Add,TimeCrystal,0,25,1.35,Multiply,MagicClock,0,3,0,Pisces
+301,25001,lb_engineering,43,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Engineering
+302,25002,lb_power,44,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Power
+303,25003,lb_authority,45,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Authority
+304,25004,lb_divinity,46,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Divinity
+305,25005,lb_golden,47,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Golden
+306,25006,lb_science,48,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Science
+307,25007,lb_weapon,49,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Weapon
+308,25008,lb_soul,50,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Soul
+309,25009,lb_strengthening,51,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Strengthening
+310,25010,lb_battle,52,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Battle
+311,25011,lb_destruction,53,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Destruction
+312,25012,lb_light,54,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Light
+313,25013,lb_analysis,55,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Analysis
+314,25014,lb_dimension,56,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Dimension
+315,25015,lb_quantum,57,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Quantum
+316,25016,lb_extinction,58,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Extinction
+317,25017,lb_future,59,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Future
+318,25018,lb_space,60,20,0,Percent,5.0,0,Add,TimeStone,0,1,2.0,Multiply,MagicClock,1,1,0,Discipline: Space
+401,27001,ss_aries,62,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Aries
+402,27002,ss_taurus,63,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Taurus
+403,27003,ss_gemini,64,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Gemini
+404,27004,ss_cancer,65,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Cancer
+405,27005,ss_leo,66,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Leo
+406,27006,ss_virgo,67,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Virgo
+407,27007,ss_libra,68,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Libra
+408,27008,ss_scorpio,69,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Scorpio
+409,27009,ss_sagittarius,70,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Sagittarius
+410,27010,ss_capricorn,71,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Capricorn
+411,27011,ss_aquarius,72,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Aquarius
+412,27012,ss_pisces,73,20,0,Percent,5.0,0,Add,TimeStone,0,2,2.0,Multiply,MagicClock,1,3,0,Pisces

@@ -1,0 +1,13 @@
+﻿Id,EventId,AttendanceMissionId,PassMissionId,EpicPassMissionId,PassRepeatMissionId,CollectBlocks,CollectBlocksFieldDropRateUp,English
+ev_main_2025_09,202509,10830,10831,10832,10833,"2521, 2522",0.02,Autumn Breeze Event
+ev_main_year_1_5,10002,10840,10841,0,10843,"2523, 2524",0.02,1.5 Year Anniversary Event
+ev_main_2025_11,202511,10850,10851,10852,10853,"2525, 2526",0.02,Snowy Night Event
+ev_main_2025_12_sp,1202512,10860,10861,0,10862,"2527, 2528",0.02,Christmas Special Event
+ev_main_2026_01,202601,10863,10864,10865,10866,"2529, 2530",0.02,A Brilliant New Year Event
+ev_main_2026_02_sp,1202602,10873,10874,0,10875,"2531, 2532",0.02,Valentine Special Event
+ev_main_2026_03,202603,10876,10877,10878,10879,"2533, 2534",0.02,New Semester Event
+ev_main_2026_03_sp,1202603,10886,10887,0,10888,"2535, 2536",0.02,Easter Special Event
+ev_main_year_2,10003,100001,100002,0,100003,"2537, 2538",0.02,2 Year Anniversary Event
+ev_main_2026_05,202605,100004,100005,100006,100007,"2539, 2540",0.02,Amusement Park Event
+ev_main_2026_06_sp,1202606,100014,100015,0,100016,"2541, 2542",0.02,Football Event
+ev_main_2026_07,202607,100017,100018,100019,100020,"2543, 2544",0.02,Summer Adventure Event

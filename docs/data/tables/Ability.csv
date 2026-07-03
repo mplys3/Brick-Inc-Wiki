@@ -1,0 +1,20 @@
+﻿Id,Name,Tier,Type,TypeValue,MaxLevel,Argumentcount,Value1Type,Value1,Value1UpType,Value1Up,Value2Type,Value2,Value2UpType,Value2Up,Value3Type,Value3,Value3UpType,Value3Up,UnlockCost,ActiveCost,English
+24001,ab_gold,1,UpgradeType,1,5,1,Multiply,16.0,Multiply,2.0,0,0,0,0,0,0,0,0,1,2,Gold Paint
+24002,ab_weapon,1,UpgradeType,30,5,1,Multiply,8.0,Multiply,2.0,0,0,0,0,0,0,0,0,1,2,Output Amplification
+24003,ab_dive,1,UpgradeType,350,5,1,Percent,50.0,Multiply,2.0,0,0,0,0,0,0,0,0,1,2,Deep Dive
+24011,ab_greed,2,Greed,1,5,2,Multiply,128.0,Multiply,2.0,Divide,128.0,Multiply,2.0,0,0,0,0,2,3,Hand of Greed
+24012,ab_accel,2,Accel,1,5,2,0,5.0,0,0,Percent,30.0,Add,5.0,0,0,0,0,2,3,Accelerator
+24013,ab_adrenalin,2,Adrenalin,1,5,2,0,30.0,0,0,Multiply,1000000.0,Multiply,10.0,0,0,0,0,2,3,Adrenaline Booster
+24014,ab_brain,2,Brain,1,5,1,Multiply,1.1,Add,0.05,0,0,0,0,0,0,0,0,2,3,Cybernetic Brain
+24021,ab_soul,3,Soul,1,5,2,Multiply,1.35,Add,0.05,Divide,1.25,0,0,0,0,0,0,3,4,Soul Contract
+24022,ab_fist,3,Fist,1,5,2,Multiply,1.55,Add,0.15,Multiply,1.55,Add,0.15,0,0,0,0,3,4,Pure Power
+24023,ab_brick,3,UpgradeType,200,5,1,Divide,1000000000.0,Multiply,1000.0,0,0,0,0,0,0,0,0,3,4,Brick Destroyer
+24024,ab_specialist,3,Specialist,1,5,1,0,10.0,Add,10.0,0,0,0,0,0,0,0,0,3,4,Specialist
+24031,ab_deposit,4,Deposit,1,5,2,0,8.0,Add,-1.0,0,2.0,0,0,0,0,0,0,4,5,Deposit
+24032,ab_loan,4,Loan,1,5,2,Multiply,100000.0,Multiply,100.0,Divide,1000.0,0,0,0,0,0,0,4,5,Loan
+24033,ab_invest,4,Invest,1,5,1,0,20.0,Add,-5.0,0,0,0,0,0,0,0,0,4,5,Investment
+24034,ab_sell,4,Sell,1,5,2,Percent,100.0,Add,100.0,0,30.0,Add,-5.0,0,0,0,0,4,5,Sale
+24041,ab_incinerate,5,Incinerate,1,5,2,Multiply,32.0,Multiply,2.0,Divide,1000000000000.0,0,0,0,0,0,0,5,6,Soul Incineration
+24042,ab_corruption,5,Corruption,1,5,3,0,8.0,Add,-1.0,Percent,40.0,0,0,Percent,-20.0,0,0,5,6,Dimension of Corruption
+24043,ab_light,5,Light,1,5,1,0,2.0,Add,2.0,0,0,0,0,0,0,0,0,5,6,Light of Supreme
+24044,ab_absorb,5,Absorb,1,5,2,Multiply,1000000000.0,Multiply,1000.0,0,30.0,0,0,0,0,0,0,5,6,Dimension Absorption

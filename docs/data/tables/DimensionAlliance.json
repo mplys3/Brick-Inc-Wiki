@@ -1,0 +1,283 @@
+{
+  "type": "MasterDimensionAlliance",
+  "index": 102,
+  "count": 16,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "BonusId",
+      "param": "bonusId",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "UnlockCost",
+      "param": "unlockCost",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "UpgradeCost",
+      "param": "upgradeCost",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "UpgradeCostup",
+      "param": "upgradeCostup",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "LevelBonusUp",
+      "param": "levelBonusUp",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "LevelBonusUpUp",
+      "param": "levelBonusUpUp",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 9
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "double",
+      "index": 10
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Type": "SciencePoint",
+      "BonusId": 1,
+      "UnlockRank": 0,
+      "UnlockCost": 1000000,
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.005
+    },
+    {
+      "Id": 2,
+      "Type": "ResearchCostDown",
+      "BonusId": 2,
+      "UnlockRank": 0,
+      "UnlockCost": 1000000,
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Divide",
+      "Bonus": 0.5
+    },
+    {
+      "Id": 3,
+      "Type": "WeaponEnhanceCostDown",
+      "BonusId": 3,
+      "UnlockRank": 0,
+      "UnlockCost": 1000000,
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Divide",
+      "Bonus": 0.5
+    },
+    {
+      "Id": 4,
+      "Type": "Gold",
+      "BonusId": 4,
+      "UnlockRank": 46,
+      "UnlockCost": 2000000,
+      "UpgradeCost": 20000,
+      "UpgradeCostup": 20000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.05
+    },
+    {
+      "Id": 5,
+      "Type": "PrestigeBonus",
+      "BonusId": 5,
+      "UnlockRank": 46,
+      "UnlockCost": 2000000,
+      "UpgradeCost": 20000,
+      "UpgradeCostup": 20000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.1
+    },
+    {
+      "Id": 6,
+      "Type": "RankPowerDown",
+      "BonusId": 6,
+      "UnlockRank": 46,
+      "UnlockCost": 2000000,
+      "UpgradeCost": 20000,
+      "UpgradeCostup": 20000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Divide",
+      "Bonus": 0.25
+    },
+    {
+      "Id": 7,
+      "Type": "Power",
+      "BonusId": 7,
+      "UnlockRank": 49,
+      "UnlockCost": 3000000,
+      "UpgradeCost": 30000,
+      "UpgradeCostup": 30000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.05
+    },
+    {
+      "Id": 8,
+      "Type": "DivineBeastHpDown",
+      "BonusId": 8,
+      "UnlockRank": 49,
+      "UnlockCost": 3000000,
+      "UpgradeCost": 30000,
+      "UpgradeCostup": 30000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Divide",
+      "Bonus": 0.5
+    },
+    {
+      "Id": 9,
+      "Type": "BlockHpDown",
+      "BonusId": 9,
+      "UnlockRank": 49,
+      "UnlockCost": 3000000,
+      "UpgradeCost": 30000,
+      "UpgradeCostup": 30000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Divide",
+      "Bonus": 0.25
+    },
+    {
+      "Id": 10,
+      "Type": "SuperCriDmg",
+      "BonusId": 10,
+      "UnlockRank": 52,
+      "UnlockCost": 4000000,
+      "UpgradeCost": 40000,
+      "UpgradeCostup": 40000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.05
+    },
+    {
+      "Id": 11,
+      "Type": "CriDmg",
+      "BonusId": 11,
+      "UnlockRank": 52,
+      "UnlockCost": 4000000,
+      "UpgradeCost": 40000,
+      "UpgradeCostup": 40000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.05
+    },
+    {
+      "Id": 12,
+      "Type": "AllWeaponDmg",
+      "BonusId": 12,
+      "UnlockRank": 55,
+      "UnlockCost": 5000000,
+      "UpgradeCost": 50000,
+      "UpgradeCostup": 50000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.025
+    },
+    {
+      "Id": 13,
+      "Type": "BattleHp",
+      "BonusId": 13,
+      "UnlockRank": 55,
+      "UnlockCost": 5000000,
+      "UpgradeCost": 50000,
+      "UpgradeCostup": 50000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.025
+    },
+    {
+      "Id": 14,
+      "Type": "BattleAtk",
+      "BonusId": 14,
+      "UnlockRank": 55,
+      "UnlockCost": 5000000,
+      "UpgradeCost": 50000,
+      "UpgradeCostup": 50000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.025
+    },
+    {
+      "Id": 15,
+      "Type": "QuantumPoint",
+      "BonusId": 15,
+      "UnlockRank": 58,
+      "UnlockCost": 7500000,
+      "UpgradeCost": 75000,
+      "UpgradeCostup": 75000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.005
+    },
+    {
+      "Id": 16,
+      "Type": "DestinyEnergy",
+      "BonusId": 16,
+      "UnlockRank": 61,
+      "UnlockCost": 10000000,
+      "UpgradeCost": 100000,
+      "UpgradeCostup": 100000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueType": "Multiply",
+      "Bonus": 0.01
+    }
+  ]
+}

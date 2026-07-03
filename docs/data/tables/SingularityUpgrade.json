@@ -1,0 +1,206 @@
+{
+  "type": "MasterSingularityUpgrade",
+  "index": 111,
+  "count": 5,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "SubLevel",
+      "param": "subLevel",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "MainType",
+      "param": "mainType",
+      "kind": "MasterUpgradeType",
+      "index": 5
+    },
+    {
+      "name": "MainValueType",
+      "param": "mainValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 6
+    },
+    {
+      "name": "MainValueUp",
+      "param": "mainValueUp",
+      "kind": "double",
+      "index": 7
+    },
+    {
+      "name": "SubType1",
+      "param": "subType1",
+      "kind": "MasterUpgradeType",
+      "index": 8
+    },
+    {
+      "name": "SubType1ValueType",
+      "param": "subType1ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 9
+    },
+    {
+      "name": "SubType1ValueUp",
+      "param": "subType1ValueUp",
+      "kind": "double",
+      "index": 10
+    },
+    {
+      "name": "SubType2",
+      "param": "subType2",
+      "kind": "MasterUpgradeType",
+      "index": 11
+    },
+    {
+      "name": "SubType2ValueType",
+      "param": "subType2ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 12
+    },
+    {
+      "name": "SubType2ValueUp",
+      "param": "subType2ValueUp",
+      "kind": "double",
+      "index": 13
+    },
+    {
+      "name": "MainCost",
+      "param": "mainCostOffset",
+      "kind": "StringOffset",
+      "index": 14
+    },
+    {
+      "name": "MainCostUp",
+      "param": "mainCostUpOffset",
+      "kind": "StringOffset",
+      "index": 15
+    },
+    {
+      "name": "SubCostMultiplier",
+      "param": "subCostMultiplier",
+      "kind": "double",
+      "index": 16
+    }
+  ],
+  "rows": [
+    {
+      "Id": 30001,
+      "Name": "qe_stabilization",
+      "Sort": 3,
+      "MaxLevel": 10,
+      "SubLevel": 5,
+      "MainType": "SEnergy",
+      "MainValueType": "Multiply",
+      "MainValueUp": 1.1,
+      "SubType1": "Gold",
+      "SubType1ValueType": "Multiply",
+      "SubType1ValueUp": 1.2,
+      "SubType2": "Power",
+      "SubType2ValueType": "Multiply",
+      "SubType2ValueUp": 1.2,
+      "MainCost": "1e1746",
+      "MainCostUp": "1.00E+20",
+      "SubCostMultiplier": 100.0
+    },
+    {
+      "Id": 30002,
+      "Name": "qe_database",
+      "Sort": 4,
+      "MaxLevel": 10,
+      "SubLevel": 5,
+      "MainType": "SciencePoint",
+      "MainValueType": "Multiply",
+      "MainValueUp": 2.0,
+      "SubType1": "WeaponEnhanceCostDown",
+      "SubType1ValueType": "Divide",
+      "SubType1ValueUp": 2.0,
+      "SubType2": "ResearchCostDown",
+      "SubType2ValueType": "Divide",
+      "SubType2ValueUp": 2.0,
+      "MainCost": "7e1844",
+      "MainCostUp": "1.00E+20",
+      "SubCostMultiplier": 100.0
+    },
+    {
+      "Id": 30005,
+      "Name": "qe_dynamics",
+      "Sort": 7,
+      "MaxLevel": 10,
+      "SubLevel": 5,
+      "MainType": "AllWeaponDmg",
+      "MainValueType": "Multiply",
+      "MainValueUp": 3.0,
+      "SubType1": "CriDmg",
+      "SubType1ValueType": "Multiply",
+      "SubType1ValueUp": 1.15,
+      "SubType2": "BlockHpDown",
+      "SubType2ValueType": "Divide",
+      "SubType2ValueUp": 1.15,
+      "MainCost": "3.5e1942",
+      "MainCostUp": "1.00E+20",
+      "SubCostMultiplier": 100.0
+    },
+    {
+      "Id": 30006,
+      "Name": "qe_time_control",
+      "Sort": 8,
+      "MaxLevel": 10,
+      "SubLevel": 5,
+      "MainType": "QuantumPoint",
+      "MainValueType": "Multiply",
+      "MainValueUp": 2.0,
+      "SubType1": "CosmicDialTick",
+      "SubType1ValueType": "Multiply",
+      "SubType1ValueUp": 1.01,
+      "SubType2": "Ash",
+      "SubType2ValueType": "Multiply",
+      "SubType2ValueUp": 1.04,
+      "MainCost": "5e2088",
+      "MainCostUp": "1.00E+20",
+      "SubCostMultiplier": 100.0
+    },
+    {
+      "Id": 30009,
+      "Name": "qe_unified_field",
+      "Sort": 11,
+      "MaxLevel": 10,
+      "SubLevel": 5,
+      "MainType": "DStone",
+      "MainValueType": "Multiply",
+      "MainValueUp": 1.5,
+      "SubType1": "ScienceRank",
+      "SubType1ValueType": "Add",
+      "SubType1ValueUp": 1.0,
+      "SubType2": "QuantumRank",
+      "SubType2ValueType": "Add",
+      "SubType2ValueUp": 1.0,
+      "MainCost": "1.5e2192",
+      "MainCostUp": "1.00E+20",
+      "SubCostMultiplier": 100.0
+    }
+  ]
+}

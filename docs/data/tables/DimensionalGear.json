@@ -1,0 +1,691 @@
+{
+  "type": "MasterDimensionalGear",
+  "index": 81,
+  "count": 9,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Type",
+      "param": "typeOffset",
+      "kind": "VectorOffset",
+      "index": 3,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueType",
+      "param": "valueTypeOffset",
+      "kind": "VectorOffset",
+      "index": 4,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "ValueRare",
+      "param": "valueRareOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "double"
+    },
+    {
+      "name": "ValueHeroic",
+      "param": "valueHeroicOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "double"
+    },
+    {
+      "name": "ValueHeroicPlus",
+      "param": "valueHeroicPlusOffset",
+      "kind": "VectorOffset",
+      "index": 7,
+      "element": "double"
+    },
+    {
+      "name": "ValueEpic",
+      "param": "valueEpicOffset",
+      "kind": "VectorOffset",
+      "index": 8,
+      "element": "double"
+    },
+    {
+      "name": "ValueEpicPlus",
+      "param": "valueEpicPlusOffset",
+      "kind": "VectorOffset",
+      "index": 9,
+      "element": "double"
+    },
+    {
+      "name": "ValueLegend",
+      "param": "valueLegendOffset",
+      "kind": "VectorOffset",
+      "index": 10,
+      "element": "double"
+    },
+    {
+      "name": "ValueLegendPlus",
+      "param": "valueLegendPlusOffset",
+      "kind": "VectorOffset",
+      "index": 11,
+      "element": "double"
+    },
+    {
+      "name": "ValueLegendPlus2",
+      "param": "valueLegendPlus2Offset",
+      "kind": "VectorOffset",
+      "index": 12,
+      "element": "double"
+    },
+    {
+      "name": "ValueMystic",
+      "param": "valueMysticOffset",
+      "kind": "VectorOffset",
+      "index": 13,
+      "element": "double"
+    },
+    {
+      "name": "ValueMysticPlus",
+      "param": "valueMysticPlusOffset",
+      "kind": "VectorOffset",
+      "index": 14,
+      "element": "double"
+    },
+    {
+      "name": "ValueMysticPlus2",
+      "param": "valueMysticPlus2Offset",
+      "kind": "VectorOffset",
+      "index": 15,
+      "element": "double"
+    },
+    {
+      "name": "LegendType",
+      "param": "legendType",
+      "kind": "MasterUpgradeType",
+      "index": 16
+    },
+    {
+      "name": "LegendValueType",
+      "param": "legendValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 17
+    },
+    {
+      "name": "LegendValue",
+      "param": "legendValue",
+      "kind": "double",
+      "index": 18
+    },
+    {
+      "name": "MysticType",
+      "param": "mysticType",
+      "kind": "MasterUpgradeType",
+      "index": 19
+    },
+    {
+      "name": "MysticValueType",
+      "param": "mysticValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 20
+    },
+    {
+      "name": "MysticValue",
+      "param": "mysticValue",
+      "kind": "double",
+      "index": 21
+    }
+  ],
+  "rows": [
+    {
+      "Id": 21001,
+      "Name": "dg_fractal_core",
+      "Sort": 3,
+      "Type": [
+        "QuantumPoint"
+      ],
+      "ValueType": [
+        "Percent"
+      ],
+      "ValueRare": [
+        20.0
+      ],
+      "ValueHeroic": [
+        40.0
+      ],
+      "ValueHeroicPlus": [
+        80.0
+      ],
+      "ValueEpic": [
+        200.0
+      ],
+      "ValueEpicPlus": [
+        400.0
+      ],
+      "ValueLegend": [
+        1000.0
+      ],
+      "ValueLegendPlus": [
+        3000.0
+      ],
+      "ValueLegendPlus2": [
+        10000.0
+      ],
+      "ValueMystic": [
+        50000.0
+      ],
+      "ValueMysticPlus": [
+        150000.0
+      ],
+      "ValueMysticPlus2": [
+        500000.0
+      ],
+      "LegendType": "Ash",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "DestinyEnergy",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Fractal Core"
+    },
+    {
+      "Id": 21002,
+      "Name": "dg_corrector_pen",
+      "Sort": 4,
+      "Type": [
+        "SciencePoint",
+        "RankPowerDown"
+      ],
+      "ValueType": [
+        "Percent",
+        "Divide"
+      ],
+      "ValueRare": [
+        20.0,
+        10.0
+      ],
+      "ValueHeroic": [
+        40.0,
+        20.0
+      ],
+      "ValueHeroicPlus": [
+        80.0,
+        40.0
+      ],
+      "ValueEpic": [
+        200.0,
+        100.0
+      ],
+      "ValueEpicPlus": [
+        400.0,
+        200.0
+      ],
+      "ValueLegend": [
+        1000.0,
+        500.0
+      ],
+      "ValueLegendPlus": [
+        3000.0,
+        1500.0
+      ],
+      "ValueLegendPlus2": [
+        10000.0,
+        5000.0
+      ],
+      "ValueMystic": [
+        50000.0,
+        25000.0
+      ],
+      "ValueMysticPlus": [
+        150000.0,
+        75000.0
+      ],
+      "ValueMysticPlus2": [
+        500000.0,
+        250000.0
+      ],
+      "LegendType": "Ash",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "DestinyEnergy",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Reality Correction Pen"
+    },
+    {
+      "Id": 21003,
+      "Name": "dg_golden_cola",
+      "Sort": 5,
+      "Type": [
+        "Gold",
+        "ResearchCostDown"
+      ],
+      "ValueType": [
+        "Percent",
+        "Divide"
+      ],
+      "ValueRare": [
+        100.0,
+        4.0
+      ],
+      "ValueHeroic": [
+        200.0,
+        8.0
+      ],
+      "ValueHeroicPlus": [
+        400.0,
+        16.0
+      ],
+      "ValueEpic": [
+        1000.0,
+        40.0
+      ],
+      "ValueEpicPlus": [
+        2000.0,
+        80.0
+      ],
+      "ValueLegend": [
+        5000.0,
+        200.0
+      ],
+      "ValueLegendPlus": [
+        15000.0,
+        600.0
+      ],
+      "ValueLegendPlus2": [
+        50000.0,
+        2000.0
+      ],
+      "ValueMystic": [
+        250000.0,
+        10000.0
+      ],
+      "ValueMysticPlus": [
+        750000.0,
+        30000.0
+      ],
+      "ValueMysticPlus2": [
+        2500000.0,
+        100000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Golden Cola"
+    },
+    {
+      "Id": 21004,
+      "Name": "dg_skein",
+      "Sort": 6,
+      "Type": [
+        "Power",
+        "PrestigeBonus"
+      ],
+      "ValueType": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueRare": [
+        50.0,
+        50.0
+      ],
+      "ValueHeroic": [
+        100.0,
+        100.0
+      ],
+      "ValueHeroicPlus": [
+        200.0,
+        200.0
+      ],
+      "ValueEpic": [
+        500.0,
+        500.0
+      ],
+      "ValueEpicPlus": [
+        1000.0,
+        1000.0
+      ],
+      "ValueLegend": [
+        2500.0,
+        2500.0
+      ],
+      "ValueLegendPlus": [
+        7500.0,
+        7500.0
+      ],
+      "ValueLegendPlus2": [
+        25000.0,
+        25000.0
+      ],
+      "ValueMystic": [
+        125000.0,
+        125000.0
+      ],
+      "ValueMysticPlus": [
+        375000.0,
+        375000.0
+      ],
+      "ValueMysticPlus2": [
+        1250000.0,
+        1250000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Dimensional Thread"
+    },
+    {
+      "Id": 21005,
+      "Name": "dg_spacetime_gauntlet",
+      "Sort": 7,
+      "Type": [
+        "AllWeaponDmg",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": [
+        "Percent",
+        "Divide"
+      ],
+      "ValueRare": [
+        80.0,
+        4.0
+      ],
+      "ValueHeroic": [
+        160.0,
+        8.0
+      ],
+      "ValueHeroicPlus": [
+        320.0,
+        16.0
+      ],
+      "ValueEpic": [
+        800.0,
+        40.0
+      ],
+      "ValueEpicPlus": [
+        1600.0,
+        80.0
+      ],
+      "ValueLegend": [
+        4000.0,
+        200.0
+      ],
+      "ValueLegendPlus": [
+        12000.0,
+        600.0
+      ],
+      "ValueLegendPlus2": [
+        40000.0,
+        2000.0
+      ],
+      "ValueMystic": [
+        200000.0,
+        10000.0
+      ],
+      "ValueMysticPlus": [
+        600000.0,
+        30000.0
+      ],
+      "ValueMysticPlus2": [
+        2000000.0,
+        100000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Spacetime Gauntlet"
+    },
+    {
+      "Id": 21006,
+      "Name": "dg_ring_of_harmony",
+      "Sort": 8,
+      "Type": [
+        "WeaponEnhanceBonus",
+        "SuperCriDmg"
+      ],
+      "ValueType": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueRare": [
+        50.0,
+        50.0
+      ],
+      "ValueHeroic": [
+        100.0,
+        100.0
+      ],
+      "ValueHeroicPlus": [
+        200.0,
+        200.0
+      ],
+      "ValueEpic": [
+        500.0,
+        500.0
+      ],
+      "ValueEpicPlus": [
+        1000.0,
+        1000.0
+      ],
+      "ValueLegend": [
+        2500.0,
+        2500.0
+      ],
+      "ValueLegendPlus": [
+        7500.0,
+        7500.0
+      ],
+      "ValueLegendPlus2": [
+        25000.0,
+        25000.0
+      ],
+      "ValueMystic": [
+        125000.0,
+        125000.0
+      ],
+      "ValueMysticPlus": [
+        375000.0,
+        375000.0
+      ],
+      "ValueMysticPlus2": [
+        1250000.0,
+        1250000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Ring of Harmony"
+    },
+    {
+      "Id": 21007,
+      "Name": "dg_multiverse_bomb",
+      "Sort": 9,
+      "Type": [
+        "BlockHpDown",
+        "ChallengeWallBlockHpDown"
+      ],
+      "ValueType": [
+        "Divide",
+        "Divide"
+      ],
+      "ValueRare": [
+        5.0,
+        5.0
+      ],
+      "ValueHeroic": [
+        10.0,
+        10.0
+      ],
+      "ValueHeroicPlus": [
+        20.0,
+        20.0
+      ],
+      "ValueEpic": [
+        50.0,
+        50.0
+      ],
+      "ValueEpicPlus": [
+        100.0,
+        100.0
+      ],
+      "ValueLegend": [
+        250.0,
+        250.0
+      ],
+      "ValueLegendPlus": [
+        750.0,
+        750.0
+      ],
+      "ValueLegendPlus2": [
+        2500.0,
+        2500.0
+      ],
+      "ValueMystic": [
+        12500.0,
+        12500.0
+      ],
+      "ValueMysticPlus": [
+        37500.0,
+        37500.0
+      ],
+      "ValueMysticPlus2": [
+        75000.0,
+        75000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Multiverse Bomb"
+    },
+    {
+      "Id": 21008,
+      "Name": "dg_cosmo_star",
+      "Sort": 10,
+      "Type": [
+        "BattleStat"
+      ],
+      "ValueType": [
+        "Percent"
+      ],
+      "ValueRare": [
+        40.0
+      ],
+      "ValueHeroic": [
+        80.0
+      ],
+      "ValueHeroicPlus": [
+        160.0
+      ],
+      "ValueEpic": [
+        400.0
+      ],
+      "ValueEpicPlus": [
+        800.0
+      ],
+      "ValueLegend": [
+        2000.0
+      ],
+      "ValueLegendPlus": [
+        6000.0
+      ],
+      "ValueLegendPlus2": [
+        20000.0
+      ],
+      "ValueMystic": [
+        100000.0
+      ],
+      "ValueMysticPlus": [
+        300000.0
+      ],
+      "ValueMysticPlus2": [
+        1000000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Cosmo Star"
+    },
+    {
+      "Id": 21009,
+      "Name": "dg_scissors",
+      "Sort": 11,
+      "Type": [
+        "DStone"
+      ],
+      "ValueType": [
+        "Percent"
+      ],
+      "ValueRare": [
+        10.0
+      ],
+      "ValueHeroic": [
+        20.0
+      ],
+      "ValueHeroicPlus": [
+        40.0
+      ],
+      "ValueEpic": [
+        100.0
+      ],
+      "ValueEpicPlus": [
+        200.0
+      ],
+      "ValueLegend": [
+        500.0
+      ],
+      "ValueLegendPlus": [
+        1500.0
+      ],
+      "ValueLegendPlus2": [
+        5000.0
+      ],
+      "ValueMystic": [
+        25000.0
+      ],
+      "ValueMysticPlus": [
+        75000.0
+      ],
+      "ValueMysticPlus2": [
+        250000.0
+      ],
+      "LegendType": "SciencePoint",
+      "LegendValueType": "Percent",
+      "LegendValue": 100.0,
+      "MysticType": "QuantumPoint",
+      "MysticValueType": "Percent",
+      "MysticValue": 100.0,
+      "English": "Dimensional Scissors"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+﻿Rank,Tier,TierRank,Name,UnlockContents,Frame,Power,SingularityEnergy,GoldBonus,English
+1,1,1,rk_dirt,,rk_f_soil,0.00E+00,,1.00E+00,Dirt
+2,1,2,rk_sand,,rk_f_soil,1.00E+04,,4.00E+00,Sand
+3,1,3,rk_clay,mine,rk_f_soil,5.00E+04,,1.20E+01,Clay
+4,1,4,rk_grass,"challenge, challenge_wall",rk_f_plant,2.50E+05,,3.00E+01,Grass
+5,1,5,rk_vine,"prestige, system_manager, game_event",rk_f_plant,3.00E+06,,1.00E+02,Vine
+6,1,6,rk_wood,challenge_licence,rk_f_plant,4.00E+07,,2.50E+02,Wood
+7,1,7,rk_slik,soul_enhance,rk_f_fabric,8.00E+08,,8.00E+02,Silk
+8,1,8,rk_velvet,,rk_f_fabric,4.50E+10,,2.00E+03,Velvet
+9,1,9,rk_carbon,,rk_f_fabric,5.00E+12,,5.00E+03,Carbon
+10,2,1,rk_quartz,"science, innovation_lab",rk_f_stone,4.00E+15,,1.25E+04,Quartz
+11,2,2,rk_rock,,rk_f_stone,1.00E+19,,3.00E+04,Rock
+12,2,3,rk_moonrock,"art_society, garden_of_truth",rk_f_stone,3.00E+22,,7.50E+04,Moon Rock
+13,2,4,rk_iron,,rk_f_metal,1.25E+26,,1.50E+05,Iron
+14,2,5,rk_steel,,rk_f_metal,7.50E+29,,3.00E+05,Steel
+15,2,6,rk_titanium,,rk_f_metal,5.00E+33,,8.50E+05,Titanium
+16,2,7,rk_silver,devil_order,rk_f_luxury,4.00E+37,,2.00E+06,Silver
+17,2,8,rk_gold,,rk_f_luxury,5.00E+41,,5.00E+06,Gold
+18,2,9,rk_diamond,devil_order_curse,rk_f_luxury,7.50E+45,,1.40E+07,Diamond
+19,3,1,rk_obsidian,"sanctum, challenge_chaos",rk_f_high,1.50E+50,,3.00E+07,Obsidian
+20,3,2,rk_mithril,,rk_f_high,2.00E+55,,7.00E+07,Mythril
+21,3,3,rk_ori,divine_beast_ex,rk_f_high,3.00E+60,,1.50E+08,Orichalcum
+22,3,4,rk_crystal,forge,rk_f_light,1.00E+66,,4.00E+08,Crystal
+23,3,5,rk_prism,,rk_f_light,2.50E+71,,1.00E+09,Prism
+24,3,6,rk_scopic,,rk_f_light,1.50E+77,,2.75E+09,Kaleidoscope
+25,3,7,rk_thunder,war_ai,rk_f_nature,3.00E+83,,8.00E+09,Lightning
+26,3,8,rk_tornado,,rk_f_nature,1.50E+89,,2.00E+10,Tornado
+27,3,9,rk_volcano,,rk_f_nature,2.00E+95,,5.00E+10,Volcano
+28,3,10,rk_moon,,rk_f_star,8.00E+101,,1.50E+11,Moon
+29,3,11,rk_comet,,rk_f_star,2.00E+109,,4.50E+11,Comet
+30,3,12,rk_star,war_ai_soul_altar,rk_f_star,3.00E+117,,1.25E+12,Star
+31,4,1,rk_nova,,rk_f_nova,2.00E+125,,3.00E+12,Nova
+32,4,2,rk_supernova,,rk_f_nova,1.00E+133,,7.00E+12,Supernova
+33,4,3,rk_hypernova,divine_beast_surge,rk_f_nova,5.00E+140,,1.50E+13,Hypernova
+34,4,4,rk_blackhole,golden_cube,rk_f_blackhole,4.00E+148,,3.50E+13,Black Hole
+35,4,5,rk_whitehole,,rk_f_blackhole,5.00E+156,,8.00E+13,White Hole
+36,4,6,rk_quasar,secret_area,rk_f_blackhole,3.50E+165,,2.00E+14,Quasar
+37,4,7,rk_star_cluster,,rk_f_galaxy,3.00E+175,,4.00E+14,Star Cluster
+38,4,8,rk_galaxy,,rk_f_galaxy,2.50E+186,,1.00E+15,Galaxy
+39,4,9,rk_galaxy_cluster,,rk_f_galaxy,4.50E+198,,2.25E+15,Galaxy Cluster
+40,4,10,rk_big_bang,golden_cube_innovation,rk_f_universe,5.00E+210,,5.00E+15,Big Bang
+41,4,11,rk_universe,secret_area_expansion,rk_f_universe,1.00E+223,,1.25E+16,Universe
+42,4,12,rk_multiverse,,rk_f_universe,5.00E+235,,2.50E+16,Multiverse
+43,5,1,rk_demigod,"dimension, dimension_gate, wheel_of_life",rk_f_demigod,2.50E+256,,1.00E+17,Demigod
+44,5,2,rk_ascended,,rk_f_demigod,4.00E+284,,4.00E+17,Ascended
+45,5,3,rk_incarnation,,rk_f_demigod,2E+325,,1.50E+18,Incarnation
+46,5,4,rk_heracles,truth_garden_expansion,rk_f_god_1,5E+383,,2.50E+18,Heracles
+47,5,5,rk_perseus,,rk_f_god_1,3E+412,,4.00E+18,Perseus
+48,5,6,rk_theseus,,rk_f_god_1,5E+440,,7.50E+18,Theseus
+49,5,7,rk_odysseus,oracle,rk_f_god_2,1E+483,,1.50E+19,Odysseus
+50,5,8,rk_loki,,rk_f_god_2,8E+513,,2.25E+19,Loki
+51,5,9,rk_thor,dimensional_archive,rk_f_god_2,4E+544,,4.00E+19,Thor
+52,5,10,rk_ares,,rk_f_god_3,7.5E+589,,8.00E+19,Ares
+53,5,11,rk_hades,nexus,rk_f_god_3,9E+622,,1.50E+20,Hades
+54,5,12,rk_zeus,,rk_f_god_3,4E+656,,3.00E+20,Zeus
+55,5,13,rk_god,"dimension_expansion, challenge_dive",rk_f_true_god,2.5E+707,,5.00E+20,God
+56,5,14,rk_true_god,,rk_f_true_god,5.5E+742,,1.00E+21,True God
+57,5,15,rk_prime_god,challenge_dive_deep,rk_f_true_god,9E+777,,2.00E+21,Prime God
+58,6,1,rk_odin,"ragnarok, warframe, challenge_lagrange",rk_f_god_ex_1,1e+837,,5.00E+21,Odin
+59,6,2,rk_olorun,,rk_f_god_ex_1,3e873,,1.00E+22,Olorun
+60,6,3,rk_viracocha,,rk_f_god_ex_1,7.5e909,,2.00E+22,Viracocha
+61,6,4,rk_osiris,oracle_expansion,rk_f_god_ex_2,2.5e961,,3.50E+22,Osiris
+62,6,5,rk_ra,,rk_f_god_ex_2,5e999,,6.00E+22,Ra
+63,6,6,rk_horus,,rk_f_god_ex_2,3e1037,,1.00E+23,Horus
+64,6,7,rk_enki,dimensional_archive_expansion,rk_f_god_ex_3,1.5e1093,,2.25E+23,Enki
+65,6,8,rk_enlil,,rk_f_god_ex_3,4e1133,,4.00E+23,Enlil
+66,6,9,rk_anu,,rk_f_god_ex_3,5e1173,,8.00E+23,Anu
+67,6,10,rk_primordial_god,,rk_f_god_ex_4,1e1246,,1.50E+24,Primordial God
+68,6,11,rk_chaos_god,,rk_f_god_ex_4,2.5e1296,,3.00E+24,Chaos God
+69,6,12,rk_cosmic_god,,rk_f_god_ex_4,8e1347,,7.50E+24,Cosmic God
+70,6,13,rk_dimension_god,,rk_f_god_ex_5,4e1446,,2.00E+25,Dimensional God
+71,6,14,rk_omni_god,,rk_f_god_ex_5,7.5e1514,,5.00E+25,Omni God
+72,6,15,rk_overall_god,,rk_f_god_ex_5,3e1582,,1.00E+26,Overall God
+73,7,1,rk_point,singularity_panel,rk_f_geometric,5e1744,,5.00E+26,Point
+74,7,2,rk_line,,rk_f_geometric,,1.00E+00,1.00E+27,Line
+75,7,3,rk_plane,,rk_f_geometric,,2.50E+02,2.50E+27,Plane
+76,7,4,rk_solid,,rk_f_geometric,,7.50E+04,5.00E+27,Solid
+77,7,5,rk_hypersolid,,rk_f_geometric,,3.00E+08,1.00E+28,Hypersolid
+78,7,6,rk_singularity,,rk_f_singularity,,5.00E+12,3.50E+28,Singularity
+79,7,7,rk_super_singularity,,rk_f_singularity,,1.00E+17,1.00E+29,Super-Singularity

@@ -1,0 +1,321 @@
+{
+  "type": "MasterDropControl",
+  "index": 82,
+  "count": 24,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "CostType",
+      "param": "costType",
+      "kind": "MasterElementType",
+      "index": 4
+    },
+    {
+      "name": "CostId",
+      "param": "costId",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "Cost",
+      "param": "cost",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 7
+    }
+  ],
+  "rows": [
+    {
+      "Id": 15001,
+      "Name": "af_golden_duck",
+      "Sort": 4,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Golden Duck"
+    },
+    {
+      "Id": 15002,
+      "Name": "af_void_core",
+      "Sort": 5,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Void Core"
+    },
+    {
+      "Id": 15003,
+      "Name": "af_eternal_flame",
+      "Sort": 6,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Eternal Flame"
+    },
+    {
+      "Id": 15004,
+      "Name": "af_solar_reactor",
+      "Sort": 7,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Solar Reactor"
+    },
+    {
+      "Id": 15005,
+      "Name": "af_transcendental_orb",
+      "Sort": 8,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Transcendent Orb"
+    },
+    {
+      "Id": 15006,
+      "Name": "af_celestial_circle",
+      "Sort": 9,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Celestial Circle"
+    },
+    {
+      "Id": 15007,
+      "Name": "af_quantum_dice",
+      "Sort": 10,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Quantum Dice"
+    },
+    {
+      "Id": 15008,
+      "Name": "af_omega_lens",
+      "Sort": 11,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Omega Lens"
+    },
+    {
+      "Id": 15009,
+      "Name": "af_key_of_creation",
+      "Sort": 12,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Key of Creation"
+    },
+    {
+      "Id": 15010,
+      "Name": "af_arcane_hammer",
+      "Sort": 13,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Arcane Hammer"
+    },
+    {
+      "Id": 15011,
+      "Name": "af_infernal_drive",
+      "Sort": 14,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Infernal Drive"
+    },
+    {
+      "Id": 15012,
+      "Name": "af_book_of_death",
+      "Sort": 15,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Book of Death"
+    },
+    {
+      "Id": 15013,
+      "Name": "af_dominator_crown",
+      "Sort": 16,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Dominator Crown"
+    },
+    {
+      "Id": 15014,
+      "Name": "af_branch_of_life",
+      "Sort": 17,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Branch of Life"
+    },
+    {
+      "Id": 15015,
+      "Name": "af_bloom_of_ruin",
+      "Sort": 18,
+      "MaxLevel": 8,
+      "CostType": "RuinShard",
+      "CostId": 0,
+      "Cost": 25,
+      "Value": 0.25,
+      "English": "Flower of Ruin"
+    },
+    {
+      "Id": 21001,
+      "Name": "dg_fractal_core",
+      "Sort": 20,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Fractal Core"
+    },
+    {
+      "Id": 21002,
+      "Name": "dg_corrector_pen",
+      "Sort": 21,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Reality Correction Pen"
+    },
+    {
+      "Id": 21003,
+      "Name": "dg_golden_cola",
+      "Sort": 22,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Golden Cola"
+    },
+    {
+      "Id": 21004,
+      "Name": "dg_skein",
+      "Sort": 23,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Dimensional Thread"
+    },
+    {
+      "Id": 21005,
+      "Name": "dg_spacetime_gauntlet",
+      "Sort": 24,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Spacetime Gauntlet"
+    },
+    {
+      "Id": 21006,
+      "Name": "dg_ring_of_harmony",
+      "Sort": 25,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Ring of Harmony"
+    },
+    {
+      "Id": 21007,
+      "Name": "dg_multiverse_bomb",
+      "Sort": 26,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Multiverse Bomb"
+    },
+    {
+      "Id": 21008,
+      "Name": "dg_cosmo_star",
+      "Sort": 27,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Cosmo Star"
+    },
+    {
+      "Id": 21009,
+      "Name": "dg_scissors",
+      "Sort": 28,
+      "MaxLevel": 8,
+      "CostType": "DShard",
+      "CostId": 0,
+      "Cost": 125,
+      "Value": 0.25,
+      "English": "Dimensional Scissors"
+    }
+  ]
+}

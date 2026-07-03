@@ -1,0 +1,130 @@
+﻿Id,Name,Field,UseCustomFx,IsSpecial,HideInfo,Width,Height,Hp,Reward,BoardGold,EventId,EventPoint,Chance,DayLimit,NwNameFire,NwNameIce,NwNameMagic,English
+2001,br_dirt,1,False,False,False,0,0,2.00E+01,5.00E+00,0,0,0,,0,,,,Dirt
+2002,br_mud,2,False,False,False,0,0,6.00E+01,1.20E+01,0,0,0,,0,,,,Mud
+2003,br_pottery,3,False,False,False,0,0,4.00E+02,2.80E+01,0,0,0,,0,,,,Pottery
+2004,br_ceramic,4,False,False,False,0,0,3.20E+03,7.00E+01,0,0,0,,0,,,,Ceramic
+2005,br_clay,5,False,False,False,0,0,2.75E+04,1.80E+02,0,0,0,,0,,,,Clay
+2006,br_grass,6,False,False,False,0,0,4.00E+05,4.75E+02,0,0,0,,0,,,,Grass
+2007,br_vine,7,False,False,False,0,0,5.00E+06,1.30E+03,0,0,0,,0,,,,Vine
+2008,br_board,8,False,False,False,0,0,5.00E+07,3.60E+03,0,0,0,,0,,,,Plank
+2009,br_wood,9,False,False,False,0,0,4.00E+08,1.00E+04,0,0,0,,0,,,,Timber
+2010,br_rubber,10,False,False,False,0,0,1.00E+10,2.85E+04,0,0,0,,0,,,,Rubber
+2011,br_silicon,11,False,False,False,0,0,4.50E+11,8.30E+04,0,0,0,,0,,,,Silicon
+2012,br_plastic,12,False,False,False,0,0,8.75E+12,2.42E+05,0,0,0,,0,,,,Plastic
+2013,br_gravel,13,False,False,False,0,0,1.20E+14,7.16E+05,0,0,0,,0,,,,Gravel
+2014,br_carbon,14,False,False,False,0,0,2.55E+15,2.13E+06,0,0,0,,0,,,,Carbon
+2015,br_sandstone,15,False,False,False,0,0,5.37E+16,6.42E+06,0,0,0,,0,,,,Sandstone
+2016,br_graphite,16,False,False,False,0,0,4.00E+18,1.95E+07,0,0,0,,0,,,,Graphite
+2017,br_quartz,17,False,False,False,0,0,1.22E+20,5.95E+07,0,0,0,,0,,,,Quartz
+2018,br_rock,18,False,False,False,0,0,3.01E+21,1.83E+08,0,0,0,,0,,,,Rock
+2019,br_concrete,19,False,False,False,0,0,2.19E+23,5.69E+08,0,0,0,,0,,,,Concrete
+2020,br_copper,20,False,False,False,0,0,1.12E+25,1.78E+09,0,0,0,,0,,,,Copper
+2021,br_bronze,21,False,False,False,0,0,5.68E+26,5.58E+09,0,0,0,,0,,,,Bronze
+2022,br_iron,22,False,False,False,0,0,5.00E+28,1.76E+10,0,0,0,,0,,,,Iron
+2023,br_steel,23,False,False,False,0,0,3.61E+30,5.60E+10,0,0,0,,0,,,,Steel
+2024,br_tungsten,24,False,False,False,0,0,1.78E+32,1.79E+11,0,0,0,,0,,,,Tungsten
+2025,br_titanium,25,False,False,False,0,0,1.06E+34,5.75E+11,0,0,0,,0,,,,Titanium
+2026,br_graphene,26,False,False,False,0,0,5.59E+35,1.86E+12,0,0,0,,0,,,,Graphene
+2027,br_cobalt,27,False,False,False,0,0,4.00E+37,6.02E+12,0,0,0,,0,,,,Cobalt
+2028,br_chromoly,28,False,False,False,0,0,3.33E+39,1.96E+13,0,0,0,,0,,,,Chromoly
+2029,br_obsidian,29,False,False,False,0,0,3.00E+41,6.43E+13,0,0,0,,0,,,,Obsidian
+2030,br_ether,30,False,False,False,0,0,3.86E+43,2.11E+14,0,0,0,,0,,,,Etherium
+2031,br_mithril,31,False,False,False,0,0,4.20E+45,6.97E+14,0,0,0,,0,,,,Mythril
+2032,br_adamantium,32,False,False,False,0,0,8.32E+47,2.31E+15,0,0,0,,0,,,,Adamantium
+2033,br_ori,33,False,False,False,0,0,3.00E+50,7.69E+15,0,0,0,,0,,,,Orichalcum
+2034,br_crystal,34,False,False,False,0,0,3.50E+53,2.57E+16,0,0,0,,0,,,,Crystal
+2035,br_dragonite,35,False,False,False,0,0,4.00E+56,8.62E+16,0,0,0,,0,,,,Dragonite
+2036,br_spectrium,36,False,False,False,0,0,5.00E+59,2.90E+17,0,0,0,,0,,,,Spectrium
+2037,br_mirror,37,False,False,False,0,0,4.00E+63,9.79E+17,0,0,0,,0,,,,Mirror Stone
+2038,br_charm,38,False,False,False,0,0,4.00E+66,3.32E+18,0,0,0,,0,,,,Charm Stone
+2039,br_thunder,39,False,False,False,0,0,9.73E+69,1.13E+19,0,0,0,,0,,,,Lightning Stone
+2040,br_resonance,40,False,False,False,0,0,1.00E+74,3.84E+19,0,0,0,,0,,,,Resonance Stone
+2041,br_lava,41,False,False,False,0,0,4.00E+77,1.31E+20,0,0,0,,0,,,,Lava
+2042,br_gaiarium,42,False,False,False,0,0,5.50E+81,4.51E+20,0,0,0,,0,,,,Gaiarium
+2043,br_meteor,43,False,False,False,0,0,8.00E+85,1.55E+21,0,0,0,,0,,,,Meteor
+2044,br_dawn,44,False,False,False,0,0,3.50E+89,5.36E+21,0,0,0,,0,,,,Dawn Stone
+2045,br_mantle,45,False,False,False,0,0,1.25E+94,1.85E+22,0,0,0,,0,,,,Mantle
+2046,br_planet_core,46,False,False,False,0,0,1.10E+99,6.44E+22,0,0,0,,0,,,,Planet Core
+2047,br_starlight,47,False,False,False,0,0,3.00E+103,2.24E+23,0,0,0,,0,,,,Night Sky Stone
+2048,br_starnite,48,False,False,False,0,0,2.75E+108,7.82E+23,0,0,0,,0,,,,Starnite
+2049,br_mysterium,49,False,False,False,0,0,6.00E+112,2.73E+24,0,0,0,,0,,,,Mysterium
+2050,br_quantum,50,False,False,False,0,0,1.50E+117,9.59E+24,0,0,0,,0,,,,Quantum Stone
+2051,br_supernite,51,False,False,False,0,0,1.20E+122,3.37E+25,0,0,0,,0,,,,Supernite
+2052,br_dark,52,False,False,False,0,0,1.50E+127,1.19E+26,0,0,0,,0,,,,Dark Stone
+2053,br_gravitium,53,False,False,False,0,0,6.00E+131,4.20E+26,0,0,0,,0,,,,Gravitium
+2054,br_teleportium,54,False,False,False,0,0,2.00E+136,1.49E+27,0,0,0,,0,,,,Teleportium
+2055,br_absolute,55,False,False,False,0,0,5.80E+141,5.28E+27,0,0,0,,0,,,,Absolute Stone
+2056,br_destroy,56,False,False,False,0,0,3.60E+146,1.88E+28,0,0,0,,0,,,,Wrecking Stone
+2057,br_stellarium,57,False,False,False,0,0,8.00E+151,6.70E+28,0,0,0,,0,,,,Stellarium
+2058,br_galaxy,58,False,False,False,0,0,5.00E+157,2.39E+29,0,0,0,,0,,,,Galaxy Stone
+2059,br_cosmonite,59,False,False,False,0,0,2.00E+163,8.57E+29,0,0,0,,0,,,,Cosmonite
+2060,br_exceedium,60,False,False,False,0,0,3.50E+169,3.08E+30,0,0,0,,0,,,,Exceedium
+2061,br_expansion,61,False,False,False,0,0,7.00E+175,1.11E+31,0,0,0,,0,,,,Expansion Stone
+2062,br_beginning,62,False,False,False,0,0,2.00E+182,3.99E+31,0,0,0,,0,,,,Origin Stone
+2063,br_singularitium,63,False,False,False,0,0,6.00E+188,1.44E+32,0,0,0,,0,,,,Singularitium
+2064,br_universe,64,False,False,False,0,0,2.00E+195,5.21E+32,0,0,0,,0,,,,Universe Stone
+2065,br_dimentium,65,False,False,False,0,0,1.00E+202,1.89E+33,0,0,0,,0,,,,Dimentium
+2066,br_destiny,66,False,False,False,0,0,5.00E+212,6.86E+33,0,0,0,,0,,,,Destiny Stone
+2067,br_life,67,False,False,False,0,0,4.00E+229,2.50E+34,0,0,0,,0,,,,Life Stone
+2068,br_thunder_storm,68,False,False,False,0,0,1.50E+248,9.11E+34,0,0,0,,0,,,,Thunder Stone
+2069,br_abaddon,69,False,False,False,0,0,3.00E+266,3.19E+35,0,0,0,,0,,,,Abyss Stone
+2070,br_divine,70,False,False,False,0,0,5.00E+290,1.08E+36,0,0,0,,0,,,,Sacred Stone
+2071,br_ruin_stone,71,False,False,False,0,0,6E+314,3.58E+36,0,0,0,,0,,,,Ruin Stone
+2072,br_phantom_steel,72,False,False,False,0,0,3E+337,1.14E+37,0,0,0,,0,,,,Phantom Steel
+2073,br_ancient,73,False,False,False,0,0,8E+363,3.55E+37,0,0,0,,0,,,,Ancient Stone
+2074,br_prismite,74,False,False,False,0,0,1E+388,1.06E+38,0,0,0,,0,,,,Prismite
+2075,br_apollorium,75,False,False,False,0,0,5.5E+410,3.09E+38,0,0,0,,0,,,,Apollorium
+2076,br_determinite,76,False,False,False,0,0,2E+437,8.64E+38,0,0,0,,0,,,,Determinite
+2077,br_mjolnir,77,False,False,False,0,0,7E+465,2.33E+39,0,0,0,,0,,,,Mjolnir
+2078,br_bravery,78,False,False,False,0,0,9E+492,6.07E+39,0,0,0,,0,,,,Bravery Stone
+2079,br_overworld,79,False,False,False,0,0,3.5E+519,1.52E+40,0,0,0,,0,,,,Nether Stone
+2080,br_fury,80,False,False,False,0,0,4E+549,3.64E+40,0,0,0,,0,,,,Rage Stone
+2081,br_god,81,False,False,False,0,0,2e578,8.74E+40,0,0,0,,0,,,,God Stone
+2082,br_authority,82,False,False,False,0,0,1e610,2.10E+41,0,0,0,,0,,,,Power Stone
+2083,br_tribunite,83,False,False,False,0,0,2.5e640,5.03E+41,0,0,0,,0,,,,Tribunite
+2084,br_judgment,84,False,False,False,0,0,5e670,1.21E+42,0,0,0,,0,,,,Judgment Stone
+2085,br_grace,85,False,False,False,0,0,8e703,2.90E+42,0,0,0,,0,,,,Grace Stone
+2086,br_creation,86,False,False,False,0,0,1.5e734,6.96E+42,0,0,0,,0,,,,Creation Stone
+2087,br_fall,87,False,False,False,0,0,5e764,1.67E+43,0,0,0,,0,,,,Demolition Stone
+2088,br_blaze,88,False,False,False,0,0,7.5e796,4.01E+43,0,0,0,,0,,,,Blazing Stone
+2089,br_heaven,89,False,False,False,0,0,3.5e825,9.62E+43,0,0,0,,0,,,,Celestial Stone
+2090,br_deep_sea,90,False,False,False,0,0,2e858,2.31E+44,0,0,0,,0,,,,Abyssal Stone
+2091,br_gale,91,False,False,False,0,0,4e888,5.54E+44,0,0,0,,0,,,,Tempest Stone
+2092,br_prime,92,False,False,False,0,0,1.5e919,1.33E+45,0,0,0,,0,,,,Prime Stone
+2093,br_ego,93,False,False,False,0,0,5e947,3.19E+45,0,0,0,,0,,,,Ego
+2094,br_end,94,False,False,False,0,0,7.5e970,7.66E+45,0,0,0,,0,,,,Apocalypse Stone
+2095,br_multiverstone,95,False,False,False,0,0,2.5e997,1.84E+46,0,0,0,,0,,,,Multiversestone
+2096,br_hyperium,96,False,False,False,0,0,5e1050,4.41E+46,0,0,0,,0,,,,Hyperium
+2097,br_omni,97,False,False,False,0,0,1e1092,1.06E+47,0,0,0,,0,,,,Omnipotent Stone
+2098,br_celesterium,98,False,False,False,0,0,3e1136,2.54E+47,0,0,0,,0,,,,Celesterium
+2099,br_manifoldium,99,False,False,False,0,0,6e1254,1.02E+48,0,0,0,,0,,,,Manifoldium
+2100,br_worldstone,100,False,False,False,0,0,1.5e1397,8.13E+48,0,0,0,,0,,,,World Stone
+2101,br_gold,1,False,True,False,1,1,2.5,,10.0,0,0,0.02,0,,,,Gold
+2102,br_diamond,1,False,True,False,1,1,4,5,0,0,0,0.01,20,,,,Diamond
+2103,br_trace_piece,1,False,True,False,1,1,2,1,0,0,0,"0.2, 0.15",0,,,,Divine Beast Traces
+2200,br_divine_beast,0,False,True,True,1,1,2.5,,0,0,0,,0,,,,
+2201,br_challenge_wall,0,False,True,True,1,1,1,,0,0,0,,0,,,,
+2521,br_ev_leaf,0,True,True,False,2,4,2,,0,202509,1,0.1,150,,,,Fallen Leaf
+2522,br_ev_leaf_gold,0,True,True,False,2,4,3,,0,202509,20,0.005,5,,,,Golden Fallen Leaf
+2523,br_ev_year_1_5,0,True,True,False,3,3,2,,0,10002,1,0.25,200,,,,1.5 Year Anniversary Ticket
+2524,br_ev_year_1_5_gold,0,True,True,False,3,3,3,,0,10002,20,0.02,5,,,,1.5 Year Anniversary Golden Ticket
+2525,br_ev_wool_hat,0,True,True,False,2,4,2,,0,202511,1,0.25,150,,,,Fur Hat
+2526,br_ev_wool_hat_gold,0,True,True,False,2,4,3,,0,202511,20,0.02,5,,,,Gold Fur Hat
+2527,br_ev_christmas_giftbox,0,True,True,False,2,4,2,,0,1202512,1,0.25,200,,,,Gift Box
+2528,br_ev_christmas_giftbox_gold,0,True,True,False,2,4,3,,0,1202512,20,0.02,5,,,,Gold Gift Box
+2529,br_ev_new_year_sun,0,True,True,False,2,4,2,,0,202601,1,0.25,200,,,,Shining Sun
+2530,br_ev_new_year_sun_gold,0,True,True,False,2,4,3,,0,202601,20,0.02,5,,,,Gold Shining Sun
+2531,br_ev_heart_chocolate,0,True,True,False,2,4,2,,0,1202602,1,0.25,200,,,,Heart Chocolate
+2532,br_ev_heart_chocolate_gold,0,True,True,False,2,4,3,,0,1202602,20,0.02,5,,,,Gold Heart Choco
+2533,br_ev_note,0,True,True,False,2,4,2,,0,202603,1,0.25,150,,,,Note
+2534,br_ev_note_gold,0,True,True,False,2,4,3,,0,202603,20,0.02,5,,,,Golden Note
+2535,br_ev_easter_egg,0,True,True,False,2,4,2,,0,1202603,1,0.25,200,,,,Easter Egg
+2536,br_ev_easter_egg_gold,0,True,True,False,2,4,3,,0,1202603,20,0.02,5,,,,Golden Easter Egg
+2537,br_ev_year_2_statue,0,True,True,False,2,4,2,,0,10003,1,0.25,200,,,,Statue
+2538,br_ev_year_2_statue_gold,0,True,True,False,2,4,3,,0,10003,20,0.02,5,,,,Golden Statue
+2539,br_ev_year_2_balloon,0,True,True,False,2,4,2,,0,202605,1,0.25,150,,,,Balloon
+2540,br_ev_year_2_balloon_gold,0,True,True,False,2,4,3,,0,202605,20,0.02,5,,,,Golden Balloon
+2541,br_ev_soccer_ball,0,True,True,False,2,4,2,,0,1202606,1,0.25,200,,,,Football
+2542,br_ev_soccer_ball_gold,0,True,True,False,2,4,3,,0,1202606,20,0.02,5,,,,Golden Football
+2543,br_ev_treasure_map,0,True,True,False,2,4,2,,0,202607,1,0.25,150,,,,Treasure Map
+2544,br_ev_treasure_map_gold,0,True,True,False,2,4,3,,0,202607,20,0.02,5,,,,Golden Treasure Map

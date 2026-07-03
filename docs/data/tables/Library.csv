@@ -1,0 +1,44 @@
+﻿Id,Name,UnlockRank,Sort,NeedLibrary,RequiredType,BonusType,ValueTypeList,Value,AddCount,MaxCount,Bonus,CostBook,CostScroll,English
+25001,lb_engineering,51,3,0,,ResearchCostDown,Divide,,25,1000,-5.0,0,0,Discipline: Engineering
+25002,lb_power,51,4,0,,Power,Multiply,,25,1000,3.5,0,0,Discipline: Power
+25003,lb_authority,51,5,0,,RankPowerDown,Divide,,25,1000,-5.0,0,0,Discipline: Authority
+25004,lb_divinity,51,6,0,,DivineBeastHpDown,Divide,,25,1000,-5.0,0,0,Discipline: Divinity
+25005,lb_golden,54,7,0,,Gold,Multiply,,25,1000,4.0,0,0,Discipline: Golden
+25006,lb_science,54,8,0,,SciencePoint,Multiply,,25,1000,1.5,0,0,Discipline: Science
+25007,lb_weapon,54,9,0,,AllWeaponDmg,Multiply,,25,1000,2.0,0,0,Discipline: Weapon
+25008,lb_soul,54,10,0,,PrestigeBonus,Multiply,,25,1000,5.0,0,0,Discipline: Soul
+25009,lb_strengthening,57,11,0,,WeaponEnhanceBonus,Multiply,,25,1000,2.0,0,0,Discipline: Strengthening
+25010,lb_battle,57,12,0,,BattleStat,Multiply,,25,1000,1.5,0,0,Discipline: Battle
+25011,lb_destruction,57,13,0,,BlockHpDown,Divide,,25,1000,-3.5,0,0,Discipline: Destruction
+25012,lb_light,57,14,0,,Tachyon,Multiply,,25,1000,1.0,0,0,Discipline: Light
+25013,lb_analysis,60,15,0,,CriDmg,Multiply,,25,1000,2.0,0,0,Discipline: Analysis
+25014,lb_dimension,60,16,0,,DStone,Multiply,,25,1000,1.0,0,0,Discipline: Dimension
+25015,lb_quantum,60,17,0,,QuantumPoint,Multiply,,25,1000,1.5,0,0,Discipline: Quantum
+25016,lb_extinction,63,18,0,,Ash,Multiply,,25,1000,1.0,0,0,Discipline: Extinction
+25017,lb_future,63,19,0,,DestinyEnergy,Multiply,,25,1000,1.5,0,0,Discipline: Future
+25018,lb_space,63,20,0,,DFuel,Multiply,,25,1000,1.5,0,0,Discipline: Space
+26001,bk_golden_book,0,22,100,"Gold, ResearchCostDown, BlockHpDown",Gold,Multiply,100.0,0,0,0,50,1,Midas' Gold Book
+26002,bk_necronomicon,0,23,100,"PrestigeBonus, Power, RankPowerDown","PrestigeBonus, BlockHpDown","Multiply, Divide","100.0, 10.0",0,0,0,50,1,Necronomicon
+26003,bk_souls_oil,0,24,150,"ResearchCostDown, Power, PrestigeBonus","Power, Ether","Multiply, Multiply","25.0, 3.0",0,0,0,60,2,Souls Instead of Oil
+26004,bk_space_guide,0,25,150,"DStone, DFuel, Tachyon","DFuel, DStone","Multiply, Multiply","15.0, 2.0",0,0,0,60,2,Hitchhiker's Guide to Space: Revised Edition
+26005,bk_surviving,0,26,200,"Gold, AllWeaponDmg, BattleStat","BattleStat, DivineBeastHpDown","Multiply, Divide","10.0, 50.0",0,0,0,70,3,Surviving the Labyrinth
+26006,bk_flagship_maintenance,0,27,200,"Power, SciencePoint, AllWeaponDmg","WeaponEnhanceBonus, ResearchCostDown, WeaponEnhanceCostDown","Multiply, Divide, Divide","20.0, 10.0, 10.0",0,0,0,70,3,Easy Flagship Maintenance
+26007,bk_equivalent_exchange,0,28,250,"DivineBeastHpDown, RankPowerDown, Tachyon","SciencePoint, QuantumPoint","Multiply, Multiply","10.0, 5.0",0,0,0,80,4,Introduction to Equivalent Exchange
+26008,bk_officers,0,29,250,"RankPowerDown, AllWeaponDmg, PrestigeBonus","AllWeaponSpd, BattleStat","Percent, Multiply","10.0, 5.0",0,0,0,80,4,Unit Management Manual: For Officers
+26009,bk_apocalypse,0,30,300,"DivineBeastHpDown, Ash, PrestigeBonus",Ash,Multiply,6.6,0,0,0,90,5,Book of Apocalypse Revelation
+26010,bk_dawn_of_creation,0,31,300,"Gold, Power, AllWeaponDmg","Gold, Power, AllWeaponDmg","Multiply, Multiply, Multiply","8.0, 8.0, 8.0",0,0,0,90,5,Genesis
+26011,bk_future,0,32,350,"DestinyEnergy, CriDmg, WeaponEnhanceBonus","SciencePoint, RankPowerDown","Multiply, Divide","7.0, 777.0",0,0,0,100,6,Preview of the Future
+26012,bk_pooka_cooka,0,33,350,"DivineBeastHpDown, PrestigeBonus, Ash","RankPowerDown, PrestigeBonus, BlockHpDown","Divide, Multiply, Divide","25.0, 500.0, 25.0",0,0,0,100,6,Puka-Kuka
+26013,bk_business,0,34,400,"Gold, RankPowerDown, CriDmg","Gold, ForgeSpeed","Multiply, Percent","100.0, 5.0",0,0,0,110,7,A Business Starts with 1 Million Gold
+26014,bk_strength,0,35,400,"AllWeaponDmg, CriDmg, WeaponEnhanceBonus","AllWeaponDmg, BlockHpDown","Multiply, Divide","125.0, 100.0",0,0,0,110,7,Brawn Instead of Brains
+26015,bk_quantum_computer,0,36,450,"ResearchCostDown, CriDmg, QuantumPoint",QuantumPoint,Multiply,35.0,0,0,0,120,8,Quantum Computer Level 1 Certification: 2098 Edition
+26016,bk_dimensional_map,0,37,450,"QuantumPoint, DStone, DestinyEnergy","DStone, DestinyEnergy","Multiply, Multiply","10.0, 10.0",0,0,0,120,8,Dimension Map (1:1 Light-Year Scale)
+26017,bk_era_of_war,0,38,500,"Power, BattleStat, SciencePoint","SciencePoint, AllWeaponDmg","Multiply, Multiply","7.5, 100.0",0,0,0,130,9,Age of War
+26018,bk_cost_reduction,0,39,500,"ResearchCostDown, Tachyon, DStone","DFuel, Tachyon","Multiply, Multiply","10.0, 25.0",0,0,0,130,9,How to Achieve Cost Reduction
+26019,bk_clock_mechanic,0,40,550,"ResearchCostDown, SciencePoint, BlockHpDown","CosmicDialTick, DestinyEnergy","Multiply, Multiply","4.0, 10.0",0,0,0,140,10,Become a Clock Repairman Today
+26020,bk_fake_rune,0,41,550,"Gold, PrestigeBonus, Tachyon",Rune,Add,1.0,0,0,0,140,10,Fake Rune Crafting Guide
+26024,bk_eve,0,42,600,"DStone, Tachyon, QuantumPoint",ScienceRank,Add,50.0,0,0,0,160,12,War AI: Eve
+26022,bk_astrology,0,43,600,"DivineBeastHpDown, PrestigeBonus, DestinyEnergy","PrestigeBonus, DestinyEnergy","Multiply, Multiply","1000.0, 5.0",0,0,0,180,14,Grade 1 Astrology Past Papers
+26023,bk_chrono_break,0,44,650,"BlockHpDown, Ash, DestinyEnergy","DStone, CriDmg","Multiply, Multiply","10.0, 25.0",0,0,0,200,16,Chrono Break
+26021,bk_quantum_focus,0,45,650,"QuantumPoint, WeaponEnhanceBonus, CriDmg",QuantumRank,Add,50.0,0,0,0,225,18,Quantum Focus
+26025,bk_secret_seasoning,0,46,700,"Gold, Tachyon, DStone","Gold, BlockHpDown","Multiply, Divide","125.0, 400.0",0,0,0,250,20,Secret Seasoning Sauce Recipe

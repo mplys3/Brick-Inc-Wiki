@@ -1,0 +1,201 @@
+{
+  "type": "MasterNetworkHub",
+  "index": 109,
+  "count": 11,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 2
+    },
+    {
+      "name": "ReferType",
+      "param": "referType",
+      "kind": "MasterNetworkHubReferType",
+      "index": 3
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 5
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 6
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUp",
+      "kind": "double",
+      "index": 7
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 8
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 9
+    }
+  ],
+  "rows": [
+    {
+      "Id": 11,
+      "Name": "O-1",
+      "Type": "QuantumPoint",
+      "ReferType": "DecadeBlessing",
+      "MaxLevel": 10,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 10.0,
+      "Cost": "1.00E+01",
+      "CostUp": 4.0
+    },
+    {
+      "Id": 12,
+      "Name": "O-2",
+      "Type": "QuantumPoint",
+      "ReferType": "CenturyBlessing",
+      "MaxLevel": 20,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 10.0,
+      "Cost": "1.00E+02",
+      "CostUp": 4.0
+    },
+    {
+      "Id": 13,
+      "Name": "O-3",
+      "Type": "QuantumPoint",
+      "ReferType": "MillenniumBlessing",
+      "MaxLevel": 30,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 10.0,
+      "Cost": "1.00E+03",
+      "CostUp": 4.0
+    },
+    {
+      "Id": 14,
+      "Name": "O-4",
+      "Type": "QuantumPoint",
+      "ReferType": "RelveationUpgrade",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "5.00E+04",
+      "CostUp": 1.5
+    },
+    {
+      "Id": 15,
+      "Name": "O-5",
+      "Type": "QuantumPointSpeed",
+      "ReferType": "BlessingAccel",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "7.50E+05",
+      "CostUp": 1.5
+    },
+    {
+      "Id": 21,
+      "Name": "N-1",
+      "Type": "QuantumPoint",
+      "ReferType": "QuantumRank",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "1.00E+06",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 22,
+      "Name": "N-2",
+      "Type": "QuantumPoint",
+      "ReferType": "QuantumUpgrade",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "3.00E+07",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 23,
+      "Name": "N-3",
+      "Type": "QuantumPoint",
+      "ReferType": "NetworkHubUpgrade",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "9.00E+08",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 31,
+      "Name": "R-1",
+      "Type": "QuantumPoint",
+      "ReferType": "DoomRank",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "8.00E+12",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 32,
+      "Name": "R-2",
+      "Type": "QuantumPoint",
+      "ReferType": "AshUpgrade",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "2.00E+13",
+      "CostUp": 2.0
+    },
+    {
+      "Id": 41,
+      "Name": "OX-1",
+      "Type": "QuantumPoint",
+      "ReferType": "DestinyRank",
+      "MaxLevel": 100,
+      "ValueType": "Percent",
+      "Value": 0,
+      "ValueUp": 1.0,
+      "Cost": "5.00E+15",
+      "CostUp": 2.5
+    }
+  ]
+}

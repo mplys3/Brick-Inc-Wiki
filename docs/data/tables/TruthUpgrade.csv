@@ -1,0 +1,14 @@
+﻿Id,Name,Word,UnlockRank,Sort,TypeList,ValueTypeList,MaxLevel,Value,ValueUp,Cost,CostUp,English
+23001,tu_light,光,46,3,MeditationMysticGrade,Add,10,0.0,30.0,,250.0,LIGHT
+23002,tu_fire,火,46,4,"AllWeaponDmg, CriDmg, Power","Percent, Percent, Percent",25,"0.0, 0.0, 0.0","100.0, 20.0, 50.0",,25.0,FIRE
+23003,tu_wood,木,48,5,"RankPowerDown, WeaponEnhanceCostDown, ResearchCostDown","Divide, Divide, Divide",33,"1.0, 1.0, 1.0","3.0, 3.0, 3.0",,25.0,WOOD
+23004,tu_water,水,50,6,"Ether, Tachyon","Percent, Percent",25,"0.0, 0.0","25.0, 25.0",,50.0,WATER
+23005,tu_metal,金,52,7,"Gold, SciencePoint, QuantumPoint","Percent, Percent, Percent",25,"0.0, 0.0, 0.0","100.0, 50.0, 25.0",,75.0,METAL
+23006,tu_air,風,54,8,"AllWeaponSpd, MiningSpeed, ForgeSpeed","Percent, Percent, Percent",25,"0.0, 0.0, 0.0","0.5, 1.0, 0.5",,75.0,WIND
+23007,tu_earth,土,58,9,"BlockHpDown, ArtifactDrop, LagrangeDrop","Divide, Add, Add",25,"1.0, 0.0, 0.0","4.0, 1.0, 1.0",,125.0,EARTH
+23008,tu_dark,暗,61,10,TruthPathMysticGrade,Add,10,0.0,30.0,,500.0,DARKNESS
+23009,tu_life,生,63,11,"BattleStat, MeditationCostExpansion","Percent, Add",10,"0.0, 0.0","100.0, 1.0",,500.0,LIFE
+23010,tu_death,死,65,12,"Ash, TruthPathCostExpansion","Percent, Add",20,"0.0, 0.0","25.0, 100.0",,500.0,DEATH
+23011,tu_fate,命,67,13,"MiracleCrystal, DestinyEnergy","Percent, Percent",25,"0.0, 0.0","100.0, 50.0",,500.0,FATE
+23013,tu_extremity,極,71,15,"ScienceRank, QuantumRank","Add, Add",50,"0.0, 0.0","1.0, 1.0",,500.0,EXTREM
+23014,tu_singular,特,73,16,"DStone, SEnergy","Percent, Percent",25,"0.0, 0.0","10.0, 1.0",,1000.0,SINGULAR

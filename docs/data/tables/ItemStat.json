@@ -1,0 +1,492 @@
+{
+  "type": "MasterItemStat",
+  "index": 123,
+  "count": 49,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Tag",
+      "param": "tagOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Grade",
+      "param": "grade",
+      "kind": "MasterStandardGradeType",
+      "index": 2
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 3
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 4
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 5
+    },
+    {
+      "name": "Duration",
+      "param": "duration",
+      "kind": "int",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Id": 8001,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "FastMining",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 5400
+    },
+    {
+      "Id": 8001,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "FastMining",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 10800
+    },
+    {
+      "Id": 8001,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "FastMining",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 21600
+    },
+    {
+      "Id": 8001,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "FastMining",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 43200
+    },
+    {
+      "Id": 8001,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "FastMining",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 172800
+    },
+    {
+      "Id": 8002,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8002,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "Value": 4.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8002,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "Value": 8.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8002,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "Value": 16.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8002,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "Value": 64.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8003,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8003,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "Value": 4.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8003,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "Value": 8.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8003,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "Value": 16.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8003,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "Value": 64.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8004,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 25.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8004,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 50.0,
+      "Duration": 3600
+    },
+    {
+      "Id": 8004,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 75.0,
+      "Duration": 5400
+    },
+    {
+      "Id": 8004,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 100.0,
+      "Duration": 7200
+    },
+    {
+      "Id": 8004,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "AllWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 200.0,
+      "Duration": 10800
+    },
+    {
+      "Id": 8005,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "AllWeaponSpd",
+      "ValueType": "Percent",
+      "Value": 15.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8005,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "AllWeaponSpd",
+      "ValueType": "Percent",
+      "Value": 30.0,
+      "Duration": 3600
+    },
+    {
+      "Id": 8005,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "AllWeaponSpd",
+      "ValueType": "Percent",
+      "Value": 45.0,
+      "Duration": 5400
+    },
+    {
+      "Id": 8005,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "AllWeaponSpd",
+      "ValueType": "Percent",
+      "Value": 60.0,
+      "Duration": 7200
+    },
+    {
+      "Id": 8005,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "AllWeaponSpd",
+      "ValueType": "Percent",
+      "Value": 90.0,
+      "Duration": 10800
+    },
+    {
+      "Id": 8006,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "AutoTap",
+      "ValueType": "Add",
+      "Value": 1.0,
+      "Duration": 900
+    },
+    {
+      "Id": 8006,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "AutoTap",
+      "ValueType": "Add",
+      "Value": 1.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8006,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "AutoTap",
+      "ValueType": "Add",
+      "Value": 1.0,
+      "Duration": 3600
+    },
+    {
+      "Id": 8006,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "AutoTap",
+      "ValueType": "Add",
+      "Value": 1.0,
+      "Duration": 7200
+    },
+    {
+      "Id": 8006,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "AutoTap",
+      "ValueType": "Add",
+      "Value": 1.0,
+      "Duration": 18000
+    },
+    {
+      "Id": 8007,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 2.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8007,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 4.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8007,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 8.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8007,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 16.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8007,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 64.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 8008,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "FastSciencePoint",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 10800
+    },
+    {
+      "Id": 8008,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "FastSciencePoint",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 21600
+    },
+    {
+      "Id": 8008,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "FastSciencePoint",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 43200
+    },
+    {
+      "Id": 8008,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "FastSciencePoint",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 86400
+    },
+    {
+      "Id": 8008,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "FastSciencePoint",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 345600
+    },
+    {
+      "Id": 8009,
+      "Tag": "",
+      "Grade": "Rare",
+      "Type": "FastEther",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 21600
+    },
+    {
+      "Id": 8009,
+      "Tag": "",
+      "Grade": "Heroic",
+      "Type": "FastEther",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 43200
+    },
+    {
+      "Id": 8009,
+      "Tag": "",
+      "Grade": "Epic",
+      "Type": "FastEther",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 86400
+    },
+    {
+      "Id": 8009,
+      "Tag": "",
+      "Grade": "Legendary",
+      "Type": "FastEther",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 172800
+    },
+    {
+      "Id": 8009,
+      "Tag": "",
+      "Grade": "Mystic",
+      "Type": "FastEther",
+      "ValueType": 0,
+      "Value": 0,
+      "Duration": 691200
+    },
+    {
+      "Id": 18001,
+      "Tag": "event_buff_cherry_blossom",
+      "Grade": 0,
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 18002,
+      "Tag": "event_buff_cherry_blossom",
+      "Grade": 0,
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 18003,
+      "Tag": "event_buff_cherry_blossom",
+      "Grade": 0,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Multiply",
+      "Value": 2.0,
+      "Duration": 1800
+    },
+    {
+      "Id": 18004,
+      "Tag": "event_buff_cherry_blossom",
+      "Grade": 0,
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 2.0,
+      "Duration": 1800
+    }
+  ]
+}

@@ -1,0 +1,1329 @@
+{
+  "type": "MasterWarAI",
+  "index": 77,
+  "count": 142,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "TargetType",
+      "param": "targetType",
+      "kind": "MasterElementType",
+      "index": 1
+    },
+    {
+      "name": "TargetId",
+      "param": "targetId",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 5
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Id": 3011,
+      "TargetType": "Research",
+      "TargetId": 3011,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "7.00E+71",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3012,
+      "TargetType": "Research",
+      "TargetId": 3012,
+      "Bonus": 4.0,
+      "MaxLevel": 25,
+      "Cost": "3.00E+74",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3013,
+      "TargetType": "Research",
+      "TargetId": 3013,
+      "Bonus": 8.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+77",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3020,
+      "TargetType": "Research",
+      "TargetId": 3020,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "2.50E+83",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3021,
+      "TargetType": "Research",
+      "TargetId": 3021,
+      "Bonus": 2.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+83",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3022,
+      "TargetType": "Research",
+      "TargetId": 3022,
+      "Bonus": 4.0,
+      "MaxLevel": 25,
+      "Cost": "1.50E+86",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3023,
+      "TargetType": "Research",
+      "TargetId": 3023,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2.50E+89",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3024,
+      "TargetType": "Research",
+      "TargetId": 3024,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "3.00E+92",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3030,
+      "TargetType": "Research",
+      "TargetId": 3030,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "9.50E+95",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3031,
+      "TargetType": "Research",
+      "TargetId": 3031,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4.50E+95",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3032,
+      "TargetType": "Research",
+      "TargetId": 3032,
+      "Bonus": 4.0,
+      "MaxLevel": 25,
+      "Cost": "1.50E+99",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3033,
+      "TargetType": "Research",
+      "TargetId": 3033,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4.50E+102",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3034,
+      "TargetType": "Research",
+      "TargetId": 3034,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.50E+106",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3040,
+      "TargetType": "Research",
+      "TargetId": 3040,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "9.50E+109",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3041,
+      "TargetType": "Research",
+      "TargetId": 3041,
+      "Bonus": 4.0,
+      "MaxLevel": 25,
+      "Cost": "4.50E+109",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3044,
+      "TargetType": "Research",
+      "TargetId": 3044,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+113",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3045,
+      "TargetType": "Research",
+      "TargetId": 3045,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2.00E+116",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3050,
+      "TargetType": "Research",
+      "TargetId": 3050,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "1.50E+123",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3051,
+      "TargetType": "Research",
+      "TargetId": 3051,
+      "Bonus": 4.0,
+      "MaxLevel": 25,
+      "Cost": "9.00E+122",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3053,
+      "TargetType": "Research",
+      "TargetId": 3053,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "6.50E+127",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3054,
+      "TargetType": "Research",
+      "TargetId": 3054,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4.50E+132",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3060,
+      "TargetType": "Research",
+      "TargetId": 3060,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "7.00E+137",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3062,
+      "TargetType": "Research",
+      "TargetId": 3062,
+      "Bonus": 2.0,
+      "MaxLevel": 25,
+      "Cost": "3.50E+137",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3064,
+      "TargetType": "Research",
+      "TargetId": 3064,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2.00E+143",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3066,
+      "TargetType": "Research",
+      "TargetId": 3066,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+149",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3070,
+      "TargetType": "Research",
+      "TargetId": 3070,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "1.50E+155",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3071,
+      "TargetType": "Research",
+      "TargetId": 3071,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "8.00E+154",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3072,
+      "TargetType": "Research",
+      "TargetId": 3072,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2.00E+160",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3074,
+      "TargetType": "Research",
+      "TargetId": 3074,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "6.00E+165",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3075,
+      "TargetType": "Research",
+      "TargetId": 3075,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.50E+171",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3080,
+      "TargetType": "Research",
+      "TargetId": 3080,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "9.00E+176",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3081,
+      "TargetType": "Research",
+      "TargetId": 3081,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4.50E+176",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3082,
+      "TargetType": "Research",
+      "TargetId": 3082,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "8.00E+183",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3083,
+      "TargetType": "Research",
+      "TargetId": 3083,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.50E+191",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3090,
+      "TargetType": "Research",
+      "TargetId": 3090,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "5.50E+198",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3091,
+      "TargetType": "Research",
+      "TargetId": 3091,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2.50E+198",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3093,
+      "TargetType": "Research",
+      "TargetId": 3093,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "5.00E+212",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3100,
+      "TargetType": "Research",
+      "TargetId": 3100,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "2.00E+227",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3102,
+      "TargetType": "Research",
+      "TargetId": 3102,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+227",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3103,
+      "TargetType": "Research",
+      "TargetId": 3103,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+245",
+      "CostUp": 20.0
+    },
+    {
+      "Id": 3110,
+      "TargetType": "Research",
+      "TargetId": 3110,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "2.00E+291",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3111,
+      "TargetType": "Research",
+      "TargetId": 3111,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.00E+291",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 3114,
+      "TargetType": "Research",
+      "TargetId": 3114,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "3.5e311",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 3116,
+      "TargetType": "Research",
+      "TargetId": 3116,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1e332",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 3120,
+      "TargetType": "Research",
+      "TargetId": 3120,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "8e352",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3122,
+      "TargetType": "Research",
+      "TargetId": 3122,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4e352",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 3125,
+      "TargetType": "Research",
+      "TargetId": 3125,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "8e381",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 3130,
+      "TargetType": "Research",
+      "TargetId": 3130,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "4.5e411",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3131,
+      "TargetType": "Research",
+      "TargetId": 3131,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2e411",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 3132,
+      "TargetType": "Research",
+      "TargetId": 3132,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2e428",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 3135,
+      "TargetType": "Research",
+      "TargetId": 3135,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.5e445",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 3140,
+      "TargetType": "Research",
+      "TargetId": 3140,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "4e462",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3142,
+      "TargetType": "Research",
+      "TargetId": 3142,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2e462",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 3143,
+      "TargetType": "Research",
+      "TargetId": 3143,
+      "Bonus": 8.0,
+      "MaxLevel": 25,
+      "Cost": "3e495",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 3150,
+      "TargetType": "Research",
+      "TargetId": 3150,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "1e529",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3151,
+      "TargetType": "Research",
+      "TargetId": 3151,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "6e528",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 3152,
+      "TargetType": "Research",
+      "TargetId": 3152,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.5e552",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 3154,
+      "TargetType": "Research",
+      "TargetId": 3154,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4.5e575",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 3160,
+      "TargetType": "Research",
+      "TargetId": 3160,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "3e599",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3162,
+      "TargetType": "Research",
+      "TargetId": 3162,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.5e599",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 3163,
+      "TargetType": "Research",
+      "TargetId": 3163,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4e620",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 3164,
+      "TargetType": "Research",
+      "TargetId": 3164,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1e642",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 3170,
+      "TargetType": "Research",
+      "TargetId": 3170,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "8e663",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3171,
+      "TargetType": "Research",
+      "TargetId": 3171,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4e664",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 3172,
+      "TargetType": "Research",
+      "TargetId": 3172,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1e682",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 3174,
+      "TargetType": "Research",
+      "TargetId": 3174,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2.5e700",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 3175,
+      "TargetType": "Research",
+      "TargetId": 3175,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "6e718",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 3180,
+      "TargetType": "Research",
+      "TargetId": 3180,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "3e737",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3182,
+      "TargetType": "Research",
+      "TargetId": 3182,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.5e737",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3183,
+      "TargetType": "Research",
+      "TargetId": 3183,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "6e768",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3184,
+      "TargetType": "Research",
+      "TargetId": 3184,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2e800",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3190,
+      "TargetType": "Research",
+      "TargetId": 3190,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "2e832",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3191,
+      "TargetType": "Research",
+      "TargetId": 3191,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1e832",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3192,
+      "TargetType": "Research",
+      "TargetId": 3192,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4.5e857",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3193,
+      "TargetType": "Research",
+      "TargetId": 3193,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.5e883",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3194,
+      "TargetType": "Research",
+      "TargetId": 3194,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "6e908",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 3200,
+      "TargetType": "Research",
+      "TargetId": 3200,
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "4.5e934",
+      "CostUp": 10.0
+    },
+    {
+      "Id": 3201,
+      "TargetType": "Research",
+      "TargetId": 3201,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "2e934",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 3202,
+      "TargetType": "Research",
+      "TargetId": 3202,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1e955",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 3203,
+      "TargetType": "Research",
+      "TargetId": 3203,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "4e977",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 3205,
+      "TargetType": "Research",
+      "TargetId": 3205,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "1.5e999",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 3206,
+      "TargetType": "Research",
+      "TargetId": 3206,
+      "Bonus": 16.0,
+      "MaxLevel": 25,
+      "Cost": "7e1020",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 1001,
+      "TargetType": "SoulAltar",
+      "TargetId": 1,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4.50E+107",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1002,
+      "TargetType": "SoulAltar",
+      "TargetId": 2,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.50E+111",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1003,
+      "TargetType": "SoulAltar",
+      "TargetId": 3,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "6.00E+114",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1004,
+      "TargetType": "SoulAltar",
+      "TargetId": 4,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "5.50E+121",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1005,
+      "TargetType": "SoulAltar",
+      "TargetId": 5,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "8.00E+124",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1006,
+      "TargetType": "SoulAltar",
+      "TargetId": 6,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.00E+128",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1007,
+      "TargetType": "SoulAltar",
+      "TargetId": 7,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.50E+135",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1008,
+      "TargetType": "SoulAltar",
+      "TargetId": 8,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "8.50E+138",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1009,
+      "TargetType": "SoulAltar",
+      "TargetId": 9,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4.00E+142",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1010,
+      "TargetType": "SoulAltar",
+      "TargetId": 10,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "6.00E+150",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1011,
+      "TargetType": "SoulAltar",
+      "TargetId": 11,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.00E+155",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1012,
+      "TargetType": "SoulAltar",
+      "TargetId": 12,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.00E+160",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1013,
+      "TargetType": "SoulAltar",
+      "TargetId": 13,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.50E+170",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1014,
+      "TargetType": "SoulAltar",
+      "TargetId": 14,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.00E+176",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1015,
+      "TargetType": "SoulAltar",
+      "TargetId": 15,
+      "Bonus": 100.0,
+      "MaxLevel": 1,
+      "Cost": "5.00E+181",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1016,
+      "TargetType": "SoulAltar",
+      "TargetId": 16,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.50E+192",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1017,
+      "TargetType": "SoulAltar",
+      "TargetId": 17,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "7.00E+197",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1018,
+      "TargetType": "SoulAltar",
+      "TargetId": 18,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3.50E+203",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1019,
+      "TargetType": "SoulAltar",
+      "TargetId": 19,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.00E+212",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1020,
+      "TargetType": "SoulAltar",
+      "TargetId": 20,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "6.50E+219",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1021,
+      "TargetType": "SoulAltar",
+      "TargetId": 21,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.00E+227",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1022,
+      "TargetType": "SoulAltar",
+      "TargetId": 22,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3.00E+242",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1023,
+      "TargetType": "SoulAltar",
+      "TargetId": 23,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.00E+250",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1024,
+      "TargetType": "SoulAltar",
+      "TargetId": 24,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.50E+258",
+      "CostUp": 40.0
+    },
+    {
+      "Id": 1025,
+      "TargetType": "SoulAltar",
+      "TargetId": 25,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.00E+272",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 1026,
+      "TargetType": "SoulAltar",
+      "TargetId": 26,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "8.00E+288",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 1027,
+      "TargetType": "SoulAltar",
+      "TargetId": 27,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "5.00E+305",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 1028,
+      "TargetType": "SoulAltar",
+      "TargetId": 28,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1e326",
+      "CostUp": 80.0
+    },
+    {
+      "Id": 1029,
+      "TargetType": "SoulAltar",
+      "TargetId": 29,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3e346",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 1030,
+      "TargetType": "SoulAltar",
+      "TargetId": 30,
+      "Bonus": 100.0,
+      "MaxLevel": 1,
+      "Cost": "6e366",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 1031,
+      "TargetType": "SoulAltar",
+      "TargetId": 31,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4e385",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 1032,
+      "TargetType": "SoulAltar",
+      "TargetId": 32,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.5e410",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 1033,
+      "TargetType": "SoulAltar",
+      "TargetId": 33,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "6e440",
+      "CostUp": 160.0
+    },
+    {
+      "Id": 1034,
+      "TargetType": "SoulAltar",
+      "TargetId": 34,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3.5e468",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 1035,
+      "TargetType": "SoulAltar",
+      "TargetId": 35,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.5e499",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 1036,
+      "TargetType": "SoulAltar",
+      "TargetId": 36,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "7.5e529",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 1037,
+      "TargetType": "SoulAltar",
+      "TargetId": 37,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1e562",
+      "CostUp": 320.0
+    },
+    {
+      "Id": 1038,
+      "TargetType": "SoulAltar",
+      "TargetId": 38,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4.5e584",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 1039,
+      "TargetType": "SoulAltar",
+      "TargetId": 39,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2e604",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 1040,
+      "TargetType": "SoulAltar",
+      "TargetId": 40,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.5e636",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 1041,
+      "TargetType": "SoulAltar",
+      "TargetId": 41,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "7.5e650",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 1042,
+      "TargetType": "SoulAltar",
+      "TargetId": 42,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "5e668",
+      "CostUp": 640.0
+    },
+    {
+      "Id": 1043,
+      "TargetType": "SoulAltar",
+      "TargetId": 43,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1e714",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 1044,
+      "TargetType": "SoulAltar",
+      "TargetId": 44,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "6e728",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 1045,
+      "TargetType": "SoulAltar",
+      "TargetId": 45,
+      "Bonus": 100.0,
+      "MaxLevel": 1,
+      "Cost": "2e742",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 1046,
+      "TargetType": "SoulAltar",
+      "TargetId": 46,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4e769",
+      "CostUp": 1280.0
+    },
+    {
+      "Id": 1047,
+      "TargetType": "SoulAltar",
+      "TargetId": 47,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "5e787",
+      "CostUp": 2560.0
+    },
+    {
+      "Id": 1048,
+      "TargetType": "SoulAltar",
+      "TargetId": 48,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2.5e808",
+      "CostUp": 2560.0
+    },
+    {
+      "Id": 1049,
+      "TargetType": "SoulAltar",
+      "TargetId": 49,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1.5e837",
+      "CostUp": 2560.0
+    },
+    {
+      "Id": 1050,
+      "TargetType": "SoulAltar",
+      "TargetId": 50,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3e851",
+      "CostUp": 2560.0
+    },
+    {
+      "Id": 1051,
+      "TargetType": "SoulAltar",
+      "TargetId": 51,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "5e865",
+      "CostUp": 2560.0
+    },
+    {
+      "Id": 1052,
+      "TargetType": "SoulAltar",
+      "TargetId": 52,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3.5e908",
+      "CostUp": 5120.0
+    },
+    {
+      "Id": 1053,
+      "TargetType": "SoulAltar",
+      "TargetId": 53,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "8e924",
+      "CostUp": 5120.0
+    },
+    {
+      "Id": 1054,
+      "TargetType": "SoulAltar",
+      "TargetId": 54,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "3e939",
+      "CostUp": 5120.0
+    },
+    {
+      "Id": 1055,
+      "TargetType": "SoulAltar",
+      "TargetId": 55,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4e969",
+      "CostUp": 5120.0
+    },
+    {
+      "Id": 1056,
+      "TargetType": "SoulAltar",
+      "TargetId": 56,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "1e1000",
+      "CostUp": 10240.0
+    },
+    {
+      "Id": 1057,
+      "TargetType": "SoulAltar",
+      "TargetId": 57,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "7.5e1022",
+      "CostUp": 10240.0
+    },
+    {
+      "Id": 1058,
+      "TargetType": "SoulAltar",
+      "TargetId": 58,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "4e1047",
+      "CostUp": 10240.0
+    },
+    {
+      "Id": 1059,
+      "TargetType": "SoulAltar",
+      "TargetId": 59,
+      "Bonus": 25.0,
+      "MaxLevel": 8,
+      "Cost": "2e1079",
+      "CostUp": 10240.0
+    },
+    {
+      "Id": 1060,
+      "TargetType": "SoulAltar",
+      "TargetId": 60,
+      "Bonus": 100.0,
+      "MaxLevel": 1,
+      "Cost": "5e1155",
+      "CostUp": 20480.0
+    }
+  ]
+}

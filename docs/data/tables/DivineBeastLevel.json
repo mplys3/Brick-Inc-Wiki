@@ -1,0 +1,96 @@
+{
+  "type": "MasterDivineBeastLevel",
+  "index": 71,
+  "count": 5,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "TracePiece",
+      "param": "tracePiece",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "Rune",
+      "param": "rune",
+      "kind": "double",
+      "index": 2
+    },
+    {
+      "name": "SpellBook",
+      "param": "spellBook",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "Hp",
+      "param": "hpOffset",
+      "kind": "StringOffset",
+      "index": 4
+    },
+    {
+      "name": "BattleHp",
+      "param": "battleHp",
+      "kind": "double",
+      "index": 5
+    },
+    {
+      "name": "BattleAtk",
+      "param": "battleAtk",
+      "kind": "double",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "TracePiece": 20,
+      "Rune": 1.0,
+      "SpellBook": 1.0,
+      "Hp": "1.00E+00",
+      "BattleHp": 1.0,
+      "BattleAtk": 1.0
+    },
+    {
+      "Level": 2,
+      "TracePiece": 25,
+      "Rune": 2.0,
+      "SpellBook": 2.0,
+      "Hp": "4.00E+02",
+      "BattleHp": 2.0,
+      "BattleAtk": 2.0
+    },
+    {
+      "Level": 3,
+      "TracePiece": 30,
+      "Rune": 3.0,
+      "SpellBook": 3.0,
+      "Hp": "3.20E+05",
+      "BattleHp": 4.0,
+      "BattleAtk": 4.0
+    },
+    {
+      "Level": 4,
+      "TracePiece": 35,
+      "Rune": 4.0,
+      "SpellBook": 4.0,
+      "Hp": "3.84E+08",
+      "BattleHp": 8.0,
+      "BattleAtk": 8.0
+    },
+    {
+      "Level": 5,
+      "TracePiece": 40,
+      "Rune": 5.0,
+      "SpellBook": 5.0,
+      "Hp": "6.14E+11",
+      "BattleHp": 16.0,
+      "BattleAtk": 16.0
+    }
+  ]
+}

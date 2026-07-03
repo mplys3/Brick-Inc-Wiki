@@ -1,0 +1,129 @@
+{
+  "type": "MasterSystemAssist",
+  "index": 125,
+  "count": 16,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterSystemAssistType",
+      "index": 1
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 3
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Type": "Research",
+      "Sort": 3,
+      "UnlockRank": 5
+    },
+    {
+      "Id": 10,
+      "Type": "WeaponBuy",
+      "Sort": 4,
+      "UnlockRank": 6
+    },
+    {
+      "Id": 20,
+      "Type": "FieldUnlock",
+      "Sort": 5,
+      "UnlockRank": 7
+    },
+    {
+      "Id": 11,
+      "Type": "WeaponEnhance",
+      "Sort": 6,
+      "UnlockRank": 8
+    },
+    {
+      "Id": 12,
+      "Type": "WeaponEquip",
+      "Sort": 7,
+      "UnlockRank": 9
+    },
+    {
+      "Id": 30,
+      "Type": "SoulUpgrade",
+      "Sort": 8,
+      "UnlockRank": 10
+    },
+    {
+      "Id": 31,
+      "Type": "SoulEnhance",
+      "Sort": 9,
+      "UnlockRank": 11
+    },
+    {
+      "Id": 40,
+      "Type": "InnovationLab",
+      "Sort": 10,
+      "UnlockRank": 14
+    },
+    {
+      "Id": 41,
+      "Type": "InnovationWeapon",
+      "Sort": 11,
+      "UnlockRank": 16
+    },
+    {
+      "Id": 42,
+      "Type": "InnovationBrick",
+      "Sort": 12,
+      "UnlockRank": 18
+    },
+    {
+      "Id": 50,
+      "Type": "DevilOrderCorruption",
+      "Sort": 13,
+      "UnlockRank": 23
+    },
+    {
+      "Id": 51,
+      "Type": "DevilOrderDecay",
+      "Sort": 14,
+      "UnlockRank": 25
+    },
+    {
+      "Id": 52,
+      "Type": "DevilOrderCurse",
+      "Sort": 15,
+      "UnlockRank": 27
+    },
+    {
+      "Id": 2,
+      "Type": "ResearchPlus",
+      "Sort": 16,
+      "UnlockRank": 31
+    },
+    {
+      "Id": 32,
+      "Type": "SoulAltar",
+      "Sort": 17,
+      "UnlockRank": 43
+    },
+    {
+      "Id": 60,
+      "Type": "QuantumUpgrade",
+      "Sort": 18,
+      "UnlockRank": 58
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "type": "MasterBuffEvent",
+  "index": 128,
+  "count": 10,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "idOffset",
+      "kind": "StringOffset",
+      "index": 0
+    },
+    {
+      "name": "UpgradeType",
+      "param": "upgradeType",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 3
+    }
+  ],
+  "rows": [
+    {
+      "Id": "wk_gold",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "wk_power",
+      "UpgradeType": "Power",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "wk_dmg",
+      "UpgradeType": "AllWeaponDmg",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "wk_soul",
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "wk_rune",
+      "UpgradeType": "RuneChance",
+      "ValueType": "Multiply",
+      "Value": 2.0
+    },
+    {
+      "Id": "wk_gold_3",
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Value": 3.0
+    },
+    {
+      "Id": "wk_power_3",
+      "UpgradeType": "Power",
+      "ValueType": "Multiply",
+      "Value": 3.0
+    },
+    {
+      "Id": "wk_dmg_3",
+      "UpgradeType": "AllWeaponDmg",
+      "ValueType": "Multiply",
+      "Value": 3.0
+    },
+    {
+      "Id": "wk_soul_3",
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Multiply",
+      "Value": 3.0
+    },
+    {
+      "Id": "wk_rune_3",
+      "UpgradeType": "RuneChance",
+      "ValueType": "Multiply",
+      "Value": 3.0
+    }
+  ]
+}

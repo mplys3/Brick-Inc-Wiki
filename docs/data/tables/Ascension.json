@@ -1,0 +1,301 @@
+{
+  "type": "MasterAscension",
+  "index": 88,
+  "count": 10,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "MindTarget",
+      "param": "mindTarget",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "MindCost",
+      "param": "mindCostOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "MindCostUp",
+      "param": "mindCostUp",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "TimeTarget",
+      "param": "timeTarget",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "TimeCost",
+      "param": "timeCost",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "TimeCostUp",
+      "param": "timeCostUp",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "TruthTarget",
+      "param": "truthTarget",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "TruthCost",
+      "param": "truthCost",
+      "kind": "int",
+      "index": 9
+    },
+    {
+      "name": "TruthCostUp",
+      "param": "truthCostUp",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "AscensionCost",
+      "param": "ascensionCost",
+      "kind": "int",
+      "index": 11
+    },
+    {
+      "name": "StoneCommon",
+      "param": "stoneCommon",
+      "kind": "int",
+      "index": 12
+    },
+    {
+      "name": "StoneRare",
+      "param": "stoneRare",
+      "kind": "int",
+      "index": 13
+    },
+    {
+      "name": "StoneEpic",
+      "param": "stoneEpic",
+      "kind": "int",
+      "index": 14
+    },
+    {
+      "name": "StoneLegend",
+      "param": "stoneLegend",
+      "kind": "int",
+      "index": 15
+    },
+    {
+      "name": "StoneMystic",
+      "param": "stoneMystic",
+      "kind": "int",
+      "index": 16
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "Bonus": 2,
+      "MindTarget": 15000000,
+      "MindCost": "1.00E+03",
+      "MindCostUp": 1.1,
+      "TimeTarget": 15000000,
+      "TimeCost": 5,
+      "TimeCostUp": 0,
+      "TruthTarget": 15000000,
+      "TruthCost": 5,
+      "TruthCostUp": 0,
+      "AscensionCost": 50,
+      "StoneCommon": 1,
+      "StoneRare": 2,
+      "StoneEpic": 4,
+      "StoneLegend": 10,
+      "StoneMystic": 30
+    },
+    {
+      "Level": 2,
+      "Bonus": 4,
+      "MindTarget": 30000000,
+      "MindCost": "3.00E+03",
+      "MindCostUp": 1.1,
+      "TimeTarget": 30000000,
+      "TimeCost": 5,
+      "TimeCostUp": 0,
+      "TruthTarget": 30000000,
+      "TruthCost": 5,
+      "TruthCostUp": 0,
+      "AscensionCost": 55,
+      "StoneCommon": 2,
+      "StoneRare": 4,
+      "StoneEpic": 8,
+      "StoneLegend": 20,
+      "StoneMystic": 60
+    },
+    {
+      "Level": 3,
+      "Bonus": 8,
+      "MindTarget": 45000000,
+      "MindCost": "1.50E+04",
+      "MindCostUp": 1.1,
+      "TimeTarget": 45000000,
+      "TimeCost": 5,
+      "TimeCostUp": 0,
+      "TruthTarget": 45000000,
+      "TruthCost": 5,
+      "TruthCostUp": 0,
+      "AscensionCost": 60,
+      "StoneCommon": 3,
+      "StoneRare": 6,
+      "StoneEpic": 12,
+      "StoneLegend": 30,
+      "StoneMystic": 90
+    },
+    {
+      "Level": 4,
+      "Bonus": 32,
+      "MindTarget": 60000000,
+      "MindCost": "7.00E+04",
+      "MindCostUp": 1.1,
+      "TimeTarget": 60000000,
+      "TimeCost": 6,
+      "TimeCostUp": 0,
+      "TruthTarget": 60000000,
+      "TruthCost": 6,
+      "TruthCostUp": 0,
+      "AscensionCost": 65,
+      "StoneCommon": 5,
+      "StoneRare": 10,
+      "StoneEpic": 20,
+      "StoneLegend": 50,
+      "StoneMystic": 150
+    },
+    {
+      "Level": 5,
+      "Bonus": 128,
+      "MindTarget": 75000000,
+      "MindCost": "3.00E+06",
+      "MindCostUp": 1.1,
+      "TimeTarget": 75000000,
+      "TimeCost": 6,
+      "TimeCostUp": 0,
+      "TruthTarget": 75000000,
+      "TruthCost": 6,
+      "TruthCostUp": 0,
+      "AscensionCost": 70,
+      "StoneCommon": 7,
+      "StoneRare": 14,
+      "StoneEpic": 28,
+      "StoneLegend": 70,
+      "StoneMystic": 210
+    },
+    {
+      "Level": 6,
+      "Bonus": 512,
+      "MindTarget": 90000000,
+      "MindCost": "5.00E+07",
+      "MindCostUp": 1.1,
+      "TimeTarget": 90000000,
+      "TimeCost": 6,
+      "TimeCostUp": 0,
+      "TruthTarget": 90000000,
+      "TruthCost": 6,
+      "TruthCostUp": 0,
+      "AscensionCost": 75,
+      "StoneCommon": 10,
+      "StoneRare": 20,
+      "StoneEpic": 40,
+      "StoneLegend": 100,
+      "StoneMystic": 300
+    },
+    {
+      "Level": 7,
+      "Bonus": 2500,
+      "MindTarget": 105000000,
+      "MindCost": "1.00E+09",
+      "MindCostUp": 1.1,
+      "TimeTarget": 105000000,
+      "TimeCost": 7,
+      "TimeCostUp": 0,
+      "TruthTarget": 105000000,
+      "TruthCost": 7,
+      "TruthCostUp": 0,
+      "AscensionCost": 80,
+      "StoneCommon": 15,
+      "StoneRare": 30,
+      "StoneEpic": 60,
+      "StoneLegend": 150,
+      "StoneMystic": 450
+    },
+    {
+      "Level": 8,
+      "Bonus": 15000,
+      "MindTarget": 120000000,
+      "MindCost": "7.50E+11",
+      "MindCostUp": 1.1,
+      "TimeTarget": 120000000,
+      "TimeCost": 7,
+      "TimeCostUp": 0,
+      "TruthTarget": 120000000,
+      "TruthCost": 7,
+      "TruthCostUp": 0,
+      "AscensionCost": 85,
+      "StoneCommon": 20,
+      "StoneRare": 40,
+      "StoneEpic": 80,
+      "StoneLegend": 200,
+      "StoneMystic": 600
+    },
+    {
+      "Level": 9,
+      "Bonus": 125000,
+      "MindTarget": 135000000,
+      "MindCost": "2.00E+17",
+      "MindCostUp": 1.1,
+      "TimeTarget": 135000000,
+      "TimeCost": 7,
+      "TimeCostUp": 0,
+      "TruthTarget": 135000000,
+      "TruthCost": 7,
+      "TruthCostUp": 0,
+      "AscensionCost": 90,
+      "StoneCommon": 30,
+      "StoneRare": 60,
+      "StoneEpic": 120,
+      "StoneLegend": 300,
+      "StoneMystic": 900
+    },
+    {
+      "Level": 10,
+      "Bonus": 2500000,
+      "MindTarget": 150000000,
+      "MindCost": "4.00E+25",
+      "MindCostUp": 1.1,
+      "TimeTarget": 150000000,
+      "TimeCost": 10,
+      "TimeCostUp": 0,
+      "TruthTarget": 150000000,
+      "TruthCost": 10,
+      "TruthCostUp": 0,
+      "AscensionCost": 95,
+      "StoneCommon": 50,
+      "StoneRare": 100,
+      "StoneEpic": 200,
+      "StoneLegend": 500,
+      "StoneMystic": 1500
+    }
+  ]
+}

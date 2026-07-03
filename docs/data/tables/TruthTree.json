@@ -1,0 +1,6282 @@
+{
+  "type": "MasterTruthTree",
+  "index": 83,
+  "count": 289,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "X",
+      "param": "x",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "Y",
+      "param": "y",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Circle",
+      "param": "circle",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Number",
+      "param": "number",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "Left",
+      "param": "left",
+      "kind": "bool",
+      "index": 5
+    },
+    {
+      "name": "Right",
+      "param": "right",
+      "kind": "bool",
+      "index": 6
+    },
+    {
+      "name": "Up",
+      "param": "up",
+      "kind": "bool",
+      "index": 7
+    },
+    {
+      "name": "Down",
+      "param": "down",
+      "kind": "bool",
+      "index": 8
+    },
+    {
+      "name": "Grade",
+      "param": "grade",
+      "kind": "MasterStandardGradeType",
+      "index": 9
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 10,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 11,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 12,
+      "element": "double"
+    }
+  ],
+  "rows": [
+    {
+      "Id": 14857,
+      "X": 0,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 57,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone",
+        "Gold",
+        "Power",
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        100.0,
+        100.0,
+        -75.0
+      ]
+    },
+    {
+      "Id": 14858,
+      "X": 1,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 58,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14859,
+      "X": 2,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 59,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14860,
+      "X": 3,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 60,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14861,
+      "X": 4,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 61,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14862,
+      "X": 5,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 62,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14863,
+      "X": 6,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 63,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14864,
+      "X": 7,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 64,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14801,
+      "X": 8,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14802,
+      "X": 9,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14803,
+      "X": 10,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14804,
+      "X": 11,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 4,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14805,
+      "X": 12,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 5,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14806,
+      "X": 13,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 6,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14807,
+      "X": 14,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 7,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14808,
+      "X": 15,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 8,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14809,
+      "X": 16,
+      "Y": 0,
+      "Circle": 8,
+      "Number": 9,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "Ether",
+        "AllWeaponDmg",
+        "PrestigeBonus",
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        25.0,
+        50.0,
+        100.0,
+        1.0
+      ]
+    },
+    {
+      "Id": 14856,
+      "X": 0,
+      "Y": 1,
+      "Circle": 8,
+      "Number": 56,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14750,
+      "X": 1,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 50,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14751,
+      "X": 2,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 51,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14752,
+      "X": 3,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 52,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14753,
+      "X": 4,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 53,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14754,
+      "X": 5,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 54,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14755,
+      "X": 6,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 55,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14756,
+      "X": 7,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 56,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14701,
+      "X": 8,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DStone",
+        "Power",
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        100.0,
+        -75.0
+      ]
+    },
+    {
+      "Id": 14702,
+      "X": 9,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14703,
+      "X": 10,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14704,
+      "X": 11,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 4,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14705,
+      "X": 12,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 5,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1.0
+      ]
+    },
+    {
+      "Id": 14706,
+      "X": 13,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 6,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14707,
+      "X": 14,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 7,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14708,
+      "X": 15,
+      "Y": 1,
+      "Circle": 7,
+      "Number": 8,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14810,
+      "X": 16,
+      "Y": 1,
+      "Circle": 8,
+      "Number": 10,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14855,
+      "X": 0,
+      "Y": 2,
+      "Circle": 8,
+      "Number": 55,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14749,
+      "X": 1,
+      "Y": 2,
+      "Circle": 7,
+      "Number": 49,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14643,
+      "X": 2,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 43,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Epic",
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14644,
+      "X": 3,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 44,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14645,
+      "X": 4,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 45,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14646,
+      "X": 5,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 46,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14647,
+      "X": 6,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 47,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14648,
+      "X": 7,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 48,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14601,
+      "X": 8,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14602,
+      "X": 9,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14603,
+      "X": 10,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14604,
+      "X": 11,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 4,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14605,
+      "X": 12,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 5,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14606,
+      "X": 13,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 6,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14607,
+      "X": 14,
+      "Y": 2,
+      "Circle": 6,
+      "Number": 7,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Epic",
+      "TypeList": [
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14709,
+      "X": 15,
+      "Y": 2,
+      "Circle": 7,
+      "Number": 9,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14811,
+      "X": 16,
+      "Y": 2,
+      "Circle": 8,
+      "Number": 11,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14854,
+      "X": 0,
+      "Y": 3,
+      "Circle": 8,
+      "Number": 54,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14748,
+      "X": 1,
+      "Y": 3,
+      "Circle": 7,
+      "Number": 48,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14642,
+      "X": 2,
+      "Y": 3,
+      "Circle": 6,
+      "Number": 42,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14536,
+      "X": 3,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 36,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        50.0
+      ]
+    },
+    {
+      "Id": 14537,
+      "X": 4,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 37,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14538,
+      "X": 5,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 38,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14539,
+      "X": 6,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 39,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "RankPowerDown",
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0,
+        20.0
+      ]
+    },
+    {
+      "Id": 14540,
+      "X": 7,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 40,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14501,
+      "X": 8,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14502,
+      "X": 9,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14503,
+      "X": 10,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1.0
+      ]
+    },
+    {
+      "Id": 14504,
+      "X": 11,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 4,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14505,
+      "X": 12,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 5,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14506,
+      "X": 13,
+      "Y": 3,
+      "Circle": 5,
+      "Number": 6,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "AllWeaponDmg",
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14608,
+      "X": 14,
+      "Y": 3,
+      "Circle": 6,
+      "Number": 8,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14710,
+      "X": 15,
+      "Y": 3,
+      "Circle": 7,
+      "Number": 10,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14812,
+      "X": 16,
+      "Y": 3,
+      "Circle": 8,
+      "Number": 12,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14853,
+      "X": 0,
+      "Y": 4,
+      "Circle": 8,
+      "Number": 53,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14747,
+      "X": 1,
+      "Y": 4,
+      "Circle": 7,
+      "Number": 47,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14641,
+      "X": 2,
+      "Y": 4,
+      "Circle": 6,
+      "Number": 41,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14535,
+      "X": 3,
+      "Y": 4,
+      "Circle": 5,
+      "Number": 35,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14429,
+      "X": 4,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 29,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14430,
+      "X": 5,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 30,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14431,
+      "X": 6,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 31,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14432,
+      "X": 7,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 32,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14401,
+      "X": 8,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 1,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14402,
+      "X": 9,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14403,
+      "X": 10,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14404,
+      "X": 11,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 4,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14405,
+      "X": 12,
+      "Y": 4,
+      "Circle": 4,
+      "Number": 5,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14507,
+      "X": 13,
+      "Y": 4,
+      "Circle": 5,
+      "Number": 7,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14609,
+      "X": 14,
+      "Y": 4,
+      "Circle": 6,
+      "Number": 9,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14711,
+      "X": 15,
+      "Y": 4,
+      "Circle": 7,
+      "Number": 11,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14813,
+      "X": 16,
+      "Y": 4,
+      "Circle": 8,
+      "Number": 13,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14852,
+      "X": 0,
+      "Y": 5,
+      "Circle": 8,
+      "Number": 52,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14746,
+      "X": 1,
+      "Y": 5,
+      "Circle": 7,
+      "Number": 46,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14640,
+      "X": 2,
+      "Y": 5,
+      "Circle": 6,
+      "Number": 40,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14534,
+      "X": 3,
+      "Y": 5,
+      "Circle": 5,
+      "Number": 34,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14428,
+      "X": 4,
+      "Y": 5,
+      "Circle": 4,
+      "Number": 28,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14322,
+      "X": 5,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 22,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Epic",
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        50.0,
+        50.0
+      ]
+    },
+    {
+      "Id": 14323,
+      "X": 6,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 23,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14324,
+      "X": 7,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 24,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14301,
+      "X": 8,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "Power",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 14302,
+      "X": 9,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14303,
+      "X": 10,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14304,
+      "X": 11,
+      "Y": 5,
+      "Circle": 3,
+      "Number": 4,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Epic",
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Percent"
+      ],
+      "ValueList": [
+        1.0,
+        25.0
+      ]
+    },
+    {
+      "Id": 14406,
+      "X": 12,
+      "Y": 5,
+      "Circle": 4,
+      "Number": 6,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14508,
+      "X": 13,
+      "Y": 5,
+      "Circle": 5,
+      "Number": 8,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14610,
+      "X": 14,
+      "Y": 5,
+      "Circle": 6,
+      "Number": 10,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14712,
+      "X": 15,
+      "Y": 5,
+      "Circle": 7,
+      "Number": 12,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14814,
+      "X": 16,
+      "Y": 5,
+      "Circle": 8,
+      "Number": 14,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14851,
+      "X": 0,
+      "Y": 6,
+      "Circle": 8,
+      "Number": 51,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14745,
+      "X": 1,
+      "Y": 6,
+      "Circle": 7,
+      "Number": 45,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14639,
+      "X": 2,
+      "Y": 6,
+      "Circle": 6,
+      "Number": 39,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14533,
+      "X": 3,
+      "Y": 6,
+      "Circle": 5,
+      "Number": 33,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "Gold",
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        -50.0
+      ]
+    },
+    {
+      "Id": 14427,
+      "X": 4,
+      "Y": 6,
+      "Circle": 4,
+      "Number": 27,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14321,
+      "X": 5,
+      "Y": 6,
+      "Circle": 3,
+      "Number": 21,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14215,
+      "X": 6,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 15,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        40.0
+      ]
+    },
+    {
+      "Id": 14216,
+      "X": 7,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 16,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14201,
+      "X": 8,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14202,
+      "X": 9,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 2,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14203,
+      "X": 10,
+      "Y": 6,
+      "Circle": 2,
+      "Number": 3,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        40.0
+      ]
+    },
+    {
+      "Id": 14305,
+      "X": 11,
+      "Y": 6,
+      "Circle": 3,
+      "Number": 5,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14407,
+      "X": 12,
+      "Y": 6,
+      "Circle": 4,
+      "Number": 7,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14509,
+      "X": 13,
+      "Y": 6,
+      "Circle": 5,
+      "Number": 9,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "AllWeaponDmg",
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14611,
+      "X": 14,
+      "Y": 6,
+      "Circle": 6,
+      "Number": 11,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14713,
+      "X": 15,
+      "Y": 6,
+      "Circle": 7,
+      "Number": 13,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14815,
+      "X": 16,
+      "Y": 6,
+      "Circle": 8,
+      "Number": 15,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14850,
+      "X": 0,
+      "Y": 7,
+      "Circle": 8,
+      "Number": 50,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14744,
+      "X": 1,
+      "Y": 7,
+      "Circle": 7,
+      "Number": 44,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14638,
+      "X": 2,
+      "Y": 7,
+      "Circle": 6,
+      "Number": 38,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14532,
+      "X": 3,
+      "Y": 7,
+      "Circle": 5,
+      "Number": 32,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14426,
+      "X": 4,
+      "Y": 7,
+      "Circle": 4,
+      "Number": 26,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14320,
+      "X": 5,
+      "Y": 7,
+      "Circle": 3,
+      "Number": 20,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14214,
+      "X": 6,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 14,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14108,
+      "X": 7,
+      "Y": 7,
+      "Circle": 1,
+      "Number": 8,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "Id": 14101,
+      "X": 8,
+      "Y": 7,
+      "Circle": 1,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14102,
+      "X": 9,
+      "Y": 7,
+      "Circle": 1,
+      "Number": 2,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "Power",
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14204,
+      "X": 10,
+      "Y": 7,
+      "Circle": 2,
+      "Number": 4,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14306,
+      "X": 11,
+      "Y": 7,
+      "Circle": 3,
+      "Number": 6,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14408,
+      "X": 12,
+      "Y": 7,
+      "Circle": 4,
+      "Number": 8,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14510,
+      "X": 13,
+      "Y": 7,
+      "Circle": 5,
+      "Number": 10,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14612,
+      "X": 14,
+      "Y": 7,
+      "Circle": 6,
+      "Number": 12,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14714,
+      "X": 15,
+      "Y": 7,
+      "Circle": 7,
+      "Number": 14,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14816,
+      "X": 16,
+      "Y": 7,
+      "Circle": 8,
+      "Number": 16,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14849,
+      "X": 0,
+      "Y": 8,
+      "Circle": 8,
+      "Number": 49,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14743,
+      "X": 1,
+      "Y": 8,
+      "Circle": 7,
+      "Number": 43,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "DiamondBrickChance",
+        "Gold",
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        1.1,
+        100.0,
+        -75.0,
+        -75.0
+      ]
+    },
+    {
+      "Id": 14637,
+      "X": 2,
+      "Y": 8,
+      "Circle": 6,
+      "Number": 37,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14531,
+      "X": 3,
+      "Y": 8,
+      "Circle": 5,
+      "Number": 31,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14425,
+      "X": 4,
+      "Y": 8,
+      "Circle": 4,
+      "Number": 25,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14319,
+      "X": 5,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 19,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0,
+        -50.0
+      ]
+    },
+    {
+      "Id": 14213,
+      "X": 6,
+      "Y": 8,
+      "Circle": 2,
+      "Number": 13,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14107,
+      "X": 7,
+      "Y": 8,
+      "Circle": 1,
+      "Number": 7,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14001,
+      "X": 8,
+      "Y": 8,
+      "Circle": 0,
+      "Number": 1,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": 0,
+      "TypeList": [
+        "None"
+      ],
+      "ValueTypeList": [
+        "None"
+      ],
+      "ValueList": [
+        0.0
+      ]
+    },
+    {
+      "Id": 14103,
+      "X": 9,
+      "Y": 8,
+      "Circle": 1,
+      "Number": 3,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14205,
+      "X": 10,
+      "Y": 8,
+      "Circle": 2,
+      "Number": 5,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14307,
+      "X": 11,
+      "Y": 8,
+      "Circle": 3,
+      "Number": 7,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "AllWeaponDmg",
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14409,
+      "X": 12,
+      "Y": 8,
+      "Circle": 4,
+      "Number": 9,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14511,
+      "X": 13,
+      "Y": 8,
+      "Circle": 5,
+      "Number": 11,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14613,
+      "X": 14,
+      "Y": 8,
+      "Circle": 6,
+      "Number": 13,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14715,
+      "X": 15,
+      "Y": 8,
+      "Circle": 7,
+      "Number": 15,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "ArtifactDrop",
+        "Ether",
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        10.0,
+        25.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 14817,
+      "X": 16,
+      "Y": 8,
+      "Circle": 8,
+      "Number": 17,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14848,
+      "X": 0,
+      "Y": 9,
+      "Circle": 8,
+      "Number": 48,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14742,
+      "X": 1,
+      "Y": 9,
+      "Circle": 7,
+      "Number": 42,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14636,
+      "X": 2,
+      "Y": 9,
+      "Circle": 6,
+      "Number": 36,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14530,
+      "X": 3,
+      "Y": 9,
+      "Circle": 5,
+      "Number": 30,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14424,
+      "X": 4,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 24,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14318,
+      "X": 5,
+      "Y": 9,
+      "Circle": 3,
+      "Number": 18,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14212,
+      "X": 6,
+      "Y": 9,
+      "Circle": 2,
+      "Number": 12,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14106,
+      "X": 7,
+      "Y": 9,
+      "Circle": 1,
+      "Number": 6,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "Gold",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        -25.0
+      ]
+    },
+    {
+      "Id": 14105,
+      "X": 8,
+      "Y": 9,
+      "Circle": 1,
+      "Number": 5,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14104,
+      "X": 9,
+      "Y": 9,
+      "Circle": 1,
+      "Number": 4,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "AllWeaponDmg",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        -25.0
+      ]
+    },
+    {
+      "Id": 14206,
+      "X": 10,
+      "Y": 9,
+      "Circle": 2,
+      "Number": 6,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14308,
+      "X": 11,
+      "Y": 9,
+      "Circle": 3,
+      "Number": 8,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14410,
+      "X": 12,
+      "Y": 9,
+      "Circle": 4,
+      "Number": 10,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14512,
+      "X": 13,
+      "Y": 9,
+      "Circle": 5,
+      "Number": 12,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14614,
+      "X": 14,
+      "Y": 9,
+      "Circle": 6,
+      "Number": 14,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14716,
+      "X": 15,
+      "Y": 9,
+      "Circle": 7,
+      "Number": 16,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14818,
+      "X": 16,
+      "Y": 9,
+      "Circle": 8,
+      "Number": 18,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14847,
+      "X": 0,
+      "Y": 10,
+      "Circle": 8,
+      "Number": 47,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14741,
+      "X": 1,
+      "Y": 10,
+      "Circle": 7,
+      "Number": 41,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14635,
+      "X": 2,
+      "Y": 10,
+      "Circle": 6,
+      "Number": 35,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14529,
+      "X": 3,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 29,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "Gold",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        20.0,
+        -50.0
+      ]
+    },
+    {
+      "Id": 14423,
+      "X": 4,
+      "Y": 10,
+      "Circle": 4,
+      "Number": 23,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14317,
+      "X": 5,
+      "Y": 10,
+      "Circle": 3,
+      "Number": 17,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14211,
+      "X": 6,
+      "Y": 10,
+      "Circle": 2,
+      "Number": 11,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        40.0
+      ]
+    },
+    {
+      "Id": 14210,
+      "X": 7,
+      "Y": 10,
+      "Circle": 2,
+      "Number": 10,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14209,
+      "X": 8,
+      "Y": 10,
+      "Circle": 2,
+      "Number": 9,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14208,
+      "X": 9,
+      "Y": 10,
+      "Circle": 2,
+      "Number": 8,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14207,
+      "X": 10,
+      "Y": 10,
+      "Circle": 2,
+      "Number": 7,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        40.0
+      ]
+    },
+    {
+      "Id": 14309,
+      "X": 11,
+      "Y": 10,
+      "Circle": 3,
+      "Number": 9,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14411,
+      "X": 12,
+      "Y": 10,
+      "Circle": 4,
+      "Number": 11,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14513,
+      "X": 13,
+      "Y": 10,
+      "Circle": 5,
+      "Number": 13,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "CriDmg",
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14615,
+      "X": 14,
+      "Y": 10,
+      "Circle": 6,
+      "Number": 15,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14717,
+      "X": 15,
+      "Y": 10,
+      "Circle": 7,
+      "Number": 17,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14819,
+      "X": 16,
+      "Y": 10,
+      "Circle": 8,
+      "Number": 19,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14846,
+      "X": 0,
+      "Y": 11,
+      "Circle": 8,
+      "Number": 46,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14740,
+      "X": 1,
+      "Y": 11,
+      "Circle": 7,
+      "Number": 40,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14634,
+      "X": 2,
+      "Y": 11,
+      "Circle": 6,
+      "Number": 34,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14528,
+      "X": 3,
+      "Y": 11,
+      "Circle": 5,
+      "Number": 28,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14422,
+      "X": 4,
+      "Y": 11,
+      "Circle": 4,
+      "Number": 22,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14316,
+      "X": 5,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 16,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Epic",
+      "TypeList": [
+        "GoldBrickChance"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.1
+      ]
+    },
+    {
+      "Id": 14315,
+      "X": 6,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 15,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14314,
+      "X": 7,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 14,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14313,
+      "X": 8,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 13,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14312,
+      "X": 9,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 12,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14311,
+      "X": 10,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 11,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14310,
+      "X": 11,
+      "Y": 11,
+      "Circle": 3,
+      "Number": 10,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Epic",
+      "TypeList": [
+        "AllWeaponSpd",
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        10.0,
+        50.0
+      ]
+    },
+    {
+      "Id": 14412,
+      "X": 12,
+      "Y": 11,
+      "Circle": 4,
+      "Number": 12,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14514,
+      "X": 13,
+      "Y": 11,
+      "Circle": 5,
+      "Number": 14,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14616,
+      "X": 14,
+      "Y": 11,
+      "Circle": 6,
+      "Number": 16,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14718,
+      "X": 15,
+      "Y": 11,
+      "Circle": 7,
+      "Number": 18,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14820,
+      "X": 16,
+      "Y": 11,
+      "Circle": 8,
+      "Number": 20,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14845,
+      "X": 0,
+      "Y": 12,
+      "Circle": 8,
+      "Number": 45,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14739,
+      "X": 1,
+      "Y": 12,
+      "Circle": 7,
+      "Number": 39,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ForgeSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14633,
+      "X": 2,
+      "Y": 12,
+      "Circle": 6,
+      "Number": 33,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14527,
+      "X": 3,
+      "Y": 12,
+      "Circle": 5,
+      "Number": 27,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14421,
+      "X": 4,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 21,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14420,
+      "X": 5,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 20,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14419,
+      "X": 6,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 19,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14418,
+      "X": 7,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 18,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14417,
+      "X": 8,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 17,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14416,
+      "X": 9,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 16,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14415,
+      "X": 10,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 15,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14414,
+      "X": 11,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 14,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14413,
+      "X": 12,
+      "Y": 12,
+      "Circle": 4,
+      "Number": 13,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14515,
+      "X": 13,
+      "Y": 12,
+      "Circle": 5,
+      "Number": 15,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14617,
+      "X": 14,
+      "Y": 12,
+      "Circle": 6,
+      "Number": 17,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14719,
+      "X": 15,
+      "Y": 12,
+      "Circle": 7,
+      "Number": 19,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ArtifactDrop"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14821,
+      "X": 16,
+      "Y": 12,
+      "Circle": 8,
+      "Number": 21,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14844,
+      "X": 0,
+      "Y": 13,
+      "Circle": 8,
+      "Number": 44,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14738,
+      "X": 1,
+      "Y": 13,
+      "Circle": 7,
+      "Number": 38,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14632,
+      "X": 2,
+      "Y": 13,
+      "Circle": 6,
+      "Number": 32,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RuneChance"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.05
+      ]
+    },
+    {
+      "Id": 14526,
+      "X": 3,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 26,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ForgeSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14525,
+      "X": 4,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 25,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14524,
+      "X": 5,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 24,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14523,
+      "X": 6,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 23,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "MiningSpeed",
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        10.0,
+        1800.0
+      ]
+    },
+    {
+      "Id": 14522,
+      "X": 7,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 22,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14521,
+      "X": 8,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 21,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14520,
+      "X": 9,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 20,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14519,
+      "X": 10,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 19,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "BattleAtk",
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14518,
+      "X": 11,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 18,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14517,
+      "X": 12,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 17,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14516,
+      "X": 13,
+      "Y": 13,
+      "Circle": 5,
+      "Number": 16,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "BattleAtk",
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "Id": 14618,
+      "X": 14,
+      "Y": 13,
+      "Circle": 6,
+      "Number": 18,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14720,
+      "X": 15,
+      "Y": 13,
+      "Circle": 7,
+      "Number": 20,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14822,
+      "X": 16,
+      "Y": 13,
+      "Circle": 8,
+      "Number": 22,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14843,
+      "X": 0,
+      "Y": 14,
+      "Circle": 8,
+      "Number": 43,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14737,
+      "X": 1,
+      "Y": 14,
+      "Circle": 7,
+      "Number": 37,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14631,
+      "X": 2,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 31,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Epic",
+      "TypeList": [
+        "ForgeSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14630,
+      "X": 3,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 30,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "RuneChance"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.05
+      ]
+    },
+    {
+      "Id": 14629,
+      "X": 4,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 29,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "RuneChance"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.05
+      ]
+    },
+    {
+      "Id": 14628,
+      "X": 5,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 28,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14627,
+      "X": 6,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 27,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14626,
+      "X": 7,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 26,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14625,
+      "X": 8,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 25,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14624,
+      "X": 9,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 24,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14623,
+      "X": 10,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 23,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14622,
+      "X": 11,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 22,
+      "Left": false,
+      "Right": false,
+      "Up": false,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14621,
+      "X": 12,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 21,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14620,
+      "X": 13,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 20,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14619,
+      "X": 14,
+      "Y": 14,
+      "Circle": 6,
+      "Number": 19,
+      "Left": false,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Epic",
+      "TypeList": [
+        "ArtifactDrop"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14721,
+      "X": 15,
+      "Y": 14,
+      "Circle": 7,
+      "Number": 21,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14823,
+      "X": 16,
+      "Y": 14,
+      "Circle": 8,
+      "Number": 23,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14842,
+      "X": 0,
+      "Y": 15,
+      "Circle": 8,
+      "Number": 42,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14736,
+      "X": 1,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 36,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14735,
+      "X": 2,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 35,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14734,
+      "X": 3,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 34,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14733,
+      "X": 4,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 33,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "RuneChance",
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent"
+      ],
+      "ValueList": [
+        1.05,
+        20.0
+      ]
+    },
+    {
+      "Id": 14732,
+      "X": 5,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 32,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14731,
+      "X": 6,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 31,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14730,
+      "X": 7,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 30,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14729,
+      "X": 8,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 29,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": true,
+      "Grade": "Legendary",
+      "TypeList": [
+        "ForgeSpeed",
+        "SciencePoint",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        50.0,
+        -75.0
+      ]
+    },
+    {
+      "Id": 14728,
+      "X": 9,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 28,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14727,
+      "X": 10,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 27,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14726,
+      "X": 11,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 26,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14725,
+      "X": 12,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 25,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": true,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14724,
+      "X": 13,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 24,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14723,
+      "X": 14,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 23,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14722,
+      "X": 15,
+      "Y": 15,
+      "Circle": 7,
+      "Number": 22,
+      "Left": true,
+      "Right": false,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14824,
+      "X": 16,
+      "Y": 15,
+      "Circle": 8,
+      "Number": 24,
+      "Left": false,
+      "Right": false,
+      "Up": true,
+      "Down": true,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleAtk"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14841,
+      "X": 0,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 41,
+      "Left": false,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "SciencePoint",
+        "WeaponEnhanceCostDown",
+        "BlockHpDown",
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent",
+        "Add"
+      ],
+      "ValueList": [
+        50.0,
+        -75.0,
+        -75.0,
+        3600.0
+      ]
+    },
+    {
+      "Id": 14840,
+      "X": 1,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 40,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14839,
+      "X": 2,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 39,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        10.0
+      ]
+    },
+    {
+      "Id": 14838,
+      "X": 3,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 38,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "MiningTimeLimit"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        1800.0
+      ]
+    },
+    {
+      "Id": 14837,
+      "X": 4,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 37,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "RuneChance"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "ValueList": [
+        1.05
+      ]
+    },
+    {
+      "Id": 14836,
+      "X": 5,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 36,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -25.0
+      ]
+    },
+    {
+      "Id": 14835,
+      "X": 6,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 35,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14834,
+      "X": 7,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 34,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14833,
+      "X": 8,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 33,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14832,
+      "X": 9,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 32,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        20.0
+      ]
+    },
+    {
+      "Id": 14831,
+      "X": 10,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 31,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Rare",
+      "TypeList": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        5.0
+      ]
+    },
+    {
+      "Id": 14830,
+      "X": 11,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 30,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14829,
+      "X": 12,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 29,
+      "Left": true,
+      "Right": true,
+      "Up": true,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        -50.0
+      ]
+    },
+    {
+      "Id": 14828,
+      "X": 13,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 28,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14827,
+      "X": 14,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 27,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "AllWeaponLevel"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "ValueList": [
+        25.0
+      ]
+    },
+    {
+      "Id": 14826,
+      "X": 15,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 26,
+      "Left": true,
+      "Right": true,
+      "Up": false,
+      "Down": false,
+      "Grade": "Common",
+      "TypeList": [
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        15.0
+      ]
+    },
+    {
+      "Id": 14825,
+      "X": 16,
+      "Y": 16,
+      "Circle": 8,
+      "Number": 25,
+      "Left": true,
+      "Right": false,
+      "Up": true,
+      "Down": false,
+      "Grade": "Legendary",
+      "TypeList": [
+        "AllWeaponSpd",
+        "ArtifactDrop",
+        "BattleAtk",
+        "BattleHp"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add",
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        15.0,
+        15.0,
+        50.0,
+        50.0
+      ]
+    }
+  ]
+}

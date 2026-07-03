@@ -1,0 +1,77 @@
+{
+  "type": "MasterMiningEvent",
+  "index": 129,
+  "count": 10,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Exp",
+      "param": "exp",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "GachaId",
+      "param": "gachaIdOffset",
+      "kind": "StringOffset",
+      "index": 2
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "Exp": 0,
+      "GachaId": "ev_mining_lv_1"
+    },
+    {
+      "Level": 2,
+      "Exp": 10,
+      "GachaId": "ev_mining_lv_2"
+    },
+    {
+      "Level": 3,
+      "Exp": 25,
+      "GachaId": "ev_mining_lv_3"
+    },
+    {
+      "Level": 4,
+      "Exp": 50,
+      "GachaId": "ev_mining_lv_4"
+    },
+    {
+      "Level": 5,
+      "Exp": 100,
+      "GachaId": "ev_mining_lv_5"
+    },
+    {
+      "Level": 6,
+      "Exp": 150,
+      "GachaId": "ev_mining_lv_6"
+    },
+    {
+      "Level": 7,
+      "Exp": 200,
+      "GachaId": "ev_mining_lv_7"
+    },
+    {
+      "Level": 8,
+      "Exp": 300,
+      "GachaId": "ev_mining_lv_8"
+    },
+    {
+      "Level": 9,
+      "Exp": 400,
+      "GachaId": "ev_mining_lv_9"
+    },
+    {
+      "Level": 10,
+      "Exp": 500,
+      "GachaId": "ev_mining_lv_10"
+    }
+  ]
+}

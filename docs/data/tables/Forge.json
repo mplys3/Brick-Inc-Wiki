@@ -1,0 +1,276 @@
+{
+  "type": "MasterForge",
+  "index": 117,
+  "count": 25,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "ForgingCount",
+      "param": "forgingCount",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "SlotCount",
+      "param": "slotCount",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "LuckyChance",
+      "param": "luckyChance",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "MagicClock",
+      "param": "magicClock",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "LevelUpForge",
+      "param": "levelUpForge",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "LevelUpGem",
+      "param": "levelUpGem",
+      "kind": "int",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "ForgingCount": 1,
+      "SlotCount": 6,
+      "LuckyChance": 3.0,
+      "MagicClock": 3,
+      "LevelUpForge": 1,
+      "LevelUpGem": 300
+    },
+    {
+      "Level": 2,
+      "ForgingCount": 1,
+      "SlotCount": 7,
+      "LuckyChance": 3.5,
+      "MagicClock": 3,
+      "LevelUpForge": 3,
+      "LevelUpGem": 350
+    },
+    {
+      "Level": 3,
+      "ForgingCount": 2,
+      "SlotCount": 8,
+      "LuckyChance": 4.0,
+      "MagicClock": 3,
+      "LevelUpForge": 6,
+      "LevelUpGem": 400
+    },
+    {
+      "Level": 4,
+      "ForgingCount": 2,
+      "SlotCount": 9,
+      "LuckyChance": 4.5,
+      "MagicClock": 4,
+      "LevelUpForge": 10,
+      "LevelUpGem": 450
+    },
+    {
+      "Level": 5,
+      "ForgingCount": 2,
+      "SlotCount": 10,
+      "LuckyChance": 5.0,
+      "MagicClock": 4,
+      "LevelUpForge": 20,
+      "LevelUpGem": 500
+    },
+    {
+      "Level": 6,
+      "ForgingCount": 3,
+      "SlotCount": 11,
+      "LuckyChance": 5.5,
+      "MagicClock": 4,
+      "LevelUpForge": 30,
+      "LevelUpGem": 550
+    },
+    {
+      "Level": 7,
+      "ForgingCount": 3,
+      "SlotCount": 12,
+      "LuckyChance": 6.0,
+      "MagicClock": 5,
+      "LevelUpForge": 40,
+      "LevelUpGem": 600
+    },
+    {
+      "Level": 8,
+      "ForgingCount": 3,
+      "SlotCount": 13,
+      "LuckyChance": 6.5,
+      "MagicClock": 5,
+      "LevelUpForge": 60,
+      "LevelUpGem": 650
+    },
+    {
+      "Level": 9,
+      "ForgingCount": 3,
+      "SlotCount": 14,
+      "LuckyChance": 7.0,
+      "MagicClock": 5,
+      "LevelUpForge": 80,
+      "LevelUpGem": 700
+    },
+    {
+      "Level": 10,
+      "ForgingCount": 4,
+      "SlotCount": 15,
+      "LuckyChance": 7.5,
+      "MagicClock": 6,
+      "LevelUpForge": 100,
+      "LevelUpGem": 800
+    },
+    {
+      "Level": 11,
+      "ForgingCount": 4,
+      "SlotCount": 16,
+      "LuckyChance": 8.0,
+      "MagicClock": 6,
+      "LevelUpForge": 150,
+      "LevelUpGem": 900
+    },
+    {
+      "Level": 12,
+      "ForgingCount": 4,
+      "SlotCount": 17,
+      "LuckyChance": 8.5,
+      "MagicClock": 6,
+      "LevelUpForge": 200,
+      "LevelUpGem": 1000
+    },
+    {
+      "Level": 13,
+      "ForgingCount": 4,
+      "SlotCount": 18,
+      "LuckyChance": 9.0,
+      "MagicClock": 7,
+      "LevelUpForge": 300,
+      "LevelUpGem": 1100
+    },
+    {
+      "Level": 14,
+      "ForgingCount": 4,
+      "SlotCount": 19,
+      "LuckyChance": 9.5,
+      "MagicClock": 7,
+      "LevelUpForge": 400,
+      "LevelUpGem": 1200
+    },
+    {
+      "Level": 15,
+      "ForgingCount": 5,
+      "SlotCount": 20,
+      "LuckyChance": 10.0,
+      "MagicClock": 7,
+      "LevelUpForge": 600,
+      "LevelUpGem": 1300
+    },
+    {
+      "Level": 16,
+      "ForgingCount": 5,
+      "SlotCount": 21,
+      "LuckyChance": 10.5,
+      "MagicClock": 8,
+      "LevelUpForge": 800,
+      "LevelUpGem": 1400
+    },
+    {
+      "Level": 17,
+      "ForgingCount": 5,
+      "SlotCount": 22,
+      "LuckyChance": 11.0,
+      "MagicClock": 8,
+      "LevelUpForge": 1000,
+      "LevelUpGem": 1500
+    },
+    {
+      "Level": 18,
+      "ForgingCount": 5,
+      "SlotCount": 23,
+      "LuckyChance": 11.5,
+      "MagicClock": 8,
+      "LevelUpForge": 1250,
+      "LevelUpGem": 1750
+    },
+    {
+      "Level": 19,
+      "ForgingCount": 5,
+      "SlotCount": 24,
+      "LuckyChance": 12.0,
+      "MagicClock": 9,
+      "LevelUpForge": 1500,
+      "LevelUpGem": 2000
+    },
+    {
+      "Level": 20,
+      "ForgingCount": 6,
+      "SlotCount": 25,
+      "LuckyChance": 12.5,
+      "MagicClock": 10,
+      "LevelUpForge": 1750,
+      "LevelUpGem": 2250
+    },
+    {
+      "Level": 21,
+      "ForgingCount": 6,
+      "SlotCount": 26,
+      "LuckyChance": 13.0,
+      "MagicClock": 10,
+      "LevelUpForge": 2000,
+      "LevelUpGem": 2500
+    },
+    {
+      "Level": 22,
+      "ForgingCount": 6,
+      "SlotCount": 27,
+      "LuckyChance": 13.5,
+      "MagicClock": 10,
+      "LevelUpForge": 2250,
+      "LevelUpGem": 2750
+    },
+    {
+      "Level": 23,
+      "ForgingCount": 6,
+      "SlotCount": 28,
+      "LuckyChance": 14.0,
+      "MagicClock": 10,
+      "LevelUpForge": 2500,
+      "LevelUpGem": 3000
+    },
+    {
+      "Level": 24,
+      "ForgingCount": 6,
+      "SlotCount": 29,
+      "LuckyChance": 14.5,
+      "MagicClock": 10,
+      "LevelUpForge": 2750,
+      "LevelUpGem": 3250
+    },
+    {
+      "Level": 25,
+      "ForgingCount": 6,
+      "SlotCount": 30,
+      "LuckyChance": 15.0,
+      "MagicClock": 10,
+      "LevelUpForge": 3000,
+      "LevelUpGem": 3500
+    }
+  ]
+}

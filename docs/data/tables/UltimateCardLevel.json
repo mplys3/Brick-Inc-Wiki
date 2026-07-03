@@ -1,0 +1,833 @@
+{
+  "type": "MasterUltimateCardLevel",
+  "index": 68,
+  "count": 70,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "CountNormal",
+      "param": "countNormal",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "SpellBookNormal",
+      "param": "spellBookNormal",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "CountHeroic",
+      "param": "countHeroic",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "SpellBookHeroic",
+      "param": "spellBookHeroic",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "CountEpic",
+      "param": "countEpic",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "SpellBookEpic",
+      "param": "spellBookEpic",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "CountLegendary",
+      "param": "countLegendary",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "SpellBookLegenday",
+      "param": "spellBookLegenday",
+      "kind": "int",
+      "index": 8
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "CountNormal": 1,
+      "SpellBookNormal": 0,
+      "CountHeroic": 1,
+      "SpellBookHeroic": 0,
+      "CountEpic": 1,
+      "SpellBookEpic": 0,
+      "CountLegendary": 1,
+      "SpellBookLegenday": 0
+    },
+    {
+      "Level": 2,
+      "CountNormal": 5,
+      "SpellBookNormal": 100,
+      "CountHeroic": 4,
+      "SpellBookHeroic": 200,
+      "CountEpic": 3,
+      "SpellBookEpic": 300,
+      "CountLegendary": 2,
+      "SpellBookLegenday": 500
+    },
+    {
+      "Level": 3,
+      "CountNormal": 6,
+      "SpellBookNormal": 200,
+      "CountHeroic": 5,
+      "SpellBookHeroic": 400,
+      "CountEpic": 3,
+      "SpellBookEpic": 600,
+      "CountLegendary": 2,
+      "SpellBookLegenday": 1000
+    },
+    {
+      "Level": 4,
+      "CountNormal": 8,
+      "SpellBookNormal": 300,
+      "CountHeroic": 6,
+      "SpellBookHeroic": 600,
+      "CountEpic": 3,
+      "SpellBookEpic": 1000,
+      "CountLegendary": 2,
+      "SpellBookLegenday": 2000
+    },
+    {
+      "Level": 5,
+      "CountNormal": 10,
+      "SpellBookNormal": 400,
+      "CountHeroic": 7,
+      "SpellBookHeroic": 800,
+      "CountEpic": 3,
+      "SpellBookEpic": 1500,
+      "CountLegendary": 2,
+      "SpellBookLegenday": 3000
+    },
+    {
+      "Level": 6,
+      "CountNormal": 12,
+      "SpellBookNormal": 500,
+      "CountHeroic": 8,
+      "SpellBookHeroic": 1000,
+      "CountEpic": 4,
+      "SpellBookEpic": 2000,
+      "CountLegendary": 3,
+      "SpellBookLegenday": 4000
+    },
+    {
+      "Level": 7,
+      "CountNormal": 14,
+      "SpellBookNormal": 625,
+      "CountHeroic": 8,
+      "SpellBookHeroic": 1250,
+      "CountEpic": 4,
+      "SpellBookEpic": 2500,
+      "CountLegendary": 3,
+      "SpellBookLegenday": 5000
+    },
+    {
+      "Level": 8,
+      "CountNormal": 16,
+      "SpellBookNormal": 750,
+      "CountHeroic": 9,
+      "SpellBookHeroic": 1500,
+      "CountEpic": 4,
+      "SpellBookEpic": 3000,
+      "CountLegendary": 3,
+      "SpellBookLegenday": 6000
+    },
+    {
+      "Level": 9,
+      "CountNormal": 18,
+      "SpellBookNormal": 875,
+      "CountHeroic": 9,
+      "SpellBookHeroic": 1750,
+      "CountEpic": 4,
+      "SpellBookEpic": 4000,
+      "CountLegendary": 3,
+      "SpellBookLegenday": 8000
+    },
+    {
+      "Level": 10,
+      "CountNormal": 20,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 10,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 5,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 4,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 11,
+      "CountNormal": 22,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 11,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 5,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 5,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 12,
+      "CountNormal": 24,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 12,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 6,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 5,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 13,
+      "CountNormal": 26,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 13,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 6,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 5,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 14,
+      "CountNormal": 28,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 14,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 7,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 6,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 15,
+      "CountNormal": 30,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 15,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 7,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 6,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 16,
+      "CountNormal": 32,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 16,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 8,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 7,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 17,
+      "CountNormal": 34,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 17,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 8,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 7,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 18,
+      "CountNormal": 36,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 18,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 9,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 7,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 19,
+      "CountNormal": 38,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 19,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 9,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 8,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 20,
+      "CountNormal": 40,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 20,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 10,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 8,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 21,
+      "CountNormal": 42,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 21,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 10,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 9,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 22,
+      "CountNormal": 44,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 22,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 11,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 9,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 23,
+      "CountNormal": 46,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 23,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 11,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 9,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 24,
+      "CountNormal": 48,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 24,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 12,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 10,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 25,
+      "CountNormal": 50,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 25,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 12,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 10,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 26,
+      "CountNormal": 52,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 26,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 13,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 11,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 27,
+      "CountNormal": 54,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 27,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 13,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 11,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 28,
+      "CountNormal": 56,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 28,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 14,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 11,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 29,
+      "CountNormal": 58,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 29,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 14,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 12,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 30,
+      "CountNormal": 60,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 30,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 15,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 12,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 31,
+      "CountNormal": 62,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 31,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 15,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 13,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 32,
+      "CountNormal": 64,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 32,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 16,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 13,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 33,
+      "CountNormal": 66,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 33,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 16,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 13,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 34,
+      "CountNormal": 68,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 34,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 17,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 14,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 35,
+      "CountNormal": 70,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 35,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 18,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 15,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 36,
+      "CountNormal": 72,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 36,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 19,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 16,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 37,
+      "CountNormal": 74,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 37,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 20,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 17,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 38,
+      "CountNormal": 76,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 38,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 21,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 18,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 39,
+      "CountNormal": 78,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 39,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 23,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 19,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 40,
+      "CountNormal": 80,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 40,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 24,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 20,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 41,
+      "CountNormal": 84,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 42,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 26,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 21,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 42,
+      "CountNormal": 88,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 44,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 27,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 22,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 43,
+      "CountNormal": 92,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 46,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 29,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 23,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 44,
+      "CountNormal": 96,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 48,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 30,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 24,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 45,
+      "CountNormal": 100,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 50,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 32,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 25,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 46,
+      "CountNormal": 104,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 52,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 33,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 26,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 47,
+      "CountNormal": 108,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 54,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 35,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 27,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 48,
+      "CountNormal": 112,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 56,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 36,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 28,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 49,
+      "CountNormal": 116,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 58,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 38,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 29,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 50,
+      "CountNormal": 120,
+      "SpellBookNormal": 1000,
+      "CountHeroic": 60,
+      "SpellBookHeroic": 2000,
+      "CountEpic": 39,
+      "SpellBookEpic": 5000,
+      "CountLegendary": 30,
+      "SpellBookLegenday": 10000
+    },
+    {
+      "Level": 51,
+      "CountNormal": 124,
+      "SpellBookNormal": 1050,
+      "CountHeroic": 62,
+      "SpellBookHeroic": 2100,
+      "CountEpic": 41,
+      "SpellBookEpic": 5500,
+      "CountLegendary": 31,
+      "SpellBookLegenday": 11000
+    },
+    {
+      "Level": 52,
+      "CountNormal": 128,
+      "SpellBookNormal": 1100,
+      "CountHeroic": 64,
+      "SpellBookHeroic": 2200,
+      "CountEpic": 43,
+      "SpellBookEpic": 6000,
+      "CountLegendary": 32,
+      "SpellBookLegenday": 12000
+    },
+    {
+      "Level": 53,
+      "CountNormal": 132,
+      "SpellBookNormal": 1150,
+      "CountHeroic": 66,
+      "SpellBookHeroic": 2300,
+      "CountEpic": 44,
+      "SpellBookEpic": 6500,
+      "CountLegendary": 33,
+      "SpellBookLegenday": 13000
+    },
+    {
+      "Level": 54,
+      "CountNormal": 136,
+      "SpellBookNormal": 1200,
+      "CountHeroic": 68,
+      "SpellBookHeroic": 2400,
+      "CountEpic": 46,
+      "SpellBookEpic": 7000,
+      "CountLegendary": 34,
+      "SpellBookLegenday": 14000
+    },
+    {
+      "Level": 55,
+      "CountNormal": 140,
+      "SpellBookNormal": 1250,
+      "CountHeroic": 70,
+      "SpellBookHeroic": 2500,
+      "CountEpic": 47,
+      "SpellBookEpic": 7500,
+      "CountLegendary": 35,
+      "SpellBookLegenday": 15000
+    },
+    {
+      "Level": 56,
+      "CountNormal": 144,
+      "SpellBookNormal": 1300,
+      "CountHeroic": 72,
+      "SpellBookHeroic": 2600,
+      "CountEpic": 49,
+      "SpellBookEpic": 8000,
+      "CountLegendary": 36,
+      "SpellBookLegenday": 16000
+    },
+    {
+      "Level": 57,
+      "CountNormal": 148,
+      "SpellBookNormal": 1350,
+      "CountHeroic": 74,
+      "SpellBookHeroic": 2700,
+      "CountEpic": 50,
+      "SpellBookEpic": 8500,
+      "CountLegendary": 37,
+      "SpellBookLegenday": 17000
+    },
+    {
+      "Level": 58,
+      "CountNormal": 152,
+      "SpellBookNormal": 1400,
+      "CountHeroic": 76,
+      "SpellBookHeroic": 2800,
+      "CountEpic": 52,
+      "SpellBookEpic": 9000,
+      "CountLegendary": 38,
+      "SpellBookLegenday": 18000
+    },
+    {
+      "Level": 59,
+      "CountNormal": 156,
+      "SpellBookNormal": 1450,
+      "CountHeroic": 78,
+      "SpellBookHeroic": 2900,
+      "CountEpic": 53,
+      "SpellBookEpic": 9500,
+      "CountLegendary": 39,
+      "SpellBookLegenday": 19000
+    },
+    {
+      "Level": 60,
+      "CountNormal": 160,
+      "SpellBookNormal": 1500,
+      "CountHeroic": 80,
+      "SpellBookHeroic": 3000,
+      "CountEpic": 55,
+      "SpellBookEpic": 10000,
+      "CountLegendary": 40,
+      "SpellBookLegenday": 20000
+    },
+    {
+      "Level": 61,
+      "CountNormal": 164,
+      "SpellBookNormal": 1550,
+      "CountHeroic": 82,
+      "SpellBookHeroic": 3100,
+      "CountEpic": 56,
+      "SpellBookEpic": 10500,
+      "CountLegendary": 41,
+      "SpellBookLegenday": 21000
+    },
+    {
+      "Level": 62,
+      "CountNormal": 168,
+      "SpellBookNormal": 1600,
+      "CountHeroic": 84,
+      "SpellBookHeroic": 3200,
+      "CountEpic": 58,
+      "SpellBookEpic": 11000,
+      "CountLegendary": 42,
+      "SpellBookLegenday": 22000
+    },
+    {
+      "Level": 63,
+      "CountNormal": 172,
+      "SpellBookNormal": 1650,
+      "CountHeroic": 86,
+      "SpellBookHeroic": 3300,
+      "CountEpic": 59,
+      "SpellBookEpic": 11500,
+      "CountLegendary": 43,
+      "SpellBookLegenday": 23000
+    },
+    {
+      "Level": 64,
+      "CountNormal": 176,
+      "SpellBookNormal": 1700,
+      "CountHeroic": 88,
+      "SpellBookHeroic": 3400,
+      "CountEpic": 61,
+      "SpellBookEpic": 12000,
+      "CountLegendary": 44,
+      "SpellBookLegenday": 24000
+    },
+    {
+      "Level": 65,
+      "CountNormal": 180,
+      "SpellBookNormal": 1750,
+      "CountHeroic": 90,
+      "SpellBookHeroic": 3500,
+      "CountEpic": 62,
+      "SpellBookEpic": 12500,
+      "CountLegendary": 45,
+      "SpellBookLegenday": 25000
+    },
+    {
+      "Level": 66,
+      "CountNormal": 184,
+      "SpellBookNormal": 1800,
+      "CountHeroic": 92,
+      "SpellBookHeroic": 3600,
+      "CountEpic": 64,
+      "SpellBookEpic": 13000,
+      "CountLegendary": 46,
+      "SpellBookLegenday": 26000
+    },
+    {
+      "Level": 67,
+      "CountNormal": 188,
+      "SpellBookNormal": 1850,
+      "CountHeroic": 94,
+      "SpellBookHeroic": 3700,
+      "CountEpic": 65,
+      "SpellBookEpic": 13500,
+      "CountLegendary": 47,
+      "SpellBookLegenday": 27000
+    },
+    {
+      "Level": 68,
+      "CountNormal": 192,
+      "SpellBookNormal": 1900,
+      "CountHeroic": 96,
+      "SpellBookHeroic": 3800,
+      "CountEpic": 67,
+      "SpellBookEpic": 14000,
+      "CountLegendary": 48,
+      "SpellBookLegenday": 28000
+    },
+    {
+      "Level": 69,
+      "CountNormal": 196,
+      "SpellBookNormal": 1950,
+      "CountHeroic": 98,
+      "SpellBookHeroic": 3900,
+      "CountEpic": 68,
+      "SpellBookEpic": 14500,
+      "CountLegendary": 49,
+      "SpellBookLegenday": 29000
+    },
+    {
+      "Level": 70,
+      "CountNormal": 200,
+      "SpellBookNormal": 2000,
+      "CountHeroic": 100,
+      "SpellBookHeroic": 4000,
+      "CountEpic": 70,
+      "SpellBookEpic": 15000,
+      "CountLegendary": 50,
+      "SpellBookLegenday": 30000
+    }
+  ]
+}

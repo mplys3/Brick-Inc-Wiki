@@ -1,0 +1,2122 @@
+{
+  "type": "MasterDivineBeast",
+  "index": 70,
+  "count": 34,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Field",
+      "param": "field",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 3,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 4,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "double"
+    },
+    {
+      "name": "ValueUpList",
+      "param": "valueUpListOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "double"
+    },
+    {
+      "name": "Rune",
+      "param": "rune",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "SpellBook",
+      "param": "spellBook",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "HpMultiplier",
+      "param": "hpMultiplierOffset",
+      "kind": "StringOffset",
+      "index": 9
+    },
+    {
+      "name": "HpLevelPow",
+      "param": "hpLevelPow",
+      "kind": "double",
+      "index": 10
+    },
+    {
+      "name": "ExBonus",
+      "param": "exBonusOffset",
+      "kind": "VectorOffset",
+      "index": 11,
+      "element": "double"
+    },
+    {
+      "name": "Ex3Type",
+      "param": "ex3Type",
+      "kind": "MasterUpgradeType",
+      "index": 12
+    },
+    {
+      "name": "Ex3ValueType",
+      "param": "ex3ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 13
+    },
+    {
+      "name": "Ex3Value",
+      "param": "ex3Value",
+      "kind": "double",
+      "index": 14
+    },
+    {
+      "name": "Ex5Type",
+      "param": "ex5Type",
+      "kind": "MasterUpgradeType",
+      "index": 15
+    },
+    {
+      "name": "Ex5ValueType",
+      "param": "ex5ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 16
+    },
+    {
+      "name": "Ex5Value",
+      "param": "ex5Value",
+      "kind": "double",
+      "index": 17
+    },
+    {
+      "name": "SurgeTarget",
+      "param": "surgeTargetOffset",
+      "kind": "StringOffset",
+      "index": 18
+    },
+    {
+      "name": "SurgeBonus",
+      "param": "surgeBonusOffset",
+      "kind": "VectorOffset",
+      "index": 19,
+      "element": "double"
+    },
+    {
+      "name": "Surge3Type",
+      "param": "surge3Type",
+      "kind": "MasterUpgradeType",
+      "index": 20
+    },
+    {
+      "name": "Surge3ValueType",
+      "param": "surge3ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 21
+    },
+    {
+      "name": "Surge3Value",
+      "param": "surge3Value",
+      "kind": "double",
+      "index": 22
+    },
+    {
+      "name": "Surge4Type",
+      "param": "surge4Type",
+      "kind": "MasterUpgradeType",
+      "index": 23
+    },
+    {
+      "name": "Surge4ValueType",
+      "param": "surge4ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 24
+    },
+    {
+      "name": "Surge4Value",
+      "param": "surge4Value",
+      "kind": "double",
+      "index": 25
+    },
+    {
+      "name": "Surge5Type",
+      "param": "surge5Type",
+      "kind": "MasterUpgradeType",
+      "index": 26
+    },
+    {
+      "name": "Surge5ValueType",
+      "param": "surge5ValueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 27
+    },
+    {
+      "name": "Surge5Value",
+      "param": "surge5Value",
+      "kind": "double",
+      "index": 28
+    },
+    {
+      "name": "BattleHp",
+      "param": "battleHpOffset",
+      "kind": "StringOffset",
+      "index": 29
+    },
+    {
+      "name": "BattleAtk",
+      "param": "battleAtkOffset",
+      "kind": "StringOffset",
+      "index": 30
+    }
+  ],
+  "rows": [
+    {
+      "Id": 9006,
+      "Name": "dv_noxae",
+      "Field": 6,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 25,
+      "SpellBook": 50,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.00E+05",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "2.00E+02",
+      "BattleAtk": "1.00E+01",
+      "English": "Noxae",
+      "Description": "\"On these verdant pastures, all life must bow their heads before him. In an instant, their lives may wither away, or their vitality becomes renewed.\""
+    },
+    {
+      "Id": 9009,
+      "Name": "dv_dendros",
+      "Field": 9,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 40,
+      "SpellBook": 80,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "2.00E+05",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "3.50E+02",
+      "BattleAtk": "1.80E+01",
+      "English": "Dendros",
+      "Description": "\"Ruler of the forest. The day he begins to move again, the whole earth will tremble.\""
+    },
+    {
+      "Id": 9012,
+      "Name": "dv_platum",
+      "Field": 12,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        2.0,
+        2.0
+      ],
+      "Rune": 55,
+      "SpellBook": 110,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "3.00E+05",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "5.00E+02",
+      "BattleAtk": "2.50E+01",
+      "English": "Platum",
+      "Description": "\"Opinions differ on whether it is an invention, or a prank made by the gods. Perhaps it's an 'evolution.'\""
+    },
+    {
+      "Id": 9015,
+      "Name": "dv_morack",
+      "Field": 15,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 70,
+      "SpellBook": 140,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "4.00E+05",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "7.20E+02",
+      "BattleAtk": "3.40E+01",
+      "English": "Morack",
+      "Description": "\"Always watch your step in the desert. However, even if you recognize it, you will not be able to avoid it.\""
+    },
+    {
+      "Id": 9018,
+      "Name": "dv_grandius2",
+      "Field": 18,
+      "TypeList": [
+        "Gold",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 85,
+      "SpellBook": 170,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "5.00E+05",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.00E+03",
+      "BattleAtk": "4.50E+01",
+      "English": "Grandius",
+      "Description": "\"Have you heard of the elephant statue that turns stones into gold? Some claims say it is alive.\""
+    },
+    {
+      "Id": 9021,
+      "Name": "dv_enochsis",
+      "Field": 21,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "Rune": 100,
+      "SpellBook": 200,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.00E+06",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.40E+03",
+      "BattleAtk": "5.60E+01",
+      "English": "Enochsis",
+      "Description": "\"Saying the ground shakes is incorrect. It cracks, tears, and is destroyed.\""
+    },
+    {
+      "Id": 9024,
+      "Name": "dv_tekuma",
+      "Field": 24,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 115,
+      "SpellBook": 230,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "2.50E+06",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.80E+03",
+      "BattleAtk": "7.20E+01",
+      "English": "Tekuma",
+      "Description": "\"It's gargantuan, but can instantly move. Can you even imagine?\""
+    },
+    {
+      "Id": 9027,
+      "Name": "dv_blue_dragon",
+      "Field": 27,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 130,
+      "SpellBook": 260,
+      "HpMultiplier": "1.00E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.50E+07",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "2.60E+03",
+      "BattleAtk": "9.00E+01",
+      "English": "Blue Dragon",
+      "Description": "\"If you see the Blue Dragon, that's a lucky dream. But what if it's not a dream? Then pray that you make it out alive.\""
+    },
+    {
+      "Id": 9030,
+      "Name": "dv_kirin",
+      "Field": 30,
+      "TypeList": [
+        "Power",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 145,
+      "SpellBook": 290,
+      "HpMultiplier": "1.10E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "5.00E+07",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "3.60E+03",
+      "BattleAtk": "1.20E+02",
+      "English": "Kirin",
+      "Description": "\"An auspicious being that controls life, wielding magic. If he does that, the future does not look good.\""
+    },
+    {
+      "Id": 9033,
+      "Name": "dv_chaa",
+      "Field": 33,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 160,
+      "SpellBook": 320,
+      "HpMultiplier": "1.64E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.25E+08",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "5.20E+03",
+      "BattleAtk": "1.50E+02",
+      "English": "Ch'aak",
+      "Description": "\"Also known as the emissary for the gods. It is all purely stories found in myths and legends, so don't even bother thinking about looking for it.\""
+    },
+    {
+      "Id": 9036,
+      "Name": "dv_aio",
+      "Field": 36,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        75.0
+      ],
+      "Rune": 175,
+      "SpellBook": 350,
+      "HpMultiplier": "3.28E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "2.75E+08",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "7.50E+03",
+      "BattleAtk": "2.00E+02",
+      "English": "Aio",
+      "Description": "\"It is said to bring riches and good fortune. You think I'm being sentimental? Well, riches and good fortune can also be achieved through power.\""
+    },
+    {
+      "Id": 9039,
+      "Name": "dv_pegasus",
+      "Field": 39,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        2.0
+      ],
+      "Rune": 190,
+      "SpellBook": 380,
+      "HpMultiplier": "8.82E+00",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "8.00E+08",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.10E+04",
+      "BattleAtk": "2.80E+02",
+      "English": "Pegasus",
+      "Description": "\"To be brilliant can also mean to be destructive.\""
+    },
+    {
+      "Id": 9042,
+      "Name": "dv_tumtum",
+      "Field": 42,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        2.0,
+        2.0
+      ],
+      "Rune": 205,
+      "SpellBook": 410,
+      "HpMultiplier": "3.19E+01",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "2.25E+09",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.60E+04",
+      "BattleAtk": "4.00E+02",
+      "English": "Tumtum",
+      "Description": "\"Let us not underestimate what lies beneath our feet. If the ceiling can crush you, the floor can send you to an abyss.\""
+    },
+    {
+      "Id": 9045,
+      "Name": "dv_pheonix",
+      "Field": 45,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        75.0
+      ],
+      "Rune": 220,
+      "SpellBook": 440,
+      "HpMultiplier": "1.55E+02",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "4.75E+09",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "2.50E+04",
+      "BattleAtk": "5.60E+02",
+      "English": "Pheonix",
+      "Description": "\"True immortality is being reborn.\""
+    },
+    {
+      "Id": 9048,
+      "Name": "dv_archeros",
+      "Field": 48,
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 235,
+      "SpellBook": 470,
+      "HpMultiplier": "1.02E+03",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.00E+10",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "3.60E+04",
+      "BattleAtk": "8.20E+02",
+      "English": "Archeros",
+      "Description": "\"It controls dreams. What would happen if you lost your dreams?\""
+    },
+    {
+      "Id": 9051,
+      "Name": "dv_oriona",
+      "Field": 51,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        75.0
+      ],
+      "Rune": 250,
+      "SpellBook": 500,
+      "HpMultiplier": "8.96E+03",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "4.50E+10",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "5.50E+04",
+      "BattleAtk": "1.20E+03",
+      "English": "Oriona",
+      "Description": "\"It's not predicting the future, it's just taking a peek.\""
+    },
+    {
+      "Id": 9054,
+      "Name": "dv_ouroboros",
+      "Field": 54,
+      "TypeList": [
+        "AllWeaponDmg",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 265,
+      "SpellBook": 530,
+      "HpMultiplier": "1.06E+05",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.25E+11",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "8.20E+04",
+      "BattleAtk": "1.80E+03",
+      "English": "Ouroboros",
+      "Description": "\"Endless reincarnation signifies growth, not repetition.\""
+    },
+    {
+      "Id": 9057,
+      "Name": "dv_kraken",
+      "Field": 57,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "Rune": 280,
+      "SpellBook": 560,
+      "HpMultiplier": "1.69E+06",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "3.00E+11",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.25E+05",
+      "BattleAtk": "2.60E+03",
+      "English": "Kraken",
+      "Description": "\"It's not the monster that eats them, it's fear.\""
+    },
+    {
+      "Id": 9060,
+      "Name": "dv_kerberos",
+      "Field": 60,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        75.0
+      ],
+      "Rune": 295,
+      "SpellBook": 590,
+      "HpMultiplier": "3.63E+07",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.25E+12",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.90E+05",
+      "BattleAtk": "4.00E+03",
+      "English": "Kerberos",
+      "Description": "\"Hell is a place only the strong can enter.\""
+    },
+    {
+      "Id": 9063,
+      "Name": "dv_world_tree",
+      "Field": 63,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        3.0
+      ],
+      "Rune": 310,
+      "SpellBook": 620,
+      "HpMultiplier": "1.05E+09",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "3.75E+12",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "2.80E+05",
+      "BattleAtk": "6.00E+03",
+      "English": "World Tree",
+      "Description": "\"Life requires sacrifice.\""
+    },
+    {
+      "Id": 9066,
+      "Name": "dv_chimera",
+      "Field": 66,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "Rune": 525,
+      "SpellBook": 850,
+      "HpMultiplier": "4.06E+10",
+      "HpLevelPow": 1.0,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "8.00E+12",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "4.25E+05",
+      "BattleAtk": "8.80E+03",
+      "English": "Chimera",
+      "Description": "\"That should not exist. Not even in stories.\""
+    },
+    {
+      "Id": 9069,
+      "Name": "dv_quetzalcoatl",
+      "Field": 69,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "Rune": 725,
+      "SpellBook": 900,
+      "HpMultiplier": "1.00E+13",
+      "HpLevelPow": 1.125,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.00E+14",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "6.50E+05",
+      "BattleAtk": "1.20E+04",
+      "English": "Quetzalcoatl",
+      "Description": "\"When an ill omen appears, one must prepare sacrifices.\""
+    },
+    {
+      "Id": 9072,
+      "Name": "dv_hephaestus",
+      "Field": 72,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "Rune": 950,
+      "SpellBook": 950,
+      "HpMultiplier": "1.00E+16",
+      "HpLevelPow": 1.25,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "4.25E+14",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.00E+06",
+      "BattleAtk": "2.00E+04",
+      "English": "Hephaestus",
+      "Description": "\"Divinity is sometimes forged from fear.\""
+    },
+    {
+      "Id": 9075,
+      "Name": "dv_dark_dragon",
+      "Field": 75,
+      "TypeList": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        100.0
+      ],
+      "Rune": 1200,
+      "SpellBook": 1000,
+      "HpMultiplier": "1.00E+20",
+      "HpLevelPow": 1.375,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "2.25E+15",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.50E+06",
+      "BattleAtk": "3.00E+04",
+      "English": "Dark Dragon",
+      "Description": "\"They say only black ash remains in its wake.\""
+    },
+    {
+      "Id": 9078,
+      "Name": "dv_jormungand",
+      "Field": 78,
+      "TypeList": [
+        "BattleStat"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        50.0
+      ],
+      "Rune": 1500,
+      "SpellBook": 1050,
+      "HpMultiplier": "1.00E+24",
+      "HpLevelPow": 1.5,
+      "ExBonus": [
+        1.5,
+        2.0,
+        4.0,
+        12.0,
+        64.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "8.50E+15",
+      "SurgeBonus": [
+        1.5,
+        3.0,
+        12.0,
+        64.0,
+        512.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "2.25E+06",
+      "BattleAtk": "4.50E+04",
+      "English": "Jormungand",
+      "Description": "\"It's large enough to encompass the world. Perhaps the world has already been devoured.\""
+    },
+    {
+      "Id": 9081,
+      "Name": "dv_yggdrasil",
+      "Field": 81,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        10.0
+      ],
+      "Rune": 2000,
+      "SpellBook": 1100,
+      "HpMultiplier": "1.00E+32",
+      "HpLevelPow": 1.625,
+      "ExBonus": [
+        1.25,
+        1.5,
+        2.0,
+        4.0,
+        12.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "7.25E+16",
+      "SurgeBonus": [
+        1.25,
+        2.0,
+        4.0,
+        16.0,
+        96.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "3.50E+06",
+      "BattleAtk": "7.00E+04",
+      "English": "Ygggrasil",
+      "Description": "\"A being that governs all of space and time. Both past and future, and even fate itself.\""
+    },
+    {
+      "Id": 9084,
+      "Name": "dv_seraph",
+      "Field": 84,
+      "TypeList": [
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Percent"
+      ],
+      "ValueList": [
+        0.0
+      ],
+      "ValueUpList": [
+        25.0
+      ],
+      "Rune": 2500,
+      "SpellBook": 1150,
+      "HpMultiplier": "1.00E+39",
+      "HpLevelPow": 1.75,
+      "ExBonus": [
+        1.25,
+        1.5,
+        2.0,
+        4.0,
+        12.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.25E+18",
+      "SurgeBonus": [
+        1.25,
+        2.0,
+        4.0,
+        16.0,
+        96.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "5.25E+06",
+      "BattleAtk": "1.00E+05",
+      "English": "Seraph",
+      "Description": "\"All we can do is hope they take pity on us.\""
+    },
+    {
+      "Id": 9087,
+      "Name": "dv_echidna",
+      "Field": 87,
+      "TypeList": [
+        "Power",
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 3500,
+      "SpellBook": 1200,
+      "HpMultiplier": "1.00E+47",
+      "HpLevelPow": 1.875,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "2.00E+19",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "8.00E+06",
+      "BattleAtk": "1.60E+05",
+      "English": "Echidna",
+      "Description": "\"Pain that pierces the mind is worse than pain that stops the heart.\""
+    },
+    {
+      "Id": 9090,
+      "Name": "dv_griffin",
+      "Field": 90,
+      "TypeList": [
+        "SciencePoint",
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 5000,
+      "SpellBook": 1250,
+      "HpMultiplier": "1.00E+54",
+      "HpLevelPow": 2.0,
+      "ExBonus": [
+        1.5,
+        2.0,
+        4.0,
+        12.0,
+        64.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "3.25E+20",
+      "SurgeBonus": [
+        1.5,
+        3.0,
+        12.0,
+        64.0,
+        512.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "1.25E+07",
+      "BattleAtk": "2.50E+05",
+      "English": "Griffin",
+      "Description": "\"What do you think it means to be the most intelligent being in the universe?\""
+    },
+    {
+      "Id": 9093,
+      "Name": "dv_typhon",
+      "Field": 92,
+      "TypeList": [
+        "BattleStat",
+        "RevelationLight"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        25.0
+      ],
+      "Rune": 100000,
+      "SpellBook": 1300,
+      "HpMultiplier": "1.00E+56",
+      "HpLevelPow": 2.05,
+      "ExBonus": [
+        1.5,
+        2.0,
+        4.0,
+        12.0,
+        64.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.75E+21",
+      "SurgeBonus": [
+        1.5,
+        3.0,
+        12.0,
+        64.0,
+        512.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "2.00E+07",
+      "BattleAtk": "3.75E+05",
+      "English": "Typhon",
+      "Description": "\"Kneel before greatness.\""
+    },
+    {
+      "Id": 9096,
+      "Name": "dv_medusa",
+      "Field": 94,
+      "TypeList": [
+        "Ash",
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        10.0,
+        25.0
+      ],
+      "Rune": 500000,
+      "SpellBook": 1350,
+      "HpMultiplier": "1.00E+58",
+      "HpLevelPow": 2.1,
+      "ExBonus": [
+        1.5,
+        2.0,
+        4.0,
+        12.0,
+        64.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.25E+22",
+      "SurgeBonus": [
+        1.5,
+        3.0,
+        12.0,
+        64.0,
+        512.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "3.00E+07",
+      "BattleAtk": "5.75E+05",
+      "English": "Medusa",
+      "Description": "\"The moment you meet her eyes, you'll turn to Brick. It's not a metaphor.\""
+    },
+    {
+      "Id": 9097,
+      "Name": "dv_valkyrie",
+      "Field": 96,
+      "TypeList": [
+        "CriDmg",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        100.0
+      ],
+      "Rune": 750000,
+      "SpellBook": 1400,
+      "HpMultiplier": "1.00E+62",
+      "HpLevelPow": 2.15,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "7.50E+24",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "3.50E+07",
+      "BattleAtk": "6.00E+05",
+      "English": "Valkyrie",
+      "Description": "\"When justice wavers, the messenger of God shall descend.\""
+    },
+    {
+      "Id": 9098,
+      "Name": "dv_anubis",
+      "Field": 98,
+      "TypeList": [
+        "Gold",
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Divide"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        3.0
+      ],
+      "Rune": 1000000,
+      "SpellBook": 1450,
+      "HpMultiplier": "1.00E+66",
+      "HpLevelPow": 2.2,
+      "ExBonus": [
+        2.0,
+        4.0,
+        8.0,
+        32.0,
+        256.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "1.00E+28",
+      "SurgeBonus": [
+        2.0,
+        8.0,
+        32.0,
+        256.0,
+        4096.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "4.00E+07",
+      "BattleAtk": "7.50E+05",
+      "English": "Anubis",
+      "Description": "\"The eternal flow of sand resembles the shape of the universe.\""
+    },
+    {
+      "Id": 9100,
+      "Name": "dv_load_of_ruin",
+      "Field": 100,
+      "TypeList": [
+        "AllWeaponDmg",
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "ValueList": [
+        0.0,
+        0.0
+      ],
+      "ValueUpList": [
+        50.0,
+        50.0
+      ],
+      "Rune": 2500000,
+      "SpellBook": 1500,
+      "HpMultiplier": "1.00E+79",
+      "HpLevelPow": 2.25,
+      "ExBonus": [
+        1.5,
+        2.0,
+        4.0,
+        12.0,
+        64.0
+      ],
+      "Ex3Type": "SciencePoint",
+      "Ex3ValueType": "Percent",
+      "Ex3Value": 50.0,
+      "Ex5Type": "DStone",
+      "Ex5ValueType": "Percent",
+      "Ex5Value": 25.0,
+      "SurgeTarget": "5.00E+34",
+      "SurgeBonus": [
+        1.5,
+        3.0,
+        12.0,
+        64.0,
+        512.0
+      ],
+      "Surge3Type": "ScienceRank",
+      "Surge3ValueType": "Add",
+      "Surge3Value": 10.0,
+      "Surge4Type": "QuantumPoint",
+      "Surge4ValueType": "Percent",
+      "Surge4Value": 50.0,
+      "Surge5Type": "QuantumRank",
+      "Surge5ValueType": "Add",
+      "Surge5Value": 10.0,
+      "BattleHp": "5.00E+07",
+      "BattleAtk": "1.00E+06",
+      "English": "Lord of Ruin",
+      "Description": "\"Face Ruin.\""
+    }
+  ]
+}

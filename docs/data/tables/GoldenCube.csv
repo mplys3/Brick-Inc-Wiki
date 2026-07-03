@@ -1,0 +1,62 @@
+﻿Id,Name,Bonus,MaxLevel,Cost,CostUp,English,Description
+9006,dv_noxae,2.0,10,6.00E+90,80.0,Noxae,"""On these verdant pastures, all life must bow their heads before him. In an instant, their lives may wither away, or their vitality becomes renewed."""
+9009,dv_dendros,2.0,10,1.50E+98,80.0,Dendros,"""Ruler of the forest. The day he begins to move again, the whole earth will tremble."""
+9012,dv_platum,2.0,10,8.50E+103,80.0,Platum,"""Opinions differ on whether it is an invention, or a prank made by the gods. Perhaps it's an 'evolution.'"""
+9015,dv_morack,2.0,10,1.50E+107,80.0,Morack,"""Always watch your step in the desert. However, even if you recognize it, you will not be able to avoid it."""
+9018,dv_grandius2,2.0,10,9.00E+109,80.0,Grandius,"""Have you heard of the elephant statue that turns stones into gold? Some claims say it is alive."""
+9021,dv_enochsis,2.0,10,8.00E+112,80.0,Enochsis,"""Saying the ground shakes is incorrect. It cracks, tears, and is destroyed."""
+9024,dv_tekuma,2.0,10,2.00E+120,80.0,Tekuma,"""It's gargantuan, but can instantly move. Can you even imagine?"""
+9027,dv_blue_dragon,2.0,10,4.00E+124,80.0,Blue Dragon,"""If you see the Blue Dragon, that's a lucky dream. But what if it's not a dream? Then pray that you make it out alive."""
+9030,dv_kirin,2.0,10,2.00E+128,80.0,Kirin,"""An auspicious being that controls life, wielding magic. If he does that, the future does not look good."""
+9033,dv_chaa,2.0,10,4.50E+131,80.0,Ch'aak,"""Also known as the emissary for the gods. It is all purely stories found in myths and legends, so don't even bother thinking about looking for it."""
+9036,dv_aio,2.0,10,6.00E+134,80.0,Aio,"""It is said to bring riches and good fortune. You think I'm being sentimental? Well, riches and good fortune can also be achieved through power."""
+9039,dv_pegasus,2.0,10,7.50E+150,160.0,Pegasus,"""To be brilliant can also mean to be destructive."""
+9042,dv_tumtum,2.0,10,3.50E+161,320.0,Tumtum,"""Let us not underestimate what lies beneath our feet. If the ceiling can crush you, the floor can send you to an abyss."""
+9045,dv_pheonix,2.0,10,5.00E+187,640.0,Pheonix,"""True immortality is being reborn."""
+9048,dv_archeros,2.0,10,3.00E+212,1280.0,Archeros,"""It controls dreams. What would happen if you lost your dreams?"""
+9051,dv_oriona,2.0,10,7.50E+245,2560.0,Oriona,"""It's not predicting the future, it's just taking a peek."""
+9054,dv_ouroboros,2.0,10,4.00E+272,5120.0,Ouroboros,"""Endless reincarnation signifies growth, not repetition."""
+9057,dv_kraken,2.0,10,1.00E+307,10240.0,Kraken,"""It's not the monster that eats them, it's fear."""
+9060,dv_kerberos,2.0,10,2.5e332,10240.0,Kerberos,"""Hell is a place only the strong can enter."""
+9063,dv_world_tree,2.0,10,6e354,10240.0,World Tree,"""Life requires sacrifice."""
+9066,dv_chimera,2.0,5,6.5e374,10240.0,Chimera,"""That should not exist. Not even in stories."""
+9069,dv_quetzalcoatl,2.0,10,1e400,10240.0,Quetzalcoatl,"""When an ill omen appears, one must prepare sacrifices."""
+9072,dv_hephaestus,2.0,10,2.5e441,10240.0,Hephaestus,"""Divinity is sometimes forged from fear."""
+9075,dv_dark_dragon,2.0,10,6e463,20480.0,Dark Dragon,"""They say only black ash remains in its wake."""
+9078,dv_jormungand,2.0,5,1.5e485,20480.0,Jormungand,"""It's large enough to encompass the world. Perhaps the world has already been devoured."""
+9081,dv_yggdrasil,2.0,5,3e527,20480.0,Ygggrasil,"""A being that governs all of space and time. Both past and future, and even fate itself."""
+9084,dv_seraph,2.0,2,6e556,40960.0,Seraph,"""All we can do is hope they take pity on us."""
+9087,dv_echidna,2.0,10,9e585,40960.0,Echidna,"""Pain that pierces the mind is worse than pain that stops the heart."""
+9090,dv_griffin,2.0,5,1e649,40960.0,Griffin,"""What do you think it means to be the most intelligent being in the universe?"""
+9093,dv_typhon,2.0,5,5e687,81920.0,Typhon,"""Kneel before greatness."""
+9096,dv_medusa,2.0,5,2.5e726,163840.0,Medusa,"""The moment you meet her eyes, you'll turn to Brick. It's not a metaphor."""
+11001,in_investment,2.0,10,3.00E+114,160.0,Attract Investment,
+11002,in_eco_friendly,2.0,10,9.50E+120,160.0,Eco-friendly Development,
+11003,in_real_estate,2.0,10,1.50E+125,160.0,Real Estate Trading,
+11004,in_regression,2.0,10,8.00E+128,160.0,Regression Analysis,
+11005,in_authority,2.0,10,1.50E+132,160.0,Authorities,
+11006,in_vip,2.0,10,2.00E+135,160.0,VIP Card,
+11007,in_monolith,2.0,10,3.00E+151,320.0,Construct Monolith,
+11008,in_defense_cost,2.0,10,1.50E+162,640.0,Defense Increase Costs,
+11009,in_religion,2.0,10,5.00E+172,1280.0,Pioneer Faith,
+11010,in_energy_revolution,2.0,10,2.50E+200,2560.0,Energy Revolution,
+11011,in_genetic_trait,2.0,10,4.00E+231,5120.0,Extract Genetic Trait,
+11012,in_military_industry,2.0,10,3.50E+260,10240.0,Military Industry Support,
+11013,in_empire_armada,2.0,10,2.00E+287,20480.0,Imperial Fleet,
+11014,in_colony,2.0,10,1.5e323,20480.0,Build Colony,
+11015,in_planet_weapon,2.0,10,3.5e342,20480.0,Planet Killer,
+11016,in_stellar_monitor,2.0,10,1.5e365,20480.0,Stellar Monitor,
+11017,in_simulation,2.0,10,2e389,20480.0,Virtual Reality System,
+11018,in_civilization,2.0,10,3e410,20480.0,Civilization Controller,
+11019,in_galaxy_parliament,2.0,10,2.5e464,20480.0,Galactic Council,
+11020,in_singularity_control,2.0,10,7.5e485,40960.0,Soul Control,
+11021,in_illuminati,2.0,10,1e528,40960.0,Multiverse: Illuminati,
+11022,in_dimension_office,2.0,10,2.5e557,40960.0,Dimensional Management Bureau,
+11023,in_pandora,2.0,10,3.5e586,40960.0,Pandora's Box,
+11024,in_god_hand,2.0,10,5e649,81920.0,Omnipotent Hand,
+11025,in_afterlife,2.0,10,2e688,81920.0,Afterlife Connector,
+11026,in_coffee_cup,2.0,10,1e727,163840.0,Demolition Coffee Mug,
+11027,in_god_detector,2.0,10,2.5e784,163840.0,God Detector,
+11028,in_printer,2.0,10,1e825,327680.0,Creation Printer,
+11029,in_god_mark,2.0,10,5e864,327680.0,God Certificate,
+11030,in_cosmo_kit,2.0,10,2e917,655360.0,Cosmic Creation Kit,

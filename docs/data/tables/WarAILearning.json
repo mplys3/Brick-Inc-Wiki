@@ -1,0 +1,96 @@
+{
+  "type": "MasterWarAILearning",
+  "index": 76,
+  "count": 5,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "UpgradeType",
+      "param": "upgradeType",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "double",
+      "index": 2
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 4
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 5
+    },
+    {
+      "name": "CostUpPow",
+      "param": "costUpPow",
+      "kind": "double",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "UpgradeType": "AllWeaponDmg",
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "1.50E+73",
+      "CostUp": 1.0,
+      "CostUpPow": 1.0
+    },
+    {
+      "Id": 2,
+      "UpgradeType": "Gold",
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "3.00E+84",
+      "CostUp": 1.0,
+      "CostUpPow": 1.0
+    },
+    {
+      "Id": 3,
+      "UpgradeType": "Power",
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "1.00E+97",
+      "CostUp": 1.0,
+      "CostUpPow": 1.0
+    },
+    {
+      "Id": 4,
+      "UpgradeType": "PrestigeBonus",
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "2.00E+156",
+      "CostUp": 1.0,
+      "CostUpPow": 1.0
+    },
+    {
+      "Id": 5,
+      "UpgradeType": "SciencePoint",
+      "Bonus": 0,
+      "MaxLevel": 1,
+      "Cost": "3.00E+264",
+      "CostUp": 1.0,
+      "CostUpPow": 1.0
+    }
+  ]
+}

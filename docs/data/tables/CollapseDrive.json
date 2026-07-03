@@ -1,0 +1,369 @@
+{
+  "type": "MasterCollapseDrive",
+  "index": 105,
+  "count": 13,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Mark",
+      "param": "markOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "IsCommonUpgrade",
+      "param": "isCommonUpgrade",
+      "kind": "bool",
+      "index": 2
+    },
+    {
+      "name": "Type",
+      "param": "typeOffset",
+      "kind": "VectorOffset",
+      "index": 3,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "StorageSize",
+      "param": "storageSizeOffset",
+      "kind": "StringOffset",
+      "index": 5
+    },
+    {
+      "name": "StorageSizeUp",
+      "param": "storageSizeUp",
+      "kind": "double",
+      "index": 6
+    },
+    {
+      "name": "StorageSizeCostCollapsePoint",
+      "param": "storageSizeCostCollapsePointOffset",
+      "kind": "StringOffset",
+      "index": 7
+    },
+    {
+      "name": "StorageSizeCostUpCollapsePoint",
+      "param": "storageSizeCostUpCollapsePoint",
+      "kind": "double",
+      "index": 8
+    },
+    {
+      "name": "StorageSizeCostCollapseShard",
+      "param": "storageSizeCostCollapseShard",
+      "kind": "int",
+      "index": 9
+    },
+    {
+      "name": "StorageSizeCostUpCollapseShard",
+      "param": "storageSizeCostUpCollapseShard",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "CommonCost",
+      "param": "commonCost",
+      "kind": "int",
+      "index": 11
+    },
+    {
+      "name": "CommonCostUp",
+      "param": "commonCostUp",
+      "kind": "int",
+      "index": 12
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 13
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 14
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUp",
+      "kind": "double",
+      "index": 15
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Mark": "D",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCreation"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+03",
+      "StorageSizeUp": 10.0,
+      "StorageSizeCostCollapsePoint": "1.00E+03",
+      "StorageSizeCostUpCollapsePoint": 10.0,
+      "StorageSizeCostCollapseShard": 4,
+      "StorageSizeCostUpCollapseShard": 4,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 2,
+      "Mark": "E",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCollapse"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+05",
+      "StorageSizeUp": 10.0,
+      "StorageSizeCostCollapsePoint": "1.00E+05",
+      "StorageSizeCostUpCollapsePoint": 10.0,
+      "StorageSizeCostCollapseShard": 4,
+      "StorageSizeCostUpCollapseShard": 4,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 3,
+      "Mark": "F",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCreation",
+        "DimensionCollapse"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+09",
+      "StorageSizeUp": 100.0,
+      "StorageSizeCostCollapsePoint": "1.00E+09",
+      "StorageSizeCostUpCollapsePoint": 100.0,
+      "StorageSizeCostCollapseShard": 10,
+      "StorageSizeCostUpCollapseShard": 10,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 4,
+      "Mark": "G",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCreationSpeed"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+15",
+      "StorageSizeUp": 1000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+15",
+      "StorageSizeCostUpCollapsePoint": 1000.0,
+      "StorageSizeCostCollapseShard": 6,
+      "StorageSizeCostUpCollapseShard": 6,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 5,
+      "Mark": "H",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCollapseSpeed"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+18",
+      "StorageSizeUp": 1000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+18",
+      "StorageSizeCostUpCollapsePoint": 1000.0,
+      "StorageSizeCostCollapseShard": 6,
+      "StorageSizeCostUpCollapseShard": 6,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 6,
+      "Mark": "I",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCreationSpeed",
+        "DimensionCollapseSpeed"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+24",
+      "StorageSizeUp": 100000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+24",
+      "StorageSizeCostUpCollapsePoint": 100000.0,
+      "StorageSizeCostCollapseShard": 15,
+      "StorageSizeCostUpCollapseShard": 15,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 7,
+      "Mark": "J",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCollapseAccelBonus"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+36",
+      "StorageSizeUp": 1000000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+36",
+      "StorageSizeCostUpCollapsePoint": 1000000.0,
+      "StorageSizeCostCollapseShard": 10,
+      "StorageSizeCostUpCollapseShard": 10,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 8,
+      "Mark": "K",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCollapseAmplificationBonus"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+42",
+      "StorageSizeUp": 1000000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+42",
+      "StorageSizeCostUpCollapsePoint": 1000000.0,
+      "StorageSizeCostCollapseShard": 10,
+      "StorageSizeCostUpCollapseShard": 10,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 9,
+      "Mark": "L",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "DimensionCollapseAccelBonus",
+        "DimensionCollapseAmplificationBonus"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+54",
+      "StorageSizeUp": 1000000000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+54",
+      "StorageSizeCostUpCollapsePoint": 1000000000.0,
+      "StorageSizeCostCollapseShard": 25,
+      "StorageSizeCostUpCollapseShard": 25,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 10,
+      "Mark": "M",
+      "IsCommonUpgrade": false,
+      "Type": [
+        "CollapsePoint"
+      ],
+      "MaxLevel": 10,
+      "StorageSize": "1.00E+78",
+      "StorageSizeUp": 1000000000000.0,
+      "StorageSizeCostCollapsePoint": "1.00E+78",
+      "StorageSizeCostUpCollapsePoint": 1000000000000.0,
+      "StorageSizeCostCollapseShard": 30,
+      "StorageSizeCostUpCollapseShard": 30,
+      "CommonCost": 0,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    },
+    {
+      "Id": 101,
+      "Mark": "C",
+      "IsCommonUpgrade": true,
+      "Type": [
+        "CollapseDriveLevel"
+      ],
+      "MaxLevel": 0,
+      "StorageSize": "",
+      "StorageSizeUp": 0,
+      "StorageSizeCostCollapsePoint": "",
+      "StorageSizeCostUpCollapsePoint": 0,
+      "StorageSizeCostCollapseShard": 0,
+      "StorageSizeCostUpCollapseShard": 0,
+      "CommonCost": 5,
+      "CommonCostUp": 0,
+      "ValueType": "Add",
+      "Value": 0,
+      "ValueUp": 1.0
+    },
+    {
+      "Id": 102,
+      "Mark": "C",
+      "IsCommonUpgrade": true,
+      "Type": [
+        "CollapseDriveDataTransferSpeed"
+      ],
+      "MaxLevel": 0,
+      "StorageSize": "",
+      "StorageSizeUp": 0,
+      "StorageSizeCostCollapsePoint": "",
+      "StorageSizeCostUpCollapsePoint": 0,
+      "StorageSizeCostCollapseShard": 0,
+      "StorageSizeCostUpCollapseShard": 0,
+      "CommonCost": 1,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 8.0
+    },
+    {
+      "Id": 103,
+      "Mark": "C",
+      "IsCommonUpgrade": true,
+      "Type": [
+        "CollapseDriveDataTransferEfficiency"
+      ],
+      "MaxLevel": 0,
+      "StorageSize": "",
+      "StorageSizeUp": 0,
+      "StorageSizeCostCollapsePoint": "",
+      "StorageSizeCostUpCollapsePoint": 0,
+      "StorageSizeCostCollapseShard": 0,
+      "StorageSizeCostUpCollapseShard": 0,
+      "CommonCost": 2,
+      "CommonCostUp": 0,
+      "ValueType": "Multiply",
+      "Value": 1.0,
+      "ValueUp": 2.0
+    }
+  ]
+}

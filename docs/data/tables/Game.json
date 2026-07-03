@@ -1,0 +1,25 @@
+{
+  "type": "MasterGame",
+  "index": 58,
+  "count": 1,
+  "fields": [
+    {
+      "name": "Mode",
+      "param": "mode",
+      "kind": "MasterGameModeType",
+      "index": 0
+    },
+    {
+      "name": "_temp",
+      "param": "_temp",
+      "kind": "int",
+      "index": 1
+    }
+  ],
+  "rows": [
+    {
+      "Mode": "Main",
+      "_temp": 0
+    }
+  ]
+}

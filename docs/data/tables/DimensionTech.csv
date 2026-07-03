@@ -1,0 +1,122 @@
+﻿Id,Name,Sort,X,Y,Circle,Number,Left,Right,Up,Down,IsExpansion,Grade,TypeList,TargetList,ValueTypeList,ValueList
+16536,A-4,104,0,0,5,36,False,True,False,True,True,Common,Gold,0,Multiply,8.0
+16537,A-3,103,1,0,5,37,True,True,False,False,True,Common,Gold,0,Multiply,8.0
+16538,A-2,102,2,0,5,38,True,False,False,True,True,Common,Gold,0,Multiply,8.0
+16539,B-L3,203,3,0,5,39,False,True,False,True,True,Common,ResearchCostDown,0,Divide,100.0
+16540,B-L4,204,4,0,5,40,True,True,False,False,True,Common,ResearchCostDown,0,Divide,100.0
+16501,B-5,255,5,0,5,1,True,True,False,True,True,Common,"ResearchCostDown, WeaponEnhanceCostDown","0, 0","Divide, Divide","100.0, 100.0"
+16502,B-R4,214,6,0,5,2,True,True,False,False,True,Common,WeaponEnhanceCostDown,0,Divide,100.0
+16503,B-R3,213,7,0,5,3,True,False,False,True,True,Common,WeaponEnhanceCostDown,0,Divide,100.0
+16504,C-6,306,8,0,5,4,False,True,False,True,True,Common,Power,0,Multiply,30.0
+16505,C-5,305,9,0,5,5,True,True,False,False,True,Common,Power,0,Multiply,30.0
+16506,C-4,304,10,0,5,6,True,False,False,True,True,Common,Power,0,Multiply,12.0
+16535,A-5,105,0,1,5,35,False,False,True,True,True,Common,Gold,0,Multiply,20.0
+16429,A-EX,199,1,1,4,29,False,False,False,True,True,Legendary,"Gold, RankPowerDown","0, 0","Multiply, Divide","50.0, 100.0"
+16430,A-1,101,2,1,4,30,False,False,True,True,True,Common,Gold,0,Multiply,8.0
+16431,B-L2,202,3,1,4,31,False,True,True,False,True,Common,ResearchCostDown,0,Divide,50.0
+16432,B-L1,201,4,1,4,32,True,False,False,True,True,Common,ResearchCostDown,0,Divide,50.0
+16401,B-EX,299,5,1,4,1,False,False,True,False,True,Legendary,"ResearchCostDown, WeaponEnhanceCostDown, RankPowerDown","0, 0, 0","Divide, Divide, Divide","250.0, 250.0, 100.0"
+16402,B-R1,211,6,1,4,2,False,True,False,True,True,Common,WeaponEnhanceCostDown,0,Divide,50.0
+16403,B-R2,212,7,1,4,3,True,False,True,False,True,Common,WeaponEnhanceCostDown,0,Divide,50.0
+16404,C-7,307,8,1,4,4,False,True,True,False,True,Common,Power,0,Multiply,30.0
+16405,C-EX,399,9,1,4,5,True,False,False,False,True,Legendary,"Power, RankPowerDown","0, 0","Multiply, Divide","75.0, 100.0"
+16507,C-3,303,10,1,5,7,False,False,True,True,True,Common,Power,0,Multiply,12.0
+16534,A-6,106,0,2,5,34,False,True,True,False,True,Common,Gold,0,Multiply,12.0
+16428,A-7,107,1,2,4,28,True,False,True,False,True,Common,Gold,0,Multiply,20.0
+16322,,0,2,2,3,22,False,True,True,True,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16323,,0,3,2,3,23,True,True,False,False,False,Common,"WeaponEnhanceCostDown, KeepResearch","0, 0","Divide, Add","1000.0, 5.0"
+16324,,0,4,2,3,24,True,True,True,True,False,Common,"Gold, ResearchCostDown, WeaponEnhanceCostDown","0, 0, 0","Percent, Percent, Percent","300.0, -90.0, -90.0"
+16301,,0,5,2,3,1,True,True,False,True,False,Common,"KeepResearch, EnhanceResearch","0, 3184","Add, Percent","5.0, 1000.0"
+16302,,0,6,2,3,2,True,True,True,True,False,Common,"Gold, EnhanceResearch, EnhanceResearch","0, 3162, 3155","Percent, Percent, Percent","250.0, 200.0, 200.0"
+16303,,0,7,2,3,3,True,True,False,True,False,Common,"Power, EnhanceResearch, ChallengeLicenceGold","0, 3172, 0","Percent, Percent, Percent","250.0, 100.0, 1000.0"
+16304,,0,8,2,3,4,True,True,False,True,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16406,C-1,301,9,2,4,6,True,True,False,False,True,Common,Power,0,Multiply,12.0
+16508,C-2,302,10,2,5,8,True,False,True,False,True,Common,Power,0,Multiply,12.0
+16533,D-R3,413,0,3,5,33,False,True,False,True,True,Common,PrestigeBonus,0,Multiply,25.0
+16427,D-R2,412,1,3,4,27,True,False,False,True,True,Common,PrestigeBonus,0,Multiply,25.0
+16321,,0,2,3,3,21,False,True,True,True,False,Common,"ResearchCostDown, KeepField","0, 0","Divide, Add","1000.0, 15.0"
+16215,,0,3,3,2,15,True,False,False,False,False,Legendary,DStone,0,Percent,100.0
+16216,,0,4,3,2,16,False,True,True,False,False,Common,"EnhanceResearch, ChallengeLicenceGold","3154, 0","Percent, Percent","300.0, 1000.0"
+16201,,0,5,3,2,1,True,False,True,True,False,Common,"EnhanceResearch, EnhanceResearch","3142, 3151","Percent, Percent","500.0, 500.0"
+16202,,0,6,3,2,2,False,False,True,False,False,Common,"Gold, RankPowerDown","0, 0","Percent, Percent","100.0, -99.0"
+16203,,0,7,3,2,3,False,True,True,False,False,Legendary,DStone,0,Percent,100.0
+16305,,0,8,3,3,5,True,False,True,True,False,Common,"AllWeaponDmg, CriDmg, WeaponEnhanceBonus","0, 0, 0","Percent, Percent, Percent","300.0, 100.0, 100.0"
+16407,E-L2,502,9,3,4,7,False,True,False,True,True,Common,AllWeaponDmg,0,Multiply,6.0
+16509,E-L3,503,10,3,5,9,True,False,False,True,True,Common,AllWeaponDmg,0,Multiply,6.0
+16532,D-R4,414,0,4,5,32,False,False,True,True,True,Common,PrestigeBonus,0,Multiply,75.0
+16426,D-R1,411,1,4,4,26,False,True,True,False,True,Common,PrestigeBonus,0,Multiply,25.0
+16320,,0,2,4,3,20,True,True,True,True,False,Common,"EnhanceSoulAltar, EnhanceSoulAltar","41, 43","Percent, Percent","350.0, 1000.0"
+16214,,0,3,4,2,14,True,False,False,True,False,Common,"PrestigeBonus, EnhanceSoulAltar, EnhanceSoulAltar","0, 34, 37","Percent, Percent, Percent","1000.0, 600.0, 600.0"
+16108,,0,4,4,1,8,False,True,False,True,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16101,,0,5,4,1,1,True,True,True,True,False,Common,"Gold, Power","0, 0","Percent, Percent","500.0, 500.0"
+16102,,0,6,4,1,2,True,False,False,True,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16204,,0,7,4,2,4,False,True,False,True,False,Common,"AllWeaponDmg, AllWeaponSpd, EnhanceEternityCube","0, 0, 1","Percent, Percent, Percent","250.0, 10.0, 200.0"
+16306,,0,8,4,3,6,True,True,True,True,False,Common,"AllWeaponDmg, EnhanceEternityCube","0, 3","Percent, Percent","500.0, 200.0"
+16408,E-L1,501,9,4,4,8,True,False,True,False,True,Common,AllWeaponDmg,0,Multiply,6.0
+16510,E-L4,504,10,4,5,10,False,False,True,True,True,Common,AllWeaponDmg,0,Multiply,15.0
+16531,D-5,455,0,5,5,31,False,True,True,True,True,Common,"PrestigeBonus, SoulEnhanceMaxLevelUp","0, 0","Multiply, Add","75.0, 4.0"
+16425,D-EX,499,1,5,4,25,True,False,False,False,True,Legendary,"PrestigeBonus, SoulEnhanceMaxLevelUp, RankPowerDown","0, 0, 0","Multiply, Add, Divide","150.0, 5.0, 100.0"
+16319,,0,2,5,3,19,False,True,True,True,False,Common,"PrestigeBonus, SoulEnhanceMaxLevelUp","0, 0","Percent, Add","1000.0, 2.0"
+16213,,0,3,5,2,13,True,True,True,False,False,Common,"PrestigeBonus, EnhanceSoulAltar, MeditationTime","0, 39, 0","Percent, Percent, Percent","500.0, 150.0, -50.0"
+16107,,0,4,5,1,7,True,True,True,True,False,Common,PrestigeBonus,0,Percent,4000.0
+16001,,0,5,5,0,1,True,True,True,True,False,0,None,0,None,0.0
+16103,,0,6,5,1,3,True,True,True,True,False,Common,AllWeaponDmg,0,Percent,1000.0
+16205,,0,7,5,2,5,True,False,True,True,False,Common,"WeaponEnhanceBonus, CriDmg, SuperCriDmg","0, 0, 0","Percent, Percent, Percent","500.0, 100.0, 100.0"
+16307,,0,8,5,3,7,False,False,True,True,False,Common,"EnhanceEternityCube, EnhanceEternityCube","12, 17","Percent, Percent","400.0, 400.0"
+16409,E-EX,599,9,5,4,9,False,True,False,False,True,Legendary,"AllWeaponDmg, CriDmg, AllWeaponSpd, RankPowerDown","0, 0, 0, 0","Multiply, Multiply, Percent, Divide","30.0, 20.0, 20.0, 100.0"
+16511,E-5,555,10,5,5,11,True,False,True,True,True,Common,"AllWeaponDmg, CriDmg, AllWeaponSpd","0, 0, 0","Multiply, Multiply, Percent","15.0, 10.0, 15.0"
+16530,D-L4,404,0,6,5,30,False,False,True,True,True,Common,SoulEnhanceMaxLevelUp,0,Add,4.0
+16424,D-L1,401,1,6,4,24,False,True,False,True,True,Common,SoulEnhanceMaxLevelUp,0,Add,2.0
+16318,,0,2,6,3,18,True,True,True,True,False,Common,"EnhanceSoulAltar, EnhanceDivineBeast","40, 9018","Percent, Percent","600.0, 250.0"
+16212,,0,3,6,2,12,True,False,False,True,False,Common,"EnhanceSoulAltar, ChallengeWallBlockHpDown, MeditationTime","50, 0, 0","Percent, Percent, Percent","250.0, -90.0, -50.0"
+16106,,0,4,6,1,6,False,True,True,False,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16105,,0,5,6,1,5,True,True,True,True,False,Common,"BattleAtk, BattleHp","0, 0","Percent, Percent","500.0, 500.0"
+16104,,0,6,6,1,4,True,False,True,False,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16206,,0,7,6,2,6,False,True,True,False,False,Common,"EnhanceEternityCube, ChallengeWallBlockHpDown","6, 0","Percent, Percent","300.0, -95.0"
+16308,,0,8,6,3,8,True,True,True,True,False,Common,"WeaponEnhanceBonus, EnhanceEternityCube","0, 8","Percent, Percent","350.0, 350.0"
+16410,E-R1,511,9,6,4,10,True,False,False,True,True,Common,"CriDmg, AllWeaponSpd","0, 0","Multiply, Percent","4.0, 10.0"
+16512,E-R4,514,10,6,5,12,False,False,True,True,True,Common,"CriDmg, AllWeaponSpd","0, 0","Multiply, Percent","10.0, 15.0"
+16529,D-L3,403,0,7,5,29,False,True,True,False,True,Common,SoulEnhanceMaxLevelUp,0,Add,2.0
+16423,D-L2,402,1,7,4,23,True,False,True,False,True,Common,SoulEnhanceMaxLevelUp,0,Add,2.0
+16317,,0,2,7,3,17,False,True,True,True,False,Common,"KeepField, SoulEnhanceMaxLevelUp, EnhanceDivineBeast","0, 0, 9033","Add, Add, Percent","15.0, 2.0, 100.0"
+16211,,0,3,7,2,11,True,False,True,False,False,Legendary,DStone,0,Percent,100.0
+16210,,0,4,7,2,10,False,True,False,True,False,Common,"BattleHp, EnhanceDivineBeast","0, 9039","Percent, Percent","500.0, 1000.0"
+16209,,0,5,7,2,9,True,True,True,False,False,Common,"BlockHpDown, DivineBeastHpDown","0, 0","Percent, Percent","-99.0, -90.0"
+16208,,0,6,7,2,8,True,False,False,True,False,Common,"BattleAtk, EnhanceDivineBeast","0, 9045","Percent, Percent","500.0, 500.0"
+16207,,0,7,7,2,7,False,True,False,True,False,Legendary,DStone,0,Percent,100.0
+16309,,0,8,7,3,9,True,False,True,False,False,Common,"ArtifactDrop, ChallengeWallBlockHpDown","0, 0","Add, Percent","20.0, -75.0"
+16411,E-R2,512,9,7,4,11,False,True,True,False,True,Common,"CriDmg, AllWeaponSpd","0, 0","Multiply, Percent","4.0, 10.0"
+16513,E-R3,513,10,7,5,13,True,False,True,False,True,Common,"CriDmg, AllWeaponSpd","0, 0","Multiply, Percent","4.0, 10.0"
+16528,F-2,602,0,8,5,28,False,True,False,True,True,Common,DStone,0,Multiply,1.5
+16422,F-1,601,1,8,4,22,True,True,False,False,True,Common,DStone,0,Multiply,1.5
+16316,,0,2,8,3,16,True,True,True,False,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16315,,0,3,8,3,15,True,True,False,False,False,Common,"KeepField, EnhanceDivineBeast, BattleHp, BattleAtk","0, 9030, 0, 0","Add, Percent, Percent, Percent","10.0, 400.0, 100.0, 100.0"
+16314,,0,4,8,3,14,True,True,True,True,False,Common,"KeepField, EnhanceDivineBeast, BattleHp, BattleAtk","0, 9048, 0, 0","Add, Percent, Percent, Percent","10.0, 300.0, 100.0, 100.0"
+16313,,0,5,8,3,13,True,False,False,False,False,Common,"EnhanceDivineBeast, EnhanceDivineBeast","9054, 9057","Percent, Percent","300.0, 300.0"
+16312,,0,6,8,3,12,False,True,True,True,False,Common,"GoldBrickChance, RuneChance, ForgeSpeed","0, 0, 0","Multiply, Multiply, Percent","1.1, 1.1, 10.0"
+16311,,0,7,8,3,11,True,True,True,False,False,Common,"MiningSpeed, ForgeSpeed","0, 0","Percent, Percent","50.0, 25.0"
+16310,,0,8,8,3,10,True,False,False,True,False,Rare,"SciencePoint, Ether","0, 0","Percent, Percent","200.0, 25.0"
+16412,H-7,807,9,8,4,12,False,True,False,True,True,Common,SciencePoint,0,Multiply,4.0
+16514,H-6,806,10,8,5,14,True,False,False,True,True,Common,SciencePoint,0,Multiply,4.0
+16527,F-3,603,0,9,5,27,False,False,True,True,True,Common,DStone,0,Multiply,1.5
+16421,F-EX,699,1,9,4,21,False,True,False,False,True,Legendary,"DStone, RankPowerDown","0, 0","Multiply, Divide","7.5, 100.0"
+16420,F-7,607,2,9,4,20,True,False,False,True,True,Common,DStone,0,Multiply,3.0
+16419,G-R2,712,3,9,4,19,False,True,False,True,True,Common,RankSpecialBonusUp,0,Percent,25.0
+16418,G-R1,711,4,9,4,18,True,False,True,False,True,Common,RankSpecialBonusUp,0,Percent,25.0
+16417,G-EX,799,5,9,4,17,False,False,False,True,True,Legendary,"RankSpecialBonusUp, RankSpecialBonusTime, RankPowerDown","0, 0","Percent, Add, Divide","100.0, 5.0, 100.0"
+16416,G-L1,701,6,9,4,16,False,True,True,False,True,Common,RankSpecialBonusUp,0,Percent,25.0
+16415,G-L2,702,7,9,4,15,True,False,False,True,True,Common,RankSpecialBonusUp,0,Percent,25.0
+16414,H-1,801,8,9,4,14,False,False,True,True,True,Common,SciencePoint,0,Multiply,2.0
+16413,H-EX,899,9,9,4,13,False,False,True,False,True,Legendary,"SciencePoint, RankPowerDown","0, 0","Multiply, Divide","10.0, 100.0"
+16515,H-5,805,10,9,5,15,False,False,True,True,True,Common,SciencePoint,0,Multiply,4.0
+16526,F-4,604,0,10,5,26,False,True,True,False,True,Common,DStone,0,Multiply,1.5
+16525,F-5,605,1,10,5,25,True,True,False,False,True,Common,DStone,0,Multiply,3.0
+16524,F-6,606,2,10,5,24,True,False,True,False,True,Common,DStone,0,Multiply,3.0
+16523,G-R3,713,3,10,5,23,False,True,True,False,True,Common,RankSpecialBonusTime,0,Add,5.0
+16522,G-R4,714,4,10,5,22,True,True,False,False,True,Common,RankSpecialBonusUp,0,Percent,50.0
+16521,G-5,705,5,10,5,21,True,True,True,False,True,Common,"RankSpecialBonusUp, RankSpecialBonusTime",0,"Percent, Add","50.0, 5.0"
+16520,G-L4,704,6,10,5,20,True,True,False,False,True,Common,RankSpecialBonusUp,0,Percent,50.0
+16519,G-L3,703,7,10,5,19,True,False,True,False,True,Common,RankSpecialBonusTime,0,Add,5.0
+16518,H-2,802,8,10,5,18,False,True,True,False,True,Common,SciencePoint,0,Multiply,2.0
+16517,H-3,803,9,10,5,17,True,True,False,False,True,Common,SciencePoint,0,Multiply,2.0
+16516,H-4,804,10,10,5,16,True,False,True,False,True,Common,SciencePoint,0,Multiply,2.0

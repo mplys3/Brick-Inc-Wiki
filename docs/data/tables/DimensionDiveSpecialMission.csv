@@ -1,0 +1,30 @@
+﻿Id,Difficulty,IsHardOnly,ConstraintTypes,ConstraintValues,GoalType,GoalTarget,GoalValue,BonusTypes,BonusValueTypes,BonusValues
+1,1,False,FixedRank,,ResearchTier,0,8,"ResearchCostDown, WeaponEnhanceCostDown","Divide, Divide","100.0, 100.0"
+2,1,False,FixedRank,,Power,0,1e45,RankPowerDown,Divide,1000.0
+3,1,False,LimitedResearch,3,Rank,0,5,BattleStat,Percent,150.0
+4,1,False,FixedField,9,Gold,0,1e24,Gold,Percent,400.0
+5,2,False,LimitedWeapon,7,Dmg,0,1e57,AllWeaponDmg,Percent,400.0
+6,2,False,GoldDown,2,Rank,0,10,SciencePoint,Percent,200.0
+7,3,False,NoSoulMenu,,BreakBlock,2045,100,Power,Percent,500.0
+8,3,False,NoScienceMenu,,DStone,0,1e12,PrestigeBonus,Percent,1000.0
+18,3,False,LimitedResearch,1,SciencePoint,0,1e25,QuantumPoint,Percent,150.0
+9,3,True,FixedField,12,BuyWeapon,5040,,"RankPowerDown, BlockHpDown","Divide, Divide","100.0, 100.0"
+10,4,True,"LessFieldBrick, NoSoulMenu","90, 0",ResearchTier,0,15,SciencePoint,Percent,200.0
+11,4,True,ForcedWeapon,5007,Dmg,0,1e75,DestinyEnergy,Percent,200.0
+12,5,True,PowerDown,1000,Power,0,1e77,Power,Percent,500.0
+13,6,True,NoDimensionMenu,,Rank,0,13,BattleStat,Percent,150.0
+14,6,True,"BlockHpUp, FixedField","1000, 7",BreakBlock,2007,2222,Ash,Percent,100.0
+15,6,True,LimitedWeaponSlot,1,WeaponLevel,5045,500,AllWeaponDmg,Percent,400.0
+19,6,True,"NoScienceMenu, NoDimensionMenu",,SoulAltar,0,45,Ether,Percent,100.0
+16,7,True,"LimitedField, NoDimensionMenu",29,Gold,0,1e57,Gold,Percent,400.0
+20,7,True,"NoWeapon, Cat",,BreakBlock,2040,1000,"Power, BlockHpDown","Percent, Divide","300.0, 10.0"
+17,7,True,LimitedWeaponSlot,2,BreakBlock,2019,2500,AllWeaponSpd,Percent,10.0
+21,7,True,GoldDown,10,ResearchTier,0,17,SciencePoint,Percent,250.0
+22,8,True,BulletSize,-95,Rank,0,20,"Gold, BattleStat","Percent, Percent","400.0, 100.0"
+23,8,True,"AutoUpField, FixedRank","5, 0",BreakBlock,2060,1,CosmicDialTick,Percent,100.0
+24,8,True,LimitedRankPower,15,WeaponLevel,5046,100,Power,Percent,700.0
+25,8,True,FixedField,77,Rank,0,13,Rune,Add,1.0
+26,9,True,FieldBreakDmgDown,10,BuyWeapon,5049,,DStone,Percent,100.0
+27,9,True,LimitedFieldBrick,1,ResearchTier,0,23,QuantumPoint,Percent,200.0
+28,9,True,"BulletRegen, WeaponSpd","-90, -90",BreakBlock,2071,1,AllWeaponSpd,Percent,10.0
+29,9,True,LimitedFieldCount,20,Rank,0,21,"Gold, RankPowerDown","Percent, Divide","200.0, 100.0"

@@ -1,0 +1,90 @@
+{
+  "type": "MasterItem",
+  "index": 122,
+  "count": 9,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 2
+    }
+  ],
+  "rows": [
+    {
+      "Id": 8001,
+      "Name": "it_bomb",
+      "Type": "FastMining",
+      "English": "Bomb",
+      "Description": "Instantly obtain <<{0}/3600f>> hour(s) worth of Mining rewards"
+    },
+    {
+      "Id": 8002,
+      "Name": "it_drill",
+      "Type": "Gold",
+      "English": "Drill",
+      "Description": "For <<{0}/60>>m, amount of obtained Gold x{1}"
+    },
+    {
+      "Id": 8003,
+      "Name": "it_generator",
+      "Type": "Power",
+      "English": "Generator",
+      "Description": "For <<{0}/60>>m, amount of obtained Power x{1}"
+    },
+    {
+      "Id": 8004,
+      "Name": "it_furnace",
+      "Type": "AllWeaponDmg",
+      "English": "Furnace",
+      "Description": "For <<{0}/60>>m, all Weapon Damage +{1}%"
+    },
+    {
+      "Id": 8005,
+      "Name": "it_accel",
+      "Type": "AllWeaponSpd",
+      "English": "Accelerator",
+      "Description": "For <<{0}/60>>m, all Weapon Attack Speed +{1}%"
+    },
+    {
+      "Id": 8006,
+      "Name": "it_cat",
+      "Type": "AutoTap",
+      "English": "Cat",
+      "Description": "Auto Tap for <<{0}/60>>m (Consumes no bullets)"
+    },
+    {
+      "Id": 8007,
+      "Name": "it_radar",
+      "Type": "BlockHpDown",
+      "English": "Radar",
+      "Description": "All Brick Durability ÷{1:0.##;0.##} for <<{0}/60>>m"
+    },
+    {
+      "Id": 8008,
+      "Name": "it_flask",
+      "Type": "FastSciencePoint",
+      "English": "Flask",
+      "Description": "Instantly produce <<{0}/3600>> hour(s) of Science Points"
+    },
+    {
+      "Id": 8009,
+      "Name": "it_candle",
+      "Type": "FastEther",
+      "English": "Candle",
+      "Description": "Instantly produce <<{0}/3600>> hour(s) of Ether"
+    }
+  ]
+}

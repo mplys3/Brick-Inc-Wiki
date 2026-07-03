@@ -1,0 +1,162 @@
+{
+  "type": "MasterSentence",
+  "index": 96,
+  "count": 5,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Cost1",
+      "param": "cost1",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "Cost2",
+      "param": "cost2",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Cost3",
+      "param": "cost3",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "StartChance",
+      "param": "startChance",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "ChanceSucess",
+      "param": "chanceSucess",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "ChanceFail",
+      "param": "chanceFail",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "ChanceMin",
+      "param": "chanceMin",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "ChanceMax",
+      "param": "chanceMax",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "TargetCount",
+      "param": "targetCount",
+      "kind": "int",
+      "index": 9
+    },
+    {
+      "name": "FinalCost",
+      "param": "finalCost",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "BonusPow",
+      "param": "bonusPow",
+      "kind": "double",
+      "index": 11
+    },
+    {
+      "name": "RecoverCost",
+      "param": "recoverCost",
+      "kind": "int",
+      "index": 12
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "Cost1": 10,
+      "Cost2": 10,
+      "Cost3": 20,
+      "StartChance": 50,
+      "ChanceSucess": -5,
+      "ChanceFail": 5,
+      "ChanceMin": 10,
+      "ChanceMax": 100,
+      "TargetCount": 15,
+      "FinalCost": 10,
+      "BonusPow": 1.25,
+      "RecoverCost": 10
+    },
+    {
+      "Level": 2,
+      "Cost1": 10,
+      "Cost2": 10,
+      "Cost3": 20,
+      "StartChance": 45,
+      "ChanceSucess": -5,
+      "ChanceFail": 4,
+      "ChanceMin": 10,
+      "ChanceMax": 100,
+      "TargetCount": 20,
+      "FinalCost": 20,
+      "BonusPow": 1.5,
+      "RecoverCost": 20
+    },
+    {
+      "Level": 3,
+      "Cost1": 15,
+      "Cost2": 15,
+      "Cost3": 30,
+      "StartChance": 40,
+      "ChanceSucess": -5,
+      "ChanceFail": 3,
+      "ChanceMin": 10,
+      "ChanceMax": 100,
+      "TargetCount": 25,
+      "FinalCost": 30,
+      "BonusPow": 2.0,
+      "RecoverCost": 30
+    },
+    {
+      "Level": 4,
+      "Cost1": 20,
+      "Cost2": 20,
+      "Cost3": 40,
+      "StartChance": 35,
+      "ChanceSucess": -5,
+      "ChanceFail": 2,
+      "ChanceMin": 10,
+      "ChanceMax": 100,
+      "TargetCount": 30,
+      "FinalCost": 40,
+      "BonusPow": 3.0,
+      "RecoverCost": 40
+    },
+    {
+      "Level": 5,
+      "Cost1": 25,
+      "Cost2": 25,
+      "Cost3": 50,
+      "StartChance": 30,
+      "ChanceSucess": -5,
+      "ChanceFail": 1,
+      "ChanceMin": 10,
+      "ChanceMax": 100,
+      "TargetCount": 35,
+      "FinalCost": 50,
+      "BonusPow": 4.0,
+      "RecoverCost": 50
+    }
+  ]
+}

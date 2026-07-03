@@ -1,0 +1,625 @@
+{
+  "type": "MasterGoldenCube",
+  "index": 79,
+  "count": 61,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "double",
+      "index": 2
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 4
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 5
+    }
+  ],
+  "rows": [
+    {
+      "Id": 9006,
+      "Name": "dv_noxae",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "6.00E+90",
+      "CostUp": 80.0,
+      "English": "Noxae",
+      "Description": "\"On these verdant pastures, all life must bow their heads before him. In an instant, their lives may wither away, or their vitality becomes renewed.\""
+    },
+    {
+      "Id": 9009,
+      "Name": "dv_dendros",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.50E+98",
+      "CostUp": 80.0,
+      "English": "Dendros",
+      "Description": "\"Ruler of the forest. The day he begins to move again, the whole earth will tremble.\""
+    },
+    {
+      "Id": 9012,
+      "Name": "dv_platum",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "8.50E+103",
+      "CostUp": 80.0,
+      "English": "Platum",
+      "Description": "\"Opinions differ on whether it is an invention, or a prank made by the gods. Perhaps it's an 'evolution.'\""
+    },
+    {
+      "Id": 9015,
+      "Name": "dv_morack",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.50E+107",
+      "CostUp": 80.0,
+      "English": "Morack",
+      "Description": "\"Always watch your step in the desert. However, even if you recognize it, you will not be able to avoid it.\""
+    },
+    {
+      "Id": 9018,
+      "Name": "dv_grandius2",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "9.00E+109",
+      "CostUp": 80.0,
+      "English": "Grandius",
+      "Description": "\"Have you heard of the elephant statue that turns stones into gold? Some claims say it is alive.\""
+    },
+    {
+      "Id": 9021,
+      "Name": "dv_enochsis",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "8.00E+112",
+      "CostUp": 80.0,
+      "English": "Enochsis",
+      "Description": "\"Saying the ground shakes is incorrect. It cracks, tears, and is destroyed.\""
+    },
+    {
+      "Id": 9024,
+      "Name": "dv_tekuma",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.00E+120",
+      "CostUp": 80.0,
+      "English": "Tekuma",
+      "Description": "\"It's gargantuan, but can instantly move. Can you even imagine?\""
+    },
+    {
+      "Id": 9027,
+      "Name": "dv_blue_dragon",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "4.00E+124",
+      "CostUp": 80.0,
+      "English": "Blue Dragon",
+      "Description": "\"If you see the Blue Dragon, that's a lucky dream. But what if it's not a dream? Then pray that you make it out alive.\""
+    },
+    {
+      "Id": 9030,
+      "Name": "dv_kirin",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.00E+128",
+      "CostUp": 80.0,
+      "English": "Kirin",
+      "Description": "\"An auspicious being that controls life, wielding magic. If he does that, the future does not look good.\""
+    },
+    {
+      "Id": 9033,
+      "Name": "dv_chaa",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "4.50E+131",
+      "CostUp": 80.0,
+      "English": "Ch'aak",
+      "Description": "\"Also known as the emissary for the gods. It is all purely stories found in myths and legends, so don't even bother thinking about looking for it.\""
+    },
+    {
+      "Id": 9036,
+      "Name": "dv_aio",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "6.00E+134",
+      "CostUp": 80.0,
+      "English": "Aio",
+      "Description": "\"It is said to bring riches and good fortune. You think I'm being sentimental? Well, riches and good fortune can also be achieved through power.\""
+    },
+    {
+      "Id": 9039,
+      "Name": "dv_pegasus",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "7.50E+150",
+      "CostUp": 160.0,
+      "English": "Pegasus",
+      "Description": "\"To be brilliant can also mean to be destructive.\""
+    },
+    {
+      "Id": 9042,
+      "Name": "dv_tumtum",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.50E+161",
+      "CostUp": 320.0,
+      "English": "Tumtum",
+      "Description": "\"Let us not underestimate what lies beneath our feet. If the ceiling can crush you, the floor can send you to an abyss.\""
+    },
+    {
+      "Id": 9045,
+      "Name": "dv_pheonix",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "5.00E+187",
+      "CostUp": 640.0,
+      "English": "Pheonix",
+      "Description": "\"True immortality is being reborn.\""
+    },
+    {
+      "Id": 9048,
+      "Name": "dv_archeros",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.00E+212",
+      "CostUp": 1280.0,
+      "English": "Archeros",
+      "Description": "\"It controls dreams. What would happen if you lost your dreams?\""
+    },
+    {
+      "Id": 9051,
+      "Name": "dv_oriona",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "7.50E+245",
+      "CostUp": 2560.0,
+      "English": "Oriona",
+      "Description": "\"It's not predicting the future, it's just taking a peek.\""
+    },
+    {
+      "Id": 9054,
+      "Name": "dv_ouroboros",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "4.00E+272",
+      "CostUp": 5120.0,
+      "English": "Ouroboros",
+      "Description": "\"Endless reincarnation signifies growth, not repetition.\""
+    },
+    {
+      "Id": 9057,
+      "Name": "dv_kraken",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.00E+307",
+      "CostUp": 10240.0,
+      "English": "Kraken",
+      "Description": "\"It's not the monster that eats them, it's fear.\""
+    },
+    {
+      "Id": 9060,
+      "Name": "dv_kerberos",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.5e332",
+      "CostUp": 10240.0,
+      "English": "Kerberos",
+      "Description": "\"Hell is a place only the strong can enter.\""
+    },
+    {
+      "Id": 9063,
+      "Name": "dv_world_tree",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "6e354",
+      "CostUp": 10240.0,
+      "English": "World Tree",
+      "Description": "\"Life requires sacrifice.\""
+    },
+    {
+      "Id": 9066,
+      "Name": "dv_chimera",
+      "Bonus": 2.0,
+      "MaxLevel": 5,
+      "Cost": "6.5e374",
+      "CostUp": 10240.0,
+      "English": "Chimera",
+      "Description": "\"That should not exist. Not even in stories.\""
+    },
+    {
+      "Id": 9069,
+      "Name": "dv_quetzalcoatl",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1e400",
+      "CostUp": 10240.0,
+      "English": "Quetzalcoatl",
+      "Description": "\"When an ill omen appears, one must prepare sacrifices.\""
+    },
+    {
+      "Id": 9072,
+      "Name": "dv_hephaestus",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.5e441",
+      "CostUp": 10240.0,
+      "English": "Hephaestus",
+      "Description": "\"Divinity is sometimes forged from fear.\""
+    },
+    {
+      "Id": 9075,
+      "Name": "dv_dark_dragon",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "6e463",
+      "CostUp": 20480.0,
+      "English": "Dark Dragon",
+      "Description": "\"They say only black ash remains in its wake.\""
+    },
+    {
+      "Id": 9078,
+      "Name": "dv_jormungand",
+      "Bonus": 2.0,
+      "MaxLevel": 5,
+      "Cost": "1.5e485",
+      "CostUp": 20480.0,
+      "English": "Jormungand",
+      "Description": "\"It's large enough to encompass the world. Perhaps the world has already been devoured.\""
+    },
+    {
+      "Id": 9081,
+      "Name": "dv_yggdrasil",
+      "Bonus": 2.0,
+      "MaxLevel": 5,
+      "Cost": "3e527",
+      "CostUp": 20480.0,
+      "English": "Ygggrasil",
+      "Description": "\"A being that governs all of space and time. Both past and future, and even fate itself.\""
+    },
+    {
+      "Id": 9084,
+      "Name": "dv_seraph",
+      "Bonus": 2.0,
+      "MaxLevel": 2,
+      "Cost": "6e556",
+      "CostUp": 40960.0,
+      "English": "Seraph",
+      "Description": "\"All we can do is hope they take pity on us.\""
+    },
+    {
+      "Id": 9087,
+      "Name": "dv_echidna",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "9e585",
+      "CostUp": 40960.0,
+      "English": "Echidna",
+      "Description": "\"Pain that pierces the mind is worse than pain that stops the heart.\""
+    },
+    {
+      "Id": 9090,
+      "Name": "dv_griffin",
+      "Bonus": 2.0,
+      "MaxLevel": 5,
+      "Cost": "1e649",
+      "CostUp": 40960.0,
+      "English": "Griffin",
+      "Description": "\"What do you think it means to be the most intelligent being in the universe?\""
+    },
+    {
+      "Id": 9093,
+      "Name": "dv_typhon",
+      "Bonus": 2.0,
+      "MaxLevel": 5,
+      "Cost": "5e687",
+      "CostUp": 81920.0,
+      "English": "Typhon",
+      "Description": "\"Kneel before greatness.\""
+    },
+    {
+      "Id": 9096,
+      "Name": "dv_medusa",
+      "Bonus": 2.0,
+      "MaxLevel": 5,
+      "Cost": "2.5e726",
+      "CostUp": 163840.0,
+      "English": "Medusa",
+      "Description": "\"The moment you meet her eyes, you'll turn to Brick. It's not a metaphor.\""
+    },
+    {
+      "Id": 11001,
+      "Name": "in_investment",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.00E+114",
+      "CostUp": 160.0,
+      "English": "Attract Investment"
+    },
+    {
+      "Id": 11002,
+      "Name": "in_eco_friendly",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "9.50E+120",
+      "CostUp": 160.0,
+      "English": "Eco-friendly Development"
+    },
+    {
+      "Id": 11003,
+      "Name": "in_real_estate",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.50E+125",
+      "CostUp": 160.0,
+      "English": "Real Estate Trading"
+    },
+    {
+      "Id": 11004,
+      "Name": "in_regression",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "8.00E+128",
+      "CostUp": 160.0,
+      "English": "Regression Analysis"
+    },
+    {
+      "Id": 11005,
+      "Name": "in_authority",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.50E+132",
+      "CostUp": 160.0,
+      "English": "Authorities"
+    },
+    {
+      "Id": 11006,
+      "Name": "in_vip",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.00E+135",
+      "CostUp": 160.0,
+      "English": "VIP Card"
+    },
+    {
+      "Id": 11007,
+      "Name": "in_monolith",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.00E+151",
+      "CostUp": 320.0,
+      "English": "Construct Monolith"
+    },
+    {
+      "Id": 11008,
+      "Name": "in_defense_cost",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.50E+162",
+      "CostUp": 640.0,
+      "English": "Defense Increase Costs"
+    },
+    {
+      "Id": 11009,
+      "Name": "in_religion",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "5.00E+172",
+      "CostUp": 1280.0,
+      "English": "Pioneer Faith"
+    },
+    {
+      "Id": 11010,
+      "Name": "in_energy_revolution",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.50E+200",
+      "CostUp": 2560.0,
+      "English": "Energy Revolution"
+    },
+    {
+      "Id": 11011,
+      "Name": "in_genetic_trait",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "4.00E+231",
+      "CostUp": 5120.0,
+      "English": "Extract Genetic Trait"
+    },
+    {
+      "Id": 11012,
+      "Name": "in_military_industry",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.50E+260",
+      "CostUp": 10240.0,
+      "English": "Military Industry Support"
+    },
+    {
+      "Id": 11013,
+      "Name": "in_empire_armada",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.00E+287",
+      "CostUp": 20480.0,
+      "English": "Imperial Fleet"
+    },
+    {
+      "Id": 11014,
+      "Name": "in_colony",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.5e323",
+      "CostUp": 20480.0,
+      "English": "Build Colony"
+    },
+    {
+      "Id": 11015,
+      "Name": "in_planet_weapon",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.5e342",
+      "CostUp": 20480.0,
+      "English": "Planet Killer"
+    },
+    {
+      "Id": 11016,
+      "Name": "in_stellar_monitor",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1.5e365",
+      "CostUp": 20480.0,
+      "English": "Stellar Monitor"
+    },
+    {
+      "Id": 11017,
+      "Name": "in_simulation",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2e389",
+      "CostUp": 20480.0,
+      "English": "Virtual Reality System"
+    },
+    {
+      "Id": 11018,
+      "Name": "in_civilization",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3e410",
+      "CostUp": 20480.0,
+      "English": "Civilization Controller"
+    },
+    {
+      "Id": 11019,
+      "Name": "in_galaxy_parliament",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.5e464",
+      "CostUp": 20480.0,
+      "English": "Galactic Council"
+    },
+    {
+      "Id": 11020,
+      "Name": "in_singularity_control",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "7.5e485",
+      "CostUp": 40960.0,
+      "English": "Soul Control"
+    },
+    {
+      "Id": 11021,
+      "Name": "in_illuminati",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1e528",
+      "CostUp": 40960.0,
+      "English": "Multiverse: Illuminati"
+    },
+    {
+      "Id": 11022,
+      "Name": "in_dimension_office",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.5e557",
+      "CostUp": 40960.0,
+      "English": "Dimensional Management Bureau"
+    },
+    {
+      "Id": 11023,
+      "Name": "in_pandora",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "3.5e586",
+      "CostUp": 40960.0,
+      "English": "Pandora's Box"
+    },
+    {
+      "Id": 11024,
+      "Name": "in_god_hand",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "5e649",
+      "CostUp": 81920.0,
+      "English": "Omnipotent Hand"
+    },
+    {
+      "Id": 11025,
+      "Name": "in_afterlife",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2e688",
+      "CostUp": 81920.0,
+      "English": "Afterlife Connector"
+    },
+    {
+      "Id": 11026,
+      "Name": "in_coffee_cup",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1e727",
+      "CostUp": 163840.0,
+      "English": "Demolition Coffee Mug"
+    },
+    {
+      "Id": 11027,
+      "Name": "in_god_detector",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2.5e784",
+      "CostUp": 163840.0,
+      "English": "God Detector"
+    },
+    {
+      "Id": 11028,
+      "Name": "in_printer",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "1e825",
+      "CostUp": 327680.0,
+      "English": "Creation Printer"
+    },
+    {
+      "Id": 11029,
+      "Name": "in_god_mark",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "5e864",
+      "CostUp": 327680.0,
+      "English": "God Certificate"
+    },
+    {
+      "Id": 11030,
+      "Name": "in_cosmo_kit",
+      "Bonus": 2.0,
+      "MaxLevel": 10,
+      "Cost": "2e917",
+      "CostUp": 655360.0,
+      "English": "Cosmic Creation Kit"
+    }
+  ]
+}

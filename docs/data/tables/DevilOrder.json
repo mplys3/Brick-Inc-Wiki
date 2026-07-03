@@ -1,0 +1,1511 @@
+{
+  "type": "MasterDevilOrder",
+  "index": 75,
+  "count": 160,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "IncludeAllUpper",
+      "param": "includeAllUpper",
+      "kind": "bool",
+      "index": 2
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "CostUpPow",
+      "param": "costUpPow",
+      "kind": "double",
+      "index": 5
+    }
+  ],
+  "rows": [
+    {
+      "Id": 16,
+      "Name": "rk_silver",
+      "IncludeAllUpper": false,
+      "Cost": "3.33E+40",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Silver"
+    },
+    {
+      "Id": 17,
+      "Name": "rk_gold",
+      "IncludeAllUpper": false,
+      "Cost": "1.42E+43",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Gold"
+    },
+    {
+      "Id": 18,
+      "Name": "rk_diamond",
+      "IncludeAllUpper": false,
+      "Cost": "1.43E+46",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Diamond"
+    },
+    {
+      "Id": 19,
+      "Name": "rk_obsidian",
+      "IncludeAllUpper": false,
+      "Cost": "2.17E+49",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Obsidian"
+    },
+    {
+      "Id": 20,
+      "Name": "rk_mithril",
+      "IncludeAllUpper": false,
+      "Cost": "1.11E+53",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Mythril"
+    },
+    {
+      "Id": 21,
+      "Name": "rk_ori",
+      "IncludeAllUpper": false,
+      "Cost": "1.02E+57",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Orichalcum"
+    },
+    {
+      "Id": 22,
+      "Name": "rk_crystal",
+      "IncludeAllUpper": false,
+      "Cost": "1.29E+62",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Crystal"
+    },
+    {
+      "Id": 23,
+      "Name": "rk_prism",
+      "IncludeAllUpper": false,
+      "Cost": "1.17E+68",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Prism"
+    },
+    {
+      "Id": 24,
+      "Name": "rk_scopic",
+      "IncludeAllUpper": false,
+      "Cost": "7.14E+73",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Kaleidoscope"
+    },
+    {
+      "Id": 25,
+      "Name": "rk_thunder",
+      "IncludeAllUpper": false,
+      "Cost": "1.22E+80",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Lightning"
+    },
+    {
+      "Id": 26,
+      "Name": "rk_tornado",
+      "IncludeAllUpper": false,
+      "Cost": "5.04E+85",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Tornado"
+    },
+    {
+      "Id": 27,
+      "Name": "rk_volcano",
+      "IncludeAllUpper": false,
+      "Cost": "1.26E+92",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Volcano"
+    },
+    {
+      "Id": 28,
+      "Name": "rk_moon",
+      "IncludeAllUpper": false,
+      "Cost": "3.66E+98",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Moon"
+    },
+    {
+      "Id": 29,
+      "Name": "rk_comet",
+      "IncludeAllUpper": false,
+      "Cost": "2.56E+105",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Comet"
+    },
+    {
+      "Id": 30,
+      "Name": "rk_star",
+      "IncludeAllUpper": false,
+      "Cost": "3.83E+113",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Star"
+    },
+    {
+      "Id": 31,
+      "Name": "rk_nova",
+      "IncludeAllUpper": false,
+      "Cost": "1.19E+121",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Nova"
+    },
+    {
+      "Id": 32,
+      "Name": "rk_supernova",
+      "IncludeAllUpper": false,
+      "Cost": "2.78E+128",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Supernova"
+    },
+    {
+      "Id": 33,
+      "Name": "rk_hypernova",
+      "IncludeAllUpper": false,
+      "Cost": "1.30E+135",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Hypernova"
+    },
+    {
+      "Id": 34,
+      "Name": "rk_blackhole",
+      "IncludeAllUpper": false,
+      "Cost": "4.84E+142",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Black Hole"
+    },
+    {
+      "Id": 35,
+      "Name": "rk_whitehole",
+      "IncludeAllUpper": false,
+      "Cost": "2.83E+150",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "White Hole"
+    },
+    {
+      "Id": 36,
+      "Name": "rk_quasar",
+      "IncludeAllUpper": false,
+      "Cost": "9.23E+158",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Quasar"
+    },
+    {
+      "Id": 37,
+      "Name": "rk_star_cluster",
+      "IncludeAllUpper": false,
+      "Cost": "5.50E+168",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Star Cluster"
+    },
+    {
+      "Id": 38,
+      "Name": "rk_galaxy",
+      "IncludeAllUpper": false,
+      "Cost": "5.08E+179",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Galaxy"
+    },
+    {
+      "Id": 39,
+      "Name": "rk_galaxy_cluster",
+      "IncludeAllUpper": false,
+      "Cost": "1.13E+193",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Galaxy Cluster"
+    },
+    {
+      "Id": 40,
+      "Name": "rk_big_bang",
+      "IncludeAllUpper": false,
+      "Cost": "4.08E+203",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Big Bang"
+    },
+    {
+      "Id": 41,
+      "Name": "rk_universe",
+      "IncludeAllUpper": false,
+      "Cost": "5.47E+218",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Universe"
+    },
+    {
+      "Id": 42,
+      "Name": "rk_multiverse",
+      "IncludeAllUpper": false,
+      "Cost": "1.78E+228",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Multiverse"
+    },
+    {
+      "Id": 43,
+      "Name": "rk_demigod",
+      "IncludeAllUpper": false,
+      "Cost": "5.74E+248",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Demigod"
+    },
+    {
+      "Id": 44,
+      "Name": "rk_ascended",
+      "IncludeAllUpper": false,
+      "Cost": "5.89E+268",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Ascended"
+    },
+    {
+      "Id": 45,
+      "Name": "rk_incarnation",
+      "IncludeAllUpper": false,
+      "Cost": "1.88E+289",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Incarnation"
+    },
+    {
+      "Id": 46,
+      "Name": "rk_heracles",
+      "IncludeAllUpper": false,
+      "Cost": "6E+341",
+      "CostUp": 2.625,
+      "CostUpPow": 1.01,
+      "English": "Heracles"
+    },
+    {
+      "Id": 47,
+      "Name": "rk_perseus",
+      "IncludeAllUpper": false,
+      "Cost": "2.5E+380",
+      "CostUp": 2.75,
+      "CostUpPow": 1.01,
+      "English": "Perseus"
+    },
+    {
+      "Id": 48,
+      "Name": "rk_theseus",
+      "IncludeAllUpper": false,
+      "Cost": "8E+418",
+      "CostUp": 2.875,
+      "CostUpPow": 1.01,
+      "English": "Theseus"
+    },
+    {
+      "Id": 49,
+      "Name": "rk_odysseus",
+      "IncludeAllUpper": false,
+      "Cost": "5.5E+461",
+      "CostUp": 3.0,
+      "CostUpPow": 1.01,
+      "English": "Odysseus"
+    },
+    {
+      "Id": 50,
+      "Name": "rk_loki",
+      "IncludeAllUpper": false,
+      "Cost": "1E+510",
+      "CostUp": 3.125,
+      "CostUpPow": 1.01,
+      "English": "Loki"
+    },
+    {
+      "Id": 51,
+      "Name": "rk_thor",
+      "IncludeAllUpper": false,
+      "Cost": "7E+542",
+      "CostUp": 3.25,
+      "CostUpPow": 1.01,
+      "English": "Thor"
+    },
+    {
+      "Id": 52,
+      "Name": "rk_ares",
+      "IncludeAllUpper": false,
+      "Cost": "4.5E+588",
+      "CostUp": 3.375,
+      "CostUpPow": 1.01,
+      "English": "Ares"
+    },
+    {
+      "Id": 53,
+      "Name": "rk_hades",
+      "IncludeAllUpper": false,
+      "Cost": "3E+623",
+      "CostUp": 3.5,
+      "CostUpPow": 1.01,
+      "English": "Hades"
+    },
+    {
+      "Id": 54,
+      "Name": "rk_zeus",
+      "IncludeAllUpper": false,
+      "Cost": "5E+658",
+      "CostUp": 3.625,
+      "CostUpPow": 1.01,
+      "English": "Zeus"
+    },
+    {
+      "Id": 55,
+      "Name": "rk_god",
+      "IncludeAllUpper": false,
+      "Cost": "6E+710",
+      "CostUp": 3.75,
+      "CostUpPow": 1.01,
+      "English": "God"
+    },
+    {
+      "Id": 56,
+      "Name": "rk_true_god",
+      "IncludeAllUpper": false,
+      "Cost": "1.5E+746",
+      "CostUp": 3.875,
+      "CostUpPow": 1.01,
+      "English": "True God"
+    },
+    {
+      "Id": 57,
+      "Name": "rk_prime_god",
+      "IncludeAllUpper": false,
+      "Cost": "4E+782",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Prime God"
+    },
+    {
+      "Id": 58,
+      "Name": "rk_odin",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e842",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Odin"
+    },
+    {
+      "Id": 59,
+      "Name": "rk_olorun",
+      "IncludeAllUpper": false,
+      "Cost": "5e878",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Olorun"
+    },
+    {
+      "Id": 60,
+      "Name": "rk_viracocha",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e914",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Viracocha"
+    },
+    {
+      "Id": 61,
+      "Name": "rk_osiris",
+      "IncludeAllUpper": false,
+      "Cost": "7.5e966",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Osiris"
+    },
+    {
+      "Id": 62,
+      "Name": "rk_ra",
+      "IncludeAllUpper": false,
+      "Cost": "3.5e1003",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Ra"
+    },
+    {
+      "Id": 63,
+      "Name": "rk_horus",
+      "IncludeAllUpper": false,
+      "Cost": "1e1041",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Horus"
+    },
+    {
+      "Id": 64,
+      "Name": "rk_enki",
+      "IncludeAllUpper": false,
+      "Cost": "3e1097",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Enki"
+    },
+    {
+      "Id": 65,
+      "Name": "rk_enlil",
+      "IncludeAllUpper": false,
+      "Cost": "8e1147",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Enlil"
+    },
+    {
+      "Id": 66,
+      "Name": "rk_anu",
+      "IncludeAllUpper": false,
+      "Cost": "6e1177",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Anu"
+    },
+    {
+      "Id": 67,
+      "Name": "rk_primordial_god",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e1255",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Primordial God"
+    },
+    {
+      "Id": 68,
+      "Name": "rk_chaos_god",
+      "IncludeAllUpper": false,
+      "Cost": "9e1308",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Chaos God"
+    },
+    {
+      "Id": 69,
+      "Name": "rk_cosmic_god",
+      "IncludeAllUpper": false,
+      "Cost": "1e1363",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Cosmic God"
+    },
+    {
+      "Id": 70,
+      "Name": "rk_dimension_god",
+      "IncludeAllUpper": false,
+      "Cost": "4e1473",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Dimensional God"
+    },
+    {
+      "Id": 71,
+      "Name": "rk_omni_god",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e1548",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Omni God"
+    },
+    {
+      "Id": 72,
+      "Name": "rk_overall_god",
+      "IncludeAllUpper": false,
+      "Cost": "6e1624",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Overall God"
+    },
+    {
+      "Id": 73,
+      "Name": "rk_point",
+      "IncludeAllUpper": true,
+      "Cost": "3e1790",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Point"
+    },
+    {
+      "Id": 2025,
+      "Name": "br_titanium",
+      "IncludeAllUpper": false,
+      "Cost": "3.33E+38",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Titanium"
+    },
+    {
+      "Id": 2026,
+      "Name": "br_graphene",
+      "IncludeAllUpper": false,
+      "Cost": "6.88E+39",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Graphene"
+    },
+    {
+      "Id": 2027,
+      "Name": "br_cobalt",
+      "IncludeAllUpper": false,
+      "Cost": "8.09E+41",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Cobalt"
+    },
+    {
+      "Id": 2028,
+      "Name": "br_chromoly",
+      "IncludeAllUpper": false,
+      "Cost": "1.43E+44",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Chromoly"
+    },
+    {
+      "Id": 2029,
+      "Name": "br_obsidian",
+      "IncludeAllUpper": false,
+      "Cost": "5.56E+45",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Obsidian"
+    },
+    {
+      "Id": 2030,
+      "Name": "br_ether",
+      "IncludeAllUpper": false,
+      "Cost": "1.97E+48",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Etherium"
+    },
+    {
+      "Id": 2031,
+      "Name": "br_mithril",
+      "IncludeAllUpper": false,
+      "Cost": "1.11E+51",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Mythril"
+    },
+    {
+      "Id": 2032,
+      "Name": "br_adamantium",
+      "IncludeAllUpper": false,
+      "Cost": "1.06E+53",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Adamantium"
+    },
+    {
+      "Id": 2033,
+      "Name": "br_ori",
+      "IncludeAllUpper": false,
+      "Cost": "2.83E+56",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Orichalcum"
+    },
+    {
+      "Id": 2034,
+      "Name": "br_crystal",
+      "IncludeAllUpper": false,
+      "Cost": "1.29E+60",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Crystal"
+    },
+    {
+      "Id": 2035,
+      "Name": "br_dragonite",
+      "IncludeAllUpper": false,
+      "Cost": "1.23E+63",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Dragonite"
+    },
+    {
+      "Id": 2036,
+      "Name": "br_spectrium",
+      "IncludeAllUpper": false,
+      "Cost": "2.15E+67",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Spectrium"
+    },
+    {
+      "Id": 2037,
+      "Name": "br_mirror",
+      "IncludeAllUpper": false,
+      "Cost": "7.14E+71",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Mirror Stone"
+    },
+    {
+      "Id": 2038,
+      "Name": "br_charm",
+      "IncludeAllUpper": false,
+      "Cost": "9.34E+74",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Charm Stone"
+    },
+    {
+      "Id": 2039,
+      "Name": "br_thunder",
+      "IncludeAllUpper": false,
+      "Cost": "1.49E+79",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Lightning Stone"
+    },
+    {
+      "Id": 2040,
+      "Name": "br_resonance",
+      "IncludeAllUpper": false,
+      "Cost": "5.04E+83",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Resonance Stone"
+    },
+    {
+      "Id": 2041,
+      "Name": "br_lava",
+      "IncludeAllUpper": false,
+      "Cost": "7.96E+86",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Lava"
+    },
+    {
+      "Id": 2042,
+      "Name": "br_gaiarium",
+      "IncludeAllUpper": false,
+      "Cost": "3.50E+91",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Gaiarium"
+    },
+    {
+      "Id": 2043,
+      "Name": "br_meteor",
+      "IncludeAllUpper": false,
+      "Cost": "3.66E+96",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Meteor"
+    },
+    {
+      "Id": 2044,
+      "Name": "br_dawn",
+      "IncludeAllUpper": false,
+      "Cost": "9.69E+99",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Dawn Stone"
+    },
+    {
+      "Id": 2045,
+      "Name": "br_mantle",
+      "IncludeAllUpper": false,
+      "Cost": "3.71E+105",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Mantle"
+    },
+    {
+      "Id": 2046,
+      "Name": "br_planet_core",
+      "IncludeAllUpper": false,
+      "Cost": "3.83E+111",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Planet Core"
+    },
+    {
+      "Id": 2047,
+      "Name": "br_starlight",
+      "IncludeAllUpper": false,
+      "Cost": "2.14E+115",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Night Sky Stone"
+    },
+    {
+      "Id": 2048,
+      "Name": "br_starnite",
+      "IncludeAllUpper": false,
+      "Cost": "4.37E+120",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Starnite"
+    },
+    {
+      "Id": 2049,
+      "Name": "br_mysterium",
+      "IncludeAllUpper": false,
+      "Cost": "2.78E+126",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Mysterium"
+    },
+    {
+      "Id": 2050,
+      "Name": "br_quantum",
+      "IncludeAllUpper": false,
+      "Cost": "6.01E+129",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Quantum Stone"
+    },
+    {
+      "Id": 2051,
+      "Name": "br_supernite",
+      "IncludeAllUpper": false,
+      "Cost": "9.07E+134",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Supernite"
+    },
+    {
+      "Id": 2052,
+      "Name": "br_dark",
+      "IncludeAllUpper": false,
+      "Cost": "4.84E+140",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Dark Stone"
+    },
+    {
+      "Id": 2053,
+      "Name": "br_gravitium",
+      "IncludeAllUpper": false,
+      "Cost": "3.70E+144",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Gravitium"
+    },
+    {
+      "Id": 2054,
+      "Name": "br_teleportium",
+      "IncludeAllUpper": false,
+      "Cost": "2.89E+150",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Teleportium"
+    },
+    {
+      "Id": 2055,
+      "Name": "br_absolute",
+      "IncludeAllUpper": false,
+      "Cost": "9.23E+156",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Absolute Stone"
+    },
+    {
+      "Id": 2056,
+      "Name": "br_destroy",
+      "IncludeAllUpper": false,
+      "Cost": "7.13E+161",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Wrecking Stone"
+    },
+    {
+      "Id": 2057,
+      "Name": "br_stellarium",
+      "IncludeAllUpper": false,
+      "Cost": "2.73E+169",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Stellarium"
+    },
+    {
+      "Id": 2058,
+      "Name": "br_galaxy",
+      "IncludeAllUpper": false,
+      "Cost": "5.08E+177",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Galaxy Stone"
+    },
+    {
+      "Id": 2059,
+      "Name": "br_cosmonite",
+      "IncludeAllUpper": false,
+      "Cost": "6.43E+183",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Cosmonite"
+    },
+    {
+      "Id": 2060,
+      "Name": "br_exceedium",
+      "IncludeAllUpper": false,
+      "Cost": "4.52E+190",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Exceedium"
+    },
+    {
+      "Id": 2061,
+      "Name": "br_expansion",
+      "IncludeAllUpper": false,
+      "Cost": "2.00E+197",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Expansion Stone"
+    },
+    {
+      "Id": 2062,
+      "Name": "br_beginning",
+      "IncludeAllUpper": false,
+      "Cost": "1.50E+204",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Origin Stone"
+    },
+    {
+      "Id": 2063,
+      "Name": "br_singularitium",
+      "IncludeAllUpper": false,
+      "Cost": "3.00E+211",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Singularitium"
+    },
+    {
+      "Id": 2064,
+      "Name": "br_universe",
+      "IncludeAllUpper": false,
+      "Cost": "5.00E+218",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Universe Stone"
+    },
+    {
+      "Id": 2065,
+      "Name": "br_dimentium",
+      "IncludeAllUpper": false,
+      "Cost": "1.50E+226",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Dimentium"
+    },
+    {
+      "Id": 2066,
+      "Name": "br_destiny",
+      "IncludeAllUpper": false,
+      "Cost": "5.74E+246",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Destiny Stone"
+    },
+    {
+      "Id": 2067,
+      "Name": "br_life",
+      "IncludeAllUpper": false,
+      "Cost": "5.89E+266",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Life Stone"
+    },
+    {
+      "Id": 2068,
+      "Name": "br_thunder_storm",
+      "IncludeAllUpper": false,
+      "Cost": "1.88E+287",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Thunder Stone"
+    },
+    {
+      "Id": 2069,
+      "Name": "br_abaddon",
+      "IncludeAllUpper": false,
+      "Cost": "1.2E+310",
+      "CostUp": 2.625,
+      "CostUpPow": 1.01,
+      "English": "Abyss Stone"
+    },
+    {
+      "Id": 2070,
+      "Name": "br_divine",
+      "IncludeAllUpper": false,
+      "Cost": "4E+330",
+      "CostUp": 2.625,
+      "CostUpPow": 1.01,
+      "English": "Sacred Stone"
+    },
+    {
+      "Id": 2071,
+      "Name": "br_ruin_stone",
+      "IncludeAllUpper": false,
+      "Cost": "2.5E+358",
+      "CostUp": 2.75,
+      "CostUpPow": 1.01,
+      "English": "Ruin Stone"
+    },
+    {
+      "Id": 2072,
+      "Name": "br_phantom_steel",
+      "IncludeAllUpper": false,
+      "Cost": "7.5E+386",
+      "CostUp": 2.875,
+      "CostUpPow": 1.01,
+      "English": "Phantom Steel"
+    },
+    {
+      "Id": 2073,
+      "Name": "br_ancient",
+      "IncludeAllUpper": false,
+      "Cost": "8E+410",
+      "CostUp": 2.875,
+      "CostUpPow": 1.01,
+      "English": "Ancient Stone"
+    },
+    {
+      "Id": 2074,
+      "Name": "br_prismite",
+      "IncludeAllUpper": false,
+      "Cost": "5.5E+434",
+      "CostUp": 3.0,
+      "CostUpPow": 1.01,
+      "English": "Prismite"
+    },
+    {
+      "Id": 2075,
+      "Name": "br_apollorium",
+      "IncludeAllUpper": false,
+      "Cost": "1E+466",
+      "CostUp": 3.125,
+      "CostUpPow": 1.01,
+      "English": "Apollorium"
+    },
+    {
+      "Id": 2076,
+      "Name": "br_determinite",
+      "IncludeAllUpper": false,
+      "Cost": "1E+498",
+      "CostUp": 3.125,
+      "CostUpPow": 1.01,
+      "English": "Determinite"
+    },
+    {
+      "Id": 2077,
+      "Name": "br_mjolnir",
+      "IncludeAllUpper": false,
+      "Cost": "7E+540",
+      "CostUp": 3.25,
+      "CostUpPow": 1.01,
+      "English": "Mjolnir"
+    },
+    {
+      "Id": 2078,
+      "Name": "br_bravery",
+      "IncludeAllUpper": false,
+      "Cost": "4.5E+580",
+      "CostUp": 3.375,
+      "CostUpPow": 1.01,
+      "English": "Bravery Stone"
+    },
+    {
+      "Id": 2079,
+      "Name": "br_overworld",
+      "IncludeAllUpper": false,
+      "Cost": "3E+616",
+      "CostUp": 3.5,
+      "CostUpPow": 1.01,
+      "English": "Nether Stone"
+    },
+    {
+      "Id": 2080,
+      "Name": "br_fury",
+      "IncludeAllUpper": false,
+      "Cost": "5E+658",
+      "CostUp": 3.625,
+      "CostUpPow": 1.01,
+      "English": "Rage Stone"
+    },
+    {
+      "Id": 2081,
+      "Name": "br_god",
+      "IncludeAllUpper": false,
+      "Cost": "6E+710",
+      "CostUp": 3.75,
+      "CostUpPow": 1.01,
+      "English": "God Stone"
+    },
+    {
+      "Id": 2082,
+      "Name": "br_authority",
+      "IncludeAllUpper": false,
+      "Cost": "1.5E+746",
+      "CostUp": 3.875,
+      "CostUpPow": 1.01,
+      "English": "Power Stone"
+    },
+    {
+      "Id": 2083,
+      "Name": "br_tribunite",
+      "IncludeAllUpper": false,
+      "Cost": "4E+782",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Tribunite"
+    },
+    {
+      "Id": 2084,
+      "Name": "br_judgment",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e842",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Judgment Stone"
+    },
+    {
+      "Id": 2085,
+      "Name": "br_grace",
+      "IncludeAllUpper": false,
+      "Cost": "5e878",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Grace Stone"
+    },
+    {
+      "Id": 2086,
+      "Name": "br_creation",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e914",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Creation Stone"
+    },
+    {
+      "Id": 2087,
+      "Name": "br_fall",
+      "IncludeAllUpper": false,
+      "Cost": "7.5e966",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Demolition Stone"
+    },
+    {
+      "Id": 2088,
+      "Name": "br_blaze",
+      "IncludeAllUpper": false,
+      "Cost": "3.5e1003",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Blazing Stone"
+    },
+    {
+      "Id": 2089,
+      "Name": "br_heaven",
+      "IncludeAllUpper": false,
+      "Cost": "1e1041",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Celestial Stone"
+    },
+    {
+      "Id": 2090,
+      "Name": "br_deep_sea",
+      "IncludeAllUpper": false,
+      "Cost": "3e1097",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Abyssal Stone"
+    },
+    {
+      "Id": 2091,
+      "Name": "br_gale",
+      "IncludeAllUpper": false,
+      "Cost": "8e1147",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Tempest Stone"
+    },
+    {
+      "Id": 2092,
+      "Name": "br_prime",
+      "IncludeAllUpper": false,
+      "Cost": "6e1177",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Prime Stone"
+    },
+    {
+      "Id": 2093,
+      "Name": "br_ego",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e1255",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Ego"
+    },
+    {
+      "Id": 2094,
+      "Name": "br_end",
+      "IncludeAllUpper": false,
+      "Cost": "9e1308",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Apocalypse Stone"
+    },
+    {
+      "Id": 2095,
+      "Name": "br_multiverstone",
+      "IncludeAllUpper": false,
+      "Cost": "1e1363",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Multiversestone"
+    },
+    {
+      "Id": 2096,
+      "Name": "br_hyperium",
+      "IncludeAllUpper": false,
+      "Cost": "4e1473",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Hyperium"
+    },
+    {
+      "Id": 2097,
+      "Name": "br_omni",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e1548",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Omnipotent Stone"
+    },
+    {
+      "Id": 2098,
+      "Name": "br_celesterium",
+      "IncludeAllUpper": false,
+      "Cost": "6e1624",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Celesterium"
+    },
+    {
+      "Id": 2099,
+      "Name": "br_manifoldium",
+      "IncludeAllUpper": false,
+      "Cost": "3e1790",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Manifoldium"
+    },
+    {
+      "Id": 2100,
+      "Name": "br_worldstone",
+      "IncludeAllUpper": false,
+      "Cost": "1.5e1990",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "World Stone"
+    },
+    {
+      "Id": 9030,
+      "Name": "dv_kirin",
+      "IncludeAllUpper": false,
+      "Cost": "1.73E+47",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Kirin",
+      "Description": "\"An auspicious being that controls life, wielding magic. If he does that, the future does not look good.\""
+    },
+    {
+      "Id": 9033,
+      "Name": "dv_chaa",
+      "IncludeAllUpper": false,
+      "Cost": "8.13E+54",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Ch'aak",
+      "Description": "\"Also known as the emissary for the gods. It is all purely stories found in myths and legends, so don't even bother thinking about looking for it.\""
+    },
+    {
+      "Id": 9036,
+      "Name": "dv_aio",
+      "IncludeAllUpper": false,
+      "Cost": "9.39E+65",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Aio",
+      "Description": "\"It is said to bring riches and good fortune. You think I'm being sentimental? Well, riches and good fortune can also be achieved through power.\""
+    },
+    {
+      "Id": 9039,
+      "Name": "dv_pegasus",
+      "IncludeAllUpper": false,
+      "Cost": "9.77E+77",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Pegasus",
+      "Description": "\"To be brilliant can also mean to be destructive.\""
+    },
+    {
+      "Id": 9042,
+      "Name": "dv_tumtum",
+      "IncludeAllUpper": false,
+      "Cost": "1.00E+90",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Tumtum",
+      "Description": "\"Let us not underestimate what lies beneath our feet. If the ceiling can crush you, the floor can send you to an abyss.\""
+    },
+    {
+      "Id": 9045,
+      "Name": "dv_pheonix",
+      "IncludeAllUpper": false,
+      "Cost": "2.05E+103",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Pheonix",
+      "Description": "\"True immortality is being reborn.\""
+    },
+    {
+      "Id": 9048,
+      "Name": "dv_archeros",
+      "IncludeAllUpper": false,
+      "Cost": "9.53E+118",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Archeros",
+      "Description": "\"It controls dreams. What would happen if you lost your dreams?\""
+    },
+    {
+      "Id": 9051,
+      "Name": "dv_oriona",
+      "IncludeAllUpper": false,
+      "Cost": "1.04E+133",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Oriona",
+      "Description": "\"It's not predicting the future, it's just taking a peek.\""
+    },
+    {
+      "Id": 9054,
+      "Name": "dv_ouroboros",
+      "IncludeAllUpper": false,
+      "Cost": "2.26E+148",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Ouroboros",
+      "Description": "\"Endless reincarnation signifies growth, not repetition.\""
+    },
+    {
+      "Id": 9057,
+      "Name": "dv_kraken",
+      "IncludeAllUpper": false,
+      "Cost": "4.40E+166",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Kraken",
+      "Description": "\"It's not the monster that eats them, it's fear.\""
+    },
+    {
+      "Id": 9060,
+      "Name": "dv_kerberos",
+      "IncludeAllUpper": false,
+      "Cost": "3.61E+190",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Kerberos",
+      "Description": "\"Hell is a place only the strong can enter.\""
+    },
+    {
+      "Id": 9063,
+      "Name": "dv_world_tree",
+      "IncludeAllUpper": false,
+      "Cost": "4.38E+216",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "World Tree",
+      "Description": "\"Life requires sacrifice.\""
+    },
+    {
+      "Id": 9066,
+      "Name": "dv_chimera",
+      "IncludeAllUpper": false,
+      "Cost": "4.59E+246",
+      "CostUp": 2.5,
+      "CostUpPow": 1.01,
+      "English": "Chimera",
+      "Description": "\"That should not exist. Not even in stories.\""
+    },
+    {
+      "Id": 9069,
+      "Name": "dv_quetzalcoatl",
+      "IncludeAllUpper": false,
+      "Cost": "6e309",
+      "CostUp": 2.625,
+      "CostUpPow": 1.01,
+      "English": "Quetzalcoatl",
+      "Description": "\"When an ill omen appears, one must prepare sacrifices.\""
+    },
+    {
+      "Id": 9072,
+      "Name": "dv_hephaestus",
+      "IncludeAllUpper": false,
+      "Cost": "3.5e385",
+      "CostUp": 2.875,
+      "CostUpPow": 1.01,
+      "English": "Hephaestus",
+      "Description": "\"Divinity is sometimes forged from fear.\""
+    },
+    {
+      "Id": 9075,
+      "Name": "dv_dark_dragon",
+      "IncludeAllUpper": false,
+      "Cost": "5e465",
+      "CostUp": 3.125,
+      "CostUpPow": 1.01,
+      "English": "Dark Dragon",
+      "Description": "\"They say only black ash remains in its wake.\""
+    },
+    {
+      "Id": 9078,
+      "Name": "dv_jormungand",
+      "IncludeAllUpper": false,
+      "Cost": "2e554",
+      "CostUp": 3.375,
+      "CostUpPow": 1.01,
+      "English": "Jormungand",
+      "Description": "\"It's large enough to encompass the world. Perhaps the world has already been devoured.\""
+    },
+    {
+      "Id": 9081,
+      "Name": "dv_yggdrasil",
+      "IncludeAllUpper": false,
+      "Cost": "6e664",
+      "CostUp": 3.75,
+      "CostUpPow": 1.01,
+      "English": "Ygggrasil",
+      "Description": "\"A being that governs all of space and time. Both past and future, and even fate itself.\""
+    },
+    {
+      "Id": 9084,
+      "Name": "dv_seraph",
+      "IncludeAllUpper": false,
+      "Cost": "2.5e789",
+      "CostUp": 3.375,
+      "CostUpPow": 1.01,
+      "English": "Seraph",
+      "Description": "\"All we can do is hope they take pity on us.\""
+    },
+    {
+      "Id": 9087,
+      "Name": "dv_echidna",
+      "IncludeAllUpper": false,
+      "Cost": "7.5e929",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Echidna",
+      "Description": "\"Pain that pierces the mind is worse than pain that stops the heart.\""
+    },
+    {
+      "Id": 9090,
+      "Name": "dv_griffin",
+      "IncludeAllUpper": false,
+      "Cost": "3e1078",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Griffin",
+      "Description": "\"What do you think it means to be the most intelligent being in the universe?\""
+    },
+    {
+      "Id": 9093,
+      "Name": "dv_typhon",
+      "IncludeAllUpper": false,
+      "Cost": "6e1167",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Typhon",
+      "Description": "\"Kneel before greatness.\""
+    },
+    {
+      "Id": 9096,
+      "Name": "dv_medusa",
+      "IncludeAllUpper": false,
+      "Cost": "9e1308",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Medusa",
+      "Description": "\"The moment you meet her eyes, you'll turn to Brick. It's not a metaphor.\""
+    },
+    {
+      "Id": 9097,
+      "Name": "dv_valkyrie",
+      "IncludeAllUpper": false,
+      "Cost": "4e1473",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Valkyrie",
+      "Description": "\"When justice wavers, the messenger of God shall descend.\""
+    },
+    {
+      "Id": 9098,
+      "Name": "dv_anubis",
+      "IncludeAllUpper": false,
+      "Cost": "6e1624",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Anubis",
+      "Description": "\"The eternal flow of sand resembles the shape of the universe.\""
+    },
+    {
+      "Id": 9100,
+      "Name": "dv_load_of_ruin",
+      "IncludeAllUpper": false,
+      "Cost": "1.5e1990",
+      "CostUp": 4.0,
+      "CostUpPow": 1.01,
+      "English": "Lord of Ruin",
+      "Description": "\"Face Ruin.\""
+    }
+  ]
+}

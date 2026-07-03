@@ -1,0 +1,13 @@
+﻿Id,Type,BonusId,ValueCommon,Chance,ValueType,ValueSuperioe,ValueRare,ValueHeroic,ValueEpic,SlotId,Value,MaxLevel,SlotBonusGold,SlotBonusGoldUp
+101,SlotBonus,0,0,0,Percent,0,0,0,0,1,30.0,10,1.00E+03,10.0
+102,SlotBonus,0,0,0,Percent,0,0,0,0,2,30.0,10,1.00E+03,10.0
+103,SlotBonus,0,0,0,Percent,0,0,0,0,3,30.0,10,1.00E+03,10.0
+104,SlotBonus,0,0,0,Percent,0,0,0,0,4,30.0,10,1.00E+03,10.0
+105,SlotBonus,0,0,0,Percent,0,0,0,0,5,30.0,10,1.00E+03,10.0
+106,SlotBonus,0,0,0,Percent,0,0,0,0,6,30.0,10,1.00E+03,10.0
+107,SlotBonus,0,0,0,Percent,0,0,0,0,7,30.0,10,1.00E+03,10.0
+108,SlotBonus,0,0,0,Percent,0,0,0,0,8,30.0,10,1.00E+03,10.0
+109,SlotBonus,0,0,0,Percent,0,0,0,0,9,30.0,10,1.00E+03,10.0
+110,SlotBonus,0,0,0,Percent,0,0,0,0,10,30.0,10,1.00E+03,10.0
+111,SlotBonus,0,0,0,Percent,0,0,0,0,11,30.0,10,1.00E+03,10.0
+112,SlotBonus,0,0,0,Percent,0,0,0,0,12,30.0,10,1.00E+03,10.0

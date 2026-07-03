@@ -1,0 +1,16 @@
+﻿Id,Name,Sort,Type,ValueType,ValueCommon,ValueSuperior,ValueRare,ValueHeroic,ValueHeroicPlus,ValueEpic,ValueEpicPlus,ValueLegend,ValueLegendPlus,ValueLegendPlus2,ValueMystic,ValueMysticPlus,ValueMysticPlus2,LegendType,LegendValueType,LegendValue,MysticType,MysticValueType,MysticValue,English
+15001,af_golden_duck,3,Gold,Percent,25.0,50.0,100.0,200.0,400.0,1000.0,2000.0,5000.0,15000.0,50000.0,250000.0,750000.0,2500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Golden Duck
+15002,af_void_core,4,Power,Percent,25.0,50.0,100.0,200.0,400.0,1000.0,2000.0,5000.0,15000.0,50000.0,250000.0,750000.0,2500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Void Core
+15003,af_eternal_flame,5,PrestigeBonus,Percent,25.0,50.0,100.0,200.0,400.0,1000.0,2000.0,5000.0,15000.0,50000.0,250000.0,750000.0,2500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Eternal Flame
+15004,af_solar_reactor,6,AllWeaponDmg,Percent,15.0,30.0,60.0,120.0,240.0,600.0,1200.0,3000.0,9000.0,30000.0,150000.0,450000.0,1500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Solar Reactor
+15005,af_transcendental_orb,7,SciencePoint,Percent,5.0,10.0,20.0,40.0,80.0,200.0,400.0,1000.0,3000.0,10000.0,50000.0,150000.0,500000.0,Ether,Percent,100.0,Tachyon,Percent,200.0,Transcendent Orb
+15006,af_celestial_circle,8,WeaponEnhanceBonus,Percent,15.0,30.0,60.0,120.0,240.0,600.0,1200.0,3000.0,9000.0,30000.0,150000.0,450000.0,1500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Celestial Circle
+15007,af_quantum_dice,9,CriDmg,Percent,15.0,30.0,60.0,120.0,240.0,600.0,1200.0,3000.0,9000.0,30000.0,150000.0,450000.0,1500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Quantum Dice
+15008,af_omega_lens,10,SuperCriDmg,Percent,15.0,30.0,60.0,120.0,240.0,600.0,1200.0,3000.0,9000.0,30000.0,150000.0,450000.0,1500000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Omega Lens
+15009,af_key_of_creation,11,ResearchCostDown,Divide,1.5,2.0,4.0,8.0,16.0,40.0,80.0,200.0,600.0,2000.0,10000.0,30000.0,100000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Key of Creation
+15010,af_arcane_hammer,12,WeaponEnhanceCostDown,Divide,1.5,2.0,4.0,8.0,16.0,40.0,80.0,200.0,600.0,2000.0,10000.0,30000.0,100000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Arcane Hammer
+15011,af_infernal_drive,13,BlockHpDown,Divide,1.25,1.5,2.0,4.0,8.0,20.0,40.0,100.0,300.0,1000.0,5000.0,15000.0,50000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Infernal Drive
+15012,af_book_of_death,14,DivineBeastHpDown,Divide,1.25,1.5,2.0,4.0,8.0,20.0,40.0,100.0,300.0,1000.0,5000.0,15000.0,50000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Book of Death
+15013,af_dominator_crown,15,RankPowerDown,Divide,1.25,1.5,2.0,4.0,8.0,20.0,40.0,100.0,300.0,1000.0,5000.0,15000.0,50000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Dominator Crown
+15014,af_branch_of_life,16,BattleHp,Percent,10.0,20.0,40.0,80.0,160.0,400.0,800.0,2000.0,6000.0,20000.0,100000.0,300000.0,1000000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Branch of Life
+15015,af_bloom_of_ruin,17,BattleAtk,Percent,10.0,20.0,40.0,80.0,160.0,400.0,800.0,2000.0,6000.0,20000.0,100000.0,300000.0,1000000.0,SciencePoint,Percent,100.0,DStone,Percent,25.0,Flower of Ruin

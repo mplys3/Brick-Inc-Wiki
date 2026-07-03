@@ -1,0 +1,1039 @@
+{
+  "type": "MasterSoulAltar",
+  "index": 72,
+  "count": 90,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 1,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "ValueList",
+      "param": "valueListOffset",
+      "kind": "VectorOffset",
+      "index": 3,
+      "element": "double"
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 4
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "5.00E+01"
+    },
+    {
+      "Level": 2,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2.00E+03"
+    },
+    {
+      "Level": 3,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.50E+05"
+    },
+    {
+      "Level": 4,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        8.0
+      ],
+      "Cost": "2.50E+07"
+    },
+    {
+      "Level": 5,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "5.00E+09"
+    },
+    {
+      "Level": 6,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2.00E+12"
+    },
+    {
+      "Level": 7,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.80E+14"
+    },
+    {
+      "Level": 8,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "3.00E+16"
+    },
+    {
+      "Level": 9,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "2.50E+18"
+    },
+    {
+      "Level": 10,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        8.0
+      ],
+      "Cost": "1.50E+21"
+    },
+    {
+      "Level": 11,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "2.00E+23"
+    },
+    {
+      "Level": 12,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "1.40E+25"
+    },
+    {
+      "Level": 13,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "3.00E+27"
+    },
+    {
+      "Level": 14,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2.40E+29"
+    },
+    {
+      "Level": 15,
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        1.0
+      ],
+      "Cost": "3.00E+31"
+    },
+    {
+      "Level": 16,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "7.20E+33"
+    },
+    {
+      "Level": 17,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "6.00E+35"
+    },
+    {
+      "Level": 18,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.00E+38"
+    },
+    {
+      "Level": 19,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "7.00E+39"
+    },
+    {
+      "Level": 20,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "9.00E+41"
+    },
+    {
+      "Level": 21,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "8.00E+43"
+    },
+    {
+      "Level": 22,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "7.00E+45"
+    },
+    {
+      "Level": 23,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "1.50E+48"
+    },
+    {
+      "Level": 24,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "2.00E+50"
+    },
+    {
+      "Level": 25,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "8.50E+52"
+    },
+    {
+      "Level": 26,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        6.0
+      ],
+      "Cost": "1.00E+56"
+    },
+    {
+      "Level": 27,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "9.00E+58"
+    },
+    {
+      "Level": 28,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.50E+62"
+    },
+    {
+      "Level": 29,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        6.0
+      ],
+      "Cost": "2.20E+66"
+    },
+    {
+      "Level": 30,
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        1.0
+      ],
+      "Cost": "4.00E+70"
+    },
+    {
+      "Level": 31,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        6.0
+      ],
+      "Cost": "5.00E+74"
+    },
+    {
+      "Level": 32,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "1.00E+79"
+    },
+    {
+      "Level": 33,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.50E+83"
+    },
+    {
+      "Level": 34,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10.0
+      ],
+      "Cost": "3.00E+87"
+    },
+    {
+      "Level": 35,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "5.00E+91"
+    },
+    {
+      "Level": 36,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.50E+96"
+    },
+    {
+      "Level": 37,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10.0
+      ],
+      "Cost": "4.30E+100"
+    },
+    {
+      "Level": 38,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2.00E+105"
+    },
+    {
+      "Level": 39,
+      "TypeList": [
+        "Gold",
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0,
+        4.0
+      ],
+      "Cost": "1.50E+110"
+    },
+    {
+      "Level": 40,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "1.75E+115"
+    },
+    {
+      "Level": 41,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        7.0
+      ],
+      "Cost": "1.50E+120"
+    },
+    {
+      "Level": 42,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        8.0
+      ],
+      "Cost": "9.00E+124"
+    },
+    {
+      "Level": 43,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2.00E+130"
+    },
+    {
+      "Level": 44,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        6.0
+      ],
+      "Cost": "1.80E+135"
+    },
+    {
+      "Level": 45,
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        1.0
+      ],
+      "Cost": "3.50E+140"
+    },
+    {
+      "Level": 46,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10.0
+      ],
+      "Cost": "4.00E+145"
+    },
+    {
+      "Level": 47,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        6.0
+      ],
+      "Cost": "1.40E+151"
+    },
+    {
+      "Level": 48,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "1.30E+157"
+    },
+    {
+      "Level": 49,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "9.00E+163"
+    },
+    {
+      "Level": 50,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "7.50E+171"
+    },
+    {
+      "Level": 51,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        10.0
+      ],
+      "Cost": "4.00E+180"
+    },
+    {
+      "Level": 52,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        6.0
+      ],
+      "Cost": "6.50E+189"
+    },
+    {
+      "Level": 53,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "3.00E+196"
+    },
+    {
+      "Level": 54,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2.00E+203"
+    },
+    {
+      "Level": 55,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "4.00E+210"
+    },
+    {
+      "Level": 56,
+      "TypeList": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        8.0,
+        8.0
+      ],
+      "Cost": "5.00E+217"
+    },
+    {
+      "Level": 57,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        7.0
+      ],
+      "Cost": "2.50E+225"
+    },
+    {
+      "Level": 58,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "8.00E+245"
+    },
+    {
+      "Level": 59,
+      "TypeList": [
+        "Gold",
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0,
+        2.5
+      ],
+      "Cost": "5.00E+265"
+    },
+    {
+      "Level": 60,
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        2.0
+      ],
+      "Cost": "2.50E+286"
+    },
+    {
+      "Level": 61,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1e335"
+    },
+    {
+      "Level": 62,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "4.5e371"
+    },
+    {
+      "Level": 63,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.5e408"
+    },
+    {
+      "Level": 64,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "5e444"
+    },
+    {
+      "Level": 65,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2e487"
+    },
+    {
+      "Level": 66,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1e532"
+    },
+    {
+      "Level": 67,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.5
+      ],
+      "Cost": "8e573"
+    },
+    {
+      "Level": 68,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.5
+      ],
+      "Cost": "5.5e620"
+    },
+    {
+      "Level": 69,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "9e661"
+    },
+    {
+      "Level": 70,
+      "TypeList": [
+        "BlockHpDown",
+        "DivineBeastHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        3.0,
+        3.0
+      ],
+      "Cost": "1e714"
+    },
+    {
+      "Level": 71,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "2.5e749"
+    },
+    {
+      "Level": 72,
+      "TypeList": [
+        "CriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "7e785"
+    },
+    {
+      "Level": 73,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "4e845"
+    },
+    {
+      "Level": 74,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.5
+      ],
+      "Cost": "9e881"
+    },
+    {
+      "Level": 75,
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        2.0
+      ],
+      "Cost": "4.5e917"
+    },
+    {
+      "Level": 76,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.5
+      ],
+      "Cost": "1e970"
+    },
+    {
+      "Level": 77,
+      "TypeList": [
+        "SuperCriDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "6e1006"
+    },
+    {
+      "Level": 78,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "1.5e1044"
+    },
+    {
+      "Level": 79,
+      "TypeList": [
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        4.0
+      ],
+      "Cost": "5.5e1100"
+    },
+    {
+      "Level": 80,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "1.5e1151"
+    },
+    {
+      "Level": 81,
+      "TypeList": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.5
+      ],
+      "Cost": "1e1181"
+    },
+    {
+      "Level": 82,
+      "TypeList": [
+        "Power"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "4.5e1258"
+    },
+    {
+      "Level": 83,
+      "TypeList": [
+        "BlockHpDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "1.5e1312"
+    },
+    {
+      "Level": 84,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "2e1366"
+    },
+    {
+      "Level": 85,
+      "TypeList": [
+        "Gold"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "7.5e1476"
+    },
+    {
+      "Level": 86,
+      "TypeList": [
+        "AllWeaponDmg"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        2.0
+      ],
+      "Cost": "4.5e1551"
+    },
+    {
+      "Level": 87,
+      "TypeList": [
+        "ResearchCostDown"
+      ],
+      "ValueType": "Divide",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "1e1628"
+    },
+    {
+      "Level": 88,
+      "TypeList": [
+        "QuantumPoint"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "5.5e1793"
+    },
+    {
+      "Level": 89,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueType": "Multiply",
+      "ValueList": [
+        3.0
+      ],
+      "Cost": "2e1894"
+    },
+    {
+      "Level": 90,
+      "TypeList": [
+        "SoulEnhanceMaxLevelUp"
+      ],
+      "ValueType": "Add",
+      "ValueList": [
+        5.0
+      ],
+      "Cost": "3e1993"
+    }
+  ]
+}

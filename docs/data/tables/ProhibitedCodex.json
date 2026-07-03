@@ -1,0 +1,75 @@
+{
+  "type": "MasterProhibitedCodex",
+  "index": 92,
+  "count": 7,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "NeedCount",
+      "param": "needCount",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Cost",
+      "param": "cost",
+      "kind": "int",
+      "index": 3
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "NeedCount": 4,
+      "Bonus": 1,
+      "Cost": 5
+    },
+    {
+      "Level": 2,
+      "NeedCount": 8,
+      "Bonus": 4,
+      "Cost": 10
+    },
+    {
+      "Level": 3,
+      "NeedCount": 12,
+      "Bonus": 16,
+      "Cost": 15
+    },
+    {
+      "Level": 4,
+      "NeedCount": 16,
+      "Bonus": 64,
+      "Cost": 20
+    },
+    {
+      "Level": 5,
+      "NeedCount": 20,
+      "Bonus": 256,
+      "Cost": 25
+    },
+    {
+      "Level": 6,
+      "NeedCount": 24,
+      "Bonus": 1024,
+      "Cost": 30
+    },
+    {
+      "Level": 7,
+      "NeedCount": 28,
+      "Bonus": 4096,
+      "Cost": 35
+    }
+  ]
+}

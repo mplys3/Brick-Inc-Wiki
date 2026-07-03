@@ -1,0 +1,86 @@
+{
+  "type": "MasterArk",
+  "index": 115,
+  "count": 0,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "UpgradeType",
+      "param": "upgradeType",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "Pow",
+      "param": "pow",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "UnlockCost",
+      "param": "unlockCostOffset",
+      "kind": "StringOffset",
+      "index": 5
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 6
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 7
+    },
+    {
+      "name": "CommonCost",
+      "param": "commonCost",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "CommonCostUp",
+      "param": "commonCostUp",
+      "kind": "int",
+      "index": 9
+    },
+    {
+      "name": "ValueType2",
+      "param": "valueType2",
+      "kind": "MasterUpgradeValueType",
+      "index": 10
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 11
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUp",
+      "kind": "double",
+      "index": 12
+    }
+  ],
+  "rows": []
+}

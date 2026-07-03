@@ -1,0 +1,75 @@
+﻿Id,Prefab,ConditionTutorial,ConditionRank,SkipRank,UnlockContents
+100,tu_0100_weapon_fire_button,0,0,0,
+101,tu_0101_weapon_fire_screen,100,0,0,Weapon
+110,tu_0110_weapon_buy,101,0,0,
+111,tu_0111_weapon_equip,110,0,0,
+112,tu_0112_weapon_enhance,111,0,0,Research
+120,tu_0120_research,112,0,0,"Field, DivineBeast"
+130,tu_0130_field_unlock,120,0,0,
+131,tu_0131_field_change,130,0,0,Rank
+140,tu_0140_rank_up,131,0,0,
+150,tu_0150_rank_up,140,0,2,
+200,,0,2,0,"Card, Altar, Shop, EpicUpgrade, EpicShop, Item, Attendance, Membership"
+210,tu_0210_summon_card,200,0,10,"SaleShop, MileageShop, Mission"
+220,tu_0220_mission,210,0,10,SurpriseBox
+300,,0,3,0,"Booster, Pass, Mine, GrowthCeneter"
+310,tu_0310_booster,300,0,10,
+320,tu_0320_pass,310,0,10,
+400,,0,4,0,"Event, PiggyBank"
+405,tu_0405_event,400,0,10,
+500,,0,5,0,"Prestige, SoulUpgrade, GameEvent, Leaderboard, SystemManager"
+510,tu_0510_prestige,500,0,10,
+600,,0,6,0,ChallengeLicence
+610,tu_0610_challenge_licence,600,0,10,
+700,,0,7,0,SoulEnhance
+1300,,0,9,0,
+1310,tu_1310_system_manager,500,0,0,
+1000,,0,10,0,Science
+1010,tu_1010_science,1000,0,0,
+1200,,0,12,0,ArtSociety
+1210,tu_1210_art_society,1200,0,0,
+1600,,0,16,0,DevilOrder
+1610,tu_1610_devil_order,1600,0,0,
+1800,,0,18,0,DevilOrderCurse
+1900,,0,19,0,"Sanctum, ChallengeChaos"
+1910,tu_1910_sanctum,1900,0,31,
+1920,tu_1920_challenge_chaos,1910,0,31,
+2800,,0,21,0,DivineBeastEx
+2200,,0,22,0,Forge
+2500,,0,25,0,WarAI
+2510,tu_2510_war_ai,2500,0,0,
+3000,,0,30,0,WarAISoulAltar
+3100,,0,31,0,MysticCard
+3110,tu_3110_mystic_card,3100,0,43,
+3300,,0,33,0,DivineBeastSurge
+3400,,0,34,0,GoldenCube
+3410,tu_3410_golden_cube,3400,0,0,
+3600,,0,36,0,SecretArea
+3610,tu_3610_secret_area,3600,0,0,
+4000,,0,40,0,GoldenCubeInnovation
+4100,,0,41,0,SecretAreaExpansionReady
+4110,tu_4110_secret_area_expansion,4100,0,0,
+4300,,0,43,0,Dimension
+4310,tu_4310_dimension,4300,0,0,
+4600,,0,46,0,TruthGardenExpansionReady
+4610,tu_4610_truth_garden_expansion,4600,0,0,
+4900,,0,49,0,Oracle
+4910,tu_4910_oracle,4900,0,0,
+5100,,0,51,0,DimensionalArchive
+5110,tu_5110_dimensional_archive,5100,0,0,
+5500,,0,53,0,Nexus
+5510,tu_5510_nexus,5500,0,0,
+5600,,0,55,0,"DimensionExpansionReady, ChallengeDive"
+5610,tu_5610_dimension_expansion,5600,0,0,
+5620,tu_5620_challenge_dive,5610,0,0,
+5700,,0,57,0,ChallengeDiveDeep
+5710,tu_5700_challenge_dive_deep,5700,0,0,
+5800,,0,58,0,"Ragnarok, DimensionGear, ChallengeLagrange"
+5810,tu_5810_ragnarok,5800,0,0,
+5820,tu_5820_challenge_lagrange,5810,0,0,
+6100,,0,61,0,OracleExpansionReady
+6110,tu_6110_oracle_expansion,6100,0,0,
+6400,,0,64,0,DimensionalArchiveExpansionReady
+6410,tu_6410_dimensional_archive_expansion,6400,0,0,
+7300,,0,73,0,Singularity
+7310,tu_7310_singularity,7300,0,0,

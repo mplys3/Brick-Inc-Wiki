@@ -1,0 +1,6 @@
+﻿Level,Cost1,Cost2,Cost3,StartChance,ChanceSucess,ChanceFail,ChanceMin,ChanceMax,TargetCount,FinalCost,BonusPow,RecoverCost
+1,10,10,20,50,-5,5,10,100,15,10,1.25,10
+2,10,10,20,45,-5,4,10,100,20,20,1.5,20
+3,15,15,30,40,-5,3,10,100,25,30,2.0,30
+4,20,20,40,35,-5,2,10,100,30,40,3.0,40
+5,25,25,50,30,-5,1,10,100,35,50,4.0,50

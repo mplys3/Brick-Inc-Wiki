@@ -1,0 +1,171 @@
+{
+  "type": "MasterStarSign",
+  "index": 93,
+  "count": 12,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Mark",
+      "param": "markOffset",
+      "kind": "StringOffset",
+      "index": 2
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 4
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 5
+    },
+    {
+      "name": "BonusPow",
+      "param": "bonusPow",
+      "kind": "double",
+      "index": 6
+    }
+  ],
+  "rows": [
+    {
+      "Id": 27001,
+      "Name": "ss_aries",
+      "Mark": "♈︎",
+      "Sort": 3,
+      "Type": "AllWeaponDmg",
+      "ValueType": "Multiply",
+      "BonusPow": 0.4,
+      "English": "Aries"
+    },
+    {
+      "Id": 27002,
+      "Name": "ss_taurus",
+      "Mark": "♉︎",
+      "Sort": 4,
+      "Type": "Gold",
+      "ValueType": "Multiply",
+      "BonusPow": 0.5,
+      "English": "Taurus"
+    },
+    {
+      "Id": 27003,
+      "Name": "ss_gemini",
+      "Mark": "♊︎",
+      "Sort": 5,
+      "Type": "RankPowerDown",
+      "ValueType": "Divide",
+      "BonusPow": 0.8,
+      "English": "Gemini"
+    },
+    {
+      "Id": 27004,
+      "Name": "ss_cancer",
+      "Mark": "♋︎",
+      "Sort": 6,
+      "Type": "Power",
+      "ValueType": "Multiply",
+      "BonusPow": 0.5,
+      "English": "Cancer"
+    },
+    {
+      "Id": 27005,
+      "Name": "ss_leo",
+      "Mark": "♌︎",
+      "Sort": 7,
+      "Type": "BattleStat",
+      "ValueType": "Multiply",
+      "BonusPow": 0.25,
+      "English": "Leo"
+    },
+    {
+      "Id": 27006,
+      "Name": "ss_virgo",
+      "Mark": "♍︎",
+      "Sort": 8,
+      "Type": "SciencePoint",
+      "ValueType": "Multiply",
+      "BonusPow": 0.2,
+      "English": "Virgo"
+    },
+    {
+      "Id": 27007,
+      "Name": "ss_libra",
+      "Mark": "♎︎",
+      "Sort": 9,
+      "Type": "DestinyEnergy",
+      "ValueType": "Multiply",
+      "BonusPow": 0.2,
+      "English": "Libra"
+    },
+    {
+      "Id": 27008,
+      "Name": "ss_scorpio",
+      "Mark": "♏︎",
+      "Sort": 10,
+      "Type": "PrestigeBonus",
+      "ValueType": "Multiply",
+      "BonusPow": 0.75,
+      "English": "Scorpio"
+    },
+    {
+      "Id": 27009,
+      "Name": "ss_sagittarius",
+      "Mark": "♐︎",
+      "Sort": 11,
+      "Type": "DFuel",
+      "ValueType": "Multiply",
+      "BonusPow": 0.2,
+      "English": "Sagittarius"
+    },
+    {
+      "Id": 27010,
+      "Name": "ss_capricorn",
+      "Mark": "♑︎",
+      "Sort": 12,
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "BonusPow": 0.75,
+      "English": "Capricorn"
+    },
+    {
+      "Id": 27011,
+      "Name": "ss_aquarius",
+      "Mark": "♒︎",
+      "Sort": 13,
+      "Type": "QuantumPoint",
+      "ValueType": "Multiply",
+      "BonusPow": 0.2,
+      "English": "Aquarius"
+    },
+    {
+      "Id": 27012,
+      "Name": "ss_pisces",
+      "Mark": "♓︎",
+      "Sort": 14,
+      "Type": "DStone",
+      "ValueType": "Multiply",
+      "BonusPow": 0.15,
+      "English": "Pisces"
+    }
+  ]
+}

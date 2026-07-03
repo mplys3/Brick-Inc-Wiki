@@ -1,0 +1,448 @@
+{
+  "type": "MasterTruthUpgrade",
+  "index": 87,
+  "count": 13,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Word",
+      "param": "wordOffset",
+      "kind": "StringOffset",
+      "index": 2
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "Value",
+      "param": "valueOffset",
+      "kind": "VectorOffset",
+      "index": 8,
+      "element": "double"
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUpOffset",
+      "kind": "VectorOffset",
+      "index": 9,
+      "element": "double"
+    },
+    {
+      "name": "Cost",
+      "param": "cost",
+      "kind": "long",
+      "index": 10
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 11
+    }
+  ],
+  "rows": [
+    {
+      "Id": 23001,
+      "Name": "tu_light",
+      "Word": "光",
+      "UnlockRank": 46,
+      "Sort": 3,
+      "TypeList": [
+        "MeditationMysticGrade"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "MaxLevel": 10,
+      "Value": [
+        0.0
+      ],
+      "ValueUp": [
+        30.0
+      ],
+      "Cost": "",
+      "CostUp": 250.0,
+      "English": "LIGHT"
+    },
+    {
+      "Id": 23002,
+      "Name": "tu_fire",
+      "Word": "火",
+      "UnlockRank": 46,
+      "Sort": 4,
+      "TypeList": [
+        "AllWeaponDmg",
+        "CriDmg",
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        100.0,
+        20.0,
+        50.0
+      ],
+      "Cost": "",
+      "CostUp": 25.0,
+      "English": "FIRE"
+    },
+    {
+      "Id": 23003,
+      "Name": "tu_wood",
+      "Word": "木",
+      "UnlockRank": 48,
+      "Sort": 5,
+      "TypeList": [
+        "RankPowerDown",
+        "WeaponEnhanceCostDown",
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Divide",
+        "Divide"
+      ],
+      "MaxLevel": 33,
+      "Value": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ValueUp": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "Cost": "",
+      "CostUp": 25.0,
+      "English": "WOOD"
+    },
+    {
+      "Id": 23004,
+      "Name": "tu_water",
+      "Word": "水",
+      "UnlockRank": 50,
+      "Sort": 6,
+      "TypeList": [
+        "Ether",
+        "Tachyon"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        25.0,
+        25.0
+      ],
+      "Cost": "",
+      "CostUp": 50.0,
+      "English": "WATER"
+    },
+    {
+      "Id": 23005,
+      "Name": "tu_metal",
+      "Word": "金",
+      "UnlockRank": 52,
+      "Sort": 7,
+      "TypeList": [
+        "Gold",
+        "SciencePoint",
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        100.0,
+        50.0,
+        25.0
+      ],
+      "Cost": "",
+      "CostUp": 75.0,
+      "English": "METAL"
+    },
+    {
+      "Id": 23006,
+      "Name": "tu_air",
+      "Word": "風",
+      "UnlockRank": 54,
+      "Sort": 8,
+      "TypeList": [
+        "AllWeaponSpd",
+        "MiningSpeed",
+        "ForgeSpeed"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent",
+        "Percent"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "Cost": "",
+      "CostUp": 75.0,
+      "English": "WIND"
+    },
+    {
+      "Id": 23007,
+      "Name": "tu_earth",
+      "Word": "土",
+      "UnlockRank": 58,
+      "Sort": 9,
+      "TypeList": [
+        "BlockHpDown",
+        "ArtifactDrop",
+        "LagrangeDrop"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Add",
+        "Add"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        4.0,
+        1.0,
+        1.0
+      ],
+      "Cost": "",
+      "CostUp": 125.0,
+      "English": "EARTH"
+    },
+    {
+      "Id": 23008,
+      "Name": "tu_dark",
+      "Word": "暗",
+      "UnlockRank": 61,
+      "Sort": 10,
+      "TypeList": [
+        "TruthPathMysticGrade"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "MaxLevel": 10,
+      "Value": [
+        0.0
+      ],
+      "ValueUp": [
+        30.0
+      ],
+      "Cost": "",
+      "CostUp": 500.0,
+      "English": "DARKNESS"
+    },
+    {
+      "Id": 23009,
+      "Name": "tu_life",
+      "Word": "生",
+      "UnlockRank": 63,
+      "Sort": 11,
+      "TypeList": [
+        "BattleStat",
+        "MeditationCostExpansion"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "MaxLevel": 10,
+      "Value": [
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        100.0,
+        1.0
+      ],
+      "Cost": "",
+      "CostUp": 500.0,
+      "English": "LIFE"
+    },
+    {
+      "Id": 23010,
+      "Name": "tu_death",
+      "Word": "死",
+      "UnlockRank": 65,
+      "Sort": 12,
+      "TypeList": [
+        "Ash",
+        "TruthPathCostExpansion"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Add"
+      ],
+      "MaxLevel": 20,
+      "Value": [
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        25.0,
+        100.0
+      ],
+      "Cost": "",
+      "CostUp": 500.0,
+      "English": "DEATH"
+    },
+    {
+      "Id": 23011,
+      "Name": "tu_fate",
+      "Word": "命",
+      "UnlockRank": 67,
+      "Sort": 13,
+      "TypeList": [
+        "MiracleCrystal",
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        100.0,
+        50.0
+      ],
+      "Cost": "",
+      "CostUp": 500.0,
+      "English": "FATE"
+    },
+    {
+      "Id": 23013,
+      "Name": "tu_extremity",
+      "Word": "極",
+      "UnlockRank": 71,
+      "Sort": 15,
+      "TypeList": [
+        "ScienceRank",
+        "QuantumRank"
+      ],
+      "ValueTypeList": [
+        "Add",
+        "Add"
+      ],
+      "MaxLevel": 50,
+      "Value": [
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        1.0,
+        1.0
+      ],
+      "Cost": "",
+      "CostUp": 500.0,
+      "English": "EXTREM"
+    },
+    {
+      "Id": 23014,
+      "Name": "tu_singular",
+      "Word": "特",
+      "UnlockRank": 73,
+      "Sort": 16,
+      "TypeList": [
+        "DStone",
+        "SEnergy"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Percent"
+      ],
+      "MaxLevel": 25,
+      "Value": [
+        0.0,
+        0.0
+      ],
+      "ValueUp": [
+        10.0,
+        1.0
+      ],
+      "Cost": "",
+      "CostUp": 1000.0,
+      "English": "SINGULAR"
+    }
+  ]
+}

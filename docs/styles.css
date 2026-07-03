@@ -1,0 +1,12 @@
+:root{color-scheme:light;--bg:#f6f7f9;--panel:#fff;--ink:#1e252c;--muted:#68717c;--line:#d8dee6;--accent:#166a6f;--accent2:#a53f2b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.shell{display:grid;grid-template-columns:280px 1fr;min-height:100vh}.side{background:#162127;color:#eef5f5;padding:24px;position:sticky;top:0;height:100vh;overflow:auto}
+.side h1{font-size:22px;margin:0 0 6px}.side p{color:#b7c6ca;margin:0 0 18px}.nav a{display:block;color:#eef5f5;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.main{padding:28px;max-width:1500px}.hero{margin-bottom:22px}.hero h2{font-size:34px;margin:0 0 8px}.hero p{color:var(--muted);margin:0;max-width:850px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:12px;margin:20px 0}.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px}.stat b{display:block;font-size:24px}
+.section{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px;margin:18px 0}.section h3{margin:0 0 12px;font-size:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}.card{display:block;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;color:var(--ink)}.card b{display:block}.card span{color:var(--muted)}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px}table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;white-space:nowrap}th{position:sticky;top:0;background:#edf1f4;text-align:left}td{max-width:520px;overflow:hidden;text-overflow:ellipsis}.muted{color:var(--muted)}.icon{width:34px;height:34px;object-fit:contain;display:block}
+.toolbar{display:flex;gap:10px;align-items:center;margin:12px 0}.search{width:min(420px,100%);padding:10px;border:1px solid var(--line);border-radius:6px}
+@media(max-width:800px){.shell{display:block}.side{position:relative;height:auto}.main{padding:16px}.stats{grid-template-columns:1fr 1fr}}

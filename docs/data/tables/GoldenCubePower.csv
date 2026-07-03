@@ -1,0 +1,10 @@
+﻿Id,UpgradeType,ValueType,Pow,Multiplier,UnlockCost,Cost,CostUp,CostUpPow
+1,Gold,Multiply,2.0,1.0,2.50E+89,1.20E+95,120.0,1.03
+2,Power,Multiply,2.0,1.0,1.50E+92,4.00E+97,120.0,1.03
+3,AllWeaponDmg,Multiply,2.0,1.0,5.00E+102,1.50E+108,120.0,1.03
+4,PrestigeBonus,Multiply,2.0,1.0,1.00E+106,3.50E+111,120.0,1.03
+5,ResearchCostDown,Divide,2.0,1.0,4.00E+112,1.50E+118,120.0,1.03
+6,BlockHpDown,Divide,2.0,1.0,1.50E+119,4.50E+124,120.0,1.03
+7,SciencePoint,Multiply,2.0,1.0,2.00E+127,4.00E+132,120.0,1.03
+8,BattleStat,Multiply,2.0,1.0,3.50E+130,9.00E+135,120.0,1.03
+9,DStone,Percent,2.0,0.001,1.00E+171,2.50E+176,48000000.0,1.03

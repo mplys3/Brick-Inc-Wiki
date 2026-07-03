@@ -1,0 +1,17 @@
+﻿Id,Type,Sort,UnlockRank
+1,Research,3,5
+10,WeaponBuy,4,6
+20,FieldUnlock,5,7
+11,WeaponEnhance,6,8
+12,WeaponEquip,7,9
+30,SoulUpgrade,8,10
+31,SoulEnhance,9,11
+40,InnovationLab,10,14
+41,InnovationWeapon,11,16
+42,InnovationBrick,12,18
+50,DevilOrderCorruption,13,23
+51,DevilOrderDecay,14,25
+52,DevilOrderCurse,15,27
+2,ResearchPlus,16,31
+32,SoulAltar,17,43
+60,QuantumUpgrade,18,58

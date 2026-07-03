@@ -1,0 +1,198 @@
+﻿Id,Name,Rank,Sort,ReferType,ReferMultiplier,TypeList,ValueType,MaxLevel,Cost,CostUp,English,Description
+11001,in_investment,1,3,AllResearchLevel,0.002,Gold,Multiply,1500,1.00E+01,1.15,Attract Investment,
+11002,in_eco_friendly,2,4,AllWeaponEnhanceLevel,0.0005,Power,Multiply,1500,6.00E+01,1.15,Eco-friendly Development,
+11003,in_real_estate,3,5,FieldMax,0.05,ResearchCostDown,Divide,1500,9.00E+01,1.15,Real Estate Trading,
+11004,in_regression,5,6,ChallengeWallDistance,0.0002,AllWeaponDmg,Multiply,1500,3.00E+02,1.15,Regression Analysis,
+11005,in_authority,7,7,Rank,0.1,WeaponEnhanceCostDown,Divide,1500,1.00E+03,1.15,Authorities,
+11006,in_vip,10,8,AllCardLevel,0.05,RankPowerDown,Divide,1500,1.20E+03,1.15,VIP Card,
+11007,in_monolith,15,9,AllSoulUpgradeLevel,0.0015,BlockHpDown,Divide,1500,3.30E+03,1.15,Construct Monolith,
+11008,in_defense_cost,20,10,WeaponCount,0.15,Gold,Multiply,1500,4.00E+04,1.15,Defense Increase Costs,
+11009,in_religion,25,11,Rank,0.1,PrestigeBonus,Multiply,1500,1.00E+05,1.15,Pioneer Faith,
+11010,in_energy_revolution,30,12,ResearchTier,0.2,Power,Multiply,1500,3.50E+05,1.15,Energy Revolution,
+11011,in_genetic_trait,40,13,AllDivineBeastLevel,0.1,WeaponEnhanceBonus,Multiply,1500,7.25E+06,1.15,Extract Genetic Trait,
+11012,in_military_industry,50,14,AllResearchLevel,0.0015,WeaponEnhanceCostDown,Divide,1500,2.50E+07,1.15,Military Industry Support,
+11013,in_empire_armada,60,15,ChallengeLicenceRank,0.03,AllWeaponDmg,Multiply,1500,4.50E+08,1.15,Imperial Fleet,
+11014,in_colony,80,16,DevilOrderRank,0.05,RankPowerDown,Divide,1500,3.90E+10,1.15,Build Colony,
+11015,in_planet_weapon,100,17,Rank,0.08,BlockHpDown,Divide,1500,3.00E+12,1.15,Planet Killer,
+11016,in_stellar_monitor,120,18,AllInnovationResearchLevel,0.001,ResearchCostDown,Divide,1500,4.25E+13,1.15,Stellar Monitor,
+11017,in_simulation,140,19,WarAIRank,0.04,WeaponEnhanceBonus,Multiply,1500,7.00E+14,1.15,Virtual Reality System,
+11018,in_civilization,160,20,AllSoulEnhanceLevel,0.01,Gold,Multiply,1500,6.00E+15,1.15,Civilization Controller,
+11019,in_galaxy_parliament,180,21,GoldenCubeRank,0.1,RankPowerDown,Divide,1500,5.00E+16,1.15,Galactic Council,
+11020,in_singularity_control,200,22,ResearchTier,0.2,PrestigeBonus,Multiply,1500,4.00E+17,1.15,Soul Control,
+11021,in_illuminati,225,23,TruthTreeUpgrade,0.02,Power,Multiply,1500,8.00E+18,1.15,Multiverse: Illuminati,
+11022,in_dimension_office,250,24,DimensionRank,0.1,Gold,Multiply,1500,1.50E+20,1.15,Dimensional Management Bureau,
+11023,in_pandora,300,25,DevilOrderRank,0.05,BlockHpDown,Divide,1500,2.50E+23,1.175,Pandora's Box,
+11024,in_god_hand,350,26,ResearchTier,0.1,ResearchCostDown,Divide,1500,5.00E+27,1.2,Omnipotent Hand,
+11025,in_afterlife,400,27,AllDivineBeastExLevel,0.1,PrestigeBonus,Multiply,1500,7.50E+32,1.225,Afterlife Connector,
+11026,in_coffee_cup,450,28,WarAIRank,0.03,AllWeaponDmg,Multiply,1500,3.00E+40,1.25,Demolition Coffee Mug,
+11027,in_god_detector,500,29,ResearchTier,0.1,RankPowerDown,Divide,1500,1.00E+49,1.275,God Detector,
+11028,in_printer,550,30,Rank,0.1,WeaponEnhanceCostDown,Divide,1500,8.00E+57,1.3,Creation Printer,
+11029,in_god_mark,600,31,DimensionRank,0.1,Power,Multiply,1500,5.00E+64,1.325,God Certificate,
+11030,in_cosmo_kit,650,32,QuantumRank,0.02,ResearchCostDown,Divide,1500,2.50E+71,1.35,Cosmic Creation Kit,
+11031,in_infinite_coin,700,33,ChallengeChaosStage,0.05,Gold,Multiply,1500,4.00E+79,1.35,Infinity Coin,
+11032,in_hell_delegation,750,34,ChallengeLagrangeStage,0.05,PrestigeBonus,Multiply,1500,5.00E+84,1.35,Infernal Delegation,
+11033,in_button,800,35,DoomRank,0.1,BlockHpDown,Divide,1500,2.50E+87,1.35,Dimensional Collapse Button,
+11034,in_sacred_tribunal,850,36,DestinyRank,0.05,RankPowerDown,Divide,1500,1.00E+90,1.35,Holy Trial,
+11035,in_announcement,900,37,CivilLevel,0.1,Gold,Multiply,1500,3.00E+97,1.35,Universal Announcement,
+11036,in_vending_machine,950,38,Enlightenment,1.0,Power,Multiply,1500,7.50E+101,1.35,Truth Vending Machine,
+11037,in_11_highway,1000,39,Ascension,1.0,AllWeaponDmg,Multiply,1500,2.00E+105,1.35,11th Dimension Highway,
+11038,in_timeline_contract,1100,40,QuantumRank,0.02,"ResearchCostDown, WeaponEnhanceCostDown",Divide,1500,5.00E+111,1.35,Timeline Contract,
+11039,in_intercosmic_alliance,1200,41,ScienceRank1000,0.1,"Gold, Power",Multiply,1500,2.50E+120,1.35,Universal Alliance,
+11040,in_train,1300,42,AllDivineBeastSurgeLevel,0.1,"AllWeaponDmg, PrestigeBonus",Multiply,1500,7.50E+130,1.35,Runaway Locomotive,
+11041,in_graduation_cap,1400,43,AllLibraryBookCount,0.1,"RankPowerDown, BlockHpDown",Divide,1500,3.50E+161,1.35,Valedictorian's Cap,
+11042,in_confidential,1500,44,AllSentenceLevel,1.0,"Gold, AllWeaponDmg",Multiply,1500,5.00E+196,1.35,Confidential Seal,
+11044,in_customer_center,1700,46,CollapseRank,0.1,"Gold, PrestigeBonus",Multiply,1500,1.00E+301,1.35,Interstellar Customer Center,
+5011,we_blaze_flask,0,48,0,0,,0,1500,5.00E+00,1.15,Inferno Flask,"""Let's see. Where is this mad scientist?"""
+5012,we_elephant_foot,0,49,0,0,,0,1500,1.50E+01,1.15,Elephant Foot,"""The true king among the animals. And on your side."""
+5013,we_billiard_ball,0,50,0,0,,0,1500,1.00E+02,1.15,Billiard Ball,"""It's round and hard. No, it's not a bowling ball."""
+5014,we_fidget_spinner,0,51,0,0,,0,1500,4.00E+02,1.15,Fidget Spinner,"""It's possible if you're fast enough."""
+5015,we_moon_flint,0,52,0,0,,0,1500,1.50E+03,1.15,Moon Flint,"""Look! What a cool rock!"""
+5016,we_bunker_buster,0,53,0,0,,0,1500,6.50E+03,1.15,Bunker Buster,"""An investigation is needed to determine whether this weapon complies with international law."""
+5017,we_trump_card,0,54,0,0,,0,1500,2.00E+04,1.15,Trump Card,"""A magician that can cut through steel."""
+5018,we_golden_scissors,0,55,0,0,,0,1500,8.50E+04,1.15,Golden Scissors,"""Actually, gold isn't appropriate, but it looks cool, doesn't it?"""
+5019,we_chandelier,0,56,0,0,,0,1500,2.50E+05,1.15,Chandelier,"""I always thought seeing it fall would be quite the sight."""
+5020,we_monomol_cutter,0,57,0,0,,0,1500,9.50E+05,1.15,Monomolecular Blade,"""Remember to put the cover back on after using it."""
+5021,we_magic_wand,0,58,0,0,,0,1500,3.00E+06,1.15,Magic Wand,"""Can't you shoot it properly for once?"""
+5022,we_holy_sword,0,59,0,0,,0,1500,1.50E+07,1.15,Holy Sword,"""In the name of justice!"""
+5023,we_snowflake,0,60,0,0,,0,1500,4.50E+07,1.15,Snowflake Bomb,"""Careful, that's not a child's toy."""
+5024,we_prism,0,61,0,0,,0,1500,1.00E+08,1.15,P.R.I.S.M.,"""Symmetry and reflections. How beautiful."""
+5025,we_mirrorball,0,62,0,0,,0,1500,3.50E+08,1.15,Mirrorball,"""A weapon that blinds you, even when you're not looking at it."""
+5026,we_chain_lighting,0,63,0,0,,0,1500,1.50E+09,1.15,Chain Lightning,"""Wearing protective gloves won't help you."""
+5027,we_tornado,0,64,0,0,,0,1500,4.00E+09,1.15,Tornado,"""You want to fly? Then get in there."""
+5028,we_volcano,0,65,0,0,,0,1500,2.00E+10,1.15,Volcano,"""Now this is a natural disaster."""
+5029,we_nano_machine,0,66,0,0,,0,1500,6.00E+10,1.15,Nanomachine,"""You'll need a very powerful microscope."""
+5030,we_ufo,0,67,0,0,,0,1500,1.00E+11,1.15,UFO,"""We've made a deal of sorts."""
+5031,we_meteor_shower,0,68,0,0,,0,1500,4.00E+11,1.15,Meteor Shower,"""Let's stop taking pictures and get back to work."""
+5032,we_nova,0,69,0,0,,0,1500,2.00E+12,1.15,Nova Explosion,"""The death of a star is splendid."""
+5033,we_laser,0,70,0,0,,0,1500,5.50E+12,1.15,Laser Cutter,"""Don't worry, we just boosted the output a little bit."""
+5034,we_thunder_hammer,0,71,0,0,,0,1500,1.50E+13,1.15,Thunder Hammer,"""Even if you find it, you won't be able to lift it."""
+5035,we_blackhole,0,72,0,0,,0,1500,7.00E+13,1.15,Black Hole,"""If you're lucky, you might come out somewhere."""
+5036,we_portal,0,73,0,0,,0,1500,2.00E+14,1.15,Portal,"""Sometimes I imagine dumping the clutter in my room somewhere else."""
+5037,we_sphere,0,74,0,0,,0,1500,4.50E+14,1.15,Brawl,"""It's the ultimate spectacle."""
+5038,we_starlight_trip,0,75,0,0,,0,1500,1.00E+15,1.15,Starlight Journey,"""Look at that searing beauty."""
+5039,we_piranha,0,76,0,0,,0,1500,4.00E+15,1.15,Piranha,"""Sometimes you need a helping hand."""
+5040,we_umbrella,0,77,0,0,,0,1500,1.50E+16,1.15,Umbrella,"""We've tweaked our active defense system."""
+5041,we_bigbang,0,78,0,0,,0,1500,5.00E+16,1.15,Big Bang,"""In the beginning, there was an explosion."""
+5042,we_present,0,79,0,0,,0,1500,2.00E+17,1.15,Present Strike,"""I'll shower you with gifts."""
+5043,we_egg,0,80,0,0,,0,1500,4.50E+17,1.15,Multidimensional Egg,"""An egg with an unstable dimension is itself a weapon of universal proportions."""
+5044,we_gas_barrel,0,81,0,0,,0,1500,2.50E+18,1.15,Burning Gas Barrel,"""That's exactly why safety protocols are important."""
+5045,we_god_finger,0,82,0,0,,0,1500,5.50E+18,1.15,God Finger,"""Let there be light."""
+5046,we_thor_hammer,0,83,0,0,,0,1500,2.00E+19,1.15,Thor's Hammer,"""Good heavens, now they're falling from the sky."""
+5047,we_atom,0,84,0,0,,0,1500,4.00E+22,1.175,Atomic Molecule,"""What a fun science lesson."""
+5048,we_ascension_light,0,85,0,0,,0,1500,8.00E+26,1.2,Light of Ascension,"""Whether for better or worse, it's truly a weapon that makes you 'ascend.'"""
+5049,we_top_toy,0,86,0,0,,0,1500,4.50E+31,1.225,Spinning Top,"""If you're fast enough, it's possible."""
+5050,we_purify_flame,0,87,0,0,,0,1500,3.50E+36,1.25,Purifying Flame,"""Clean down to the soul."""
+5051,we_star_buster,0,88,0,0,,0,1500,2.00E+41,1.275,Starbuster,"""It's like watching a star explode."""
+5052,we_prism_ex,0,89,0,0,,0,1500,2.50E+46,1.3,P.R.I.S.M. -EX-,"""How would you like it cut?"""
+5053,we_q_machine,0,90,0,0,,0,1500,1.50E+51,1.325,Quantum Machine,"""Ever heard the expression 'quantum perfection'?"""
+5054,we_gym_ball,0,91,0,0,,0,1500,1.00E+56,1.35,Exercise Ball,"""Excuse me, that's not how you use the exercise ball!"""
+5055,we_holy_shield,0,92,0,0,,0,1500,8.00E+60,1.35,Divine Shield,"""Who knew shield bashing was actually a real technique."""
+5056,we_ares,0,93,0,0,,0,1500,5.00E+65,1.35,Sword of Ares,"""I came to end this war."""
+5057,we_hell_chain,0,94,0,0,,0,1500,2.50E+70,1.35,Infernal Chain,"""Even your soul shall be bound."""
+5058,we_zeus,0,95,0,0,,0,1500,4.00E+75,1.35,Zeus' Trident,"""You'll be lightning-charred in an instant."""
+5059,we_god_punch,0,96,0,0,,0,1500,5.00E+80,1.35,God Punch,"""Have you committed an unforgivable sin?"""
+5060,we_soul_shuriken,0,97,0,0,,0,1500,7.50E+85,1.35,Soul Ninja Stars,"""Even the soul shall be split."""
+5061,we_uranium,0,98,0,0,,0,1500,1.25E+91,1.35,Uranium Flask,"""A terrifying weapon that melts everything from the inside out."""
+5062,we_odin,0,99,0,0,,0,1500,6.00E+96,1.35,Odin's Judgment,"""Not simply lightning, but divine punishment."""
+5063,we_diamond_scissors,0,100,0,0,,0,1500,2.50E+101,1.35,Diamond Scissors,"""They aren't just slightly harder than before."""
+5064,we_cherry_banana,0,101,0,0,,0,1500,3.50E+105,1.35,Cherry & Banana,"""Sweet juice that goes pop pop!"""
+5065,we_osiris,0,102,0,0,,0,1500,7.50E+110,1.35,Eye of Osiris,"""It can see and destroy all."""
+5066,we_sun,0,103,0,0,,0,1500,2.00E+115,1.35,Sun of Ra,"""Have you ever imagined the sun right in front of your eyes?"""
+5067,we_rat,0,104,0,0,,0,1500,5.00E+120,1.35,Radioactive Rat,"""Be careful with rats. You never know what germs they may carry."""
+5068,we_tsunami,0,105,0,0,,0,1500,1.00E+126,1.35,Tsunami,"""A disaster beyond human comprehension."""
+5069,we_gale,0,106,0,0,,0,1500,3.00E+130,1.35,Storm Blade,"""Wind moving fast enough can become a blade."""
+5070,we_light_orb,0,107,0,0,,0,1500,1.50E+135,1.35,Orb of Light,"""I shall destroy all with the power of light."""
+5071,we_chicken,0,108,0,0,,0,1500,4.00E+161,1.35,Crispy Chicken,"""Everything tastes good when fried. Even a Brick."""
+5072,we_chaos_orb,0,109,0,0,,0,1500,2.50E+178,1.35,Chaos Staff,"""I wonder about the mental state of whoever made this weapon."""
+5073,we_party_missile,0,110,0,0,,0,1500,8.00E+196,1.35,Party Missile,"""I just came to congratulate you."""
+5074,we_mirror,0,111,0,0,,0,1500,5.00E+226,1.35,Dimension Mirror,"""Can you find the truth among the countless mirrors?"""
+5075,we_coffee,0,112,0,0,,0,1500,1.00E+247,1.35,Hot Coffee Cup,"""A nightmarish day for the staff."""
+5076,we_extinction,0,113,0,0,,0,1500,8.00E+268,1.35,Light of Annihilation,"""True annihilation is being erased from memory."""
+5077,we_singular_point,0,114,0,0,,0,1500,2.00E+301,1.35,Singular Point,"""Even light loses its way there."""
+5078,we_pencil,0,115,0,0,,0,1500,4e321,1.35,Colored Pencil,"""A tool that draws the world can also become a tool that erases it."""
+5079,we_dimension_box,0,116,0,0,,0,1500,1e342,1.35,Dimensional Box,"""Have you ever wondered where the missing bricks go?"""
+2016,br_graphite,0,119,0,0,,0,1500,5.00E+00,1.15,Graphite,
+2017,br_quartz,0,120,0,0,,0,1500,1.00E+01,1.15,Quartz,
+2018,br_rock,0,121,0,0,,0,1500,2.00E+01,1.15,Rock,
+2019,br_concrete,0,122,0,0,,0,1500,6.00E+01,1.15,Concrete,
+2020,br_copper,0,123,0,0,,0,1500,2.00E+02,1.15,Copper,
+2021,br_bronze,0,124,0,0,,0,1500,5.00E+02,1.15,Bronze,
+2022,br_iron,0,125,0,0,,0,1500,1.50E+03,1.15,Iron,
+2023,br_steel,0,126,0,0,,0,1500,3.40E+03,1.15,Steel,
+2024,br_tungsten,0,127,0,0,,0,1500,6.50E+03,1.15,Tungsten,
+2025,br_titanium,0,128,0,0,,0,1500,2.40E+04,1.15,Titanium,
+2026,br_graphene,0,129,0,0,,0,1500,5.00E+04,1.15,Graphene,
+2027,br_cobalt,0,130,0,0,,0,1500,1.00E+05,1.15,Cobalt,
+2028,br_chromoly,0,131,0,0,,0,1500,3.00E+05,1.15,Chromoly,
+2029,br_obsidian,0,132,0,0,,0,1500,5.00E+05,1.15,Obsidian,
+2030,br_ether,0,133,0,0,,0,1500,1.00E+06,1.15,Etherium,
+2031,br_mithril,0,134,0,0,,0,1500,3.30E+06,1.15,Mythril,
+2032,br_adamantium,0,135,0,0,,0,1500,6.00E+06,1.15,Adamantium,
+2033,br_ori,0,136,0,0,,0,1500,1.10E+07,1.15,Orichalcum,
+2034,br_crystal,0,137,0,0,,0,1500,3.60E+07,1.15,Crystal,
+2035,br_dragonite,0,138,0,0,,0,1500,6.50E+07,1.15,Dragonite,
+2036,br_spectrium,0,139,0,0,,0,1500,1.20E+08,1.15,Spectrium,
+2037,br_mirror,0,140,0,0,,0,1500,3.80E+08,1.15,Mirror Stone,
+2038,br_charm,0,141,0,0,,0,1500,6.80E+08,1.15,Charm Stone,
+2039,br_thunder,0,142,0,0,,0,1500,1.20E+09,1.15,Lightning Stone,
+2040,br_resonance,0,143,0,0,,0,1500,4.00E+09,1.15,Resonance Stone,
+2041,br_lava,0,144,0,0,,0,1500,7.00E+09,1.15,Lava,
+2042,br_gaiarium,0,145,0,0,,0,1500,1.20E+10,1.15,Gaiarium,
+2043,br_meteor,0,146,0,0,,0,1500,4.00E+10,1.15,Meteor,
+2044,br_dawn,0,147,0,0,,0,1500,7.10E+10,1.15,Dawn Stone,
+2045,br_mantle,0,148,0,0,,0,1500,1.30E+11,1.15,Mantle,
+2046,br_planet_core,0,149,0,0,,0,1500,4.00E+11,1.15,Planet Core,
+2047,br_starlight,0,150,0,0,,0,1500,7.10E+11,1.15,Night Sky Stone,
+2048,br_starnite,0,151,0,0,,0,1500,1.40E+12,1.15,Starnite,
+2049,br_mysterium,0,152,0,0,,0,1500,6.00E+12,1.15,Mysterium,
+2050,br_quantum,0,153,0,0,,0,1500,1.00E+13,1.15,Quantum Stone,
+2051,br_supernite,0,154,0,0,,0,1500,1.80E+13,1.15,Supernite,
+2052,br_dark,0,155,0,0,,0,1500,5.30E+13,1.15,Dark Stone,
+2053,br_gravitium,0,156,0,0,,0,1500,1.20E+14,1.15,Gravitium,
+2054,br_teleportium,0,157,0,0,,0,1500,2.20E+14,1.15,Teleportium,
+2055,br_absolute,0,158,0,0,,0,1500,8.00E+14,1.15,Absolute Stone,
+2056,br_destroy,0,159,0,0,,0,1500,1.00E+15,1.15,Wrecking Stone,
+2057,br_stellarium,0,160,0,0,,0,1500,1.80E+15,1.15,Stellarium,
+2058,br_galaxy,0,161,0,0,,0,1500,4.80E+15,1.15,Galaxy Stone,
+2059,br_cosmonite,0,162,0,0,,0,1500,7.80E+15,1.15,Cosmonite,
+2060,br_exceedium,0,163,0,0,,0,1500,1.80E+16,1.15,Exceedium,
+2061,br_expansion,0,164,0,0,,0,1500,4.00E+16,1.15,Expansion Stone,
+2062,br_beginning,0,165,0,0,,0,1500,8.20E+16,1.15,Origin Stone,
+2063,br_singularitium,0,166,0,0,,0,1500,2.00E+17,1.15,Singularitium,
+2064,br_universe,0,167,0,0,,0,1500,5.00E+17,1.15,Universe Stone,
+2065,br_dimentium,0,168,0,0,,0,1500,1.00E+18,1.15,Dimentium,
+2066,br_destiny,0,169,0,0,,0,1500,2.50E+18,1.15,Destiny Stone,
+2067,br_life,0,170,0,0,,0,1500,7.00E+18,1.15,Life Stone,
+2068,br_thunder_storm,0,171,0,0,,0,1500,1.50E+19,1.15,Thunder Stone,
+2069,br_abaddon,0,172,0,0,,0,1500,6.00E+22,1.175,Abyss Stone,
+2070,br_divine,0,173,0,0,,0,1500,1.50E+27,1.2,Sacred Stone,
+2071,br_ruin_stone,0,174,0,0,,0,1500,2.00E+32,1.225,Ruin Stone,
+2072,br_phantom_steel,0,175,0,0,,0,1500,1.00E+37,1.25,Phantom Steel,
+2073,br_ancient,0,176,0,0,,0,1500,3.00E+41,1.275,Ancient Stone,
+2074,br_prismite,0,177,0,0,,0,1500,2.50E+46,1.3,Prismite,
+2075,br_apollorium,0,178,0,0,,0,1500,2.00E+51,1.325,Apollorium,
+2076,br_determinite,0,179,0,0,,0,1500,5.00E+55,1.35,Determinite,
+2077,br_mjolnir,0,180,0,0,,0,1500,4.00E+60,1.35,Mjolnir,
+2078,br_bravery,0,181,0,0,,0,1500,3.50E+65,1.35,Bravery Stone,
+2079,br_overworld,0,182,0,0,,0,1500,2.50E+70,1.35,Nether Stone,
+2080,br_fury,0,183,0,0,,0,1500,2.00E+75,1.35,Rage Stone,
+2081,br_god,0,184,0,0,,0,1500,4.00E+80,1.35,God Stone,
+2082,br_authority,0,185,0,0,,0,1500,5.00E+85,1.35,Power Stone,
+2083,br_tribunite,0,186,0,0,,0,1500,2.00E+90,1.35,Tribunite,
+2084,br_judgment,0,187,0,0,,0,1500,1.50E+96,1.35,Judgment Stone,
+2085,br_grace,0,188,0,0,,0,1500,4.50E+101,1.35,Grace Stone,
+2086,br_creation,0,189,0,0,,0,1500,2.50E+105,1.35,Creation Stone,
+2087,br_fall,0,190,0,0,,0,1500,6.00E+110,1.35,Demolition Stone,
+2088,br_blaze,0,191,0,0,,0,1500,1.00E+115,1.35,Blazing Stone,
+2089,br_heaven,0,192,0,0,,0,1500,4.50E+120,1.35,Celestial Stone,
+2090,br_deep_sea,0,193,0,0,,0,1500,3.50E+126,1.35,Abyssal Stone,
+2091,br_gale,0,194,0,0,,0,1500,7.50E+130,1.35,Tempest Stone,
+2092,br_prime,0,195,0,0,,0,1500,8.00E+135,1.35,Prime Stone,
+2093,br_ego,0,196,0,0,,0,1500,1.50E+161,1.35,Ego,
+2094,br_end,0,197,0,0,,0,1500,9.00E+178,1.35,Apocalypse Stone,
+2095,br_multiverstone,0,198,0,0,,0,1500,6.00E+196,1.35,Multiversestone,
+2096,br_hyperium,0,199,0,0,,0,1500,2.00E+226,1.35,Hyperium,
+2097,br_omni,0,200,0,0,,0,1500,7.50E+247,1.35,Omnipotent Stone,
+2098,br_celesterium,0,201,0,0,,0,1500,1.50E+268,1.35,Celesterium,
+2099,br_manifoldium,0,202,0,0,,0,1500,3.00E+301,1.35,Manifoldium,
+2100,br_worldstone,0,203,0,0,,0,1500,5e342,1.35,World Stone,

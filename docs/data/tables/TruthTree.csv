@@ -1,0 +1,290 @@
+﻿Id,X,Y,Circle,Number,Left,Right,Up,Down,Grade,TypeList,ValueTypeList,ValueList
+14857,0,0,8,57,False,True,False,True,Legendary,"DStone, Gold, Power, RankPowerDown","Percent, Percent, Percent, Percent","10.0, 100.0, 100.0, -75.0"
+14858,1,0,8,58,True,True,False,False,Common,RankPowerDown,Percent,-50.0
+14859,2,0,8,59,True,True,False,False,Common,RankPowerDown,Percent,-50.0
+14860,3,0,8,60,True,True,False,False,Common,Power,Percent,20.0
+14861,4,0,8,61,True,True,False,True,Common,Power,Percent,20.0
+14862,5,0,8,62,True,True,False,False,Common,Power,Percent,20.0
+14863,6,0,8,63,True,True,False,False,Rare,ScienceRank,Add,5.0
+14864,7,0,8,64,True,True,False,False,Common,SciencePoint,Percent,20.0
+14801,8,0,8,1,True,True,False,True,Common,SciencePoint,Percent,20.0
+14802,9,0,8,2,True,True,False,False,Common,SciencePoint,Percent,20.0
+14803,10,0,8,3,True,True,False,False,Rare,ScienceRank,Add,5.0
+14804,11,0,8,4,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14805,12,0,8,5,True,True,False,True,Common,PrestigeBonus,Percent,25.0
+14806,13,0,8,6,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14807,14,0,8,7,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14808,15,0,8,8,True,True,False,False,Common,WeaponEnhanceBonus,Percent,15.0
+14809,16,0,8,9,True,False,False,True,Legendary,"Ether, AllWeaponDmg, PrestigeBonus, SoulEnhanceMaxLevelUp","Percent, Percent, Percent, Add","25.0, 50.0, 100.0, 1.0"
+14856,0,1,8,56,False,False,True,True,Common,RankPowerDown,Percent,-50.0
+14750,1,1,7,50,False,True,False,False,Common,SciencePoint,Percent,20.0
+14751,2,1,7,51,True,False,False,True,Common,SciencePoint,Percent,20.0
+14752,3,1,7,52,False,True,False,True,Common,RankPowerDown,Percent,-50.0
+14753,4,1,7,53,True,True,True,True,Rare,DStone,Percent,5.0
+14754,5,1,7,54,True,True,False,True,Common,Power,Percent,20.0
+14755,6,1,7,55,True,True,False,False,Common,Power,Percent,20.0
+14756,7,1,7,56,True,True,False,True,Common,Power,Percent,20.0
+14701,8,1,7,1,True,True,True,False,Legendary,"DStone, Power, RankPowerDown","Percent, Percent, Percent","10.0, 100.0, -75.0"
+14702,9,1,7,2,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14703,10,1,7,3,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14704,11,1,7,4,True,True,False,True,Common,PrestigeBonus,Percent,25.0
+14705,12,1,7,5,True,True,True,True,Rare,SoulEnhanceMaxLevelUp,Add,1.0
+14706,13,1,7,6,True,True,False,False,Common,SciencePoint,Percent,20.0
+14707,14,1,7,7,True,True,False,True,Common,SciencePoint,Percent,20.0
+14708,15,1,7,8,True,False,False,False,Common,SciencePoint,Percent,20.0
+14810,16,1,8,10,False,False,True,True,Common,WeaponEnhanceBonus,Percent,15.0
+14855,0,2,8,55,False,False,True,True,Common,RankPowerDown,Percent,-50.0
+14749,1,2,7,49,False,True,False,False,Common,SciencePoint,Percent,20.0
+14643,2,2,6,43,True,True,True,True,Epic,DStone,Percent,10.0
+14644,3,2,6,44,True,False,True,False,Common,SciencePoint,Percent,20.0
+14645,4,2,6,45,False,False,True,True,Common,Gold,Percent,20.0
+14646,5,2,6,46,False,True,True,False,Common,Power,Percent,20.0
+14647,6,2,6,47,True,False,False,True,Common,Power,Percent,20.0
+14648,7,2,6,48,False,True,True,False,Common,PrestigeBonus,Percent,25.0
+14601,8,2,6,1,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14602,9,2,6,2,True,True,False,False,Common,PrestigeBonus,Percent,25.0
+14603,10,2,6,3,True,True,False,True,Common,PrestigeBonus,Percent,25.0
+14604,11,2,6,4,True,False,True,False,Common,PrestigeBonus,Percent,25.0
+14605,12,2,6,5,False,True,True,True,Common,WeaponEnhanceBonus,Percent,15.0
+14606,13,2,6,6,True,False,False,False,Common,WeaponEnhanceBonus,Percent,15.0
+14607,14,2,6,7,False,False,True,False,Epic,Ether,Percent,25.0
+14709,15,2,7,9,False,False,False,True,Common,SciencePoint,Percent,20.0
+14811,16,2,8,11,False,False,True,True,Common,AllWeaponDmg,Percent,15.0
+14854,0,3,8,54,False,False,True,True,Common,RankPowerDown,Percent,-50.0
+14748,1,3,7,48,False,True,False,True,Common,RankPowerDown,Percent,-50.0
+14642,2,3,6,42,True,False,True,False,Common,SciencePoint,Percent,20.0
+14536,3,3,5,36,False,True,False,True,Rare,Gold,Percent,50.0
+14537,4,3,5,37,True,False,True,False,Common,Gold,Percent,20.0
+14538,5,3,5,38,False,True,False,True,Common,RankPowerDown,Percent,-50.0
+14539,6,3,5,39,True,False,True,True,Rare,"RankPowerDown, Power","Percent, Percent","-50.0, 20.0"
+14540,7,3,5,40,False,True,False,True,Common,Power,Percent,20.0
+14501,8,3,5,1,True,True,False,False,Common,Power,Percent,20.0
+14502,9,3,5,2,True,True,False,False,Common,Power,Percent,20.0
+14503,10,3,5,3,True,True,True,True,Rare,SoulEnhanceMaxLevelUp,Add,1.0
+14504,11,3,5,4,True,True,False,False,Common,WeaponEnhanceBonus,Percent,15.0
+14505,12,3,5,5,True,True,True,True,Common,WeaponEnhanceBonus,Percent,15.0
+14506,13,3,5,6,True,False,False,True,Rare,"AllWeaponDmg, WeaponEnhanceBonus","Percent, Percent","15.0, 15.0"
+14608,14,3,6,8,False,False,False,True,Common,AllWeaponDmg,Percent,15.0
+14710,15,3,7,10,False,False,True,True,Common,SciencePoint,Percent,20.0
+14812,16,3,8,12,False,False,True,True,Common,AllWeaponDmg,Percent,15.0
+14853,0,4,8,53,False,True,True,True,Common,Gold,Percent,20.0
+14747,1,4,7,47,True,True,True,True,Rare,DStone,Percent,5.0
+14641,2,4,6,41,True,True,False,False,Common,Gold,Percent,20.0
+14535,3,4,5,35,True,False,True,True,Common,Gold,Percent,20.0
+14429,4,4,4,29,False,True,False,False,Common,RankPowerDown,Percent,-50.0
+14430,5,4,4,30,True,False,True,True,Common,RankPowerDown,Percent,-50.0
+14431,6,4,4,31,False,True,True,True,Common,Power,Percent,20.0
+14432,7,4,4,32,True,False,True,True,Common,Power,Percent,20.0
+14401,8,4,4,1,False,True,False,False,Common,PrestigeBonus,Percent,25.0
+14402,9,4,4,2,True,True,False,True,Common,PrestigeBonus,Percent,25.0
+14403,10,4,4,3,True,True,True,True,Common,PrestigeBonus,Percent,25.0
+14404,11,4,4,4,True,False,False,True,Common,PrestigeBonus,Percent,25.0
+14405,12,4,4,5,False,False,True,True,Common,WeaponEnhanceBonus,Percent,15.0
+14507,13,4,5,7,False,True,True,True,Common,AllWeaponDmg,Percent,15.0
+14609,14,4,6,9,True,True,True,False,Common,AllWeaponDmg,Percent,15.0
+14711,15,4,7,11,True,True,True,False,Rare,Ether,Percent,10.0
+14813,16,4,8,13,True,False,True,True,Common,AllWeaponDmg,Percent,15.0
+14852,0,5,8,52,False,False,True,True,Common,Gold,Percent,20.0
+14746,1,5,7,46,False,True,True,True,Common,ResearchCostDown,Percent,-50.0
+14640,2,5,6,40,True,False,False,True,Common,ResearchCostDown,Percent,-50.0
+14534,3,5,5,34,False,True,True,False,Common,Gold,Percent,20.0
+14428,4,5,4,28,True,True,False,True,Common,Gold,Percent,20.0
+14322,5,5,3,22,True,True,True,False,Epic,"Gold, Power","Percent, Percent","50.0, 50.0"
+14323,6,5,3,23,True,True,True,False,Common,Power,Percent,20.0
+14324,7,5,3,24,True,True,True,True,Common,Power,Percent,20.0
+14301,8,5,3,1,True,True,False,False,Rare,"Power, PrestigeBonus","Percent, Percent","20.0, 25.0"
+14302,9,5,3,2,True,True,True,True,Common,PrestigeBonus,Percent,25.0
+14303,10,5,3,3,True,True,True,False,Common,PrestigeBonus,Percent,25.0
+14304,11,5,3,4,True,True,True,True,Epic,"SoulEnhanceMaxLevelUp, PrestigeBonus","Add, Percent","1.0, 25.0"
+14406,12,5,4,6,True,False,True,False,Common,WeaponEnhanceBonus,Percent,15.0
+14508,13,5,5,8,False,False,True,True,Common,AllWeaponDmg,Percent,15.0
+14610,14,5,6,10,False,True,False,True,Common,CriDmg,Percent,15.0
+14712,15,5,7,12,True,False,False,True,Common,CriDmg,Percent,15.0
+14814,16,5,8,14,False,False,True,True,Common,CriDmg,Percent,15.0
+14851,0,6,8,51,False,False,True,True,Rare,ScienceRank,Add,5.0
+14745,1,6,7,45,False,False,True,True,Common,ResearchCostDown,Percent,-50.0
+14639,2,6,6,39,False,True,True,True,Common,ResearchCostDown,Percent,-50.0
+14533,3,6,5,33,True,True,False,True,Rare,"Gold, ResearchCostDown","Percent, Percent","20.0, -50.0"
+14427,4,6,4,27,True,True,True,False,Common,Gold,Percent,20.0
+14321,5,6,3,21,True,False,False,True,Common,Gold,Percent,20.0
+14215,6,6,2,15,False,True,False,True,Rare,SciencePoint,Percent,40.0
+14216,7,6,2,16,True,True,True,False,Common,Power,Percent,20.0
+14201,8,6,2,1,True,True,False,True,Common,Power,Percent,20.0
+14202,9,6,2,2,True,True,True,False,Common,PrestigeBonus,Percent,25.0
+14203,10,6,2,3,True,False,False,True,Rare,SciencePoint,Percent,40.0
+14305,11,6,3,5,False,True,True,False,Common,WeaponEnhanceBonus,Percent,15.0
+14407,12,6,4,7,True,True,False,True,Common,WeaponEnhanceBonus,Percent,15.0
+14509,13,6,5,9,True,False,True,True,Rare,"AllWeaponDmg, WeaponEnhanceBonus","Percent, Percent","15.0, 15.0"
+14611,14,6,6,11,False,False,True,True,Common,CriDmg,Percent,15.0
+14713,15,6,7,13,False,False,True,True,Common,CriDmg,Percent,15.0
+14815,16,6,8,15,False,False,True,True,Rare,ScienceRank,Add,5.0
+14850,0,7,8,50,False,False,True,True,Common,SciencePoint,Percent,20.0
+14744,1,7,7,44,False,False,True,True,Common,ResearchCostDown,Percent,-50.0
+14638,2,7,6,38,False,True,True,False,Common,ResearchCostDown,Percent,-50.0
+14532,3,7,5,32,True,True,True,True,Common,ResearchCostDown,Percent,-50.0
+14426,4,7,4,26,True,True,False,False,Common,ResearchCostDown,Percent,-50.0
+14320,5,7,3,20,True,True,True,True,Common,ResearchCostDown,Percent,-50.0
+14214,6,7,2,14,True,False,True,True,Common,Gold,Percent,20.0
+14108,7,7,1,8,False,True,False,True,Rare,"Gold, Power","Percent, Percent","20.0, 20.0"
+14101,8,7,1,1,True,True,True,True,Common,Power,Percent,20.0
+14102,9,7,1,2,True,False,False,True,Rare,"Power, AllWeaponDmg","Percent, Percent","20.0, 15.0"
+14204,10,7,2,4,False,True,True,True,Common,AllWeaponDmg,Percent,15.0
+14306,11,7,3,6,True,True,False,True,Common,AllWeaponDmg,Percent,15.0
+14408,12,7,4,8,True,True,True,False,Common,AllWeaponDmg,Percent,15.0
+14510,13,7,5,10,True,True,True,False,Common,AllWeaponDmg,Percent,15.0
+14612,14,7,6,12,True,False,True,True,Common,CriDmg,Percent,15.0
+14714,15,7,7,14,False,False,True,True,Common,CriDmg,Percent,15.0
+14816,16,7,8,16,False,False,True,True,Common,SciencePoint,Percent,20.0
+14849,0,8,8,49,False,True,True,True,Common,SciencePoint,Percent,20.0
+14743,1,8,7,43,True,False,True,True,Legendary,"DiamondBrickChance, Gold, ResearchCostDown, WeaponEnhanceCostDown","Multiply, Percent, Percent, Percent","1.1, 100.0, -75.0, -75.0"
+14637,2,8,6,37,False,True,False,False,Common,Gold,Percent,20.0
+14531,3,8,5,31,True,True,True,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14425,4,8,4,25,True,True,False,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14319,5,8,3,19,True,False,True,False,Rare,"ResearchCostDown, WeaponEnhanceCostDown","Percent, Percent","-50.0, -50.0"
+14213,6,8,2,13,False,True,True,True,Common,Gold,Percent,20.0
+14107,7,8,1,7,True,True,True,True,Common,Gold,Percent,20.0
+14001,8,8,0,1,True,True,True,True,0,None,None,0.0
+14103,9,8,1,3,True,True,True,True,Common,AllWeaponDmg,Percent,15.0
+14205,10,8,2,5,True,False,True,True,Common,AllWeaponDmg,Percent,15.0
+14307,11,8,3,7,False,True,True,True,Rare,"AllWeaponDmg, CriDmg","Percent, Percent","15.0, 15.0"
+14409,12,8,4,9,True,True,False,False,Common,CriDmg,Percent,15.0
+14511,13,8,5,11,True,True,False,True,Common,CriDmg,Percent,15.0
+14613,14,8,6,13,True,False,True,True,Common,SuperCriDmg,Percent,15.0
+14715,15,8,7,15,False,True,True,True,Legendary,"ArtifactDrop, Ether, AllWeaponDmg","Add, Percent, Percent","10.0, 25.0, 100.0"
+14817,16,8,8,17,True,False,True,True,Common,SciencePoint,Percent,20.0
+14848,0,9,8,48,False,False,True,True,Common,SciencePoint,Percent,20.0
+14742,1,9,7,42,False,False,True,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14636,2,9,6,36,False,True,False,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14530,3,9,5,30,True,False,True,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14424,4,9,4,24,False,True,True,True,Common,Gold,Percent,20.0
+14318,5,9,3,18,True,True,False,False,Common,Gold,Percent,20.0
+14212,6,9,2,12,True,False,True,True,Common,Gold,Percent,20.0
+14106,7,9,1,6,False,True,True,False,Rare,"Gold, BlockHpDown","Percent, Percent","20.0, -25.0"
+14105,8,9,1,5,True,True,True,True,Common,BlockHpDown,Percent,-25.0
+14104,9,9,1,4,True,False,True,False,Rare,"AllWeaponDmg, BlockHpDown","Percent, Percent","15.0, -25.0"
+14206,10,9,2,6,False,True,True,True,Common,AllWeaponDmg,Percent,15.0
+14308,11,9,3,8,True,True,True,False,Common,AllWeaponDmg,Percent,15.0
+14410,12,9,4,10,True,False,False,True,Common,AllWeaponLevel,Add,25.0
+14512,13,9,5,12,False,False,True,True,Common,CriDmg,Percent,15.0
+14614,14,9,6,14,False,False,True,True,Common,SuperCriDmg,Percent,15.0
+14716,15,9,7,16,False,False,True,True,Common,SuperCriDmg,Percent,15.0
+14818,16,9,8,18,False,False,True,True,Common,SciencePoint,Percent,20.0
+14847,0,10,8,47,False,False,True,True,Rare,ScienceRank,Add,5.0
+14741,1,10,7,41,False,True,True,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14635,2,10,6,35,True,False,True,False,Common,WeaponEnhanceCostDown,Percent,-50.0
+14529,3,10,5,29,False,True,True,True,Rare,"Gold, WeaponEnhanceCostDown","Percent, Percent","20.0, -50.0"
+14423,4,10,4,23,True,True,True,False,Common,Gold,Percent,20.0
+14317,5,10,3,17,True,False,False,True,Common,Gold,Percent,20.0
+14211,6,10,2,11,False,True,True,False,Rare,SciencePoint,Percent,40.0
+14210,7,10,2,10,True,True,False,True,Common,BlockHpDown,Percent,-25.0
+14209,8,10,2,9,True,True,True,False,Common,BlockHpDown,Percent,-25.0
+14208,9,10,2,8,True,True,False,True,Common,DivineBeastHpDown,Percent,-50.0
+14207,10,10,2,7,True,False,True,False,Rare,SciencePoint,Percent,40.0
+14309,11,10,3,9,False,True,False,True,Common,AllWeaponLevel,Add,25.0
+14411,12,10,4,11,True,False,True,True,Common,AllWeaponLevel,Add,25.0
+14513,13,10,5,13,False,True,True,True,Rare,"CriDmg, SuperCriDmg","Percent, Percent","15.0, 15.0"
+14615,14,10,6,15,True,True,True,True,Common,SuperCriDmg,Percent,15.0
+14717,15,10,7,17,True,False,True,True,Common,SuperCriDmg,Percent,15.0
+14819,16,10,8,19,False,False,True,True,Rare,ScienceRank,Add,5.0
+14846,0,11,8,46,False,False,True,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14740,1,11,7,40,False,True,True,True,Common,Gold,Percent,20.0
+14634,2,11,6,34,True,True,False,False,Common,Gold,Percent,20.0
+14528,3,11,5,28,True,True,True,True,Common,Gold,Percent,20.0
+14422,4,11,4,22,True,True,False,False,Common,Gold,Percent,20.0
+14316,5,11,3,16,True,True,True,False,Epic,GoldBrickChance,Multiply,1.1
+14315,6,11,3,15,True,True,False,True,Common,MiningTimeLimit,Add,1800.0
+14314,7,11,3,14,True,True,True,False,Common,BlockHpDown,Percent,-25.0
+14313,8,11,3,13,True,True,False,True,Common,CriDmg,Percent,15.0
+14312,9,11,3,12,True,False,True,True,Common,DivineBeastHpDown,Percent,-50.0
+14311,10,11,3,11,False,False,False,True,Common,BattleAtk,Percent,15.0
+14310,11,11,3,10,False,False,True,True,Epic,"AllWeaponSpd, AllWeaponLevel","Percent, Add","10.0, 50.0"
+14412,12,11,4,12,False,True,True,True,Common,AllWeaponLevel,Add,25.0
+14514,13,11,5,14,True,False,True,True,Common,AllWeaponLevel,Add,25.0
+14616,14,11,6,16,False,False,True,False,Common,SuperCriDmg,Percent,15.0
+14718,15,11,7,18,False,False,True,True,Common,SuperCriDmg,Percent,15.0
+14820,16,11,8,20,False,False,True,True,Common,SuperCriDmg,Percent,15.0
+14845,0,12,8,45,False,True,True,True,Common,WeaponEnhanceCostDown,Percent,-50.0
+14739,1,12,7,39,True,True,True,True,Rare,ForgeSpeed,Percent,5.0
+14633,2,12,6,33,True,True,False,False,Common,MiningTimeLimit,Add,1800.0
+14527,3,12,5,27,True,True,True,False,Common,MiningTimeLimit,Add,1800.0
+14421,4,12,4,21,True,True,False,True,Common,MiningSpeed,Percent,10.0
+14420,5,12,4,20,True,True,False,True,Common,MiningSpeed,Percent,10.0
+14419,6,12,4,19,True,True,True,True,Common,MiningTimeLimit,Add,1800.0
+14418,7,12,4,18,True,False,False,True,Common,MiningSpeed,Percent,10.0
+14417,8,12,4,17,False,False,True,True,Common,BlockHpDown,Percent,-25.0
+14416,9,12,4,16,False,False,True,True,Common,DivineBeastHpDown,Percent,-50.0
+14415,10,12,4,15,False,True,True,True,Common,BattleHp,Percent,15.0
+14414,11,12,4,14,True,True,True,True,Common,BattleAtk,Percent,15.0
+14413,12,12,4,13,True,False,True,True,Common,BattleHp,Percent,15.0
+14515,13,12,5,15,False,True,True,False,Common,AllWeaponLevel,Add,25.0
+14617,14,12,6,17,True,True,False,False,Common,AllWeaponLevel,Add,25.0
+14719,15,12,7,19,True,True,True,True,Rare,ArtifactDrop,Add,5.0
+14821,16,12,8,21,True,False,True,True,Common,BattleHp,Percent,15.0
+14844,0,13,8,44,False,False,True,True,Common,Gold,Percent,20.0
+14738,1,13,7,38,False,True,True,True,Common,SciencePoint,Percent,20.0
+14632,2,13,6,32,True,True,False,True,Common,RuneChance,Multiply,1.05
+14526,3,13,5,26,True,False,False,True,Rare,ForgeSpeed,Percent,5.0
+14525,4,13,5,25,False,True,True,True,Common,MiningTimeLimit,Add,1800.0
+14524,5,13,5,24,True,True,True,False,Common,MiningTimeLimit,Add,1800.0
+14523,6,13,5,23,True,True,True,True,Rare,"MiningSpeed, MiningTimeLimit","Percent, Add","10.0, 1800.0"
+14522,7,13,5,22,True,False,True,True,Common,MiningSpeed,Percent,10.0
+14521,8,13,5,21,False,False,True,True,Common,BlockHpDown,Percent,-25.0
+14520,9,13,5,20,False,True,True,True,Common,DivineBeastHpDown,Percent,-50.0
+14519,10,13,5,19,True,True,True,False,Rare,"BattleAtk, BattleHp","Percent, Percent","15.0, 15.0"
+14518,11,13,5,18,True,True,True,False,Common,BattleAtk,Percent,15.0
+14517,12,13,5,17,True,True,True,True,Common,BattleHp,Percent,15.0
+14516,13,13,5,16,True,True,False,True,Rare,"BattleAtk, BattleHp","Percent, Percent","15.0, 15.0"
+14618,14,13,6,18,True,True,False,False,Common,BattleHp,Percent,15.0
+14720,15,13,7,20,True,False,True,True,Common,BattleHp,Percent,15.0
+14822,16,13,8,22,False,False,True,True,Common,BattleHp,Percent,15.0
+14843,0,14,8,43,False,False,True,True,Common,Gold,Percent,20.0
+14737,1,14,7,37,False,False,True,True,Common,SciencePoint,Percent,20.0
+14631,2,14,6,31,False,False,True,False,Epic,ForgeSpeed,Percent,10.0
+14630,3,14,6,30,False,True,True,False,Common,RuneChance,Multiply,1.05
+14629,4,14,6,29,True,False,True,True,Common,RuneChance,Multiply,1.05
+14628,5,14,6,28,False,False,False,True,Common,SciencePoint,Percent,20.0
+14627,6,14,6,27,False,True,True,True,Common,BlockHpDown,Percent,-25.0
+14626,7,14,6,26,True,True,True,False,Common,BlockHpDown,Percent,-25.0
+14625,8,14,6,25,True,False,True,False,Common,BlockHpDown,Percent,-25.0
+14624,9,14,6,24,False,True,True,False,Common,DivineBeastHpDown,Percent,-50.0
+14623,10,14,6,23,True,False,False,True,Common,DivineBeastHpDown,Percent,-50.0
+14622,11,14,6,22,False,False,False,True,Common,SciencePoint,Percent,20.0
+14621,12,14,6,21,False,True,True,True,Common,BattleAtk,Percent,15.0
+14620,13,14,6,20,True,False,True,False,Common,BattleAtk,Percent,15.0
+14619,14,14,6,19,False,True,False,False,Epic,ArtifactDrop,Add,10.0
+14721,15,14,7,21,True,False,True,False,Common,BattleAtk,Percent,15.0
+14823,16,14,8,23,False,False,True,True,Common,BattleAtk,Percent,15.0
+14842,0,15,8,42,False,False,True,True,Common,Gold,Percent,20.0
+14736,1,15,7,36,False,True,True,False,Common,SciencePoint,Percent,20.0
+14735,2,15,7,35,True,True,False,False,Common,SciencePoint,Percent,20.0
+14734,3,15,7,34,True,True,False,False,Common,SciencePoint,Percent,20.0
+14733,4,15,7,33,True,True,True,True,Rare,"RuneChance, SciencePoint","Multiply, Percent","1.05, 20.0"
+14732,5,15,7,32,True,True,True,False,Common,SciencePoint,Percent,20.0
+14731,6,15,7,31,True,True,True,False,Common,BlockHpDown,Percent,-25.0
+14730,7,15,7,30,True,True,False,False,Common,BlockHpDown,Percent,-25.0
+14729,8,15,7,29,True,True,False,True,Legendary,"ForgeSpeed, SciencePoint, BlockHpDown","Percent, Percent, Percent","15.0, 50.0, -75.0"
+14728,9,15,7,28,True,True,False,False,Common,DivineBeastHpDown,Percent,-50.0
+14727,10,15,7,27,True,True,True,False,Common,DivineBeastHpDown,Percent,-50.0
+14726,11,15,7,26,True,True,True,False,Common,SciencePoint,Percent,20.0
+14725,12,15,7,25,True,True,True,True,Rare,ScienceRank,Add,5.0
+14724,13,15,7,24,True,True,False,False,Common,SciencePoint,Percent,20.0
+14723,14,15,7,23,True,True,False,False,Common,SciencePoint,Percent,20.0
+14722,15,15,7,22,True,False,False,False,Common,SciencePoint,Percent,20.0
+14824,16,15,8,24,False,False,True,True,Common,BattleAtk,Percent,15.0
+14841,0,16,8,41,False,True,True,False,Legendary,"SciencePoint, WeaponEnhanceCostDown, BlockHpDown, MiningTimeLimit","Percent, Percent, Percent, Add","50.0, -75.0, -75.0, 3600.0"
+14840,1,16,8,40,True,True,False,False,Common,Gold,Percent,20.0
+14839,2,16,8,39,True,True,False,False,Common,MiningSpeed,Percent,10.0
+14838,3,16,8,38,True,True,False,False,Common,MiningTimeLimit,Add,1800.0
+14837,4,16,8,37,True,True,True,False,Common,RuneChance,Multiply,1.05
+14836,5,16,8,36,True,True,False,False,Common,BlockHpDown,Percent,-25.0
+14835,6,16,8,35,True,True,False,False,Rare,ScienceRank,Add,5.0
+14834,7,16,8,34,True,True,False,False,Common,SciencePoint,Percent,20.0
+14833,8,16,8,33,True,True,True,False,Common,SciencePoint,Percent,20.0
+14832,9,16,8,32,True,True,False,False,Common,SciencePoint,Percent,20.0
+14831,10,16,8,31,True,True,False,False,Rare,ScienceRank,Add,5.0
+14830,11,16,8,30,True,True,False,False,Common,DivineBeastHpDown,Percent,-50.0
+14829,12,16,8,29,True,True,True,False,Common,DivineBeastHpDown,Percent,-50.0
+14828,13,16,8,28,True,True,False,False,Common,AllWeaponLevel,Add,25.0
+14827,14,16,8,27,True,True,False,False,Common,AllWeaponLevel,Add,25.0
+14826,15,16,8,26,True,True,False,False,Common,BattleHp,Percent,15.0
+14825,16,16,8,25,True,False,True,False,Legendary,"AllWeaponSpd, ArtifactDrop, BattleAtk, BattleHp","Percent, Add, Percent, Percent","15.0, 15.0, 50.0, 50.0"

@@ -1,0 +1,263 @@
+{
+  "type": "MasterTruthPath",
+  "index": 86,
+  "count": 13,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "Weight",
+      "param": "weight",
+      "kind": "double",
+      "index": 2
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 3
+    },
+    {
+      "name": "UpgradeCost",
+      "param": "upgradeCost",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "UpgradeCostup",
+      "param": "upgradeCostup",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "LevelBonusUp",
+      "param": "levelBonusUp",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "LevelBonusUpUp",
+      "param": "levelBonusUpUp",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "ValueCommon",
+      "param": "valueCommon",
+      "kind": "double",
+      "index": 8
+    },
+    {
+      "name": "ValueRare",
+      "param": "valueRare",
+      "kind": "double",
+      "index": 9
+    },
+    {
+      "name": "ValueEpic",
+      "param": "valueEpic",
+      "kind": "double",
+      "index": 10
+    },
+    {
+      "name": "ValueLegend",
+      "param": "valueLegend",
+      "kind": "double",
+      "index": 11
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Type": "Gold",
+      "Weight": 1.0,
+      "ValueType": "Percent",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 5.0,
+      "ValueRare": 10.0,
+      "ValueEpic": 20.0,
+      "ValueLegend": 50.0
+    },
+    {
+      "Id": 2,
+      "Type": "Power",
+      "Weight": 1.0,
+      "ValueType": "Percent",
+      "UpgradeCost": 15000,
+      "UpgradeCostup": 15000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 5.0,
+      "ValueRare": 10.0,
+      "ValueEpic": 20.0,
+      "ValueLegend": 50.0
+    },
+    {
+      "Id": 3,
+      "Type": "PrestigeBonus",
+      "Weight": 1.0,
+      "ValueType": "Percent",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 5.0,
+      "ValueRare": 10.0,
+      "ValueEpic": 20.0,
+      "ValueLegend": 50.0
+    },
+    {
+      "Id": 4,
+      "Type": "WeaponEnhanceCostDown",
+      "Weight": 1.0,
+      "ValueType": "Divide",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 1.0,
+      "ValueRare": 1.5,
+      "ValueEpic": 3.0,
+      "ValueLegend": 10.0
+    },
+    {
+      "Id": 5,
+      "Type": "ResearchCostDown",
+      "Weight": 1.0,
+      "ValueType": "Divide",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 1.0,
+      "ValueRare": 1.5,
+      "ValueEpic": 3.0,
+      "ValueLegend": 10.0
+    },
+    {
+      "Id": 6,
+      "Type": "AllWeaponDmg",
+      "Weight": 1.0,
+      "ValueType": "Percent",
+      "UpgradeCost": 15000,
+      "UpgradeCostup": 15000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 5.0,
+      "ValueRare": 10.0,
+      "ValueEpic": 20.0,
+      "ValueLegend": 50.0
+    },
+    {
+      "Id": 7,
+      "Type": "RankPowerDown",
+      "Weight": 1.0,
+      "ValueType": "Divide",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 1.0,
+      "ValueRare": 1.5,
+      "ValueEpic": 3.0,
+      "ValueLegend": 10.0
+    },
+    {
+      "Id": 8,
+      "Type": "BlockHpDown",
+      "Weight": 1.0,
+      "ValueType": "Divide",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 1.0,
+      "ValueRare": 1.5,
+      "ValueEpic": 3.0,
+      "ValueLegend": 10.0
+    },
+    {
+      "Id": 9,
+      "Type": "DivineBeastHpDown",
+      "Weight": 1.0,
+      "ValueType": "Divide",
+      "UpgradeCost": 10000,
+      "UpgradeCostup": 10000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 1.0,
+      "ValueRare": 1.5,
+      "ValueEpic": 3.0,
+      "ValueLegend": 10.0
+    },
+    {
+      "Id": 10,
+      "Type": "SciencePoint",
+      "Weight": 0.75,
+      "ValueType": "Percent",
+      "UpgradeCost": 25000,
+      "UpgradeCostup": 25000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 1.0,
+      "ValueRare": 2.0,
+      "ValueEpic": 4.0,
+      "ValueLegend": 10.0
+    },
+    {
+      "Id": 11,
+      "Type": "BattleHp",
+      "Weight": 1.0,
+      "ValueType": "Percent",
+      "UpgradeCost": 15000,
+      "UpgradeCostup": 15000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 2.0,
+      "ValueRare": 4.0,
+      "ValueEpic": 8.0,
+      "ValueLegend": 20.0
+    },
+    {
+      "Id": 12,
+      "Type": "BattleAtk",
+      "Weight": 1.0,
+      "ValueType": "Percent",
+      "UpgradeCost": 15000,
+      "UpgradeCostup": 15000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 2.0,
+      "ValueRare": 4.0,
+      "ValueEpic": 8.0,
+      "ValueLegend": 20.0
+    },
+    {
+      "Id": 13,
+      "Type": "DStone",
+      "Weight": 0.25,
+      "ValueType": "Percent",
+      "UpgradeCost": 25000,
+      "UpgradeCostup": 25000,
+      "LevelBonusUp": 2,
+      "LevelBonusUpUp": 2,
+      "ValueCommon": 0.1,
+      "ValueRare": 0.2,
+      "ValueEpic": 0.4,
+      "ValueLegend": 1.0
+    }
+  ]
+}

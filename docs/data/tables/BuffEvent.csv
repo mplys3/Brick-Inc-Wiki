@@ -1,0 +1,11 @@
+﻿Id,UpgradeType,ValueType,Value
+wk_gold,Gold,Multiply,2.0
+wk_power,Power,Multiply,2.0
+wk_dmg,AllWeaponDmg,Multiply,2.0
+wk_soul,PrestigeBonus,Multiply,2.0
+wk_rune,RuneChance,Multiply,2.0
+wk_gold_3,Gold,Multiply,3.0
+wk_power_3,Power,Multiply,3.0
+wk_dmg_3,AllWeaponDmg,Multiply,3.0
+wk_soul_3,PrestigeBonus,Multiply,3.0
+wk_rune_3,RuneChance,Multiply,3.0

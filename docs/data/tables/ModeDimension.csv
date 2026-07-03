@@ -1,0 +1,11 @@
+﻿Id,Sort,TypeList,ValueTypeList,MaxLevel,ValueUp,Cost,CostUp
+1,3,"ResearchCostDown, WeaponEnhanceCostDown","Divide, Divide",50,"2.0, 2.0",1.00E+01,2.0
+2,4,AllWeaponDmg,Multiply,50,2.0,1.00E+03,2.0
+3,5,Gold,Multiply,50,2.0,1.00E+05,2.0
+4,6,"RankPowerDown, BlockHpDown","Divide, Divide",50,"2.0, 2.0",1.00E+07,2.0
+5,7,Power,Multiply,50,2.0,1.00E+09,2.0
+6,8,"ResearchCostDown, WeaponEnhanceCostDown","Divide, Divide",50,"2.0, 2.0",1.00E+11,2.0
+7,9,AllWeaponDmg,Multiply,50,2.0,1.00E+13,2.0
+8,10,Gold,Multiply,50,2.0,1.00E+15,2.0
+9,11,"RankPowerDown, BlockHpDown","Divide, Divide",50,"2.0, 2.0",1.00E+17,2.0
+10,12,Power,Multiply,50,2.0,1.00E+20,2.0

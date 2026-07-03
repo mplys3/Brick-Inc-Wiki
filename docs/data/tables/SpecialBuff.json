@@ -1,0 +1,333 @@
+{
+  "type": "MasterSpecialBuff",
+  "index": 124,
+  "count": 22,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Tag",
+      "param": "tagOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Type",
+      "param": "type",
+      "kind": "MasterUpgradeType",
+      "index": 2
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 3
+    },
+    {
+      "name": "Value",
+      "param": "value",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUp",
+      "kind": "double",
+      "index": 5
+    },
+    {
+      "name": "TimeAdd",
+      "param": "timeAdd",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "TimeAddCost",
+      "param": "timeAddCost",
+      "kind": "int",
+      "index": 7
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 8
+    },
+    {
+      "name": "LevelUpCost",
+      "param": "levelUpCost",
+      "kind": "int",
+      "index": 9
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 100.0,
+      "ValueUp": 5.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 2,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 100.0,
+      "ValueUp": 5.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 3,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "PrestigeBonus",
+      "ValueType": "Percent",
+      "Value": 100.0,
+      "ValueUp": 5.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 4,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "RuneChance",
+      "ValueType": "Multiply",
+      "Value": 1.25,
+      "ValueUp": 0.01,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 5,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 25.0,
+      "ValueUp": 1.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 6,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 25.0,
+      "ValueUp": 1.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 7,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "BattleStat",
+      "ValueType": "Percent",
+      "Value": 50.0,
+      "ValueUp": 2.5,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 8,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "ArtifactDrop",
+      "ValueType": "Add",
+      "Value": 10.0,
+      "ValueUp": 0.5,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 9,
+      "Tag": "event_year_1_secret_lab",
+      "Type": "ForgeSpeed",
+      "ValueType": "Percent",
+      "Value": 10.0,
+      "ValueUp": 0.5,
+      "TimeAdd": 43200,
+      "TimeAddCost": 10,
+      "MaxLevel": 100,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 11,
+      "Tag": "event_year_1_5_buff",
+      "Type": "Gold",
+      "ValueType": "Percent",
+      "Value": 50.0,
+      "ValueUp": 2.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 101,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 12,
+      "Tag": "event_year_1_5_buff",
+      "Type": "Power",
+      "ValueType": "Percent",
+      "Value": 50.0,
+      "ValueUp": 2.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 101,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 13,
+      "Tag": "event_year_1_5_buff",
+      "Type": "RuneChance",
+      "ValueType": "Multiply",
+      "Value": 1.25,
+      "ValueUp": 0.01,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 76,
+      "LevelUpCost": 25
+    },
+    {
+      "Id": 14,
+      "Tag": "event_year_1_5_buff",
+      "Type": "Ether",
+      "ValueType": "Percent",
+      "Value": 25.0,
+      "ValueUp": 1.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 76,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 15,
+      "Tag": "event_year_1_5_buff",
+      "Type": "SciencePoint",
+      "ValueType": "Percent",
+      "Value": 25.0,
+      "ValueUp": 1.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 126,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 16,
+      "Tag": "event_year_1_5_buff",
+      "Type": "QuantumPoint",
+      "ValueType": "Percent",
+      "Value": 25.0,
+      "ValueUp": 1.0,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 126,
+      "LevelUpCost": 15
+    },
+    {
+      "Id": 17,
+      "Tag": "event_year_1_5_buff",
+      "Type": "ArtifactDrop",
+      "ValueType": "Percent",
+      "Value": 5.0,
+      "ValueUp": 0.2,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 101,
+      "LevelUpCost": 20
+    },
+    {
+      "Id": 18,
+      "Tag": "event_year_1_5_buff",
+      "Type": "LagrangeDrop",
+      "ValueType": "Percent",
+      "Value": 5.0,
+      "ValueUp": 0.2,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 101,
+      "LevelUpCost": 20
+    },
+    {
+      "Id": 19,
+      "Tag": "event_year_1_5_buff",
+      "Type": "ForgeSpeed",
+      "ValueType": "Percent",
+      "Value": 5.0,
+      "ValueUp": 0.2,
+      "TimeAdd": 43200,
+      "TimeAddCost": 25,
+      "MaxLevel": 101,
+      "LevelUpCost": 25
+    },
+    {
+      "Id": 21,
+      "Tag": "bf_world_fire",
+      "Type": "TapBuffMax",
+      "ValueType": "Add",
+      "Value": 500.0,
+      "ValueUp": 0,
+      "TimeAdd": 0,
+      "TimeAddCost": 0,
+      "MaxLevel": 0,
+      "LevelUpCost": 0
+    },
+    {
+      "Id": 22,
+      "Tag": "bf_world_fire",
+      "Type": "DefaultWeaponDmg",
+      "ValueType": "Percent",
+      "Value": 1000.0,
+      "ValueUp": 0,
+      "TimeAdd": 0,
+      "TimeAddCost": 0,
+      "MaxLevel": 0,
+      "LevelUpCost": 0
+    },
+    {
+      "Id": 23,
+      "Tag": "bf_world_water",
+      "Type": "ResearchCostDown",
+      "ValueType": "Divide",
+      "Value": 1000.0,
+      "ValueUp": 0,
+      "TimeAdd": 0,
+      "TimeAddCost": 0,
+      "MaxLevel": 0,
+      "LevelUpCost": 0
+    },
+    {
+      "Id": 24,
+      "Tag": "bf_world_magic",
+      "Type": "BlockHpDown",
+      "ValueType": "Divide",
+      "Value": 1000.0,
+      "ValueUp": 0,
+      "TimeAdd": 0,
+      "TimeAddCost": 0,
+      "MaxLevel": 0,
+      "LevelUpCost": 0
+    }
+  ]
+}

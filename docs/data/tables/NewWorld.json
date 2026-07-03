@@ -1,0 +1,179 @@
+{
+  "type": "MasterNewWorld",
+  "index": 114,
+  "count": 20,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "DifficultyType",
+      "param": "DifficultyType",
+      "kind": "MasterDifficultyLevelType",
+      "index": 1
+    },
+    {
+      "name": "PowerTarget",
+      "param": "powerTargetOffset",
+      "kind": "StringOffset",
+      "index": 2
+    },
+    {
+      "name": "GoldBonus",
+      "param": "goldBonusOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "RewardId",
+      "param": "rewardIdOffset",
+      "kind": "StringOffset",
+      "index": 4
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "DifficultyType": 0,
+      "PowerTarget": "",
+      "GoldBonus": "1.00E+00",
+      "RewardId": ""
+    },
+    {
+      "Level": 2,
+      "DifficultyType": 0,
+      "PowerTarget": "1.00E+04",
+      "GoldBonus": "4.00E+00",
+      "RewardId": ""
+    },
+    {
+      "Level": 3,
+      "DifficultyType": 0,
+      "PowerTarget": "5.00E+04",
+      "GoldBonus": "1.20E+01",
+      "RewardId": ""
+    },
+    {
+      "Level": 4,
+      "DifficultyType": 0,
+      "PowerTarget": "2.50E+05",
+      "GoldBonus": "3.00E+01",
+      "RewardId": ""
+    },
+    {
+      "Level": 5,
+      "DifficultyType": 0,
+      "PowerTarget": "1.25E+06",
+      "GoldBonus": "1.00E+02",
+      "RewardId": ""
+    },
+    {
+      "Level": 6,
+      "DifficultyType": 0,
+      "PowerTarget": "6.25E+06",
+      "GoldBonus": "2.50E+02",
+      "RewardId": ""
+    },
+    {
+      "Level": 7,
+      "DifficultyType": 0,
+      "PowerTarget": "3.13E+07",
+      "GoldBonus": "8.00E+02",
+      "RewardId": ""
+    },
+    {
+      "Level": 8,
+      "DifficultyType": 0,
+      "PowerTarget": "1.56E+08",
+      "GoldBonus": "2.00E+03",
+      "RewardId": ""
+    },
+    {
+      "Level": 9,
+      "DifficultyType": 0,
+      "PowerTarget": "7.81E+08",
+      "GoldBonus": "5.00E+03",
+      "RewardId": ""
+    },
+    {
+      "Level": 10,
+      "DifficultyType": 0,
+      "PowerTarget": "3.91E+09",
+      "GoldBonus": "8.00E+03",
+      "RewardId": ""
+    },
+    {
+      "Level": 11,
+      "DifficultyType": "Normal",
+      "PowerTarget": "1.95E+10",
+      "GoldBonus": "1.50E+04",
+      "RewardId": ""
+    },
+    {
+      "Level": 12,
+      "DifficultyType": "Normal",
+      "PowerTarget": "9.77E+10",
+      "GoldBonus": "3.50E+04",
+      "RewardId": ""
+    },
+    {
+      "Level": 13,
+      "DifficultyType": "Normal",
+      "PowerTarget": "4.88E+11",
+      "GoldBonus": "8.00E+04",
+      "RewardId": ""
+    },
+    {
+      "Level": 14,
+      "DifficultyType": "Normal",
+      "PowerTarget": "2.44E+12",
+      "GoldBonus": "1.50E+05",
+      "RewardId": ""
+    },
+    {
+      "Level": 15,
+      "DifficultyType": "Normal",
+      "PowerTarget": "1.22E+13",
+      "GoldBonus": "2.50E+05",
+      "RewardId": ""
+    },
+    {
+      "Level": 16,
+      "DifficultyType": "Hard",
+      "PowerTarget": "6.10E+13",
+      "GoldBonus": "6.00E+05",
+      "RewardId": ""
+    },
+    {
+      "Level": 17,
+      "DifficultyType": "Hard",
+      "PowerTarget": "3.05E+14",
+      "GoldBonus": "1.20E+06",
+      "RewardId": ""
+    },
+    {
+      "Level": 18,
+      "DifficultyType": "Hard",
+      "PowerTarget": "1.53E+15",
+      "GoldBonus": "2.50E+05",
+      "RewardId": ""
+    },
+    {
+      "Level": 19,
+      "DifficultyType": "Hard",
+      "PowerTarget": "7.63E+15",
+      "GoldBonus": "5.00E+05",
+      "RewardId": ""
+    },
+    {
+      "Level": 20,
+      "DifficultyType": "Hard",
+      "PowerTarget": "3.81E+16",
+      "GoldBonus": "1.00E+06",
+      "RewardId": ""
+    }
+  ]
+}

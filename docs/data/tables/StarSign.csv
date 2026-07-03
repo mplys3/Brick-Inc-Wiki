@@ -1,0 +1,13 @@
+﻿Id,Name,Mark,Sort,Type,ValueType,BonusPow,English
+27001,ss_aries,♈︎,3,AllWeaponDmg,Multiply,0.4,Aries
+27002,ss_taurus,♉︎,4,Gold,Multiply,0.5,Taurus
+27003,ss_gemini,♊︎,5,RankPowerDown,Divide,0.8,Gemini
+27004,ss_cancer,♋︎,6,Power,Multiply,0.5,Cancer
+27005,ss_leo,♌︎,7,BattleStat,Multiply,0.25,Leo
+27006,ss_virgo,♍︎,8,SciencePoint,Multiply,0.2,Virgo
+27007,ss_libra,♎︎,9,DestinyEnergy,Multiply,0.2,Libra
+27008,ss_scorpio,♏︎,10,PrestigeBonus,Multiply,0.75,Scorpio
+27009,ss_sagittarius,♐︎,11,DFuel,Multiply,0.2,Sagittarius
+27010,ss_capricorn,♑︎,12,BlockHpDown,Divide,0.75,Capricorn
+27011,ss_aquarius,♒︎,13,QuantumPoint,Multiply,0.2,Aquarius
+27012,ss_pisces,♓︎,14,DStone,Multiply,0.15,Pisces

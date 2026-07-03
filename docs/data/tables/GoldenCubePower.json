@@ -1,0 +1,162 @@
+{
+  "type": "MasterGoldenCubePower",
+  "index": 78,
+  "count": 9,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "UpgradeType",
+      "param": "upgradeType",
+      "kind": "MasterUpgradeType",
+      "index": 1
+    },
+    {
+      "name": "ValueType",
+      "param": "valueType",
+      "kind": "MasterUpgradeValueType",
+      "index": 2
+    },
+    {
+      "name": "Pow",
+      "param": "pow",
+      "kind": "double",
+      "index": 3
+    },
+    {
+      "name": "Multiplier",
+      "param": "multiplier",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "UnlockCost",
+      "param": "unlockCostOffset",
+      "kind": "StringOffset",
+      "index": 5
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 6
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 7
+    },
+    {
+      "name": "CostUpPow",
+      "param": "costUpPow",
+      "kind": "double",
+      "index": 8
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "UpgradeType": "Gold",
+      "ValueType": "Multiply",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "2.50E+89",
+      "Cost": "1.20E+95",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 2,
+      "UpgradeType": "Power",
+      "ValueType": "Multiply",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "1.50E+92",
+      "Cost": "4.00E+97",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 3,
+      "UpgradeType": "AllWeaponDmg",
+      "ValueType": "Multiply",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "5.00E+102",
+      "Cost": "1.50E+108",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 4,
+      "UpgradeType": "PrestigeBonus",
+      "ValueType": "Multiply",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "1.00E+106",
+      "Cost": "3.50E+111",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 5,
+      "UpgradeType": "ResearchCostDown",
+      "ValueType": "Divide",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "4.00E+112",
+      "Cost": "1.50E+118",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 6,
+      "UpgradeType": "BlockHpDown",
+      "ValueType": "Divide",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "1.50E+119",
+      "Cost": "4.50E+124",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 7,
+      "UpgradeType": "SciencePoint",
+      "ValueType": "Multiply",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "2.00E+127",
+      "Cost": "4.00E+132",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 8,
+      "UpgradeType": "BattleStat",
+      "ValueType": "Multiply",
+      "Pow": 2.0,
+      "Multiplier": 1.0,
+      "UnlockCost": "3.50E+130",
+      "Cost": "9.00E+135",
+      "CostUp": 120.0,
+      "CostUpPow": 1.03
+    },
+    {
+      "Id": 9,
+      "UpgradeType": "DStone",
+      "ValueType": "Percent",
+      "Pow": 2.0,
+      "Multiplier": 0.001,
+      "UnlockCost": "1.00E+171",
+      "Cost": "2.50E+176",
+      "CostUp": 48000000.0,
+      "CostUpPow": 1.03
+    }
+  ]
+}

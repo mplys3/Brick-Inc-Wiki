@@ -1,0 +1,1216 @@
+{
+  "type": "MasterLibrary",
+  "index": 91,
+  "count": 43,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "UnlockRank",
+      "param": "unlockRank",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "NeedLibrary",
+      "param": "needLibrary",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "RequiredType",
+      "param": "requiredTypeOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "BonusType",
+      "param": "bonusTypeOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 7,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "Value",
+      "param": "valueOffset",
+      "kind": "VectorOffset",
+      "index": 8,
+      "element": "double"
+    },
+    {
+      "name": "AddCount",
+      "param": "addCount",
+      "kind": "int",
+      "index": 9
+    },
+    {
+      "name": "MaxCount",
+      "param": "maxCount",
+      "kind": "int",
+      "index": 10
+    },
+    {
+      "name": "Bonus",
+      "param": "bonus",
+      "kind": "double",
+      "index": 11
+    },
+    {
+      "name": "CostBook",
+      "param": "costBook",
+      "kind": "int",
+      "index": 12
+    },
+    {
+      "name": "CostScroll",
+      "param": "costScroll",
+      "kind": "int",
+      "index": 13
+    }
+  ],
+  "rows": [
+    {
+      "Id": 25001,
+      "Name": "lb_engineering",
+      "UnlockRank": 51,
+      "Sort": 3,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "ResearchCostDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": -5.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Engineering"
+    },
+    {
+      "Id": 25002,
+      "Name": "lb_power",
+      "UnlockRank": 51,
+      "Sort": 4,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "Power"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 3.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Power"
+    },
+    {
+      "Id": 25003,
+      "Name": "lb_authority",
+      "UnlockRank": 51,
+      "Sort": 5,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": -5.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Authority"
+    },
+    {
+      "Id": 25004,
+      "Name": "lb_divinity",
+      "UnlockRank": 51,
+      "Sort": 6,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": -5.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Divinity"
+    },
+    {
+      "Id": 25005,
+      "Name": "lb_golden",
+      "UnlockRank": 54,
+      "Sort": 7,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 4.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Golden"
+    },
+    {
+      "Id": 25006,
+      "Name": "lb_science",
+      "UnlockRank": 54,
+      "Sort": 8,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Science"
+    },
+    {
+      "Id": 25007,
+      "Name": "lb_weapon",
+      "UnlockRank": 54,
+      "Sort": 9,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 2.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Weapon"
+    },
+    {
+      "Id": 25008,
+      "Name": "lb_soul",
+      "UnlockRank": 54,
+      "Sort": 10,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 5.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Soul"
+    },
+    {
+      "Id": 25009,
+      "Name": "lb_strengthening",
+      "UnlockRank": 57,
+      "Sort": 11,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "WeaponEnhanceBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 2.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Strengthening"
+    },
+    {
+      "Id": 25010,
+      "Name": "lb_battle",
+      "UnlockRank": 57,
+      "Sort": 12,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "BattleStat"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Battle"
+    },
+    {
+      "Id": 25011,
+      "Name": "lb_destruction",
+      "UnlockRank": 57,
+      "Sort": 13,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": -3.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Destruction"
+    },
+    {
+      "Id": 25012,
+      "Name": "lb_light",
+      "UnlockRank": 57,
+      "Sort": 14,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "Tachyon"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Light"
+    },
+    {
+      "Id": 25013,
+      "Name": "lb_analysis",
+      "UnlockRank": 60,
+      "Sort": 15,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 2.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Analysis"
+    },
+    {
+      "Id": 25014,
+      "Name": "lb_dimension",
+      "UnlockRank": 60,
+      "Sort": 16,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Dimension"
+    },
+    {
+      "Id": 25015,
+      "Name": "lb_quantum",
+      "UnlockRank": 60,
+      "Sort": 17,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Quantum"
+    },
+    {
+      "Id": 25016,
+      "Name": "lb_extinction",
+      "UnlockRank": 63,
+      "Sort": 18,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "Ash"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.0,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Extinction"
+    },
+    {
+      "Id": 25017,
+      "Name": "lb_future",
+      "UnlockRank": 63,
+      "Sort": 19,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Future"
+    },
+    {
+      "Id": 25018,
+      "Name": "lb_space",
+      "UnlockRank": 63,
+      "Sort": 20,
+      "NeedLibrary": 0,
+      "RequiredType": [],
+      "BonusType": [
+        "DFuel"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [],
+      "AddCount": 25,
+      "MaxCount": 1000,
+      "Bonus": 1.5,
+      "CostBook": 0,
+      "CostScroll": 0,
+      "English": "Discipline: Space"
+    },
+    {
+      "Id": 26001,
+      "Name": "bk_golden_book",
+      "UnlockRank": 0,
+      "Sort": 22,
+      "NeedLibrary": 100,
+      "RequiredType": [
+        "Gold",
+        "ResearchCostDown",
+        "BlockHpDown"
+      ],
+      "BonusType": [
+        "Gold"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [
+        100.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 50,
+      "CostScroll": 1,
+      "English": "Midas' Gold Book"
+    },
+    {
+      "Id": 26002,
+      "Name": "bk_necronomicon",
+      "UnlockRank": 0,
+      "Sort": 23,
+      "NeedLibrary": 100,
+      "RequiredType": [
+        "PrestigeBonus",
+        "Power",
+        "RankPowerDown"
+      ],
+      "BonusType": [
+        "PrestigeBonus",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "Value": [
+        100.0,
+        10.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 50,
+      "CostScroll": 1,
+      "English": "Necronomicon"
+    },
+    {
+      "Id": 26003,
+      "Name": "bk_souls_oil",
+      "UnlockRank": 0,
+      "Sort": 24,
+      "NeedLibrary": 150,
+      "RequiredType": [
+        "ResearchCostDown",
+        "Power",
+        "PrestigeBonus"
+      ],
+      "BonusType": [
+        "Power",
+        "Ether"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        25.0,
+        3.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 60,
+      "CostScroll": 2,
+      "English": "Souls Instead of Oil"
+    },
+    {
+      "Id": 26004,
+      "Name": "bk_space_guide",
+      "UnlockRank": 0,
+      "Sort": 25,
+      "NeedLibrary": 150,
+      "RequiredType": [
+        "DStone",
+        "DFuel",
+        "Tachyon"
+      ],
+      "BonusType": [
+        "DFuel",
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        15.0,
+        2.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 60,
+      "CostScroll": 2,
+      "English": "Hitchhiker's Guide to Space: Revised Edition"
+    },
+    {
+      "Id": 26005,
+      "Name": "bk_surviving",
+      "UnlockRank": 0,
+      "Sort": 26,
+      "NeedLibrary": 200,
+      "RequiredType": [
+        "Gold",
+        "AllWeaponDmg",
+        "BattleStat"
+      ],
+      "BonusType": [
+        "BattleStat",
+        "DivineBeastHpDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "Value": [
+        10.0,
+        50.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 70,
+      "CostScroll": 3,
+      "English": "Surviving the Labyrinth"
+    },
+    {
+      "Id": 26006,
+      "Name": "bk_flagship_maintenance",
+      "UnlockRank": 0,
+      "Sort": 27,
+      "NeedLibrary": 200,
+      "RequiredType": [
+        "Power",
+        "SciencePoint",
+        "AllWeaponDmg"
+      ],
+      "BonusType": [
+        "WeaponEnhanceBonus",
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide",
+        "Divide"
+      ],
+      "Value": [
+        20.0,
+        10.0,
+        10.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 70,
+      "CostScroll": 3,
+      "English": "Easy Flagship Maintenance"
+    },
+    {
+      "Id": 26007,
+      "Name": "bk_equivalent_exchange",
+      "UnlockRank": 0,
+      "Sort": 28,
+      "NeedLibrary": 250,
+      "RequiredType": [
+        "DivineBeastHpDown",
+        "RankPowerDown",
+        "Tachyon"
+      ],
+      "BonusType": [
+        "SciencePoint",
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        10.0,
+        5.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 80,
+      "CostScroll": 4,
+      "English": "Introduction to Equivalent Exchange"
+    },
+    {
+      "Id": 26008,
+      "Name": "bk_officers",
+      "UnlockRank": 0,
+      "Sort": 29,
+      "NeedLibrary": 250,
+      "RequiredType": [
+        "RankPowerDown",
+        "AllWeaponDmg",
+        "PrestigeBonus"
+      ],
+      "BonusType": [
+        "AllWeaponSpd",
+        "BattleStat"
+      ],
+      "ValueTypeList": [
+        "Percent",
+        "Multiply"
+      ],
+      "Value": [
+        10.0,
+        5.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 80,
+      "CostScroll": 4,
+      "English": "Unit Management Manual: For Officers"
+    },
+    {
+      "Id": 26009,
+      "Name": "bk_apocalypse",
+      "UnlockRank": 0,
+      "Sort": 30,
+      "NeedLibrary": 300,
+      "RequiredType": [
+        "DivineBeastHpDown",
+        "Ash",
+        "PrestigeBonus"
+      ],
+      "BonusType": [
+        "Ash"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [
+        6.6
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 90,
+      "CostScroll": 5,
+      "English": "Book of Apocalypse Revelation"
+    },
+    {
+      "Id": 26010,
+      "Name": "bk_dawn_of_creation",
+      "UnlockRank": 0,
+      "Sort": 31,
+      "NeedLibrary": 300,
+      "RequiredType": [
+        "Gold",
+        "Power",
+        "AllWeaponDmg"
+      ],
+      "BonusType": [
+        "Gold",
+        "Power",
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 90,
+      "CostScroll": 5,
+      "English": "Genesis"
+    },
+    {
+      "Id": 26011,
+      "Name": "bk_future",
+      "UnlockRank": 0,
+      "Sort": 32,
+      "NeedLibrary": 350,
+      "RequiredType": [
+        "DestinyEnergy",
+        "CriDmg",
+        "WeaponEnhanceBonus"
+      ],
+      "BonusType": [
+        "SciencePoint",
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "Value": [
+        7.0,
+        777.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 100,
+      "CostScroll": 6,
+      "English": "Preview of the Future"
+    },
+    {
+      "Id": 26012,
+      "Name": "bk_pooka_cooka",
+      "UnlockRank": 0,
+      "Sort": 33,
+      "NeedLibrary": 350,
+      "RequiredType": [
+        "DivineBeastHpDown",
+        "PrestigeBonus",
+        "Ash"
+      ],
+      "BonusType": [
+        "RankPowerDown",
+        "PrestigeBonus",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Divide",
+        "Multiply",
+        "Divide"
+      ],
+      "Value": [
+        25.0,
+        500.0,
+        25.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 100,
+      "CostScroll": 6,
+      "English": "Puka-Kuka"
+    },
+    {
+      "Id": 26013,
+      "Name": "bk_business",
+      "UnlockRank": 0,
+      "Sort": 34,
+      "NeedLibrary": 400,
+      "RequiredType": [
+        "Gold",
+        "RankPowerDown",
+        "CriDmg"
+      ],
+      "BonusType": [
+        "Gold",
+        "ForgeSpeed"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Percent"
+      ],
+      "Value": [
+        100.0,
+        5.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 110,
+      "CostScroll": 7,
+      "English": "A Business Starts with 1 Million Gold"
+    },
+    {
+      "Id": 26014,
+      "Name": "bk_strength",
+      "UnlockRank": 0,
+      "Sort": 35,
+      "NeedLibrary": 400,
+      "RequiredType": [
+        "AllWeaponDmg",
+        "CriDmg",
+        "WeaponEnhanceBonus"
+      ],
+      "BonusType": [
+        "AllWeaponDmg",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "Value": [
+        125.0,
+        100.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 110,
+      "CostScroll": 7,
+      "English": "Brawn Instead of Brains"
+    },
+    {
+      "Id": 26015,
+      "Name": "bk_quantum_computer",
+      "UnlockRank": 0,
+      "Sort": 36,
+      "NeedLibrary": 450,
+      "RequiredType": [
+        "ResearchCostDown",
+        "CriDmg",
+        "QuantumPoint"
+      ],
+      "BonusType": [
+        "QuantumPoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "Value": [
+        35.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 120,
+      "CostScroll": 8,
+      "English": "Quantum Computer Level 1 Certification: 2098 Edition"
+    },
+    {
+      "Id": 26016,
+      "Name": "bk_dimensional_map",
+      "UnlockRank": 0,
+      "Sort": 37,
+      "NeedLibrary": 450,
+      "RequiredType": [
+        "QuantumPoint",
+        "DStone",
+        "DestinyEnergy"
+      ],
+      "BonusType": [
+        "DStone",
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        10.0,
+        10.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 120,
+      "CostScroll": 8,
+      "English": "Dimension Map (1:1 Light-Year Scale)"
+    },
+    {
+      "Id": 26017,
+      "Name": "bk_era_of_war",
+      "UnlockRank": 0,
+      "Sort": 38,
+      "NeedLibrary": 500,
+      "RequiredType": [
+        "Power",
+        "BattleStat",
+        "SciencePoint"
+      ],
+      "BonusType": [
+        "SciencePoint",
+        "AllWeaponDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        7.5,
+        100.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 130,
+      "CostScroll": 9,
+      "English": "Age of War"
+    },
+    {
+      "Id": 26018,
+      "Name": "bk_cost_reduction",
+      "UnlockRank": 0,
+      "Sort": 39,
+      "NeedLibrary": 500,
+      "RequiredType": [
+        "ResearchCostDown",
+        "Tachyon",
+        "DStone"
+      ],
+      "BonusType": [
+        "DFuel",
+        "Tachyon"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        10.0,
+        25.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 130,
+      "CostScroll": 9,
+      "English": "How to Achieve Cost Reduction"
+    },
+    {
+      "Id": 26019,
+      "Name": "bk_clock_mechanic",
+      "UnlockRank": 0,
+      "Sort": 40,
+      "NeedLibrary": 550,
+      "RequiredType": [
+        "ResearchCostDown",
+        "SciencePoint",
+        "BlockHpDown"
+      ],
+      "BonusType": [
+        "CosmicDialTick",
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        4.0,
+        10.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 140,
+      "CostScroll": 10,
+      "English": "Become a Clock Repairman Today"
+    },
+    {
+      "Id": 26020,
+      "Name": "bk_fake_rune",
+      "UnlockRank": 0,
+      "Sort": 41,
+      "NeedLibrary": 550,
+      "RequiredType": [
+        "Gold",
+        "PrestigeBonus",
+        "Tachyon"
+      ],
+      "BonusType": [
+        "Rune"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "Value": [
+        1.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 140,
+      "CostScroll": 10,
+      "English": "Fake Rune Crafting Guide"
+    },
+    {
+      "Id": 26024,
+      "Name": "bk_eve",
+      "UnlockRank": 0,
+      "Sort": 42,
+      "NeedLibrary": 600,
+      "RequiredType": [
+        "DStone",
+        "Tachyon",
+        "QuantumPoint"
+      ],
+      "BonusType": [
+        "ScienceRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "Value": [
+        50.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 160,
+      "CostScroll": 12,
+      "English": "War AI: Eve"
+    },
+    {
+      "Id": 26022,
+      "Name": "bk_astrology",
+      "UnlockRank": 0,
+      "Sort": 43,
+      "NeedLibrary": 600,
+      "RequiredType": [
+        "DivineBeastHpDown",
+        "PrestigeBonus",
+        "DestinyEnergy"
+      ],
+      "BonusType": [
+        "PrestigeBonus",
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        1000.0,
+        5.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 180,
+      "CostScroll": 14,
+      "English": "Grade 1 Astrology Past Papers"
+    },
+    {
+      "Id": 26023,
+      "Name": "bk_chrono_break",
+      "UnlockRank": 0,
+      "Sort": 44,
+      "NeedLibrary": 650,
+      "RequiredType": [
+        "BlockHpDown",
+        "Ash",
+        "DestinyEnergy"
+      ],
+      "BonusType": [
+        "DStone",
+        "CriDmg"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "Value": [
+        10.0,
+        25.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 200,
+      "CostScroll": 16,
+      "English": "Chrono Break"
+    },
+    {
+      "Id": 26021,
+      "Name": "bk_quantum_focus",
+      "UnlockRank": 0,
+      "Sort": 45,
+      "NeedLibrary": 650,
+      "RequiredType": [
+        "QuantumPoint",
+        "WeaponEnhanceBonus",
+        "CriDmg"
+      ],
+      "BonusType": [
+        "QuantumRank"
+      ],
+      "ValueTypeList": [
+        "Add"
+      ],
+      "Value": [
+        50.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 225,
+      "CostScroll": 18,
+      "English": "Quantum Focus"
+    },
+    {
+      "Id": 26025,
+      "Name": "bk_secret_seasoning",
+      "UnlockRank": 0,
+      "Sort": 46,
+      "NeedLibrary": 700,
+      "RequiredType": [
+        "Gold",
+        "Tachyon",
+        "DStone"
+      ],
+      "BonusType": [
+        "Gold",
+        "BlockHpDown"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Divide"
+      ],
+      "Value": [
+        125.0,
+        400.0
+      ],
+      "AddCount": 0,
+      "MaxCount": 0,
+      "Bonus": 0,
+      "CostBook": 250,
+      "CostScroll": 20,
+      "English": "Secret Seasoning Sauce Recipe"
+    }
+  ]
+}

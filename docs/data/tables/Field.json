@@ -1,0 +1,845 @@
+{
+  "type": "MasterField",
+  "index": 60,
+  "count": 100,
+  "fields": [
+    {
+      "name": "Level",
+      "param": "level",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "BoardSize",
+      "param": "boardSize",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "Block",
+      "param": "block",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Price",
+      "param": "priceOffset",
+      "kind": "StringOffset",
+      "index": 3
+    },
+    {
+      "name": "RuneChance",
+      "param": "runeChance",
+      "kind": "double",
+      "index": 4
+    },
+    {
+      "name": "RuneMine",
+      "param": "runeMine",
+      "kind": "double",
+      "index": 5
+    }
+  ],
+  "rows": [
+    {
+      "Level": 1,
+      "BoardSize": 8,
+      "Block": 2001,
+      "Price": "0.00E+00",
+      "RuneChance": 0,
+      "RuneMine": 0
+    },
+    {
+      "Level": 2,
+      "BoardSize": 8,
+      "Block": 2002,
+      "Price": "1.00E+02",
+      "RuneChance": 0,
+      "RuneMine": 0
+    },
+    {
+      "Level": 3,
+      "BoardSize": 8,
+      "Block": 2003,
+      "Price": "1.50E+03",
+      "RuneChance": 0,
+      "RuneMine": 0
+    },
+    {
+      "Level": 4,
+      "BoardSize": 8,
+      "Block": 2004,
+      "Price": "2.00E+04",
+      "RuneChance": 0,
+      "RuneMine": 0
+    },
+    {
+      "Level": 5,
+      "BoardSize": 10,
+      "Block": 2005,
+      "Price": "2.50E+05",
+      "RuneChance": 0,
+      "RuneMine": 0
+    },
+    {
+      "Level": 6,
+      "BoardSize": 10,
+      "Block": 2006,
+      "Price": "4.00E+06",
+      "RuneChance": 0.5,
+      "RuneMine": 0.005
+    },
+    {
+      "Level": 7,
+      "BoardSize": 10,
+      "Block": 2007,
+      "Price": "7.50E+07",
+      "RuneChance": 0.55,
+      "RuneMine": 0.006
+    },
+    {
+      "Level": 8,
+      "BoardSize": 10,
+      "Block": 2008,
+      "Price": "1.00E+09",
+      "RuneChance": 0.6,
+      "RuneMine": 0.006
+    },
+    {
+      "Level": 9,
+      "BoardSize": 10,
+      "Block": 2009,
+      "Price": "8.00E+09",
+      "RuneChance": 0.65,
+      "RuneMine": 0.007
+    },
+    {
+      "Level": 10,
+      "BoardSize": 10,
+      "Block": 2010,
+      "Price": "1.50E+11",
+      "RuneChance": 0.7,
+      "RuneMine": 0.007
+    },
+    {
+      "Level": 11,
+      "BoardSize": 10,
+      "Block": 2011,
+      "Price": "2.00E+12",
+      "RuneChance": 0.75,
+      "RuneMine": 0.008
+    },
+    {
+      "Level": 12,
+      "BoardSize": 10,
+      "Block": 2012,
+      "Price": "3.00E+13",
+      "RuneChance": 0.8,
+      "RuneMine": 0.008
+    },
+    {
+      "Level": 13,
+      "BoardSize": 10,
+      "Block": 2013,
+      "Price": "1.50E+14",
+      "RuneChance": 0.85,
+      "RuneMine": 0.009
+    },
+    {
+      "Level": 14,
+      "BoardSize": 10,
+      "Block": 2014,
+      "Price": "1.35E+15",
+      "RuneChance": 0.9,
+      "RuneMine": 0.009
+    },
+    {
+      "Level": 15,
+      "BoardSize": 12,
+      "Block": 2015,
+      "Price": "1.50E+16",
+      "RuneChance": 0.95,
+      "RuneMine": 0.014
+    },
+    {
+      "Level": 16,
+      "BoardSize": 12,
+      "Block": 2016,
+      "Price": "3.00E+17",
+      "RuneChance": 1.0,
+      "RuneMine": 0.014
+    },
+    {
+      "Level": 17,
+      "BoardSize": 12,
+      "Block": 2017,
+      "Price": "2.45E+18",
+      "RuneChance": 1.05,
+      "RuneMine": 0.015
+    },
+    {
+      "Level": 18,
+      "BoardSize": 12,
+      "Block": 2018,
+      "Price": "2.20E+19",
+      "RuneChance": 1.1,
+      "RuneMine": 0.016
+    },
+    {
+      "Level": 19,
+      "BoardSize": 12,
+      "Block": 2019,
+      "Price": "4.60E+20",
+      "RuneChance": 1.15,
+      "RuneMine": 0.017
+    },
+    {
+      "Level": 20,
+      "BoardSize": 12,
+      "Block": 2020,
+      "Price": "2.90E+21",
+      "RuneChance": 1.2,
+      "RuneMine": 0.017
+    },
+    {
+      "Level": 21,
+      "BoardSize": 12,
+      "Block": 2021,
+      "Price": "3.50E+22",
+      "RuneChance": 1.25,
+      "RuneMine": 0.018
+    },
+    {
+      "Level": 22,
+      "BoardSize": 12,
+      "Block": 2022,
+      "Price": "5.30E+23",
+      "RuneChance": 1.3,
+      "RuneMine": 0.019
+    },
+    {
+      "Level": 23,
+      "BoardSize": 12,
+      "Block": 2023,
+      "Price": "4.25E+24",
+      "RuneChance": 1.35,
+      "RuneMine": 0.019
+    },
+    {
+      "Level": 24,
+      "BoardSize": 12,
+      "Block": 2024,
+      "Price": "5.00E+25",
+      "RuneChance": 1.4,
+      "RuneMine": 0.02
+    },
+    {
+      "Level": 25,
+      "BoardSize": 12,
+      "Block": 2025,
+      "Price": "9.15E+26",
+      "RuneChance": 1.45,
+      "RuneMine": 0.021
+    },
+    {
+      "Level": 26,
+      "BoardSize": 12,
+      "Block": 2026,
+      "Price": "7.70E+27",
+      "RuneChance": 1.5,
+      "RuneMine": 0.022
+    },
+    {
+      "Level": 27,
+      "BoardSize": 12,
+      "Block": 2027,
+      "Price": "8.50E+28",
+      "RuneChance": 1.55,
+      "RuneMine": 0.022
+    },
+    {
+      "Level": 28,
+      "BoardSize": 12,
+      "Block": 2028,
+      "Price": "2.00E+30",
+      "RuneChance": 1.6,
+      "RuneMine": 0.023
+    },
+    {
+      "Level": 29,
+      "BoardSize": 12,
+      "Block": 2029,
+      "Price": "1.90E+31",
+      "RuneChance": 1.65,
+      "RuneMine": 0.024
+    },
+    {
+      "Level": 30,
+      "BoardSize": 14,
+      "Block": 2030,
+      "Price": "2.15E+32",
+      "RuneChance": 1.7,
+      "RuneMine": 0.033
+    },
+    {
+      "Level": 31,
+      "BoardSize": 14,
+      "Block": 2031,
+      "Price": "3.00E+33",
+      "RuneChance": 1.75,
+      "RuneMine": 0.034
+    },
+    {
+      "Level": 32,
+      "BoardSize": 14,
+      "Block": 2032,
+      "Price": "2.90E+34",
+      "RuneChance": 1.8,
+      "RuneMine": 0.035
+    },
+    {
+      "Level": 33,
+      "BoardSize": 14,
+      "Block": 2033,
+      "Price": "2.40E+35",
+      "RuneChance": 1.85,
+      "RuneMine": 0.036
+    },
+    {
+      "Level": 34,
+      "BoardSize": 14,
+      "Block": 2034,
+      "Price": "5.00E+36",
+      "RuneChance": 1.9,
+      "RuneMine": 0.037
+    },
+    {
+      "Level": 35,
+      "BoardSize": 14,
+      "Block": 2035,
+      "Price": "1.00E+38",
+      "RuneChance": 1.95,
+      "RuneMine": 0.038
+    },
+    {
+      "Level": 36,
+      "BoardSize": 14,
+      "Block": 2036,
+      "Price": "3.00E+39",
+      "RuneChance": 2.0,
+      "RuneMine": 0.039
+    },
+    {
+      "Level": 37,
+      "BoardSize": 14,
+      "Block": 2037,
+      "Price": "1.00E+41",
+      "RuneChance": 2.05,
+      "RuneMine": 0.04
+    },
+    {
+      "Level": 38,
+      "BoardSize": 14,
+      "Block": 2038,
+      "Price": "1.50E+42",
+      "RuneChance": 2.1,
+      "RuneMine": 0.041
+    },
+    {
+      "Level": 39,
+      "BoardSize": 14,
+      "Block": 2039,
+      "Price": "5.00E+43",
+      "RuneChance": 2.15,
+      "RuneMine": 0.042
+    },
+    {
+      "Level": 40,
+      "BoardSize": 14,
+      "Block": 2040,
+      "Price": "2.00E+45",
+      "RuneChance": 2.2,
+      "RuneMine": 0.043
+    },
+    {
+      "Level": 41,
+      "BoardSize": 14,
+      "Block": 2041,
+      "Price": "8.00E+46",
+      "RuneChance": 2.25,
+      "RuneMine": 0.044
+    },
+    {
+      "Level": 42,
+      "BoardSize": 14,
+      "Block": 2042,
+      "Price": "2.00E+48",
+      "RuneChance": 2.3,
+      "RuneMine": 0.045
+    },
+    {
+      "Level": 43,
+      "BoardSize": 14,
+      "Block": 2043,
+      "Price": "8.00E+49",
+      "RuneChance": 2.35,
+      "RuneMine": 0.046
+    },
+    {
+      "Level": 44,
+      "BoardSize": 14,
+      "Block": 2044,
+      "Price": "4.00E+51",
+      "RuneChance": 2.4,
+      "RuneMine": 0.047
+    },
+    {
+      "Level": 45,
+      "BoardSize": 14,
+      "Block": 2045,
+      "Price": "2.00E+53",
+      "RuneChance": 2.45,
+      "RuneMine": 0.048
+    },
+    {
+      "Level": 46,
+      "BoardSize": 14,
+      "Block": 2046,
+      "Price": "1.25E+55",
+      "RuneChance": 2.5,
+      "RuneMine": 0.049
+    },
+    {
+      "Level": 47,
+      "BoardSize": 14,
+      "Block": 2047,
+      "Price": "8.00E+56",
+      "RuneChance": 2.55,
+      "RuneMine": 0.05
+    },
+    {
+      "Level": 48,
+      "BoardSize": 14,
+      "Block": 2048,
+      "Price": "5.00E+58",
+      "RuneChance": 2.6,
+      "RuneMine": 0.051
+    },
+    {
+      "Level": 49,
+      "BoardSize": 14,
+      "Block": 2049,
+      "Price": "4.00E+60",
+      "RuneChance": 2.65,
+      "RuneMine": 0.052
+    },
+    {
+      "Level": 50,
+      "BoardSize": 14,
+      "Block": 2050,
+      "Price": "5.00E+62",
+      "RuneChance": 2.7,
+      "RuneMine": 0.053
+    },
+    {
+      "Level": 51,
+      "BoardSize": 14,
+      "Block": 2051,
+      "Price": "1.00E+65",
+      "RuneChance": 2.75,
+      "RuneMine": 0.054
+    },
+    {
+      "Level": 52,
+      "BoardSize": 14,
+      "Block": 2052,
+      "Price": "2.00E+67",
+      "RuneChance": 2.8,
+      "RuneMine": 0.055
+    },
+    {
+      "Level": 53,
+      "BoardSize": 14,
+      "Block": 2053,
+      "Price": "8.00E+69",
+      "RuneChance": 2.85,
+      "RuneMine": 0.056
+    },
+    {
+      "Level": 54,
+      "BoardSize": 14,
+      "Block": 2054,
+      "Price": "7.50E+72",
+      "RuneChance": 2.9,
+      "RuneMine": 0.057
+    },
+    {
+      "Level": 55,
+      "BoardSize": 14,
+      "Block": 2055,
+      "Price": "6.50E+75",
+      "RuneChance": 2.95,
+      "RuneMine": 0.058
+    },
+    {
+      "Level": 56,
+      "BoardSize": 14,
+      "Block": 2056,
+      "Price": "5.00E+78",
+      "RuneChance": 3.0,
+      "RuneMine": 0.059
+    },
+    {
+      "Level": 57,
+      "BoardSize": 14,
+      "Block": 2057,
+      "Price": "3.00E+81",
+      "RuneChance": 3.05,
+      "RuneMine": 0.06
+    },
+    {
+      "Level": 58,
+      "BoardSize": 14,
+      "Block": 2058,
+      "Price": "4.00E+84",
+      "RuneChance": 3.1,
+      "RuneMine": 0.061
+    },
+    {
+      "Level": 59,
+      "BoardSize": 14,
+      "Block": 2059,
+      "Price": "2.00E+88",
+      "RuneChance": 3.15,
+      "RuneMine": 0.062
+    },
+    {
+      "Level": 60,
+      "BoardSize": 14,
+      "Block": 2060,
+      "Price": "1.00E+92",
+      "RuneChance": 3.2,
+      "RuneMine": 0.063
+    },
+    {
+      "Level": 61,
+      "BoardSize": 14,
+      "Block": 2061,
+      "Price": "1.50E+96",
+      "RuneChance": 3.25,
+      "RuneMine": 0.064
+    },
+    {
+      "Level": 62,
+      "BoardSize": 14,
+      "Block": 2062,
+      "Price": "7.50E+99",
+      "RuneChance": 3.3,
+      "RuneMine": 0.065
+    },
+    {
+      "Level": 63,
+      "BoardSize": 14,
+      "Block": 2063,
+      "Price": "6.00E+103",
+      "RuneChance": 3.35,
+      "RuneMine": 0.066
+    },
+    {
+      "Level": 64,
+      "BoardSize": 14,
+      "Block": 2064,
+      "Price": "8.00E+107",
+      "RuneChance": 3.4,
+      "RuneMine": 0.067
+    },
+    {
+      "Level": 65,
+      "BoardSize": 14,
+      "Block": 2065,
+      "Price": "2.00E+112",
+      "RuneChance": 3.45,
+      "RuneMine": 0.068
+    },
+    {
+      "Level": 66,
+      "BoardSize": 14,
+      "Block": 2066,
+      "Price": "4.00E+117",
+      "RuneChance": 3.5,
+      "RuneMine": 0.069
+    },
+    {
+      "Level": 67,
+      "BoardSize": 14,
+      "Block": 2067,
+      "Price": "1.00E+123",
+      "RuneChance": 3.55,
+      "RuneMine": 0.07
+    },
+    {
+      "Level": 68,
+      "BoardSize": 14,
+      "Block": 2068,
+      "Price": "1.50E+129",
+      "RuneChance": 3.6,
+      "RuneMine": 0.071
+    },
+    {
+      "Level": 69,
+      "BoardSize": 14,
+      "Block": 2069,
+      "Price": "4.50E+137",
+      "RuneChance": 3.65,
+      "RuneMine": 0.072
+    },
+    {
+      "Level": 70,
+      "BoardSize": 14,
+      "Block": 2070,
+      "Price": "2.00E+146",
+      "RuneChance": 3.7,
+      "RuneMine": 0.073
+    },
+    {
+      "Level": 71,
+      "BoardSize": 14,
+      "Block": 2071,
+      "Price": "1.50E+155",
+      "RuneChance": 3.75,
+      "RuneMine": 0.074
+    },
+    {
+      "Level": 72,
+      "BoardSize": 14,
+      "Block": 2072,
+      "Price": "5.00E+164",
+      "RuneChance": 3.8,
+      "RuneMine": 0.074
+    },
+    {
+      "Level": 73,
+      "BoardSize": 14,
+      "Block": 2073,
+      "Price": "8.00E+173",
+      "RuneChance": 3.85,
+      "RuneMine": 0.075
+    },
+    {
+      "Level": 74,
+      "BoardSize": 14,
+      "Block": 2074,
+      "Price": "1.00E+184",
+      "RuneChance": 3.9,
+      "RuneMine": 0.076
+    },
+    {
+      "Level": 75,
+      "BoardSize": 14,
+      "Block": 2075,
+      "Price": "2.50E+193",
+      "RuneChance": 3.95,
+      "RuneMine": 0.077
+    },
+    {
+      "Level": 76,
+      "BoardSize": 14,
+      "Block": 2076,
+      "Price": "5.00E+203",
+      "RuneChance": 4.0,
+      "RuneMine": 0.078
+    },
+    {
+      "Level": 77,
+      "BoardSize": 14,
+      "Block": 2077,
+      "Price": "3.00E+216",
+      "RuneChance": 4.05,
+      "RuneMine": 0.079
+    },
+    {
+      "Level": 78,
+      "BoardSize": 14,
+      "Block": 2078,
+      "Price": "8.00E+225",
+      "RuneChance": 4.1,
+      "RuneMine": 0.08
+    },
+    {
+      "Level": 79,
+      "BoardSize": 14,
+      "Block": 2079,
+      "Price": "6.00E+238",
+      "RuneChance": 4.15,
+      "RuneMine": 0.081
+    },
+    {
+      "Level": 80,
+      "BoardSize": 14,
+      "Block": 2080,
+      "Price": "7.50E+254",
+      "RuneChance": 4.2,
+      "RuneMine": 0.082
+    },
+    {
+      "Level": 81,
+      "BoardSize": 14,
+      "Block": 2081,
+      "Price": "2.50E+267",
+      "RuneChance": 4.25,
+      "RuneMine": 0.083
+    },
+    {
+      "Level": 82,
+      "BoardSize": 14,
+      "Block": 2082,
+      "Price": "8.00E+281",
+      "RuneChance": 4.3,
+      "RuneMine": 0.084
+    },
+    {
+      "Level": 83,
+      "BoardSize": 14,
+      "Block": 2083,
+      "Price": "1.00E+302",
+      "RuneChance": 4.35,
+      "RuneMine": 0.085
+    },
+    {
+      "Level": 84,
+      "BoardSize": 14,
+      "Block": 2084,
+      "Price": "3e317",
+      "RuneChance": 4.4,
+      "RuneMine": 0.086
+    },
+    {
+      "Level": 85,
+      "BoardSize": 14,
+      "Block": 2085,
+      "Price": "5e327",
+      "RuneChance": 4.45,
+      "RuneMine": 0.087
+    },
+    {
+      "Level": 86,
+      "BoardSize": 14,
+      "Block": 2086,
+      "Price": "2.5e336",
+      "RuneChance": 4.5,
+      "RuneMine": 0.088
+    },
+    {
+      "Level": 87,
+      "BoardSize": 14,
+      "Block": 2087,
+      "Price": "1e349",
+      "RuneChance": 4.55,
+      "RuneMine": 0.089
+    },
+    {
+      "Level": 88,
+      "BoardSize": 14,
+      "Block": 2088,
+      "Price": "7.5e359",
+      "RuneChance": 4.6,
+      "RuneMine": 0.09
+    },
+    {
+      "Level": 89,
+      "BoardSize": 14,
+      "Block": 2089,
+      "Price": "4e369",
+      "RuneChance": 4.65,
+      "RuneMine": 0.091
+    },
+    {
+      "Level": 90,
+      "BoardSize": 14,
+      "Block": 2090,
+      "Price": "8e383",
+      "RuneChance": 4.7,
+      "RuneMine": 0.092
+    },
+    {
+      "Level": 91,
+      "BoardSize": 14,
+      "Block": 2091,
+      "Price": "1.5e394",
+      "RuneChance": 4.75,
+      "RuneMine": 0.093
+    },
+    {
+      "Level": 92,
+      "BoardSize": 14,
+      "Block": 2092,
+      "Price": "2.5e404",
+      "RuneChance": 4.8,
+      "RuneMine": 0.094
+    },
+    {
+      "Level": 93,
+      "BoardSize": 14,
+      "Block": 2093,
+      "Price": "2e436",
+      "RuneChance": 4.85,
+      "RuneMine": 0.095
+    },
+    {
+      "Level": 94,
+      "BoardSize": 14,
+      "Block": 2094,
+      "Price": "5e458",
+      "RuneChance": 4.9,
+      "RuneMine": 0.096
+    },
+    {
+      "Level": 95,
+      "BoardSize": 14,
+      "Block": 2095,
+      "Price": "1.5e480",
+      "RuneChance": 4.95,
+      "RuneMine": 0.097
+    },
+    {
+      "Level": 96,
+      "BoardSize": 14,
+      "Block": 2096,
+      "Price": "2.5e522",
+      "RuneChance": 5.0,
+      "RuneMine": 0.098
+    },
+    {
+      "Level": 97,
+      "BoardSize": 14,
+      "Block": 2097,
+      "Price": "5e551",
+      "RuneChance": 5.05,
+      "RuneMine": 0.099
+    },
+    {
+      "Level": 98,
+      "BoardSize": 14,
+      "Block": 2098,
+      "Price": "7.5e580",
+      "RuneChance": 5.1,
+      "RuneMine": 0.1
+    },
+    {
+      "Level": 99,
+      "BoardSize": 14,
+      "Block": 2099,
+      "Price": "1e644",
+      "RuneChance": 5.15,
+      "RuneMine": 0.101
+    },
+    {
+      "Level": 100,
+      "BoardSize": 14,
+      "Block": 2100,
+      "Price": "2e721",
+      "RuneChance": 5.2,
+      "RuneMine": 0.102
+    }
+  ]
+}

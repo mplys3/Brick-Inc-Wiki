@@ -1,0 +1,736 @@
+{
+  "type": "MasterTutorial",
+  "index": 138,
+  "count": 74,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Prefab",
+      "param": "prefabOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "ConditionTutorial",
+      "param": "conditionTutorial",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "ConditionRank",
+      "param": "conditionRank",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "SkipRank",
+      "param": "skipRank",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "UnlockContents",
+      "param": "unlockContentsOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "string"
+    }
+  ],
+  "rows": [
+    {
+      "Id": 100,
+      "Prefab": "tu_0100_weapon_fire_button",
+      "ConditionTutorial": 0,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 101,
+      "Prefab": "tu_0101_weapon_fire_screen",
+      "ConditionTutorial": 100,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Weapon"
+      ]
+    },
+    {
+      "Id": 110,
+      "Prefab": "tu_0110_weapon_buy",
+      "ConditionTutorial": 101,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 111,
+      "Prefab": "tu_0111_weapon_equip",
+      "ConditionTutorial": 110,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 112,
+      "Prefab": "tu_0112_weapon_enhance",
+      "ConditionTutorial": 111,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Research"
+      ]
+    },
+    {
+      "Id": 120,
+      "Prefab": "tu_0120_research",
+      "ConditionTutorial": 112,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Field",
+        "DivineBeast"
+      ]
+    },
+    {
+      "Id": 130,
+      "Prefab": "tu_0130_field_unlock",
+      "ConditionTutorial": 120,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 131,
+      "Prefab": "tu_0131_field_change",
+      "ConditionTutorial": 130,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Rank"
+      ]
+    },
+    {
+      "Id": 140,
+      "Prefab": "tu_0140_rank_up",
+      "ConditionTutorial": 131,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 150,
+      "Prefab": "tu_0150_rank_up",
+      "ConditionTutorial": 140,
+      "ConditionRank": 0,
+      "SkipRank": 2,
+      "UnlockContents": []
+    },
+    {
+      "Id": 200,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 2,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Card",
+        "Altar",
+        "Shop",
+        "EpicUpgrade",
+        "EpicShop",
+        "Item",
+        "Attendance",
+        "Membership"
+      ]
+    },
+    {
+      "Id": 210,
+      "Prefab": "tu_0210_summon_card",
+      "ConditionTutorial": 200,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": [
+        "SaleShop",
+        "MileageShop",
+        "Mission"
+      ]
+    },
+    {
+      "Id": 220,
+      "Prefab": "tu_0220_mission",
+      "ConditionTutorial": 210,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": [
+        "SurpriseBox"
+      ]
+    },
+    {
+      "Id": 300,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 3,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Booster",
+        "Pass",
+        "Mine",
+        "GrowthCeneter"
+      ]
+    },
+    {
+      "Id": 310,
+      "Prefab": "tu_0310_booster",
+      "ConditionTutorial": 300,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": []
+    },
+    {
+      "Id": 320,
+      "Prefab": "tu_0320_pass",
+      "ConditionTutorial": 310,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": []
+    },
+    {
+      "Id": 400,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 4,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Event",
+        "PiggyBank"
+      ]
+    },
+    {
+      "Id": 405,
+      "Prefab": "tu_0405_event",
+      "ConditionTutorial": 400,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": []
+    },
+    {
+      "Id": 500,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 5,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Prestige",
+        "SoulUpgrade",
+        "GameEvent",
+        "Leaderboard",
+        "SystemManager"
+      ]
+    },
+    {
+      "Id": 510,
+      "Prefab": "tu_0510_prestige",
+      "ConditionTutorial": 500,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": []
+    },
+    {
+      "Id": 600,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 6,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "ChallengeLicence"
+      ]
+    },
+    {
+      "Id": 610,
+      "Prefab": "tu_0610_challenge_licence",
+      "ConditionTutorial": 600,
+      "ConditionRank": 0,
+      "SkipRank": 10,
+      "UnlockContents": []
+    },
+    {
+      "Id": 700,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 7,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "SoulEnhance"
+      ]
+    },
+    {
+      "Id": 1300,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 9,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 1310,
+      "Prefab": "tu_1310_system_manager",
+      "ConditionTutorial": 500,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 1000,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 10,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Science"
+      ]
+    },
+    {
+      "Id": 1010,
+      "Prefab": "tu_1010_science",
+      "ConditionTutorial": 1000,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 1200,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 12,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "ArtSociety"
+      ]
+    },
+    {
+      "Id": 1210,
+      "Prefab": "tu_1210_art_society",
+      "ConditionTutorial": 1200,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 1600,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 16,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DevilOrder"
+      ]
+    },
+    {
+      "Id": 1610,
+      "Prefab": "tu_1610_devil_order",
+      "ConditionTutorial": 1600,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 1800,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 18,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DevilOrderCurse"
+      ]
+    },
+    {
+      "Id": 1900,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 19,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Sanctum",
+        "ChallengeChaos"
+      ]
+    },
+    {
+      "Id": 1910,
+      "Prefab": "tu_1910_sanctum",
+      "ConditionTutorial": 1900,
+      "ConditionRank": 0,
+      "SkipRank": 31,
+      "UnlockContents": []
+    },
+    {
+      "Id": 1920,
+      "Prefab": "tu_1920_challenge_chaos",
+      "ConditionTutorial": 1910,
+      "ConditionRank": 0,
+      "SkipRank": 31,
+      "UnlockContents": []
+    },
+    {
+      "Id": 2800,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 21,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DivineBeastEx"
+      ]
+    },
+    {
+      "Id": 2200,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 22,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Forge"
+      ]
+    },
+    {
+      "Id": 2500,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 25,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "WarAI"
+      ]
+    },
+    {
+      "Id": 2510,
+      "Prefab": "tu_2510_war_ai",
+      "ConditionTutorial": 2500,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 3000,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 30,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "WarAISoulAltar"
+      ]
+    },
+    {
+      "Id": 3100,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 31,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "MysticCard"
+      ]
+    },
+    {
+      "Id": 3110,
+      "Prefab": "tu_3110_mystic_card",
+      "ConditionTutorial": 3100,
+      "ConditionRank": 0,
+      "SkipRank": 43,
+      "UnlockContents": []
+    },
+    {
+      "Id": 3300,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 33,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DivineBeastSurge"
+      ]
+    },
+    {
+      "Id": 3400,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 34,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "GoldenCube"
+      ]
+    },
+    {
+      "Id": 3410,
+      "Prefab": "tu_3410_golden_cube",
+      "ConditionTutorial": 3400,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 3600,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 36,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "SecretArea"
+      ]
+    },
+    {
+      "Id": 3610,
+      "Prefab": "tu_3610_secret_area",
+      "ConditionTutorial": 3600,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 4000,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 40,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "GoldenCubeInnovation"
+      ]
+    },
+    {
+      "Id": 4100,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 41,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "SecretAreaExpansionReady"
+      ]
+    },
+    {
+      "Id": 4110,
+      "Prefab": "tu_4110_secret_area_expansion",
+      "ConditionTutorial": 4100,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 4300,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 43,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Dimension"
+      ]
+    },
+    {
+      "Id": 4310,
+      "Prefab": "tu_4310_dimension",
+      "ConditionTutorial": 4300,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 4600,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 46,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "TruthGardenExpansionReady"
+      ]
+    },
+    {
+      "Id": 4610,
+      "Prefab": "tu_4610_truth_garden_expansion",
+      "ConditionTutorial": 4600,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 4900,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 49,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Oracle"
+      ]
+    },
+    {
+      "Id": 4910,
+      "Prefab": "tu_4910_oracle",
+      "ConditionTutorial": 4900,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5100,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 51,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DimensionalArchive"
+      ]
+    },
+    {
+      "Id": 5110,
+      "Prefab": "tu_5110_dimensional_archive",
+      "ConditionTutorial": 5100,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5500,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 53,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Nexus"
+      ]
+    },
+    {
+      "Id": 5510,
+      "Prefab": "tu_5510_nexus",
+      "ConditionTutorial": 5500,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5600,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 55,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DimensionExpansionReady",
+        "ChallengeDive"
+      ]
+    },
+    {
+      "Id": 5610,
+      "Prefab": "tu_5610_dimension_expansion",
+      "ConditionTutorial": 5600,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5620,
+      "Prefab": "tu_5620_challenge_dive",
+      "ConditionTutorial": 5610,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5700,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 57,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "ChallengeDiveDeep"
+      ]
+    },
+    {
+      "Id": 5710,
+      "Prefab": "tu_5700_challenge_dive_deep",
+      "ConditionTutorial": 5700,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5800,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 58,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Ragnarok",
+        "DimensionGear",
+        "ChallengeLagrange"
+      ]
+    },
+    {
+      "Id": 5810,
+      "Prefab": "tu_5810_ragnarok",
+      "ConditionTutorial": 5800,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 5820,
+      "Prefab": "tu_5820_challenge_lagrange",
+      "ConditionTutorial": 5810,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 6100,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 61,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "OracleExpansionReady"
+      ]
+    },
+    {
+      "Id": 6110,
+      "Prefab": "tu_6110_oracle_expansion",
+      "ConditionTutorial": 6100,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 6400,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 64,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "DimensionalArchiveExpansionReady"
+      ]
+    },
+    {
+      "Id": 6410,
+      "Prefab": "tu_6410_dimensional_archive_expansion",
+      "ConditionTutorial": 6400,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    },
+    {
+      "Id": 7300,
+      "Prefab": "",
+      "ConditionTutorial": 0,
+      "ConditionRank": 73,
+      "SkipRank": 0,
+      "UnlockContents": [
+        "Singularity"
+      ]
+    },
+    {
+      "Id": 7310,
+      "Prefab": "tu_7310_singularity",
+      "ConditionTutorial": 7300,
+      "ConditionRank": 0,
+      "SkipRank": 0,
+      "UnlockContents": []
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "type": "MasterMainEvent",
+  "index": 127,
+  "count": 12,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "idOffset",
+      "kind": "StringOffset",
+      "index": 0
+    },
+    {
+      "name": "EventId",
+      "param": "eventId",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "AttendanceMissionId",
+      "param": "attendanceMissionId",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "PassMissionId",
+      "param": "passMissionId",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "EpicPassMissionId",
+      "param": "epicPassMissionId",
+      "kind": "int",
+      "index": 4
+    },
+    {
+      "name": "PassRepeatMissionId",
+      "param": "passRepeatMissionId",
+      "kind": "int",
+      "index": 5
+    },
+    {
+      "name": "CollectBlocks",
+      "param": "collectBlocksOffset",
+      "kind": "VectorOffset",
+      "index": 6,
+      "element": "int"
+    },
+    {
+      "name": "CollectBlocksFieldDropRateUp",
+      "param": "collectBlocksFieldDropRateUp",
+      "kind": "double",
+      "index": 7
+    }
+  ],
+  "rows": [
+    {
+      "Id": "ev_main_2025_09",
+      "EventId": 202509,
+      "AttendanceMissionId": 10830,
+      "PassMissionId": 10831,
+      "EpicPassMissionId": 10832,
+      "PassRepeatMissionId": 10833,
+      "CollectBlocks": [
+        2521,
+        2522
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Autumn Breeze Event"
+    },
+    {
+      "Id": "ev_main_year_1_5",
+      "EventId": 10002,
+      "AttendanceMissionId": 10840,
+      "PassMissionId": 10841,
+      "EpicPassMissionId": 0,
+      "PassRepeatMissionId": 10843,
+      "CollectBlocks": [
+        2523,
+        2524
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "1.5 Year Anniversary Event"
+    },
+    {
+      "Id": "ev_main_2025_11",
+      "EventId": 202511,
+      "AttendanceMissionId": 10850,
+      "PassMissionId": 10851,
+      "EpicPassMissionId": 10852,
+      "PassRepeatMissionId": 10853,
+      "CollectBlocks": [
+        2525,
+        2526
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Snowy Night Event"
+    },
+    {
+      "Id": "ev_main_2025_12_sp",
+      "EventId": 1202512,
+      "AttendanceMissionId": 10860,
+      "PassMissionId": 10861,
+      "EpicPassMissionId": 0,
+      "PassRepeatMissionId": 10862,
+      "CollectBlocks": [
+        2527,
+        2528
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Christmas Special Event"
+    },
+    {
+      "Id": "ev_main_2026_01",
+      "EventId": 202601,
+      "AttendanceMissionId": 10863,
+      "PassMissionId": 10864,
+      "EpicPassMissionId": 10865,
+      "PassRepeatMissionId": 10866,
+      "CollectBlocks": [
+        2529,
+        2530
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "A Brilliant New Year Event"
+    },
+    {
+      "Id": "ev_main_2026_02_sp",
+      "EventId": 1202602,
+      "AttendanceMissionId": 10873,
+      "PassMissionId": 10874,
+      "EpicPassMissionId": 0,
+      "PassRepeatMissionId": 10875,
+      "CollectBlocks": [
+        2531,
+        2532
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Valentine Special Event"
+    },
+    {
+      "Id": "ev_main_2026_03",
+      "EventId": 202603,
+      "AttendanceMissionId": 10876,
+      "PassMissionId": 10877,
+      "EpicPassMissionId": 10878,
+      "PassRepeatMissionId": 10879,
+      "CollectBlocks": [
+        2533,
+        2534
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "New Semester Event"
+    },
+    {
+      "Id": "ev_main_2026_03_sp",
+      "EventId": 1202603,
+      "AttendanceMissionId": 10886,
+      "PassMissionId": 10887,
+      "EpicPassMissionId": 0,
+      "PassRepeatMissionId": 10888,
+      "CollectBlocks": [
+        2535,
+        2536
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Easter Special Event"
+    },
+    {
+      "Id": "ev_main_year_2",
+      "EventId": 10003,
+      "AttendanceMissionId": 100001,
+      "PassMissionId": 100002,
+      "EpicPassMissionId": 0,
+      "PassRepeatMissionId": 100003,
+      "CollectBlocks": [
+        2537,
+        2538
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "2 Year Anniversary Event"
+    },
+    {
+      "Id": "ev_main_2026_05",
+      "EventId": 202605,
+      "AttendanceMissionId": 100004,
+      "PassMissionId": 100005,
+      "EpicPassMissionId": 100006,
+      "PassRepeatMissionId": 100007,
+      "CollectBlocks": [
+        2539,
+        2540
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Amusement Park Event"
+    },
+    {
+      "Id": "ev_main_2026_06_sp",
+      "EventId": 1202606,
+      "AttendanceMissionId": 100014,
+      "PassMissionId": 100015,
+      "EpicPassMissionId": 0,
+      "PassRepeatMissionId": 100016,
+      "CollectBlocks": [
+        2541,
+        2542
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Football Event"
+    },
+    {
+      "Id": "ev_main_2026_07",
+      "EventId": 202607,
+      "AttendanceMissionId": 100017,
+      "PassMissionId": 100018,
+      "EpicPassMissionId": 100019,
+      "PassRepeatMissionId": 100020,
+      "CollectBlocks": [
+        2543,
+        2544
+      ],
+      "CollectBlocksFieldDropRateUp": 0.02,
+      "English": "Summer Adventure Event"
+    }
+  ]
+}

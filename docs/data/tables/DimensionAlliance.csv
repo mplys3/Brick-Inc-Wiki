@@ -1,0 +1,17 @@
+﻿Id,Type,BonusId,UnlockRank,UnlockCost,UpgradeCost,UpgradeCostup,LevelBonusUp,LevelBonusUpUp,ValueType,Bonus
+1,SciencePoint,1,0,1000000,10000,10000,2,2,Multiply,0.005
+2,ResearchCostDown,2,0,1000000,10000,10000,2,2,Divide,0.5
+3,WeaponEnhanceCostDown,3,0,1000000,10000,10000,2,2,Divide,0.5
+4,Gold,4,46,2000000,20000,20000,2,2,Multiply,0.05
+5,PrestigeBonus,5,46,2000000,20000,20000,2,2,Multiply,0.1
+6,RankPowerDown,6,46,2000000,20000,20000,2,2,Divide,0.25
+7,Power,7,49,3000000,30000,30000,2,2,Multiply,0.05
+8,DivineBeastHpDown,8,49,3000000,30000,30000,2,2,Divide,0.5
+9,BlockHpDown,9,49,3000000,30000,30000,2,2,Divide,0.25
+10,SuperCriDmg,10,52,4000000,40000,40000,2,2,Multiply,0.05
+11,CriDmg,11,52,4000000,40000,40000,2,2,Multiply,0.05
+12,AllWeaponDmg,12,55,5000000,50000,50000,2,2,Multiply,0.025
+13,BattleHp,13,55,5000000,50000,50000,2,2,Multiply,0.025
+14,BattleAtk,14,55,5000000,50000,50000,2,2,Multiply,0.025
+15,QuantumPoint,15,58,7500000,75000,75000,2,2,Multiply,0.005
+16,DestinyEnergy,16,61,10000000,100000,100000,2,2,Multiply,0.01

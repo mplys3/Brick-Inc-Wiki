@@ -1,0 +1,505 @@
+{
+  "type": "MasterQuantumUpgrade",
+  "index": 108,
+  "count": 22,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Name",
+      "param": "nameOffset",
+      "kind": "StringOffset",
+      "index": 1
+    },
+    {
+      "name": "Rank",
+      "param": "rank",
+      "kind": "int",
+      "index": 2
+    },
+    {
+      "name": "Sort",
+      "param": "sort",
+      "kind": "int",
+      "index": 3
+    },
+    {
+      "name": "TypeList",
+      "param": "typeListOffset",
+      "kind": "VectorOffset",
+      "index": 4,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "ValueTypeList",
+      "param": "valueTypeListOffset",
+      "kind": "VectorOffset",
+      "index": 5,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "MaxLevel",
+      "param": "maxLevel",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "ValueUp",
+      "param": "valueUpOffset",
+      "kind": "VectorOffset",
+      "index": 7,
+      "element": "double"
+    },
+    {
+      "name": "Cost",
+      "param": "costOffset",
+      "kind": "StringOffset",
+      "index": 8
+    },
+    {
+      "name": "CostUp",
+      "param": "costUp",
+      "kind": "double",
+      "index": 9
+    }
+  ],
+  "rows": [
+    {
+      "Id": 20001,
+      "Name": "qu_qubit",
+      "Rank": 1,
+      "Sort": 3,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "1.00E+01",
+      "CostUp": 1.5,
+      "English": "Qubit Circuit"
+    },
+    {
+      "Id": 20002,
+      "Name": "qu_fermion",
+      "Rank": 2,
+      "Sort": 4,
+      "TypeList": [
+        "Gold",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05,
+        1.05
+      ],
+      "Cost": "7.50E+01",
+      "CostUp": 1.5,
+      "English": "Fermion Space"
+    },
+    {
+      "Id": 20004,
+      "Name": "qu_heisenberg",
+      "Rank": 5,
+      "Sort": 5,
+      "TypeList": [
+        "MiracleCrystal"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "2.50E+03",
+      "CostUp": 1.5,
+      "English": "Heisenberg Device"
+    },
+    {
+      "Id": 20005,
+      "Name": "qu_superposition",
+      "Rank": 10,
+      "Sort": 6,
+      "TypeList": [
+        "RevelationLight"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "1.25E+04",
+      "CostUp": 1.5,
+      "English": "Superposition Controller"
+    },
+    {
+      "Id": 20010,
+      "Name": "qu_teleporter",
+      "Rank": 20,
+      "Sort": 7,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "3.00E+04",
+      "CostUp": 1.5,
+      "English": "Quantum Dimensional Teleporter"
+    },
+    {
+      "Id": 20006,
+      "Name": "qu_copenhagen",
+      "Rank": 40,
+      "Sort": 8,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "7.50E+04",
+      "CostUp": 1.525,
+      "English": "Copenhagen Interpretation"
+    },
+    {
+      "Id": 20007,
+      "Name": "qu_pocket",
+      "Rank": 60,
+      "Sort": 9,
+      "TypeList": [
+        "Gold",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05,
+        1.05
+      ],
+      "Cost": "3.50E+05",
+      "CostUp": 1.55,
+      "English": "Dimensional Pocket"
+    },
+    {
+      "Id": 20008,
+      "Name": "qu_drive",
+      "Rank": 80,
+      "Sort": 10,
+      "TypeList": [
+        "Tachyon"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "5.00E+06",
+      "CostUp": 1.575,
+      "English": "Quantum Drive"
+    },
+    {
+      "Id": 20009,
+      "Name": "qu_cat",
+      "Rank": 100,
+      "Sort": 11,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "7.00E+07",
+      "CostUp": 1.6,
+      "English": "Multidimensional Cat"
+    },
+    {
+      "Id": 20011,
+      "Name": "qu_grinder",
+      "Rank": 125,
+      "Sort": 12,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "1.00E+10",
+      "CostUp": 1.625,
+      "English": "Dimensional Grinder"
+    },
+    {
+      "Id": 20012,
+      "Name": "qu_big_crunch",
+      "Rank": 150,
+      "Sort": 13,
+      "TypeList": [
+        "Ash"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "5.00E+15",
+      "CostUp": 1.65,
+      "English": "Big Crunch Bomb"
+    },
+    {
+      "Id": 20013,
+      "Name": "qu_the_camel",
+      "Rank": 175,
+      "Sort": 14,
+      "TypeList": [
+        "Gold",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05,
+        1.05
+      ],
+      "Cost": "4.00E+21",
+      "CostUp": 1.675,
+      "English": "C.A.M.E.L."
+    },
+    {
+      "Id": 20014,
+      "Name": "qu_wave_function",
+      "Rank": 200,
+      "Sort": 15,
+      "TypeList": [
+        "DestinyEnergy"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "2.50E+29",
+      "CostUp": 1.7,
+      "English": "Wave Function Selector"
+    },
+    {
+      "Id": 20015,
+      "Name": "qu_three_body",
+      "Rank": 225,
+      "Sort": 16,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "8.00E+40",
+      "CostUp": 1.725,
+      "English": "Three-Body Problem Proof"
+    },
+    {
+      "Id": 20016,
+      "Name": "qu_quantum_wave",
+      "Rank": 250,
+      "Sort": 17,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "9.00E+54",
+      "CostUp": 1.75,
+      "English": "Quantum Field Amplification Technology"
+    },
+    {
+      "Id": 20017,
+      "Name": "qu_battery",
+      "Rank": 300,
+      "Sort": 18,
+      "TypeList": [
+        "DFuel"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.03
+      ],
+      "Cost": "5.00E+60",
+      "CostUp": 1.755,
+      "English": "Quantum Battery"
+    },
+    {
+      "Id": 20018,
+      "Name": "qu_antimatter",
+      "Rank": 350,
+      "Sort": 19,
+      "TypeList": [
+        "Gold",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05,
+        1.05
+      ],
+      "Cost": "3.00E+64",
+      "CostUp": 1.76,
+      "English": "Antimatter Exchanger"
+    },
+    {
+      "Id": 20019,
+      "Name": "qu_forked_dimension",
+      "Rank": 400,
+      "Sort": 20,
+      "TypeList": [
+        "DStone"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.02
+      ],
+      "Cost": "1.00E+67",
+      "CostUp": 1.765,
+      "English": "Dimension Branch"
+    },
+    {
+      "Id": 20020,
+      "Name": "qu_time_editing",
+      "Rank": 450,
+      "Sort": 21,
+      "TypeList": [
+        "CosmicDialTick"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.01
+      ],
+      "Cost": "7.50E+70",
+      "CostUp": 1.77,
+      "English": "Time Edit"
+    },
+    {
+      "Id": 20021,
+      "Name": "qu_schrodinger",
+      "Rank": 500,
+      "Sort": 22,
+      "TypeList": [
+        "SciencePoint"
+      ],
+      "ValueTypeList": [
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.03
+      ],
+      "Cost": "5.00E+83",
+      "CostUp": 1.775,
+      "English": "Schrödinger Equation"
+    },
+    {
+      "Id": 20022,
+      "Name": "qu_treasury",
+      "Rank": 550,
+      "Sort": 23,
+      "TypeList": [
+        "Gold",
+        "PrestigeBonus"
+      ],
+      "ValueTypeList": [
+        "Multiply",
+        "Multiply"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05,
+        1.05
+      ],
+      "Cost": "2.50E+93",
+      "CostUp": 1.78,
+      "English": "Inter-dimensional Treasury"
+    },
+    {
+      "Id": 20023,
+      "Name": "qu_many_world",
+      "Rank": 600,
+      "Sort": 24,
+      "TypeList": [
+        "RankPowerDown"
+      ],
+      "ValueTypeList": [
+        "Divide"
+      ],
+      "MaxLevel": 500,
+      "ValueUp": [
+        1.05
+      ],
+      "Cost": "4.00E+102",
+      "CostUp": 1.785,
+      "English": "Many-worlds Interpretation"
+    }
+  ]
+}

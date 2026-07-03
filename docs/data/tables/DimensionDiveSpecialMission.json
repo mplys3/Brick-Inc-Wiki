@@ -1,0 +1,759 @@
+{
+  "type": "MasterDimensionDiveSpecialMission",
+  "index": 98,
+  "count": 29,
+  "fields": [
+    {
+      "name": "Id",
+      "param": "id",
+      "kind": "int",
+      "index": 0
+    },
+    {
+      "name": "Difficulty",
+      "param": "difficulty",
+      "kind": "int",
+      "index": 1
+    },
+    {
+      "name": "IsHardOnly",
+      "param": "isHardOnly",
+      "kind": "bool",
+      "index": 2
+    },
+    {
+      "name": "ConstraintTypes",
+      "param": "constraintTypesOffset",
+      "kind": "VectorOffset",
+      "index": 3,
+      "element": "MasterGameConstraintType"
+    },
+    {
+      "name": "ConstraintValues",
+      "param": "constraintValuesOffset",
+      "kind": "VectorOffset",
+      "index": 4,
+      "element": "int"
+    },
+    {
+      "name": "GoalType",
+      "param": "goalType",
+      "kind": "MasterGameGoalType",
+      "index": 5
+    },
+    {
+      "name": "GoalTarget",
+      "param": "goalTarget",
+      "kind": "int",
+      "index": 6
+    },
+    {
+      "name": "GoalValue",
+      "param": "goalValueOffset",
+      "kind": "StringOffset",
+      "index": 7
+    },
+    {
+      "name": "BonusTypes",
+      "param": "bonusTypesOffset",
+      "kind": "VectorOffset",
+      "index": 8,
+      "element": "MasterUpgradeType"
+    },
+    {
+      "name": "BonusValueTypes",
+      "param": "bonusValueTypesOffset",
+      "kind": "VectorOffset",
+      "index": 9,
+      "element": "MasterUpgradeValueType"
+    },
+    {
+      "name": "BonusValues",
+      "param": "bonusValuesOffset",
+      "kind": "VectorOffset",
+      "index": 10,
+      "element": "double"
+    }
+  ],
+  "rows": [
+    {
+      "Id": 1,
+      "Difficulty": 1,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "FixedRank"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "ResearchTier",
+      "GoalTarget": 0,
+      "GoalValue": "8",
+      "BonusTypes": [
+        "ResearchCostDown",
+        "WeaponEnhanceCostDown"
+      ],
+      "BonusValueTypes": [
+        "Divide",
+        "Divide"
+      ],
+      "BonusValues": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 2,
+      "Difficulty": 1,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "FixedRank"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "Power",
+      "GoalTarget": 0,
+      "GoalValue": "1e45",
+      "BonusTypes": [
+        "RankPowerDown"
+      ],
+      "BonusValueTypes": [
+        "Divide"
+      ],
+      "BonusValues": [
+        1000.0
+      ]
+    },
+    {
+      "Id": 3,
+      "Difficulty": 1,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "LimitedResearch"
+      ],
+      "ConstraintValues": [
+        3
+      ],
+      "GoalType": "Rank",
+      "GoalTarget": 0,
+      "GoalValue": "5",
+      "BonusTypes": [
+        "BattleStat"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        150.0
+      ]
+    },
+    {
+      "Id": 4,
+      "Difficulty": 1,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "FixedField"
+      ],
+      "ConstraintValues": [
+        9
+      ],
+      "GoalType": "Gold",
+      "GoalTarget": 0,
+      "GoalValue": "1e24",
+      "BonusTypes": [
+        "Gold"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        400.0
+      ]
+    },
+    {
+      "Id": 5,
+      "Difficulty": 2,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "LimitedWeapon"
+      ],
+      "ConstraintValues": [
+        7
+      ],
+      "GoalType": "Dmg",
+      "GoalTarget": 0,
+      "GoalValue": "1e57",
+      "BonusTypes": [
+        "AllWeaponDmg"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        400.0
+      ]
+    },
+    {
+      "Id": 6,
+      "Difficulty": 2,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "GoldDown"
+      ],
+      "ConstraintValues": [
+        2
+      ],
+      "GoalType": "Rank",
+      "GoalTarget": 0,
+      "GoalValue": "10",
+      "BonusTypes": [
+        "SciencePoint"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        200.0
+      ]
+    },
+    {
+      "Id": 7,
+      "Difficulty": 3,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "NoSoulMenu"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "BreakBlock",
+      "GoalTarget": 2045,
+      "GoalValue": "100",
+      "BonusTypes": [
+        "Power"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        500.0
+      ]
+    },
+    {
+      "Id": 8,
+      "Difficulty": 3,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "NoScienceMenu"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "DStone",
+      "GoalTarget": 0,
+      "GoalValue": "1e12",
+      "BonusTypes": [
+        "PrestigeBonus"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        1000.0
+      ]
+    },
+    {
+      "Id": 18,
+      "Difficulty": 3,
+      "IsHardOnly": false,
+      "ConstraintTypes": [
+        "LimitedResearch"
+      ],
+      "ConstraintValues": [
+        1
+      ],
+      "GoalType": "SciencePoint",
+      "GoalTarget": 0,
+      "GoalValue": "1e25",
+      "BonusTypes": [
+        "QuantumPoint"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        150.0
+      ]
+    },
+    {
+      "Id": 9,
+      "Difficulty": 3,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "FixedField"
+      ],
+      "ConstraintValues": [
+        12
+      ],
+      "GoalType": "BuyWeapon",
+      "GoalTarget": 5040,
+      "GoalValue": "",
+      "BonusTypes": [
+        "RankPowerDown",
+        "BlockHpDown"
+      ],
+      "BonusValueTypes": [
+        "Divide",
+        "Divide"
+      ],
+      "BonusValues": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 10,
+      "Difficulty": 4,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LessFieldBrick",
+        "NoSoulMenu"
+      ],
+      "ConstraintValues": [
+        90,
+        0
+      ],
+      "GoalType": "ResearchTier",
+      "GoalTarget": 0,
+      "GoalValue": "15",
+      "BonusTypes": [
+        "SciencePoint"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        200.0
+      ]
+    },
+    {
+      "Id": 11,
+      "Difficulty": 4,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "ForcedWeapon"
+      ],
+      "ConstraintValues": [
+        5007
+      ],
+      "GoalType": "Dmg",
+      "GoalTarget": 0,
+      "GoalValue": "1e75",
+      "BonusTypes": [
+        "DestinyEnergy"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        200.0
+      ]
+    },
+    {
+      "Id": 12,
+      "Difficulty": 5,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "PowerDown"
+      ],
+      "ConstraintValues": [
+        1000
+      ],
+      "GoalType": "Power",
+      "GoalTarget": 0,
+      "GoalValue": "1e77",
+      "BonusTypes": [
+        "Power"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        500.0
+      ]
+    },
+    {
+      "Id": 13,
+      "Difficulty": 6,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "NoDimensionMenu"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "Rank",
+      "GoalTarget": 0,
+      "GoalValue": "13",
+      "BonusTypes": [
+        "BattleStat"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        150.0
+      ]
+    },
+    {
+      "Id": 14,
+      "Difficulty": 6,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "BlockHpUp",
+        "FixedField"
+      ],
+      "ConstraintValues": [
+        1000,
+        7
+      ],
+      "GoalType": "BreakBlock",
+      "GoalTarget": 2007,
+      "GoalValue": "2222",
+      "BonusTypes": [
+        "Ash"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        100.0
+      ]
+    },
+    {
+      "Id": 15,
+      "Difficulty": 6,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LimitedWeaponSlot"
+      ],
+      "ConstraintValues": [
+        1
+      ],
+      "GoalType": "WeaponLevel",
+      "GoalTarget": 5045,
+      "GoalValue": "500",
+      "BonusTypes": [
+        "AllWeaponDmg"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        400.0
+      ]
+    },
+    {
+      "Id": 19,
+      "Difficulty": 6,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "NoScienceMenu",
+        "NoDimensionMenu"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "SoulAltar",
+      "GoalTarget": 0,
+      "GoalValue": "45",
+      "BonusTypes": [
+        "Ether"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        100.0
+      ]
+    },
+    {
+      "Id": 16,
+      "Difficulty": 7,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LimitedField",
+        "NoDimensionMenu"
+      ],
+      "ConstraintValues": [
+        29
+      ],
+      "GoalType": "Gold",
+      "GoalTarget": 0,
+      "GoalValue": "1e57",
+      "BonusTypes": [
+        "Gold"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        400.0
+      ]
+    },
+    {
+      "Id": 20,
+      "Difficulty": 7,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "NoWeapon",
+        "Cat"
+      ],
+      "ConstraintValues": [],
+      "GoalType": "BreakBlock",
+      "GoalTarget": 2040,
+      "GoalValue": "1000",
+      "BonusTypes": [
+        "Power",
+        "BlockHpDown"
+      ],
+      "BonusValueTypes": [
+        "Percent",
+        "Divide"
+      ],
+      "BonusValues": [
+        300.0,
+        10.0
+      ]
+    },
+    {
+      "Id": 17,
+      "Difficulty": 7,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LimitedWeaponSlot"
+      ],
+      "ConstraintValues": [
+        2
+      ],
+      "GoalType": "BreakBlock",
+      "GoalTarget": 2019,
+      "GoalValue": "2500",
+      "BonusTypes": [
+        "AllWeaponSpd"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        10.0
+      ]
+    },
+    {
+      "Id": 21,
+      "Difficulty": 7,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "GoldDown"
+      ],
+      "ConstraintValues": [
+        10
+      ],
+      "GoalType": "ResearchTier",
+      "GoalTarget": 0,
+      "GoalValue": "17",
+      "BonusTypes": [
+        "SciencePoint"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        250.0
+      ]
+    },
+    {
+      "Id": 22,
+      "Difficulty": 8,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "BulletSize"
+      ],
+      "ConstraintValues": [
+        -95
+      ],
+      "GoalType": "Rank",
+      "GoalTarget": 0,
+      "GoalValue": "20",
+      "BonusTypes": [
+        "Gold",
+        "BattleStat"
+      ],
+      "BonusValueTypes": [
+        "Percent",
+        "Percent"
+      ],
+      "BonusValues": [
+        400.0,
+        100.0
+      ]
+    },
+    {
+      "Id": 23,
+      "Difficulty": 8,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "AutoUpField",
+        "FixedRank"
+      ],
+      "ConstraintValues": [
+        5,
+        0
+      ],
+      "GoalType": "BreakBlock",
+      "GoalTarget": 2060,
+      "GoalValue": "1",
+      "BonusTypes": [
+        "CosmicDialTick"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        100.0
+      ]
+    },
+    {
+      "Id": 24,
+      "Difficulty": 8,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LimitedRankPower"
+      ],
+      "ConstraintValues": [
+        15
+      ],
+      "GoalType": "WeaponLevel",
+      "GoalTarget": 5046,
+      "GoalValue": "100",
+      "BonusTypes": [
+        "Power"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        700.0
+      ]
+    },
+    {
+      "Id": 25,
+      "Difficulty": 8,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "FixedField"
+      ],
+      "ConstraintValues": [
+        77
+      ],
+      "GoalType": "Rank",
+      "GoalTarget": 0,
+      "GoalValue": "13",
+      "BonusTypes": [
+        "Rune"
+      ],
+      "BonusValueTypes": [
+        "Add"
+      ],
+      "BonusValues": [
+        1.0
+      ]
+    },
+    {
+      "Id": 26,
+      "Difficulty": 9,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "FieldBreakDmgDown"
+      ],
+      "ConstraintValues": [
+        10
+      ],
+      "GoalType": "BuyWeapon",
+      "GoalTarget": 5049,
+      "GoalValue": "",
+      "BonusTypes": [
+        "DStone"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        100.0
+      ]
+    },
+    {
+      "Id": 27,
+      "Difficulty": 9,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LimitedFieldBrick"
+      ],
+      "ConstraintValues": [
+        1
+      ],
+      "GoalType": "ResearchTier",
+      "GoalTarget": 0,
+      "GoalValue": "23",
+      "BonusTypes": [
+        "QuantumPoint"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        200.0
+      ]
+    },
+    {
+      "Id": 28,
+      "Difficulty": 9,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "BulletRegen",
+        "WeaponSpd"
+      ],
+      "ConstraintValues": [
+        -90,
+        -90
+      ],
+      "GoalType": "BreakBlock",
+      "GoalTarget": 2071,
+      "GoalValue": "1",
+      "BonusTypes": [
+        "AllWeaponSpd"
+      ],
+      "BonusValueTypes": [
+        "Percent"
+      ],
+      "BonusValues": [
+        10.0
+      ]
+    },
+    {
+      "Id": 29,
+      "Difficulty": 9,
+      "IsHardOnly": true,
+      "ConstraintTypes": [
+        "LimitedFieldCount"
+      ],
+      "ConstraintValues": [
+        20
+      ],
+      "GoalType": "Rank",
+      "GoalTarget": 0,
+      "GoalValue": "21",
+      "BonusTypes": [
+        "Gold",
+        "RankPowerDown"
+      ],
+      "BonusValueTypes": [
+        "Percent",
+        "Divide"
+      ],
+      "BonusValues": [
+        200.0,
+        100.0
+      ]
+    }
+  ]
+}
