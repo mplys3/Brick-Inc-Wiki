@@ -36,6 +36,22 @@ WEAPON_LARGE_NUMBER_FIELDS = {
     "Power",
 }
 STANDARD_NUMBER_SUFFIXES = ["", "K", "M", "B", "T"]
+WEAPON_FIELD_LABELS = {
+    "Power": "Power (Damage)",
+    "EnhanceCost": "Enhance Cost",
+    "SoulDmgUpgradeCost": "Soul Dmg Upgrade",
+    "SoulCostUpgradeCost": "Soul Upgrade Cost",
+}
+WEAPON_FIELD_ORDER = [
+    "Icon",
+    "Name",
+    "Power (Damage)",
+    "Cooldown",
+    "Price",
+    "Enhance Cost",
+    "Soul Dmg Upgrade",
+    "Soul Upgrade Cost",
+]
 
 
 def split_params(text: str) -> list[str]:
@@ -284,7 +300,12 @@ def apply_weapon_presentation(rows: list[dict]) -> None:
 
         display_name = names_by_key.get(key) or humanize_weapon_key(key)
         presented = {}
+        icon_value = row.get("Icon")
+        if icon_value:
+            presented["Icon"] = icon_value
         for field_name, value in row.items():
+            if field_name == "Icon":
+                continue
             if field_name == "Name":
                 presented["Name"] = display_name
                 presented["Key"] = key
@@ -295,12 +316,14 @@ def apply_weapon_presentation(rows: list[dict]) -> None:
                 ]
                 presented["UnlockWeaponKeys"] = value
             elif field_name in WEAPON_LARGE_NUMBER_FIELDS:
-                presented[field_name] = format_large_number(value)
+                presented[WEAPON_FIELD_LABELS.get(field_name, field_name)] = format_large_number(value)
             elif field_name != "English":
-                presented[field_name] = value
+                presented[WEAPON_FIELD_LABELS.get(field_name, field_name)] = value
 
         row.clear()
-        row.update(presented)
+        ordered = {field_name: presented.pop(field_name) for field_name in WEAPON_FIELD_ORDER if field_name in presented}
+        ordered.update(presented)
+        row.update(ordered)
 
 
 def flatten(value: object) -> str:

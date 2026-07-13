@@ -167,8 +167,15 @@
   ],
   "rows": [
     {
-      "Id": 5001,
+      "Icon": "assets/weapons/icons/ui_we_default_main.png",
       "Name": "Default Main",
+      "Power (Damage)": "5",
+      "Cooldown": 0,
+      "Price": "",
+      "Enhance Cost": "",
+      "Soul Dmg Upgrade": "",
+      "Soul Upgrade Cost": "",
+      "Id": 5001,
       "Key": "we_default_main",
       "Sort": 3,
       "IsDefault": true,
@@ -176,17 +183,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "",
-      "EnhanceCost": "",
       "EnhanceCostUp": 0,
-      "SoulDmgUpgradeCost": "",
-      "SoulCostUpgradeCost": "",
       "SoulUpgradeCostUp": 0,
       "SoulDmgEnhanceCost": "",
       "SoulCostEnhanceCost": "",
       "SoulEnhanceCostUp": "0",
       "EpicUpgradeCost": "0",
-      "Power": "5",
       "RagrangeBattleBonus": 0,
       "NoSpeed": [
         false
@@ -198,14 +200,19 @@
         false
       ],
       "UseSkill": false,
-      "Cooldown": 0,
       "BasicData": "{\n\"BulletId\" : \"bt_default_main\",\n\"Count\" : 1,\n\"Atk\" : 20,\n\"Angle\" : 15\n}",
-      "InfoData": [],
-      "Icon": "assets/weapons/icons/ui_we_default_main.png"
+      "InfoData": []
     },
     {
-      "Id": 5099,
+      "Icon": "assets/weapons/icons/ui_we_default_main_e.png",
       "Name": "Default Main E",
+      "Power (Damage)": "25",
+      "Cooldown": 0,
+      "Price": "",
+      "Enhance Cost": "",
+      "Soul Dmg Upgrade": "",
+      "Soul Upgrade Cost": "",
+      "Id": 5099,
       "Key": "we_default_main_e",
       "Sort": 4,
       "IsDefault": true,
@@ -213,17 +220,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "",
-      "EnhanceCost": "",
       "EnhanceCostUp": 0,
-      "SoulDmgUpgradeCost": "",
-      "SoulCostUpgradeCost": "",
       "SoulUpgradeCostUp": 0,
       "SoulDmgEnhanceCost": "",
       "SoulCostEnhanceCost": "",
       "SoulEnhanceCostUp": "0",
       "EpicUpgradeCost": "0",
-      "Power": "25",
       "RagrangeBattleBonus": 0,
       "NoSpeed": [
         false
@@ -235,14 +237,19 @@
         false
       ],
       "UseSkill": false,
-      "Cooldown": 0,
       "BasicData": "{\n\"BulletId\" : \"bt_default_main_e\",\n\"Count\" : 1,\n\"Atk\" : 100,\n\"Angle\" : 15\n}",
-      "InfoData": [],
-      "Icon": "assets/weapons/icons/ui_we_default_main_e.png"
+      "InfoData": []
     },
     {
-      "Id": 5002,
+      "Icon": "assets/weapons/icons/ui_we_axe.png",
       "Name": "Double Axe",
+      "Power (Damage)": "20",
+      "Cooldown": 6.0,
+      "Price": "10",
+      "Enhance Cost": "5",
+      "Soul Dmg Upgrade": "5",
+      "Soul Upgrade Cost": "2",
+      "Id": 5002,
       "Key": "we_axe",
       "Sort": 5,
       "IsDefault": false,
@@ -250,17 +257,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "10",
-      "EnhanceCost": "5",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "5",
-      "SoulCostUpgradeCost": "2",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "500",
       "SoulCostEnhanceCost": "375",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "50",
-      "Power": "20",
       "RagrangeBattleBonus": 1.0,
       "NoSpeed": [
         true,
@@ -275,17 +277,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 6.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"There's a better use for it than cutting wood.\"",
-      "Icon": "assets/weapons/icons/ui_we_axe.png"
+      "Description": "\"There's a better use for it than cutting wood.\""
     },
     {
-      "Id": 5003,
+      "Icon": "assets/weapons/icons/ui_we_bee_missile.png",
       "Name": "Bee Missile",
+      "Power (Damage)": "60",
+      "Cooldown": 10.0,
+      "Price": "80",
+      "Enhance Cost": "40",
+      "Soul Dmg Upgrade": "20",
+      "Soul Upgrade Cost": "8",
+      "Id": 5003,
       "Key": "we_bee_missile",
       "Sort": 6,
       "IsDefault": false,
@@ -293,17 +300,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "80",
-      "EnhanceCost": "40",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "20",
-      "SoulCostUpgradeCost": "8",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "8K",
       "SoulCostEnhanceCost": "6K",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "55",
-      "Power": "60",
       "RagrangeBattleBonus": 1.05,
       "NoSpeed": [
         true,
@@ -318,18 +320,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 10.0,
       "BasicData": "",
       "InfoData": [
         "i/c/a",
         "$i/$c/$a"
       ],
-      "Description": "\"Sweeter than bombs. More destructive than honey.\"",
-      "Icon": "assets/weapons/icons/ui_we_bee_missile.png"
+      "Description": "\"Sweeter than bombs. More destructive than honey.\""
     },
     {
-      "Id": 5004,
+      "Icon": "assets/weapons/icons/ui_we_shuriken.png",
       "Name": "Ninja Stars",
+      "Power (Damage)": "180",
+      "Cooldown": 9.0,
+      "Price": "500",
+      "Enhance Cost": "250",
+      "Soul Dmg Upgrade": "50.6",
+      "Soul Upgrade Cost": "20.2",
+      "Id": 5004,
       "Key": "we_shuriken",
       "Sort": 7,
       "IsDefault": false,
@@ -337,17 +344,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "500",
-      "EnhanceCost": "250",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "50.6",
-      "SoulCostUpgradeCost": "20.2",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "20.2K",
       "SoulCostEnhanceCost": "15.2K",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "60",
-      "Power": "180",
       "RagrangeBattleBonus": 1.103,
       "NoSpeed": [
         false,
@@ -362,17 +364,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 9.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"They won't even know how many I threw.\"",
-      "Icon": "assets/weapons/icons/ui_we_shuriken.png"
+      "Description": "\"They won't even know how many I threw.\""
     },
     {
-      "Id": 5005,
+      "Icon": "assets/weapons/icons/ui_we_gatling.png",
       "Name": "Gatling",
+      "Power (Damage)": "540",
+      "Cooldown": 8.0,
+      "Price": "7.5K",
+      "Enhance Cost": "3.75K",
+      "Soul Dmg Upgrade": "200",
+      "Soul Upgrade Cost": "80",
+      "Id": 5005,
       "Key": "we_gatling",
       "Sort": 8,
       "IsDefault": false,
@@ -380,17 +387,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "7.5K",
-      "EnhanceCost": "3.75K",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "200",
-      "SoulCostUpgradeCost": "80",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "80K",
       "SoulCostEnhanceCost": "60K",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "65",
-      "Power": "540",
       "RagrangeBattleBonus": 1.158,
       "NoSpeed": [
         true,
@@ -405,17 +407,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 8.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a"
       ],
-      "Description": "\"Sometimes it's good just to spray and pray.\"",
-      "Icon": "assets/weapons/icons/ui_we_gatling.png"
+      "Description": "\"Sometimes it's good just to spray and pray.\""
     },
     {
-      "Id": 5006,
+      "Icon": "assets/weapons/icons/ui_we_durian.png",
       "Name": "Durian",
+      "Power (Damage)": "1.62K",
+      "Cooldown": 7.5,
+      "Price": "100K",
+      "Enhance Cost": "50K",
+      "Soul Dmg Upgrade": "1.9K",
+      "Soul Upgrade Cost": "759",
+      "Id": 5006,
       "Key": "we_durian",
       "Sort": 9,
       "IsDefault": false,
@@ -423,17 +430,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "100K",
-      "EnhanceCost": "50K",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "1.9K",
-      "SoulCostUpgradeCost": "759",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "759K",
       "SoulCostEnhanceCost": "569K",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "70",
-      "Power": "1.62K",
       "RagrangeBattleBonus": 1.216,
       "NoSpeed": [
         true,
@@ -448,18 +450,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 7.5,
       "BasicData": "",
       "InfoData": [
         "i/#c/a",
         "i/n:bt_durian_thorn/#c/a"
       ],
-      "Description": "\"Who would have thought something as sharp as thorns would be hidden in that smell?\"",
-      "Icon": "assets/weapons/icons/ui_we_durian.png"
+      "Description": "\"Who would have thought something as sharp as thorns would be hidden in that smell?\""
     },
     {
-      "Id": 5007,
+      "Icon": "assets/weapons/icons/ui_we_wheel.png",
       "Name": "Heavy Wheel",
+      "Power (Damage)": "4.86K",
+      "Cooldown": 11.0,
+      "Price": "2M",
+      "Enhance Cost": "1M",
+      "Soul Dmg Upgrade": "40K",
+      "Soul Upgrade Cost": "16K",
+      "Id": 5007,
       "Key": "we_wheel",
       "Sort": 10,
       "IsDefault": false,
@@ -467,17 +474,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "2M",
-      "EnhanceCost": "1M",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "40K",
-      "SoulCostUpgradeCost": "16K",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "16M",
       "SoulCostEnhanceCost": "12M",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "75",
-      "Power": "4.86K",
       "RagrangeBattleBonus": 1.276,
       "NoSpeed": [
         true,
@@ -492,18 +494,23 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 11.0,
       "BasicData": "",
       "InfoData": [
         "i/c/a",
         "$i/$n:bt_wheel_fire/$a/$t"
       ],
-      "Description": "\"Careful you don't get flattened, too.\"",
-      "Icon": "assets/weapons/icons/ui_we_wheel.png"
+      "Description": "\"Careful you don't get flattened, too.\""
     },
     {
-      "Id": 5008,
+      "Icon": "assets/weapons/icons/ui_we_sniper.png",
       "Name": "Sniper",
+      "Power (Damage)": "14.6K",
+      "Cooldown": 8.5,
+      "Price": "60M",
+      "Enhance Cost": "30M",
+      "Soul Dmg Upgrade": "5.69M",
+      "Soul Upgrade Cost": "2.28M",
+      "Id": 5008,
       "Key": "we_sniper",
       "Sort": 11,
       "IsDefault": false,
@@ -511,17 +518,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "60M",
-      "EnhanceCost": "30M",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "5.69M",
-      "SoulCostUpgradeCost": "2.28M",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "2.28B",
       "SoulCostEnhanceCost": "1.71B",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "80",
-      "Power": "14.6K",
       "RagrangeBattleBonus": 1.34,
       "NoSpeed": [
         true,
@@ -536,17 +538,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 8.5,
       "BasicData": "",
       "InfoData": [
         "i/a/t/$w"
       ],
-      "Description": "\"Alpha. Bravo. Shh. Tango Down.\"",
-      "Icon": "assets/weapons/icons/ui_we_sniper.png"
+      "Description": "\"Alpha. Bravo. Shh. Tango Down.\""
     },
     {
-      "Id": 5009,
+      "Icon": "assets/weapons/icons/ui_we_rugby_ball.png",
       "Name": "Rugby Ball",
+      "Power (Damage)": "43.7K",
+      "Cooldown": 15.0,
+      "Price": "2B",
+      "Enhance Cost": "1B",
+      "Soul Dmg Upgrade": "480M",
+      "Soul Upgrade Cost": "192M",
+      "Id": 5009,
       "Key": "we_rugby_ball",
       "Sort": 12,
       "IsDefault": false,
@@ -554,17 +561,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "2B",
-      "EnhanceCost": "1B",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "480M",
-      "SoulCostUpgradeCost": "192M",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "192B",
       "SoulCostEnhanceCost": "144B",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "85",
-      "Power": "43.7K",
       "RagrangeBattleBonus": 1.407,
       "NoSpeed": [
         true,
@@ -579,17 +581,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 15.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/#b"
       ],
-      "Description": "\"That bounced everywhere, destroying everything.\"",
-      "Icon": "assets/weapons/icons/ui_we_rugby_ball.png"
+      "Description": "\"That bounced everywhere, destroying everything.\""
     },
     {
-      "Id": 5010,
+      "Icon": "assets/weapons/icons/ui_we_wheel_saw.png",
       "Name": "Buzz Saw Blade",
+      "Power (Damage)": "131K",
+      "Cooldown": 13.0,
+      "Price": "100B",
+      "Enhance Cost": "50B",
+      "Soul Dmg Upgrade": "114B",
+      "Soul Upgrade Cost": "45.5B",
+      "Id": 5010,
       "Key": "we_wheel_saw",
       "Sort": 13,
       "IsDefault": false,
@@ -597,17 +604,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "100B",
-      "EnhanceCost": "50B",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "114B",
-      "SoulCostUpgradeCost": "45.5B",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "45.5T",
       "SoulCostEnhanceCost": "34.2T",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "90",
-      "Power": "131K",
       "RagrangeBattleBonus": 1.477,
       "NoSpeed": [
         true,
@@ -622,17 +624,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 13.0,
       "BasicData": "",
       "InfoData": [
         "i/a/at/t/w"
       ],
-      "Description": "\"Have you heard of a saw blade that became self-aware?\"",
-      "Icon": "assets/weapons/icons/ui_we_wheel_saw.png"
+      "Description": "\"Have you heard of a saw blade that became self-aware?\""
     },
     {
-      "Id": 5011,
+      "Icon": "assets/weapons/icons/ui_we_blaze_flask.png",
       "Name": "Inferno Flask",
+      "Power (Damage)": "394K",
+      "Cooldown": 12.0,
+      "Price": "5T",
+      "Enhance Cost": "2.5T",
+      "Soul Dmg Upgrade": "80T",
+      "Soul Upgrade Cost": "32T",
+      "Id": 5011,
       "Key": "we_blaze_flask",
       "Sort": 14,
       "IsDefault": false,
@@ -640,17 +647,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "5T",
-      "EnhanceCost": "2.5T",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "80T",
-      "SoulCostUpgradeCost": "32T",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "32aa",
       "SoulCostEnhanceCost": "24aa",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "95",
-      "Power": "394K",
       "RagrangeBattleBonus": 1.551,
       "NoSpeed": [
         true,
@@ -665,17 +667,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 12.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "Description": "\"Let's see. Where is this mad scientist?\"",
-      "Icon": "assets/weapons/icons/ui_we_blaze_flask.png"
+      "Description": "\"Let's see. Where is this mad scientist?\""
     },
     {
-      "Id": 5012,
+      "Icon": "assets/weapons/icons/ui_we_elephant_foot.png",
       "Name": "Elephant Foot",
+      "Power (Damage)": "1.18M",
+      "Cooldown": 11.5,
+      "Price": "200T",
+      "Enhance Cost": "100T",
+      "Soul Dmg Upgrade": "20.6aa",
+      "Soul Upgrade Cost": "8.22aa",
+      "Id": 5012,
       "Key": "we_elephant_foot",
       "Sort": 15,
       "IsDefault": false,
@@ -683,17 +690,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "200T",
-      "EnhanceCost": "100T",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "20.6aa",
-      "SoulCostUpgradeCost": "8.22aa",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "8.22ab",
       "SoulCostEnhanceCost": "6.17ab",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "100",
-      "Power": "1.18M",
       "RagrangeBattleBonus": 1.598,
       "NoSpeed": [
         true,
@@ -708,18 +710,23 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 11.5,
       "BasicData": "",
       "InfoData": [
         "i/a",
         "$i/$n:bt_elephant_foot_fire/$a/$at/$t"
       ],
-      "Description": "\"The true king among the animals. And on your side.\"",
-      "Icon": "assets/weapons/icons/ui_we_elephant_foot.png"
+      "Description": "\"The true king among the animals. And on your side.\""
     },
     {
-      "Id": 5013,
+      "Icon": "assets/weapons/icons/ui_we_billiard_ball.png",
       "Name": "Billiard Ball",
+      "Power (Damage)": "3.54M",
+      "Cooldown": 15.0,
+      "Price": "8aa",
+      "Enhance Cost": "4aa",
+      "Soul Dmg Upgrade": "5ab",
+      "Soul Upgrade Cost": "2ab",
+      "Id": 5013,
       "Key": "we_billiard_ball",
       "Sort": 16,
       "IsDefault": false,
@@ -727,17 +734,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "8aa",
-      "EnhanceCost": "4aa",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "5ab",
-      "SoulCostUpgradeCost": "2ab",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "2ac",
       "SoulCostEnhanceCost": "1.5ac",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "105",
-      "Power": "3.54M",
       "RagrangeBattleBonus": 1.678,
       "NoSpeed": [
         false,
@@ -752,17 +754,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 15.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"It's round and hard. No, it's not a bowling ball.\"",
-      "Icon": "assets/weapons/icons/ui_we_billiard_ball.png"
+      "Description": "\"It's round and hard. No, it's not a bowling ball.\""
     },
     {
-      "Id": 5014,
+      "Icon": "assets/weapons/icons/ui_we_fidget_spinner.png",
       "Name": "Fidget Spinner",
+      "Power (Damage)": "10.6M",
+      "Cooldown": 12.5,
+      "Price": "200aa",
+      "Enhance Cost": "100aa",
+      "Soul Dmg Upgrade": "3.26ac",
+      "Soul Upgrade Cost": "1.3ac",
+      "Id": 5014,
       "Key": "we_fidget_spinner",
       "Sort": 17,
       "IsDefault": false,
@@ -770,17 +777,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "200aa",
-      "EnhanceCost": "100aa",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "3.26ac",
-      "SoulCostUpgradeCost": "1.3ac",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "1.3ad",
       "SoulCostEnhanceCost": "977ac",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "110",
-      "Power": "10.6M",
       "RagrangeBattleBonus": 1.728,
       "NoSpeed": [
         true,
@@ -795,19 +797,24 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 12.5,
       "BasicData": "",
       "InfoData": [
         "!i/!a/!at",
         "$i/$n:bt_fidget_spinner_big/$a/$at",
         "$i/$n:bt_fidget_spinner_r/$c/$a/$at"
       ],
-      "Description": "\"It's possible if you're fast enough.\"",
-      "Icon": "assets/weapons/icons/ui_we_fidget_spinner.png"
+      "Description": "\"It's possible if you're fast enough.\""
     },
     {
-      "Id": 5015,
+      "Icon": "assets/weapons/icons/ui_we_moon_flint.png",
       "Name": "Moon Flint",
+      "Power (Damage)": "31.9M",
+      "Cooldown": 14.5,
+      "Price": "5ab",
+      "Enhance Cost": "2.5ab",
+      "Soul Dmg Upgrade": "1.5ad",
+      "Soul Upgrade Cost": "600ac",
+      "Id": 5015,
       "Key": "we_moon_flint",
       "Sort": 18,
       "IsDefault": false,
@@ -815,17 +822,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "5ab",
-      "EnhanceCost": "2.5ab",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "1.5ad",
-      "SoulCostUpgradeCost": "600ac",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "600ad",
       "SoulCostEnhanceCost": "450ad",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "115",
-      "Power": "31.9M",
       "RagrangeBattleBonus": 1.814,
       "NoSpeed": [
         false,
@@ -840,18 +842,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 14.5,
       "BasicData": "",
       "InfoData": [
         "i/a/#t/w",
         "i/n:bt_moon_flint_spark/#c/a"
       ],
-      "Description": "\"Look! What a cool rock!\"",
-      "Icon": "assets/weapons/icons/ui_we_moon_flint.png"
+      "Description": "\"Look! What a cool rock!\""
     },
     {
-      "Id": 5016,
+      "Icon": "assets/weapons/icons/ui_we_bunker_buster.png",
       "Name": "Bunker Buster",
+      "Power (Damage)": "95.7M",
+      "Cooldown": 13.5,
+      "Price": "375ab",
+      "Enhance Cost": "188ab",
+      "Soul Dmg Upgrade": "553ad",
+      "Soul Upgrade Cost": "221ad",
+      "Id": 5016,
       "Key": "we_bunker_buster",
       "Sort": 19,
       "IsDefault": false,
@@ -859,17 +866,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "375ab",
-      "EnhanceCost": "188ab",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "553ad",
-      "SoulCostUpgradeCost": "221ad",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "221ae",
       "SoulCostEnhanceCost": "166ae",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "120",
-      "Power": "95.7M",
       "RagrangeBattleBonus": 1.869,
       "NoSpeed": [
         false,
@@ -884,18 +886,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 13.5,
       "BasicData": "",
       "InfoData": [
         "i/c/a/t/w",
         "i/n:bt_bunker_buster_boom/a/#p"
       ],
-      "Description": "\"An investigation is needed to determine whether this weapon complies with international law.\"",
-      "Icon": "assets/weapons/icons/ui_we_bunker_buster.png"
+      "Description": "\"An investigation is needed to determine whether this weapon complies with international law.\""
     },
     {
-      "Id": 5017,
+      "Icon": "assets/weapons/icons/ui_we_trump_card.png",
       "Name": "Trump Card",
+      "Power (Damage)": "287M",
+      "Cooldown": 16.0,
+      "Price": "40ac",
+      "Enhance Cost": "20ac",
+      "Soul Dmg Upgrade": "210ae",
+      "Soul Upgrade Cost": "84ae",
+      "Id": 5017,
       "Key": "we_trump_card",
       "Sort": 20,
       "IsDefault": false,
@@ -903,17 +910,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "40ac",
-      "EnhanceCost": "20ac",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "210ae",
-      "SoulCostUpgradeCost": "84ae",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "84af",
       "SoulCostEnhanceCost": "63af",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "125",
-      "Power": "287M",
       "RagrangeBattleBonus": 1.962,
       "NoSpeed": [
         false,
@@ -928,17 +930,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 16.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/#t/w"
       ],
-      "Description": "\"A magician that can cut through steel.\"",
-      "Icon": "assets/weapons/icons/ui_we_trump_card.png"
+      "Description": "\"A magician that can cut through steel.\""
     },
     {
-      "Id": 5018,
+      "Icon": "assets/weapons/icons/ui_we_golden_scissors.png",
       "Name": "Golden Scissors",
+      "Power (Damage)": "861M",
+      "Cooldown": 9.5,
+      "Price": "8ad",
+      "Enhance Cost": "4ad",
+      "Soul Dmg Upgrade": "94.9af",
+      "Soul Upgrade Cost": "37.9af",
+      "Id": 5018,
       "Key": "we_golden_scissors",
       "Sort": 21,
       "IsDefault": false,
@@ -946,17 +953,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "8ad",
-      "EnhanceCost": "4ad",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "94.9af",
-      "SoulCostUpgradeCost": "37.9af",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "37.9ag",
       "SoulCostEnhanceCost": "28.5ag",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "130",
-      "Power": "861M",
       "RagrangeBattleBonus": 2.021,
       "NoSpeed": [
         true,
@@ -971,17 +973,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 9.5,
       "BasicData": "",
       "InfoData": [
         "i/c/a/#at:bt_golden_scissors_tick"
       ],
-      "Description": "\"Actually, gold isn't appropriate, but it looks cool, doesn't it?\"",
-      "Icon": "assets/weapons/icons/ui_we_golden_scissors.png"
+      "Description": "\"Actually, gold isn't appropriate, but it looks cool, doesn't it?\""
     },
     {
-      "Id": 5019,
+      "Icon": "assets/weapons/icons/ui_we_chandelier.png",
       "Name": "Chandelier",
+      "Power (Damage)": "2.58B",
+      "Cooldown": 14.0,
+      "Price": "2.5ae",
+      "Enhance Cost": "1.25ae",
+      "Soul Dmg Upgrade": "13.2ag",
+      "Soul Upgrade Cost": "5.26ag",
+      "Id": 5019,
       "Key": "we_chandelier",
       "Sort": 22,
       "IsDefault": false,
@@ -989,17 +996,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "2.5ae",
-      "EnhanceCost": "1.25ae",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "13.2ag",
-      "SoulCostUpgradeCost": "5.26ag",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "5.26ah",
       "SoulCostEnhanceCost": "3.95ah",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "135",
-      "Power": "2.58B",
       "RagrangeBattleBonus": 2.122,
       "NoSpeed": [
         true,
@@ -1014,18 +1016,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 14.0,
       "BasicData": "",
       "InfoData": [
         "i/a",
         "i/n:bt_chandelier_frag/#c/a"
       ],
-      "Description": "\"I always thought seeing it fall would be quite the sight.\"",
-      "Icon": "assets/weapons/icons/ui_we_chandelier.png"
+      "Description": "\"I always thought seeing it fall would be quite the sight.\""
     },
     {
-      "Id": 5020,
+      "Icon": "assets/weapons/icons/ui_we_monomol_cutter.png",
       "Name": "Monomolecular Blade",
+      "Power (Damage)": "7.75B",
+      "Cooldown": 8.5,
+      "Price": "1af",
+      "Enhance Cost": "500ae",
+      "Soul Dmg Upgrade": "11.7ah",
+      "Soul Upgrade Cost": "4.68ah",
+      "Id": 5020,
       "Key": "we_monomol_cutter",
       "Sort": 23,
       "IsDefault": false,
@@ -1033,17 +1040,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "1af",
-      "EnhanceCost": "500ae",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "11.7ah",
-      "SoulCostUpgradeCost": "4.68ah",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "4.68ai",
       "SoulCostEnhanceCost": "3.51ai",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "140",
-      "Power": "7.75B",
       "RagrangeBattleBonus": 2.186,
       "NoSpeed": [
         true,
@@ -1058,17 +1060,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 8.5,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"Remember to put the cover back on after using it.\"",
-      "Icon": "assets/weapons/icons/ui_we_monomol_cutter.png"
+      "Description": "\"Remember to put the cover back on after using it.\""
     },
     {
-      "Id": 5021,
+      "Icon": "assets/weapons/icons/ui_we_magic_wand.png",
       "Name": "Magic Wand",
+      "Power (Damage)": "23.2B",
+      "Cooldown": 15.5,
+      "Price": "300af",
+      "Enhance Cost": "150af",
+      "Soul Dmg Upgrade": "75ai",
+      "Soul Upgrade Cost": "30ai",
+      "Id": 5021,
       "Key": "we_magic_wand",
       "Sort": 24,
       "IsDefault": false,
@@ -1076,17 +1083,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "300af",
-      "EnhanceCost": "150af",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "75ai",
-      "SoulCostUpgradeCost": "30ai",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "30aj",
       "SoulCostEnhanceCost": "22.5aj",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "145",
-      "Power": "23.2B",
       "RagrangeBattleBonus": 2.252,
       "NoSpeed": [
         true,
@@ -1101,17 +1103,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 15.5,
       "BasicData": "",
       "InfoData": [
         "i/#c:bt_magic_wand_set/a"
       ],
-      "Description": "\"Can't you shoot it properly for once?\"",
-      "Icon": "assets/weapons/icons/ui_we_magic_wand.png"
+      "Description": "\"Can't you shoot it properly for once?\""
     },
     {
-      "Id": 5022,
+      "Icon": "assets/weapons/icons/ui_we_holy_sword.png",
       "Name": "Holy Sword",
+      "Power (Damage)": "69.7B",
+      "Cooldown": 17.5,
+      "Price": "150ag",
+      "Enhance Cost": "75ag",
+      "Soul Dmg Upgrade": "2.03an",
+      "Soul Upgrade Cost": "813am",
+      "Id": 5022,
       "Key": "we_holy_sword",
       "Sort": 25,
       "IsDefault": false,
@@ -1119,17 +1126,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "150ag",
-      "EnhanceCost": "75ag",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "2.03an",
-      "SoulCostUpgradeCost": "813am",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "813an",
       "SoulCostEnhanceCost": "609an",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "69.7B",
       "RagrangeBattleBonus": 2.297,
       "NoSpeed": [
         true,
@@ -1144,18 +1146,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 17.5,
       "BasicData": "",
       "InfoData": [
         "i/c/a/at/t",
         "$i/$n:bt_holy_sword_fire/$a/$at/$t"
       ],
-      "Description": "\"In the name of justice!\"",
-      "Icon": "assets/weapons/icons/ui_we_holy_sword.png"
+      "Description": "\"In the name of justice!\""
     },
     {
-      "Id": 5023,
+      "Icon": "assets/weapons/icons/ui_we_snowflake.png",
       "Name": "Snowflake Bomb",
+      "Power (Damage)": "209B",
+      "Cooldown": 11.0,
+      "Price": "60ah",
+      "Enhance Cost": "30ah",
+      "Soul Dmg Upgrade": "257ao",
+      "Soul Upgrade Cost": "103ao",
+      "Id": 5023,
       "Key": "we_snowflake",
       "Sort": 26,
       "IsDefault": false,
@@ -1163,17 +1170,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "60ah",
-      "EnhanceCost": "30ah",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "257ao",
-      "SoulCostUpgradeCost": "103ao",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "103ap",
       "SoulCostEnhanceCost": "77.2ap",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "209B",
       "RagrangeBattleBonus": 2.343,
       "NoSpeed": [
         true,
@@ -1188,18 +1190,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 11.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a",
         "i/n:bt_snowflake_thorn/c/a"
       ],
-      "Description": "\"Careful, that's not a child's toy.\"",
-      "Icon": "assets/weapons/icons/ui_we_snowflake.png"
+      "Description": "\"Careful, that's not a child's toy.\""
     },
     {
-      "Id": 5024,
+      "Icon": "assets/weapons/icons/ui_we_prism.png",
       "Name": "P.R.I.S.M.",
+      "Power (Damage)": "628B",
+      "Cooldown": 15.0,
+      "Price": "20ai",
+      "Enhance Cost": "10ai",
+      "Soul Dmg Upgrade": "235aq",
+      "Soul Upgrade Cost": "93.9aq",
+      "Id": 5024,
       "Key": "we_prism",
       "Sort": 27,
       "IsDefault": false,
@@ -1207,17 +1214,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "20ai",
-      "EnhanceCost": "10ai",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "235aq",
-      "SoulCostUpgradeCost": "93.9aq",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "93.9ar",
       "SoulCostEnhanceCost": "70.4ar",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "628B",
       "RagrangeBattleBonus": 2.389,
       "NoSpeed": [
         false,
@@ -1232,17 +1234,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 15.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"Symmetry and reflections. How beautiful.\"",
-      "Icon": "assets/weapons/icons/ui_we_prism.png"
+      "Description": "\"Symmetry and reflections. How beautiful.\""
     },
     {
-      "Id": 5025,
+      "Icon": "assets/weapons/icons/ui_we_mirrorball.png",
       "Name": "Mirrorball",
+      "Power (Damage)": "1.88T",
+      "Cooldown": 16.0,
+      "Price": "30aj",
+      "Enhance Cost": "15aj",
+      "Soul Dmg Upgrade": "143as",
+      "Soul Upgrade Cost": "57.1as",
+      "Id": 5025,
       "Key": "we_mirrorball",
       "Sort": 28,
       "IsDefault": false,
@@ -1250,17 +1257,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "30aj",
-      "EnhanceCost": "15aj",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "143as",
-      "SoulCostUpgradeCost": "57.1as",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "57.1at",
       "SoulCostEnhanceCost": "42.8at",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "1.88T",
       "RagrangeBattleBonus": 2.437,
       "NoSpeed": [
         true,
@@ -1275,17 +1277,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 16.0,
       "BasicData": "",
       "InfoData": [
         "i/#a"
       ],
-      "Description": "\"A weapon that blinds you, even when you're not looking at it.\"",
-      "Icon": "assets/weapons/icons/ui_we_mirrorball.png"
+      "Description": "\"A weapon that blinds you, even when you're not looking at it.\""
     },
     {
-      "Id": 5026,
+      "Icon": "assets/weapons/icons/ui_we_chain_lighting.png",
       "Name": "Chain Lightning",
+      "Power (Damage)": "5.65T",
+      "Cooldown": 13.5,
+      "Price": "80ak",
+      "Enhance Cost": "40ak",
+      "Soul Dmg Upgrade": "40.7au",
+      "Soul Upgrade Cost": "16.3au",
+      "Id": 5026,
       "Key": "we_chain_lighting",
       "Sort": 29,
       "IsDefault": false,
@@ -1293,17 +1300,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "80ak",
-      "EnhanceCost": "40ak",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "40.7au",
-      "SoulCostUpgradeCost": "16.3au",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "16.3av",
       "SoulCostEnhanceCost": "12.2av",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "5.65T",
       "RagrangeBattleBonus": 2.486,
       "NoSpeed": [
         true,
@@ -1318,17 +1320,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 13.5,
       "BasicData": "",
       "InfoData": [
         "i/#c:bt_chain_lighting_chain/a"
       ],
-      "Description": "\"Wearing protective gloves won't help you.\"",
-      "Icon": "assets/weapons/icons/ui_we_chain_lighting.png"
+      "Description": "\"Wearing protective gloves won't help you.\""
     },
     {
-      "Id": 5027,
+      "Icon": "assets/weapons/icons/ui_we_tornado.png",
       "Name": "Tornado",
+      "Power (Damage)": "16.9T",
+      "Cooldown": 17.0,
+      "Price": "250al",
+      "Enhance Cost": "125al",
+      "Soul Dmg Upgrade": "13.4aw",
+      "Soul Upgrade Cost": "5.38aw",
+      "Id": 5027,
       "Key": "we_tornado",
       "Sort": 30,
       "IsDefault": false,
@@ -1336,17 +1343,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "250al",
-      "EnhanceCost": "125al",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "13.4aw",
-      "SoulCostUpgradeCost": "5.38aw",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "5.38ax",
       "SoulCostEnhanceCost": "4.03ax",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "16.9T",
       "RagrangeBattleBonus": 2.536,
       "NoSpeed": [
         true,
@@ -1361,17 +1363,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 17.0,
       "BasicData": "",
       "InfoData": [
         "i/#a/at"
       ],
-      "Description": "\"You want to fly? Then get in there.\"",
-      "Icon": "assets/weapons/icons/ui_we_tornado.png"
+      "Description": "\"You want to fly? Then get in there.\""
     },
     {
-      "Id": 5028,
+      "Icon": "assets/weapons/icons/ui_we_volcano.png",
       "Name": "Volcano",
+      "Power (Damage)": "50.8T",
+      "Cooldown": 22.0,
+      "Price": "400am",
+      "Enhance Cost": "200am",
+      "Soul Dmg Upgrade": "4.71ay",
+      "Soul Upgrade Cost": "1.88ay",
+      "Id": 5028,
       "Key": "we_volcano",
       "Sort": 31,
       "IsDefault": false,
@@ -1379,17 +1386,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "400am",
-      "EnhanceCost": "200am",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "4.71ay",
-      "SoulCostUpgradeCost": "1.88ay",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "1.88az",
       "SoulCostEnhanceCost": "1.41az",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "50.8T",
       "RagrangeBattleBonus": 2.586,
       "NoSpeed": [
         true,
@@ -1404,17 +1406,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 22.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "Description": "\"Now this is a natural disaster.\"",
-      "Icon": "assets/weapons/icons/ui_we_volcano.png"
+      "Description": "\"Now this is a natural disaster.\""
     },
     {
-      "Id": 5029,
+      "Icon": "assets/weapons/icons/ui_we_nano_machine.png",
       "Name": "Nanomachine",
+      "Power (Damage)": "153T",
+      "Cooldown": 14.0,
+      "Price": "650an",
+      "Enhance Cost": "325an",
+      "Soul Dmg Upgrade": "7.32aa",
+      "Soul Upgrade Cost": "2.93aa",
+      "Id": 5029,
       "Key": "we_nano_machine",
       "Sort": 32,
       "IsDefault": false,
@@ -1422,17 +1429,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "650an",
-      "EnhanceCost": "325an",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "7.32aa",
-      "SoulCostUpgradeCost": "2.93aa",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "2.93ab",
       "SoulCostEnhanceCost": "2.2ab",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "153T",
       "RagrangeBattleBonus": 2.638,
       "NoSpeed": [
         true,
@@ -1447,17 +1449,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 14.0,
       "BasicData": "",
       "InfoData": [
         "i/a/#c"
       ],
-      "Description": "\"You'll need a very powerful microscope.\"",
-      "Icon": "assets/weapons/icons/ui_we_nano_machine.png"
+      "Description": "\"You'll need a very powerful microscope.\""
     },
     {
-      "Id": 5030,
+      "Icon": "assets/weapons/icons/ui_we_ufo.png",
       "Name": "UFO",
+      "Power (Damage)": "458T",
+      "Cooldown": 15.5,
+      "Price": "3ap",
+      "Enhance Cost": "1.5ap",
+      "Soul Dmg Upgrade": "17.1ac",
+      "Soul Upgrade Cost": "6.84ac",
+      "Id": 5030,
       "Key": "we_ufo",
       "Sort": 33,
       "IsDefault": false,
@@ -1465,17 +1472,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "3ap",
-      "EnhanceCost": "1.5ap",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "17.1ac",
-      "SoulCostUpgradeCost": "6.84ac",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "6.84ad",
       "SoulCostEnhanceCost": "5.13ad",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "458T",
       "RagrangeBattleBonus": 2.691,
       "NoSpeed": [
         true,
@@ -1490,17 +1492,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 15.5,
       "BasicData": "",
       "InfoData": [
         "i/at/a/t"
       ],
-      "Description": "\"We've made a deal of sorts.\"",
-      "Icon": "assets/weapons/icons/ui_we_ufo.png"
+      "Description": "\"We've made a deal of sorts.\""
     },
     {
-      "Id": 5031,
+      "Icon": "assets/weapons/icons/ui_we_meteor_shower.png",
       "Name": "Meteor Shower",
+      "Power (Damage)": "1.37aa",
+      "Cooldown": 20.0,
+      "Price": "22.5aq",
+      "Enhance Cost": "11.3aq",
+      "Soul Dmg Upgrade": "2.04af",
+      "Soul Upgrade Cost": "817ae",
+      "Id": 5031,
       "Key": "we_meteor_shower",
       "Sort": 34,
       "IsDefault": false,
@@ -1508,17 +1515,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "22.5aq",
-      "EnhanceCost": "11.3aq",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "2.04af",
-      "SoulCostUpgradeCost": "817ae",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "817af",
       "SoulCostEnhanceCost": "613af",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "1.37aa",
       "RagrangeBattleBonus": 2.745,
       "NoSpeed": [
         true,
@@ -1533,17 +1535,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 20.0,
       "BasicData": "",
       "InfoData": [
         "i/a/#c"
       ],
-      "Description": "\"Let's stop taking pictures and get back to work.\"",
-      "Icon": "assets/weapons/icons/ui_we_meteor_shower.png"
+      "Description": "\"Let's stop taking pictures and get back to work.\""
     },
     {
-      "Id": 5032,
+      "Icon": "assets/weapons/icons/ui_we_nova.png",
       "Name": "Nova Explosion",
+      "Power (Damage)": "4.12aa",
+      "Cooldown": 24.0,
+      "Price": "150ar",
+      "Enhance Cost": "75ar",
+      "Soul Dmg Upgrade": "23.8ai",
+      "Soul Upgrade Cost": "9.53ai",
+      "Id": 5032,
       "Key": "we_nova",
       "Sort": 35,
       "IsDefault": false,
@@ -1551,17 +1558,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "150ar",
-      "EnhanceCost": "75ar",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "23.8ai",
-      "SoulCostUpgradeCost": "9.53ai",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "9.53aj",
       "SoulCostEnhanceCost": "7.15aj",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "4.12aa",
       "RagrangeBattleBonus": 2.772,
       "NoSpeed": [
         true,
@@ -1576,18 +1578,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 24.0,
       "BasicData": "",
       "InfoData": [
         "i/#a",
         "i/n:bt_nova_sub/#c/a/t/w"
       ],
-      "Description": "\"The death of a star is splendid.\"",
-      "Icon": "assets/weapons/icons/ui_we_nova.png"
+      "Description": "\"The death of a star is splendid.\""
     },
     {
-      "Id": 5033,
+      "Icon": "assets/weapons/icons/ui_we_laser.png",
       "Name": "Laser Cutter",
+      "Power (Damage)": "12.4aa",
+      "Cooldown": 16.0,
+      "Price": "600as",
+      "Enhance Cost": "300as",
+      "Soul Dmg Upgrade": "556ak",
+      "Soul Upgrade Cost": "222ak",
+      "Id": 5033,
       "Key": "we_laser",
       "Sort": 36,
       "IsDefault": false,
@@ -1595,17 +1602,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "600as",
-      "EnhanceCost": "300as",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "556ak",
-      "SoulCostUpgradeCost": "222ak",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "222al",
       "SoulCostEnhanceCost": "167al",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "12.4aa",
       "RagrangeBattleBonus": 2.8,
       "NoSpeed": [
         true,
@@ -1620,17 +1622,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 16.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a"
       ],
-      "Description": "\"Don't worry, we just boosted the output a little bit.\"",
-      "Icon": "assets/weapons/icons/ui_we_laser.png"
+      "Description": "\"Don't worry, we just boosted the output a little bit.\""
     },
     {
-      "Id": 5034,
+      "Icon": "assets/weapons/icons/ui_we_thunder_hammer.png",
       "Name": "Thunder Hammer",
+      "Power (Damage)": "37.1aa",
+      "Cooldown": 18.0,
+      "Price": "3au",
+      "Enhance Cost": "1.5au",
+      "Soul Dmg Upgrade": "2.59an",
+      "Soul Upgrade Cost": "1.04an",
+      "Id": 5034,
       "Key": "we_thunder_hammer",
       "Sort": 37,
       "IsDefault": false,
@@ -1638,17 +1645,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "3au",
-      "EnhanceCost": "1.5au",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "2.59an",
-      "SoulCostUpgradeCost": "1.04an",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "1.04ao",
       "SoulCostEnhanceCost": "778an",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "37.1aa",
       "RagrangeBattleBonus": 2.828,
       "NoSpeed": [
         true,
@@ -1663,18 +1665,23 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 18.0,
       "BasicData": "",
       "InfoData": [
         "i/a/t/w",
         "i/n:bt_thunder_hammer_light/#c/a/#p"
       ],
-      "Description": "\"Even if you find it, you won't be able to lift it.\"",
-      "Icon": "assets/weapons/icons/ui_we_thunder_hammer.png"
+      "Description": "\"Even if you find it, you won't be able to lift it.\""
     },
     {
-      "Id": 5035,
+      "Icon": "assets/weapons/icons/ui_we_blackhole.png",
       "Name": "Black Hole",
+      "Power (Damage)": "111aa",
+      "Cooldown": 13.0,
+      "Price": "15av",
+      "Enhance Cost": "7.5av",
+      "Soul Dmg Upgrade": "96.9ap",
+      "Soul Upgrade Cost": "38.8ap",
+      "Id": 5035,
       "Key": "we_blackhole",
       "Sort": 38,
       "IsDefault": false,
@@ -1682,17 +1689,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "15av",
-      "EnhanceCost": "7.5av",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "96.9ap",
-      "SoulCostUpgradeCost": "38.8ap",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "38.8aq",
       "SoulCostEnhanceCost": "29.1aq",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "111aa",
       "RagrangeBattleBonus": 2.856,
       "NoSpeed": [
         true,
@@ -1707,17 +1709,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 13.0,
       "BasicData": "",
       "InfoData": [
         "i/#a/at:bt_blackhole_tick/#t"
       ],
-      "Description": "\"If you're lucky, you might come out somewhere.\"",
-      "Icon": "assets/weapons/icons/ui_we_blackhole.png"
+      "Description": "\"If you're lucky, you might come out somewhere.\""
     },
     {
-      "Id": 5036,
+      "Icon": "assets/weapons/icons/ui_we_portal.png",
       "Name": "Portal",
+      "Power (Damage)": "334aa",
+      "Cooldown": 25.0,
+      "Price": "100aw",
+      "Enhance Cost": "50aw",
+      "Soul Dmg Upgrade": "5.65as",
+      "Soul Upgrade Cost": "2.26as",
+      "Id": 5036,
       "Key": "we_portal",
       "Sort": 39,
       "IsDefault": false,
@@ -1725,17 +1732,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "100aw",
-      "EnhanceCost": "50aw",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "5.65as",
-      "SoulCostUpgradeCost": "2.26as",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "2.26at",
       "SoulCostEnhanceCost": "1.7at",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "334aa",
       "RagrangeBattleBonus": 2.885,
       "NoSpeed": [
         true,
@@ -1750,17 +1752,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 25.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/p/t"
       ],
-      "Description": "\"Sometimes I imagine dumping the clutter in my room somewhere else.\"",
-      "Icon": "assets/weapons/icons/ui_we_portal.png"
+      "Description": "\"Sometimes I imagine dumping the clutter in my room somewhere else.\""
     },
     {
-      "Id": 5037,
+      "Icon": "assets/weapons/icons/ui_we_sphere.png",
       "Name": "Brawl",
+      "Power (Damage)": "1ab",
+      "Cooldown": 15.0,
+      "Price": "1.5ay",
+      "Enhance Cost": "750ax",
+      "Soul Dmg Upgrade": "1.85av",
+      "Soul Upgrade Cost": "739au",
+      "Id": 5037,
       "Key": "we_sphere",
       "Sort": 40,
       "IsDefault": false,
@@ -1768,17 +1775,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "1.5ay",
-      "EnhanceCost": "750ax",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "1.85av",
-      "SoulCostUpgradeCost": "739au",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "739av",
       "SoulCostEnhanceCost": "554av",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "1ab",
       "RagrangeBattleBonus": 2.913,
       "NoSpeed": [
         true,
@@ -1793,17 +1795,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 15.0,
       "BasicData": "",
       "InfoData": [
         "i/a:bt_sphere_sub_atk/#p"
       ],
-      "Description": "\"It's the ultimate spectacle.\"",
-      "Icon": "assets/weapons/icons/ui_we_sphere.png"
+      "Description": "\"It's the ultimate spectacle.\""
     },
     {
-      "Id": 5038,
+      "Icon": "assets/weapons/icons/ui_we_starlight_trip.png",
       "Name": "Starlight Journey",
+      "Power (Damage)": "3ab",
+      "Cooldown": 28.0,
+      "Price": "12az",
+      "Enhance Cost": "6az",
+      "Soul Dmg Upgrade": "11ay",
+      "Soul Upgrade Cost": "4.4ay",
+      "Id": 5038,
       "Key": "we_starlight_trip",
       "Sort": 41,
       "IsDefault": false,
@@ -1811,17 +1818,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "12az",
-      "EnhanceCost": "6az",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "11ay",
-      "SoulCostUpgradeCost": "4.4ay",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "4.4az",
       "SoulCostEnhanceCost": "3.3az",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "3ab",
       "RagrangeBattleBonus": 2.943,
       "NoSpeed": [
         false,
@@ -1836,17 +1838,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 28.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/#t/w"
       ],
-      "Description": "\"Look at that searing beauty.\"",
-      "Icon": "assets/weapons/icons/ui_we_starlight_trip.png"
+      "Description": "\"Look at that searing beauty.\""
     },
     {
-      "Id": 5039,
+      "Icon": "assets/weapons/icons/ui_we_piranha.png",
       "Name": "Piranha",
+      "Power (Damage)": "9.01ab",
+      "Cooldown": 27.0,
+      "Price": "75aa",
+      "Enhance Cost": "37.5aa",
+      "Soul Dmg Upgrade": "1.02bc",
+      "Soul Upgrade Cost": "407bb",
+      "Id": 5039,
       "Key": "we_piranha",
       "Sort": 42,
       "IsDefault": false,
@@ -1854,17 +1861,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "75aa",
-      "EnhanceCost": "37.5aa",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "1.02bc",
-      "SoulCostUpgradeCost": "407bb",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "407bc",
       "SoulCostEnhanceCost": "305bc",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "9.01ab",
       "RagrangeBattleBonus": 2.972,
       "NoSpeed": [
         true,
@@ -1879,17 +1881,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 27.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/#b"
       ],
-      "Description": "\"Sometimes you need a helping hand.\"",
-      "Icon": "assets/weapons/icons/ui_we_piranha.png"
+      "Description": "\"Sometimes you need a helping hand.\""
     },
     {
-      "Id": 5040,
+      "Icon": "assets/weapons/icons/ui_we_umbrella.png",
       "Name": "Umbrella",
+      "Power (Damage)": "27ab",
+      "Cooldown": 30.0,
+      "Price": "2.25ac",
+      "Enhance Cost": "1.13ac",
+      "Soul Dmg Upgrade": "22.6bg",
+      "Soul Upgrade Cost": "9.03bg",
+      "Id": 5040,
       "Key": "we_umbrella",
       "Sort": 43,
       "IsDefault": false,
@@ -1897,17 +1904,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "2.25ac",
-      "EnhanceCost": "1.13ac",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "22.6bg",
-      "SoulCostUpgradeCost": "9.03bg",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "9.03bh",
       "SoulCostEnhanceCost": "6.77bh",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "27ab",
       "RagrangeBattleBonus": 3.002,
       "NoSpeed": [
         false,
@@ -1922,17 +1924,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 30.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a:bt_umbrella_sub_atk/p/t/w"
       ],
-      "Description": "\"We've tweaked our active defense system.\"",
-      "Icon": "assets/weapons/icons/ui_we_umbrella.png"
+      "Description": "\"We've tweaked our active defense system.\""
     },
     {
-      "Id": 5041,
+      "Icon": "assets/weapons/icons/ui_we_bigbang.png",
       "Name": "Big Bang",
+      "Power (Damage)": "81.1ab",
+      "Cooldown": 24.0,
+      "Price": "300ad",
+      "Enhance Cost": "150ad",
+      "Soul Dmg Upgrade": "816bj",
+      "Soul Upgrade Cost": "326bj",
+      "Id": 5041,
       "Key": "we_bigbang",
       "Sort": 44,
       "IsDefault": false,
@@ -1940,17 +1947,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "300ad",
-      "EnhanceCost": "150ad",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "816bj",
-      "SoulCostUpgradeCost": "326bj",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "326bk",
       "SoulCostEnhanceCost": "245bk",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "81.1ab",
       "RagrangeBattleBonus": 3.032,
       "NoSpeed": [
         true,
@@ -1965,17 +1967,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 24.0,
       "BasicData": "",
       "InfoData": [
         "i/#c:bt_bigbang_fire/a"
       ],
-      "Description": "\"In the beginning, there was an explosion.\"",
-      "Icon": "assets/weapons/icons/ui_we_bigbang.png"
+      "Description": "\"In the beginning, there was an explosion.\""
     },
     {
-      "Id": 5042,
+      "Icon": "assets/weapons/icons/ui_we_present.png",
       "Name": "Present Strike",
+      "Power (Damage)": "243ab",
+      "Cooldown": 22.0,
+      "Price": "80af",
+      "Enhance Cost": "40af",
+      "Soul Dmg Upgrade": "1.09bp",
+      "Soul Upgrade Cost": "438bo",
+      "Id": 5042,
       "Key": "we_present",
       "Sort": 45,
       "IsDefault": false,
@@ -1983,17 +1990,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "80af",
-      "EnhanceCost": "40af",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "1.09bp",
-      "SoulCostUpgradeCost": "438bo",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "438bp",
       "SoulCostEnhanceCost": "328bp",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "243ab",
       "RagrangeBattleBonus": 3.062,
       "NoSpeed": [
         true,
@@ -2008,17 +2010,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 22.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"I'll shower you with gifts.\"",
-      "Icon": "assets/weapons/icons/ui_we_present.png"
+      "Description": "\"I'll shower you with gifts.\""
     },
     {
-      "Id": 5043,
+      "Icon": "assets/weapons/icons/ui_we_egg.png",
       "Name": "Multidimensional Egg",
+      "Power (Damage)": "729ab",
+      "Cooldown": 18.0,
+      "Price": "62.5ah",
+      "Enhance Cost": "31.3ah",
+      "Soul Dmg Upgrade": "3.56bs",
+      "Soul Upgrade Cost": "1.42bs",
+      "Id": 5043,
       "Key": "we_egg",
       "Sort": 46,
       "IsDefault": false,
@@ -2026,17 +2033,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "62.5ah",
-      "EnhanceCost": "31.3ah",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "3.56bs",
-      "SoulCostUpgradeCost": "1.42bs",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "1.42bt",
       "SoulCostEnhanceCost": "1.07bt",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "729ab",
       "RagrangeBattleBonus": 3.093,
       "NoSpeed": [
         true,
@@ -2051,17 +2053,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 18.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"An egg with an unstable dimension is itself a weapon of universal proportions.\"",
-      "Icon": "assets/weapons/icons/ui_we_egg.png"
+      "Description": "\"An egg with an unstable dimension is itself a weapon of universal proportions.\""
     },
     {
-      "Id": 5044,
+      "Icon": "assets/weapons/icons/ui_we_gas_barrel.png",
       "Name": "Burning Gas Barrel",
+      "Power (Damage)": "2.19ac",
+      "Cooldown": 26.0,
+      "Price": "80al",
+      "Enhance Cost": "40al",
+      "Soul Dmg Upgrade": "1.15bz",
+      "Soul Upgrade Cost": "459by",
+      "Id": 5044,
       "Key": "we_gas_barrel",
       "Sort": 47,
       "IsDefault": false,
@@ -2069,17 +2076,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "80al",
-      "EnhanceCost": "40al",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "1.15bz",
-      "SoulCostUpgradeCost": "459by",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "459bz",
       "SoulCostEnhanceCost": "344bz",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "2.19ac",
       "RagrangeBattleBonus": 3.124,
       "NoSpeed": [
         false,
@@ -2094,18 +2096,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 26.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/w",
         "i/n:bt_gas_barrel_boom/a"
       ],
-      "Description": "\"That's exactly why safety protocols are important.\"",
-      "Icon": "assets/weapons/icons/ui_we_gas_barrel.png"
+      "Description": "\"That's exactly why safety protocols are important.\""
     },
     {
-      "Id": 5045,
+      "Icon": "assets/weapons/icons/ui_we_god_finger.png",
       "Name": "God Finger",
+      "Power (Damage)": "6.57ac",
+      "Cooldown": 32.0,
+      "Price": "4ar",
+      "Enhance Cost": "2ar",
+      "Soul Dmg Upgrade": "118cf",
+      "Soul Upgrade Cost": "47.1cf",
+      "Id": 5045,
       "Key": "we_god_finger",
       "Sort": 48,
       "IsDefault": false,
@@ -2113,17 +2120,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "4ar",
-      "EnhanceCost": "2ar",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "118cf",
-      "SoulCostUpgradeCost": "47.1cf",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "47.1cg",
       "SoulCostEnhanceCost": "35.3cg",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "6.57ac",
       "RagrangeBattleBonus": 3.155,
       "NoSpeed": [
         false,
@@ -2138,17 +2140,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 32.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"Let there be light.\"",
-      "Icon": "assets/weapons/icons/ui_we_god_finger.png"
+      "Description": "\"Let there be light.\""
     },
     {
-      "Id": 5046,
+      "Icon": "assets/weapons/icons/ui_we_thor_hammer.png",
       "Name": "Thor's Hammer",
+      "Power (Damage)": "19.7ac",
+      "Cooldown": 30.0,
+      "Price": "100aw",
+      "Enhance Cost": "50aw",
+      "Soul Dmg Upgrade": "37.6cm",
+      "Soul Upgrade Cost": "15cm",
+      "Id": 5046,
       "Key": "we_thor_hammer",
       "Sort": 49,
       "IsDefault": false,
@@ -2156,17 +2163,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "100aw",
-      "EnhanceCost": "50aw",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "37.6cm",
-      "SoulCostUpgradeCost": "15cm",
       "SoulUpgradeCostUp": 1.2,
       "SoulDmgEnhanceCost": "15cn",
       "SoulCostEnhanceCost": "11.3cn",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "19.7ac",
       "RagrangeBattleBonus": 3.186,
       "NoSpeed": [
         true,
@@ -2181,18 +2183,23 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 30.0,
       "BasicData": "",
       "InfoData": [
         "i/#a",
         "i/n:bt_thor_hammer_light/#c/a"
       ],
-      "Description": "\"Good heavens, now they're falling from the sky.\"",
-      "Icon": "assets/weapons/icons/ui_we_thor_hammer.png"
+      "Description": "\"Good heavens, now they're falling from the sky.\""
     },
     {
-      "Id": 5047,
+      "Icon": "assets/weapons/icons/ui_we_atom.png",
       "Name": "Atomic Molecule",
+      "Power (Damage)": "39.4ac",
+      "Cooldown": 18.0,
+      "Price": "20bb",
+      "Enhance Cost": "10bb",
+      "Soul Dmg Upgrade": "12cu",
+      "Soul Upgrade Cost": "3.33cu",
+      "Id": 5047,
       "Key": "we_atom",
       "Sort": 50,
       "IsDefault": false,
@@ -2200,17 +2207,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "20bb",
-      "EnhanceCost": "10bb",
       "EnhanceCostUp": 1.125,
-      "SoulDmgUpgradeCost": "12cu",
-      "SoulCostUpgradeCost": "3.33cu",
       "SoulUpgradeCostUp": 1.205,
       "SoulDmgEnhanceCost": "4cv",
       "SoulCostEnhanceCost": "3cv",
       "SoulEnhanceCostUp": "10K",
       "EpicUpgradeCost": "150",
-      "Power": "39.4ac",
       "RagrangeBattleBonus": 3.218,
       "NoSpeed": [
         true,
@@ -2225,17 +2227,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 18.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"What a fun science lesson.\"",
-      "Icon": "assets/weapons/icons/ui_we_atom.png"
+      "Description": "\"What a fun science lesson.\""
     },
     {
-      "Id": 5048,
+      "Icon": "assets/weapons/icons/ui_we_ascension_light.png",
       "Name": "Light of Ascension",
+      "Power (Damage)": "78.8ac",
+      "Cooldown": 22.0,
+      "Price": "50bf",
+      "Enhance Cost": "25bf",
+      "Soul Dmg Upgrade": "4db",
+      "Soul Upgrade Cost": "1.33db",
+      "Id": 5048,
       "Key": "we_ascension_light",
       "Sort": 51,
       "IsDefault": false,
@@ -2243,17 +2250,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "50bf",
-      "EnhanceCost": "25bf",
       "EnhanceCostUp": 1.1325,
-      "SoulDmgUpgradeCost": "4db",
-      "SoulCostUpgradeCost": "1.33db",
       "SoulUpgradeCostUp": 1.25,
       "SoulDmgEnhanceCost": "1.6dc",
       "SoulCostEnhanceCost": "1.2dc",
       "SoulEnhanceCostUp": "12.5K",
       "EpicUpgradeCost": "150",
-      "Power": "78.8ac",
       "RagrangeBattleBonus": 3.25,
       "NoSpeed": [
         true,
@@ -2268,17 +2270,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 22.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a"
       ],
-      "Description": "\"Whether for better or worse, it's truly a weapon that makes you 'ascend.'\"",
-      "Icon": "assets/weapons/icons/ui_we_ascension_light.png"
+      "Description": "\"Whether for better or worse, it's truly a weapon that makes you 'ascend.'\""
     },
     {
-      "Id": 5049,
+      "Icon": "assets/weapons/icons/ui_we_top_toy.png",
       "Name": "Spinning Top",
+      "Power (Damage)": "158ac",
+      "Cooldown": 32.0,
+      "Price": "80bj",
+      "Enhance Cost": "40bj",
+      "Soul Dmg Upgrade": "25dk",
+      "Soul Upgrade Cost": "10dk",
+      "Id": 5049,
       "Key": "we_top_toy",
       "Sort": 52,
       "IsDefault": false,
@@ -2286,17 +2293,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "80bj",
-      "EnhanceCost": "40bj",
       "EnhanceCostUp": 1.14,
-      "SoulDmgUpgradeCost": "25dk",
-      "SoulCostUpgradeCost": "10dk",
       "SoulUpgradeCostUp": 1.275,
       "SoulDmgEnhanceCost": "12dl",
       "SoulCostEnhanceCost": "9dl",
       "SoulEnhanceCostUp": "15K",
       "EpicUpgradeCost": "150",
-      "Power": "158ac",
       "RagrangeBattleBonus": 3.283,
       "NoSpeed": [
         false,
@@ -2311,17 +2313,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 32.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a/t/w"
       ],
-      "Description": "\"If you're fast enough, it's possible.\"",
-      "Icon": "assets/weapons/icons/ui_we_top_toy.png"
+      "Description": "\"If you're fast enough, it's possible.\""
     },
     {
-      "Id": 5050,
+      "Icon": "assets/weapons/icons/ui_we_purify_flame.png",
       "Name": "Purifying Flame",
+      "Power (Damage)": "315ac",
+      "Cooldown": 23.0,
+      "Price": "40bo",
+      "Enhance Cost": "20bo",
+      "Soul Dmg Upgrade": "750dt",
+      "Soul Upgrade Cost": "267dt",
+      "Id": 5050,
       "Key": "we_purify_flame",
       "Sort": 53,
       "IsDefault": false,
@@ -2329,17 +2336,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "40bo",
-      "EnhanceCost": "20bo",
       "EnhanceCostUp": 1.1475,
-      "SoulDmgUpgradeCost": "750dt",
-      "SoulCostUpgradeCost": "267dt",
       "SoulUpgradeCostUp": 1.3,
       "SoulDmgEnhanceCost": "320du",
       "SoulCostEnhanceCost": "240du",
       "SoulEnhanceCostUp": "17.5K",
       "EpicUpgradeCost": "150",
-      "Power": "315ac",
       "RagrangeBattleBonus": 3.316,
       "NoSpeed": [
         true,
@@ -2354,17 +2356,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 23.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"Clean down to the soul.\"",
-      "Icon": "assets/weapons/icons/ui_we_purify_flame.png"
+      "Description": "\"Clean down to the soul.\""
     },
     {
-      "Id": 5051,
+      "Icon": "assets/weapons/icons/ui_we_star_buster.png",
       "Name": "Starbuster",
+      "Power (Damage)": "630ac",
+      "Cooldown": 19.0,
+      "Price": "7.5bt",
+      "Enhance Cost": "3.75bt",
+      "Soul Dmg Upgrade": "800eb",
+      "Soul Upgrade Cost": "267eb",
+      "Id": 5051,
       "Key": "we_star_buster",
       "Sort": 54,
       "IsDefault": false,
@@ -2372,17 +2379,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "7.5bt",
-      "EnhanceCost": "3.75bt",
       "EnhanceCostUp": 1.155,
-      "SoulDmgUpgradeCost": "800eb",
-      "SoulCostUpgradeCost": "267eb",
       "SoulUpgradeCostUp": 1.325,
       "SoulDmgEnhanceCost": "320ec",
       "SoulCostEnhanceCost": "240ec",
       "SoulEnhanceCostUp": "20K",
       "EpicUpgradeCost": "150",
-      "Power": "630ac",
       "RagrangeBattleBonus": 3.349,
       "NoSpeed": [
         false,
@@ -2397,18 +2399,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 19.0,
       "BasicData": "",
       "InfoData": [
         "i/c/a/t/w",
         "i/n:bt_star_buster_boom/a/#p"
       ],
-      "Description": "\"It's like watching a star explode.\"",
-      "Icon": "assets/weapons/icons/ui_we_star_buster.png"
+      "Description": "\"It's like watching a star explode.\""
     },
     {
-      "Id": 5052,
+      "Icon": "assets/weapons/icons/ui_we_prism_ex.png",
       "Name": "P.R.I.S.M. -EX-",
+      "Power (Damage)": "1.26ad",
+      "Cooldown": 30.0,
+      "Price": "25bz",
+      "Enhance Cost": "12.5bz",
+      "Soul Dmg Upgrade": "550ej",
+      "Soul Upgrade Cost": "200ej",
+      "Id": 5052,
       "Key": "we_prism_ex",
       "Sort": 55,
       "IsDefault": false,
@@ -2416,17 +2423,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "25bz",
-      "EnhanceCost": "12.5bz",
       "EnhanceCostUp": 1.1625,
-      "SoulDmgUpgradeCost": "550ej",
-      "SoulCostUpgradeCost": "200ej",
       "SoulUpgradeCostUp": 1.35,
       "SoulDmgEnhanceCost": "240ek",
       "SoulCostEnhanceCost": "180ek",
       "SoulEnhanceCostUp": "22.5K",
       "EpicUpgradeCost": "150",
-      "Power": "1.26ad",
       "RagrangeBattleBonus": 3.382,
       "NoSpeed": [
         false,
@@ -2441,17 +2443,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 30.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"How would you like it cut?\"",
-      "Icon": "assets/weapons/icons/ui_we_prism_ex.png"
+      "Description": "\"How would you like it cut?\""
     },
     {
-      "Id": 5053,
+      "Icon": "assets/weapons/icons/ui_we_q_machine.png",
       "Name": "Quantum Machine",
+      "Power (Damage)": "2.52ad",
+      "Cooldown": 20.0,
+      "Price": "15ce",
+      "Enhance Cost": "7.5ce",
+      "Soul Dmg Upgrade": "10eu",
+      "Soul Upgrade Cost": "3.33eu",
+      "Id": 5053,
       "Key": "we_q_machine",
       "Sort": 56,
       "IsDefault": false,
@@ -2459,17 +2466,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "15ce",
-      "EnhanceCost": "7.5ce",
       "EnhanceCostUp": 1.17,
-      "SoulDmgUpgradeCost": "10eu",
-      "SoulCostUpgradeCost": "3.33eu",
       "SoulUpgradeCostUp": 1.375,
       "SoulDmgEnhanceCost": "4ev",
       "SoulCostEnhanceCost": "3ev",
       "SoulEnhanceCostUp": "25K",
       "EpicUpgradeCost": "150",
-      "Power": "2.52ad",
       "RagrangeBattleBonus": 3.416,
       "NoSpeed": [
         true,
@@ -2484,17 +2486,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 20.0,
       "BasicData": "",
       "InfoData": [
         "i/a/#c"
       ],
-      "Description": "\"Ever heard the expression 'quantum perfection'?\"",
-      "Icon": "assets/weapons/icons/ui_we_q_machine.png"
+      "Description": "\"Ever heard the expression 'quantum perfection'?\""
     },
     {
-      "Id": 5054,
+      "Icon": "assets/weapons/icons/ui_we_gym_ball.png",
       "Name": "Exercise Ball",
+      "Power (Damage)": "5.04ad",
+      "Cooldown": 28.0,
+      "Price": "750cj",
+      "Enhance Cost": "375cj",
+      "Soul Dmg Upgrade": "1ff",
+      "Soul Upgrade Cost": "333fe",
+      "Id": 5054,
       "Key": "we_gym_ball",
       "Sort": 57,
       "IsDefault": false,
@@ -2502,17 +2509,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "750cj",
-      "EnhanceCost": "375cj",
       "EnhanceCostUp": 1.1775,
-      "SoulDmgUpgradeCost": "1ff",
-      "SoulCostUpgradeCost": "333fe",
       "SoulUpgradeCostUp": 1.4,
       "SoulDmgEnhanceCost": "400ff",
       "SoulCostEnhanceCost": "300ff",
       "SoulEnhanceCostUp": "27.5K",
       "EpicUpgradeCost": "150",
-      "Power": "5.04ad",
       "RagrangeBattleBonus": 3.45,
       "NoSpeed": [
         true,
@@ -2527,17 +2529,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 28.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/b"
       ],
-      "Description": "\"Excuse me, that's not how you use the exercise ball!\"",
-      "Icon": "assets/weapons/icons/ui_we_gym_ball.png"
+      "Description": "\"Excuse me, that's not how you use the exercise ball!\""
     },
     {
-      "Id": 5055,
+      "Icon": "assets/weapons/icons/ui_we_holy_shield.png",
       "Name": "Divine Shield",
+      "Power (Damage)": "10.1ad",
+      "Cooldown": 24.0,
+      "Price": "2.5cq",
+      "Enhance Cost": "1.25cq",
+      "Soul Dmg Upgrade": "7ft",
+      "Soul Upgrade Cost": "2.33ft",
+      "Id": 5055,
       "Key": "we_holy_shield",
       "Sort": 58,
       "IsDefault": false,
@@ -2545,17 +2552,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "2.5cq",
-      "EnhanceCost": "1.25cq",
       "EnhanceCostUp": 1.185,
-      "SoulDmgUpgradeCost": "7ft",
-      "SoulCostUpgradeCost": "2.33ft",
       "SoulUpgradeCostUp": 1.425,
       "SoulDmgEnhanceCost": "2.8fu",
       "SoulCostEnhanceCost": "2.1fu",
       "SoulEnhanceCostUp": "30K",
       "EpicUpgradeCost": "150",
-      "Power": "10.1ad",
       "RagrangeBattleBonus": 3.485,
       "NoSpeed": [
         true,
@@ -2570,18 +2572,23 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 24.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a",
         "i/n:bt_holy_shield_sub/c/a/t/w"
       ],
-      "Description": "\"Who knew shield bashing was actually a real technique.\"",
-      "Icon": "assets/weapons/icons/ui_we_holy_shield.png"
+      "Description": "\"Who knew shield bashing was actually a real technique.\""
     },
     {
-      "Id": 5056,
+      "Icon": "assets/weapons/icons/ui_we_ares.png",
       "Name": "Sword of Ares",
+      "Power (Damage)": "20.2ad",
+      "Cooldown": 21.0,
+      "Price": "800cu",
+      "Enhance Cost": "400cu",
+      "Soul Dmg Upgrade": "45gg",
+      "Soul Upgrade Cost": "16.7gg",
+      "Id": 5056,
       "Key": "we_ares",
       "Sort": 59,
       "IsDefault": false,
@@ -2589,17 +2596,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "800cu",
-      "EnhanceCost": "400cu",
       "EnhanceCostUp": 1.1925,
-      "SoulDmgUpgradeCost": "45gg",
-      "SoulCostUpgradeCost": "16.7gg",
       "SoulUpgradeCostUp": 1.45,
       "SoulDmgEnhanceCost": "20gh",
       "SoulCostEnhanceCost": "15gh",
       "SoulEnhanceCostUp": "32.5K",
       "EpicUpgradeCost": "150",
-      "Power": "20.2ad",
       "RagrangeBattleBonus": 3.52,
       "NoSpeed": [
         true,
@@ -2614,17 +2616,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 21.0,
       "BasicData": "",
       "InfoData": [
         "i/#c:bt_ares_repeat/a"
       ],
-      "Description": "\"I came to end this war.\"",
-      "Icon": "assets/weapons/icons/ui_we_ares.png"
+      "Description": "\"I came to end this war.\""
     },
     {
-      "Id": 5057,
+      "Icon": "assets/weapons/icons/ui_we_hell_chain.png",
       "Name": "Infernal Chain",
+      "Power (Damage)": "40.3ad",
+      "Cooldown": 26.0,
+      "Price": "6db",
+      "Enhance Cost": "3db",
+      "Soul Dmg Upgrade": "30gs",
+      "Soul Upgrade Cost": "10gs",
+      "Id": 5057,
       "Key": "we_hell_chain",
       "Sort": 60,
       "IsDefault": false,
@@ -2632,17 +2639,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "6db",
-      "EnhanceCost": "3db",
       "EnhanceCostUp": 1.2,
-      "SoulDmgUpgradeCost": "30gs",
-      "SoulCostUpgradeCost": "10gs",
       "SoulUpgradeCostUp": 1.475,
       "SoulDmgEnhanceCost": "12gt",
       "SoulCostEnhanceCost": "9gt",
       "SoulEnhanceCostUp": "35K",
       "EpicUpgradeCost": "150",
-      "Power": "40.3ad",
       "RagrangeBattleBonus": 3.555,
       "NoSpeed": [
         true,
@@ -2657,17 +2659,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 26.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a"
       ],
-      "Description": "\"Even your soul shall be bound.\"",
-      "Icon": "assets/weapons/icons/ui_we_hell_chain.png"
+      "Description": "\"Even your soul shall be bound.\""
     },
     {
-      "Id": 5058,
+      "Icon": "assets/weapons/icons/ui_we_zeus.png",
       "Name": "Zeus' Trident",
+      "Power (Damage)": "80.7ad",
+      "Cooldown": 25.0,
+      "Price": "30dh",
+      "Enhance Cost": "15dh",
+      "Soul Dmg Upgrade": "50hg",
+      "Soul Upgrade Cost": "16.7hg",
+      "Id": 5058,
       "Key": "we_zeus",
       "Sort": 61,
       "IsDefault": false,
@@ -2675,17 +2682,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "30dh",
-      "EnhanceCost": "15dh",
       "EnhanceCostUp": 1.2075,
-      "SoulDmgUpgradeCost": "50hg",
-      "SoulCostUpgradeCost": "16.7hg",
       "SoulUpgradeCostUp": 1.5,
       "SoulDmgEnhanceCost": "20hh",
       "SoulCostEnhanceCost": "15hh",
       "SoulEnhanceCostUp": "37.5K",
       "EpicUpgradeCost": "150",
-      "Power": "80.7ad",
       "RagrangeBattleBonus": 3.591,
       "NoSpeed": [
         true,
@@ -2700,18 +2702,23 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 25.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a",
         "i/n:bt_zeus_thunder/c/a/p"
       ],
-      "Description": "\"You'll be lightning-charred in an instant.\"",
-      "Icon": "assets/weapons/icons/ui_we_zeus.png"
+      "Description": "\"You'll be lightning-charred in an instant.\""
     },
     {
-      "Id": 5059,
+      "Icon": "assets/weapons/icons/ui_we_god_punch.png",
       "Name": "God Punch",
+      "Power (Damage)": "161ad",
+      "Cooldown": 24.0,
+      "Price": "500dp",
+      "Enhance Cost": "250dp",
+      "Soul Dmg Upgrade": "600hx",
+      "Soul Upgrade Cost": "240hx",
+      "Id": 5059,
       "Key": "we_god_punch",
       "Sort": 62,
       "IsDefault": false,
@@ -2719,17 +2726,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "500dp",
-      "EnhanceCost": "250dp",
       "EnhanceCostUp": 1.215,
-      "SoulDmgUpgradeCost": "600hx",
-      "SoulCostUpgradeCost": "240hx",
       "SoulUpgradeCostUp": 1.505,
       "SoulDmgEnhanceCost": "240hy",
       "SoulCostEnhanceCost": "180hy",
       "SoulEnhanceCostUp": "40K",
       "EpicUpgradeCost": "150",
-      "Power": "161ad",
       "RagrangeBattleBonus": 3.626,
       "NoSpeed": [
         true,
@@ -2744,17 +2746,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 24.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"Have you committed an unforgivable sin?\"",
-      "Icon": "assets/weapons/icons/ui_we_god_punch.png"
+      "Description": "\"Have you committed an unforgivable sin?\""
     },
     {
-      "Id": 5060,
+      "Icon": "assets/weapons/icons/ui_we_soul_shuriken.png",
       "Name": "Soul Ninja Stars",
+      "Power (Damage)": "323ad",
+      "Cooldown": 36.0,
+      "Price": "10dw",
+      "Enhance Cost": "5dw",
+      "Soul Dmg Upgrade": "150ij",
+      "Soul Upgrade Cost": "60ij",
+      "Id": 5060,
       "Key": "we_soul_shuriken",
       "Sort": 63,
       "IsDefault": false,
@@ -2762,17 +2769,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "10dw",
-      "EnhanceCost": "5dw",
       "EnhanceCostUp": 1.22,
-      "SoulDmgUpgradeCost": "150ij",
-      "SoulCostUpgradeCost": "60ij",
       "SoulUpgradeCostUp": 1.51,
       "SoulDmgEnhanceCost": "60ik",
       "SoulCostEnhanceCost": "45ik",
       "SoulEnhanceCostUp": "45K",
       "EpicUpgradeCost": "150",
-      "Power": "323ad",
       "RagrangeBattleBonus": 3.663,
       "NoSpeed": [
         false,
@@ -2787,17 +2789,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 36.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"Even the soul shall be split.\"",
-      "Icon": "assets/weapons/icons/ui_we_soul_shuriken.png"
+      "Description": "\"Even the soul shall be split.\""
     },
     {
-      "Id": 5061,
+      "Icon": "assets/weapons/icons/ui_we_uranium.png",
       "Name": "Uranium Flask",
+      "Power (Damage)": "645ad",
+      "Cooldown": 32.0,
+      "Price": "250ed",
+      "Enhance Cost": "125ed",
+      "Soul Dmg Upgrade": "400iv",
+      "Soul Upgrade Cost": "160iv",
+      "Id": 5061,
       "Key": "we_uranium",
       "Sort": 64,
       "IsDefault": false,
@@ -2805,17 +2812,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "250ed",
-      "EnhanceCost": "125ed",
       "EnhanceCostUp": 1.23,
-      "SoulDmgUpgradeCost": "400iv",
-      "SoulCostUpgradeCost": "160iv",
       "SoulUpgradeCostUp": 1.515,
       "SoulDmgEnhanceCost": "160iw",
       "SoulCostEnhanceCost": "120iw",
       "SoulEnhanceCostUp": "50K",
       "EpicUpgradeCost": "150",
-      "Power": "645ad",
       "RagrangeBattleBonus": 3.699,
       "NoSpeed": [
         true,
@@ -2830,17 +2832,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 32.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "Description": "\"A terrifying weapon that melts everything from the inside out.\"",
-      "Icon": "assets/weapons/icons/ui_we_uranium.png"
+      "Description": "\"A terrifying weapon that melts everything from the inside out.\""
     },
     {
-      "Id": 5062,
+      "Icon": "assets/weapons/icons/ui_we_odin.png",
       "Name": "Odin's Judgment",
+      "Power (Damage)": "1.29ae",
+      "Cooldown": 26.0,
+      "Price": "8en",
+      "Enhance Cost": "4en",
+      "Soul Dmg Upgrade": "250jp",
+      "Soul Upgrade Cost": "100jp",
+      "Id": 5062,
       "Key": "we_odin",
       "Sort": 65,
       "IsDefault": false,
@@ -2848,17 +2855,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "8en",
-      "EnhanceCost": "4en",
       "EnhanceCostUp": 1.2225,
-      "SoulDmgUpgradeCost": "250jp",
-      "SoulCostUpgradeCost": "100jp",
       "SoulUpgradeCostUp": 1.52,
       "SoulDmgEnhanceCost": "100jq",
       "SoulCostEnhanceCost": "75jq",
       "SoulEnhanceCostUp": "55K",
       "EpicUpgradeCost": "150",
-      "Power": "1.29ae",
       "RagrangeBattleBonus": 3.736,
       "NoSpeed": [
         true,
@@ -2873,17 +2875,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 26.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"Not simply lightning, but divine punishment.\"",
-      "Icon": "assets/weapons/icons/ui_we_odin.png"
+      "Description": "\"Not simply lightning, but divine punishment.\""
     },
     {
-      "Id": 5063,
+      "Icon": "assets/weapons/icons/ui_we_diamond_scissors.png",
       "Name": "Diamond Scissors",
+      "Power (Damage)": "2.58ae",
+      "Cooldown": 20.0,
+      "Price": "600et",
+      "Enhance Cost": "300et",
+      "Soul Dmg Upgrade": "500kb",
+      "Soul Upgrade Cost": "200kb",
+      "Id": 5063,
       "Key": "we_diamond_scissors",
       "Sort": 66,
       "IsDefault": false,
@@ -2891,17 +2898,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "600et",
-      "EnhanceCost": "300et",
       "EnhanceCostUp": 1.225,
-      "SoulDmgUpgradeCost": "500kb",
-      "SoulCostUpgradeCost": "200kb",
       "SoulUpgradeCostUp": 1.525,
       "SoulDmgEnhanceCost": "200kc",
       "SoulCostEnhanceCost": "150kc",
       "SoulEnhanceCostUp": "60K",
       "EpicUpgradeCost": "150",
-      "Power": "2.58ae",
       "RagrangeBattleBonus": 3.774,
       "NoSpeed": [
         true,
@@ -2916,17 +2918,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 20.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/at:bt_diamond_scissors_tick"
       ],
-      "Description": "\"They aren't just slightly harder than before.\"",
-      "Icon": "assets/weapons/icons/ui_we_diamond_scissors.png"
+      "Description": "\"They aren't just slightly harder than before.\""
     },
     {
-      "Id": 5064,
+      "Icon": "assets/weapons/icons/ui_we_cherry_banana.png",
       "Name": "Cherry & Banana",
+      "Power (Damage)": "5.16ae",
+      "Cooldown": 25.0,
+      "Price": "3.5fb",
+      "Enhance Cost": "1.75fb",
+      "Soul Dmg Upgrade": "250kn",
+      "Soul Upgrade Cost": "100kn",
+      "Id": 5064,
       "Key": "we_cherry_banana",
       "Sort": 67,
       "IsDefault": false,
@@ -2934,17 +2941,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "3.5fb",
-      "EnhanceCost": "1.75fb",
       "EnhanceCostUp": 1.2275,
-      "SoulDmgUpgradeCost": "250kn",
-      "SoulCostUpgradeCost": "100kn",
       "SoulUpgradeCostUp": 1.53,
       "SoulDmgEnhanceCost": "100ko",
       "SoulCostEnhanceCost": "75ko",
       "SoulEnhanceCostUp": "65K",
       "EpicUpgradeCost": "150",
-      "Power": "5.16ae",
       "RagrangeBattleBonus": 3.811,
       "NoSpeed": [
         true,
@@ -2959,7 +2961,6 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 25.0,
       "BasicData": "",
       "InfoData": [
         "i/n:bt_cherry/c/a",
@@ -2967,12 +2968,18 @@
         "i/n:bt_cherry_sub/c/a",
         "i/n:bt_banana_sub/c/a"
       ],
-      "Description": "\"Sweet juice that goes pop pop!\"",
-      "Icon": "assets/weapons/icons/ui_we_cherry_banana.png"
+      "Description": "\"Sweet juice that goes pop pop!\""
     },
     {
-      "Id": 5065,
+      "Icon": "assets/weapons/icons/ui_we_osiris.png",
       "Name": "Eye of Osiris",
+      "Power (Damage)": "10.3ae",
+      "Cooldown": 19.0,
+      "Price": "75fi",
+      "Enhance Cost": "37.5fi",
+      "Soul Dmg Upgrade": "7.5lf",
+      "Soul Upgrade Cost": "3lf",
+      "Id": 5065,
       "Key": "we_osiris",
       "Sort": 68,
       "IsDefault": false,
@@ -2980,17 +2987,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "75fi",
-      "EnhanceCost": "37.5fi",
       "EnhanceCostUp": 1.23,
-      "SoulDmgUpgradeCost": "7.5lf",
-      "SoulCostUpgradeCost": "3lf",
       "SoulUpgradeCostUp": 1.535,
       "SoulDmgEnhanceCost": "3lg",
       "SoulCostEnhanceCost": "2.25lg",
       "SoulEnhanceCostUp": "70K",
       "EpicUpgradeCost": "150",
-      "Power": "10.3ae",
       "RagrangeBattleBonus": 3.85,
       "NoSpeed": [
         true,
@@ -3005,17 +3007,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 19.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"It can see and destroy all.\"",
-      "Icon": "assets/weapons/icons/ui_we_osiris.png"
+      "Description": "\"It can see and destroy all.\""
     },
     {
-      "Id": 5066,
+      "Icon": "assets/weapons/icons/ui_we_sun.png",
       "Name": "Sun of Ra",
+      "Power (Damage)": "20.7ae",
+      "Cooldown": 27.0,
+      "Price": "2fp",
+      "Enhance Cost": "1fp",
+      "Soul Dmg Upgrade": "35lr",
+      "Soul Upgrade Cost": "14lr",
+      "Id": 5066,
       "Key": "we_sun",
       "Sort": 69,
       "IsDefault": false,
@@ -3023,17 +3030,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "2fp",
-      "EnhanceCost": "1fp",
       "EnhanceCostUp": 1.2325,
-      "SoulDmgUpgradeCost": "35lr",
-      "SoulCostUpgradeCost": "14lr",
       "SoulUpgradeCostUp": 1.54,
       "SoulDmgEnhanceCost": "14ls",
       "SoulCostEnhanceCost": "10.5ls",
       "SoulEnhanceCostUp": "75K",
       "EpicUpgradeCost": "150",
-      "Power": "20.7ae",
       "RagrangeBattleBonus": 3.888,
       "NoSpeed": [
         true,
@@ -3048,17 +3050,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 27.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"Have you ever imagined the sun right in front of your eyes?\"",
-      "Icon": "assets/weapons/icons/ui_we_sun.png"
+      "Description": "\"Have you ever imagined the sun right in front of your eyes?\""
     },
     {
-      "Id": 5067,
+      "Icon": "assets/weapons/icons/ui_we_rat.png",
       "Name": "Radioactive Rat",
+      "Power (Damage)": "41.3ae",
+      "Cooldown": 30.0,
+      "Price": "350fv",
+      "Enhance Cost": "175fv",
+      "Soul Dmg Upgrade": "1me",
+      "Soul Upgrade Cost": "400md",
+      "Id": 5067,
       "Key": "we_rat",
       "Sort": 70,
       "IsDefault": false,
@@ -3066,17 +3073,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "350fv",
-      "EnhanceCost": "175fv",
       "EnhanceCostUp": 1.235,
-      "SoulDmgUpgradeCost": "1me",
-      "SoulCostUpgradeCost": "400md",
       "SoulUpgradeCostUp": 1.545,
       "SoulDmgEnhanceCost": "400me",
       "SoulCostEnhanceCost": "300me",
       "SoulEnhanceCostUp": "80K",
       "EpicUpgradeCost": "150",
-      "Power": "41.3ae",
       "RagrangeBattleBonus": 3.927,
       "NoSpeed": [
         true,
@@ -3091,17 +3093,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 30.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"Be careful with rats. You never know what germs they may carry.\"",
-      "Icon": "assets/weapons/icons/ui_we_rat.png"
+      "Description": "\"Be careful with rats. You never know what germs they may carry.\""
     },
     {
-      "Id": 5068,
+      "Icon": "assets/weapons/icons/ui_we_tsunami.png",
       "Name": "Tsunami",
+      "Power (Damage)": "82.6ae",
+      "Cooldown": 33.0,
+      "Price": "900gd",
+      "Enhance Cost": "450gd",
+      "Soul Dmg Upgrade": "300mw",
+      "Soul Upgrade Cost": "120mw",
+      "Id": 5068,
       "Key": "we_tsunami",
       "Sort": 71,
       "IsDefault": false,
@@ -3109,17 +3116,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "900gd",
-      "EnhanceCost": "450gd",
       "EnhanceCostUp": 1.2375,
-      "SoulDmgUpgradeCost": "300mw",
-      "SoulCostUpgradeCost": "120mw",
       "SoulUpgradeCostUp": 1.55,
       "SoulDmgEnhanceCost": "120mx",
       "SoulCostEnhanceCost": "90mx",
       "SoulEnhanceCostUp": "85K",
       "EpicUpgradeCost": "150",
-      "Power": "82.6ae",
       "RagrangeBattleBonus": 3.966,
       "NoSpeed": [
         true,
@@ -3134,17 +3136,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 33.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"A disaster beyond human comprehension.\"",
-      "Icon": "assets/weapons/icons/ui_we_tsunami.png"
+      "Description": "\"A disaster beyond human comprehension.\""
     },
     {
-      "Id": 5069,
+      "Icon": "assets/weapons/icons/ui_we_gale.png",
       "Name": "Storm Blade",
+      "Power (Damage)": "165ae",
+      "Cooldown": 30.0,
+      "Price": "150gk",
+      "Enhance Cost": "75gk",
+      "Soul Dmg Upgrade": "80nn",
+      "Soul Upgrade Cost": "32nn",
+      "Id": 5069,
       "Key": "we_gale",
       "Sort": 72,
       "IsDefault": false,
@@ -3152,17 +3159,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "150gk",
-      "EnhanceCost": "75gk",
       "EnhanceCostUp": 1.24,
-      "SoulDmgUpgradeCost": "80nn",
-      "SoulCostUpgradeCost": "32nn",
       "SoulUpgradeCostUp": 1.555,
       "SoulDmgEnhanceCost": "32no",
       "SoulCostEnhanceCost": "24no",
       "SoulEnhanceCostUp": "90K",
       "EpicUpgradeCost": "150",
-      "Power": "165ae",
       "RagrangeBattleBonus": 4.006,
       "NoSpeed": [
         true,
@@ -3177,17 +3179,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 30.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a"
       ],
-      "Description": "\"Wind moving fast enough can become a blade.\"",
-      "Icon": "assets/weapons/icons/ui_we_gale.png"
+      "Description": "\"Wind moving fast enough can become a blade.\""
     },
     {
-      "Id": 5070,
+      "Icon": "assets/weapons/icons/ui_we_light_orb.png",
       "Name": "Orb of Light",
+      "Power (Damage)": "330ae",
+      "Cooldown": 42.0,
+      "Price": "400gr",
+      "Enhance Cost": "200gr",
+      "Soul Dmg Upgrade": "60nx",
+      "Soul Upgrade Cost": "24nx",
+      "Id": 5070,
       "Key": "we_light_orb",
       "Sort": 73,
       "IsDefault": false,
@@ -3195,17 +3202,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "400gr",
-      "EnhanceCost": "200gr",
       "EnhanceCostUp": 1.2425,
-      "SoulDmgUpgradeCost": "60nx",
-      "SoulCostUpgradeCost": "24nx",
       "SoulUpgradeCostUp": 1.56,
       "SoulDmgEnhanceCost": "24ny",
       "SoulCostEnhanceCost": "18ny",
       "SoulEnhanceCostUp": "95K",
       "EpicUpgradeCost": "150",
-      "Power": "330ae",
       "RagrangeBattleBonus": 4.046,
       "NoSpeed": [
         false,
@@ -3220,17 +3222,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 42.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"I shall destroy all with the power of light.\"",
-      "Icon": "assets/weapons/icons/ui_we_light_orb.png"
+      "Description": "\"I shall destroy all with the power of light.\""
     },
     {
-      "Id": 5071,
+      "Icon": "assets/weapons/icons/ui_we_chicken.png",
       "Name": "Crispy Chicken",
+      "Power (Damage)": "661ae",
+      "Cooldown": 40.0,
+      "Price": "800hc",
+      "Enhance Cost": "400hc",
+      "Soul Dmg Upgrade": "25ox",
+      "Soul Upgrade Cost": "10ox",
+      "Id": 5071,
       "Key": "we_chicken",
       "Sort": 74,
       "IsDefault": false,
@@ -3238,17 +3245,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "800hc",
-      "EnhanceCost": "400hc",
       "EnhanceCostUp": 1.245,
-      "SoulDmgUpgradeCost": "25ox",
-      "SoulCostUpgradeCost": "10ox",
       "SoulUpgradeCostUp": 1.565,
       "SoulDmgEnhanceCost": "10oy",
       "SoulCostEnhanceCost": "7.5oy",
       "SoulEnhanceCostUp": "100K",
       "EpicUpgradeCost": "150",
-      "Power": "661ae",
       "RagrangeBattleBonus": 4.086,
       "NoSpeed": [
         true,
@@ -3263,17 +3265,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 40.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/#b"
       ],
-      "Description": "\"Everything tastes good when fried. Even a Brick.\"",
-      "Icon": "assets/weapons/icons/ui_we_chicken.png"
+      "Description": "\"Everything tastes good when fried. Even a Brick.\""
     },
     {
-      "Id": 5072,
+      "Icon": "assets/weapons/icons/ui_we_chaos_orb.png",
       "Name": "Chaos Staff",
+      "Power (Damage)": "1.32af",
+      "Cooldown": 36.0,
+      "Price": "20hl",
+      "Enhance Cost": "10hl",
+      "Soul Dmg Upgrade": "9pp",
+      "Soul Upgrade Cost": "3.6pp",
+      "Id": 5072,
       "Key": "we_chaos_orb",
       "Sort": 75,
       "IsDefault": false,
@@ -3281,17 +3288,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "20hl",
-      "EnhanceCost": "10hl",
       "EnhanceCostUp": 1.2475,
-      "SoulDmgUpgradeCost": "9pp",
-      "SoulCostUpgradeCost": "3.6pp",
       "SoulUpgradeCostUp": 1.57,
       "SoulDmgEnhanceCost": "3.6pq",
       "SoulCostEnhanceCost": "2.7pq",
       "SoulEnhanceCostUp": "102.5K",
       "EpicUpgradeCost": "150",
-      "Power": "1.32af",
       "RagrangeBattleBonus": 4.127,
       "NoSpeed": [
         true,
@@ -3306,17 +3308,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 36.0,
       "BasicData": "",
       "InfoData": [
         "i/#c:bt_chaos_orb_set/a"
       ],
-      "Description": "\"I wonder about the mental state of whoever made this weapon.\"",
-      "Icon": "assets/weapons/icons/ui_we_chaos_orb.png"
+      "Description": "\"I wonder about the mental state of whoever made this weapon.\""
     },
     {
-      "Id": 5073,
+      "Icon": "assets/weapons/icons/ui_we_party_missile.png",
       "Name": "Party Missile",
+      "Power (Damage)": "2.64af",
+      "Cooldown": 32.0,
+      "Price": "750hu",
+      "Enhance Cost": "375hu",
+      "Soul Dmg Upgrade": "10qh",
+      "Soul Upgrade Cost": "4qh",
+      "Id": 5073,
       "Key": "we_party_missile",
       "Sort": 76,
       "IsDefault": false,
@@ -3324,17 +3331,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "750hu",
-      "EnhanceCost": "375hu",
       "EnhanceCostUp": 1.25,
-      "SoulDmgUpgradeCost": "10qh",
-      "SoulCostUpgradeCost": "4qh",
       "SoulUpgradeCostUp": 1.575,
       "SoulDmgEnhanceCost": "4qi",
       "SoulCostEnhanceCost": "3qi",
       "SoulEnhanceCostUp": "105K",
       "EpicUpgradeCost": "150",
-      "Power": "2.64af",
       "RagrangeBattleBonus": 4.169,
       "NoSpeed": [
         true,
@@ -3349,17 +3351,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 32.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"I just came to congratulate you.\"",
-      "Icon": "assets/weapons/icons/ui_we_party_missile.png"
+      "Description": "\"I just came to congratulate you.\""
     },
     {
-      "Id": 5074,
+      "Icon": "assets/weapons/icons/ui_we_mirror.png",
       "Name": "Dimension Mirror",
+      "Power (Damage)": "5.29af",
+      "Cooldown": 48.0,
+      "Price": "250im",
+      "Enhance Cost": "125im",
+      "Soul Dmg Upgrade": "4rs",
+      "Soul Upgrade Cost": "16rs",
+      "Id": 5074,
       "Key": "we_mirror",
       "Sort": 77,
       "IsDefault": false,
@@ -3367,17 +3374,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "250im",
-      "EnhanceCost": "125im",
       "EnhanceCostUp": 1.2525,
-      "SoulDmgUpgradeCost": "4rs",
-      "SoulCostUpgradeCost": "16rs",
       "SoulUpgradeCostUp": 1.58,
       "SoulDmgEnhanceCost": "16rt",
       "SoulCostEnhanceCost": "12rt",
       "SoulEnhanceCostUp": "107.5K",
       "EpicUpgradeCost": "150",
-      "Power": "5.29af",
       "RagrangeBattleBonus": 4.21,
       "NoSpeed": [
         false,
@@ -3392,17 +3394,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 48.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"Can you find the truth among the countless mirrors?\"",
-      "Icon": "assets/weapons/icons/ui_we_mirror.png"
+      "Description": "\"Can you find the truth among the countless mirrors?\""
     },
     {
-      "Id": 5075,
+      "Icon": "assets/weapons/icons/ui_we_coffee.png",
       "Name": "Hot Coffee Cup",
+      "Power (Damage)": "10.6af",
+      "Cooldown": 42.0,
+      "Price": "1jc",
+      "Enhance Cost": "500jb",
+      "Soul Dmg Upgrade": "2.5sr",
+      "Soul Upgrade Cost": "10sr",
+      "Id": 5075,
       "Key": "we_coffee",
       "Sort": 78,
       "IsDefault": false,
@@ -3410,17 +3417,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "1jc",
-      "EnhanceCost": "500jb",
       "EnhanceCostUp": 1.255,
-      "SoulDmgUpgradeCost": "2.5sr",
-      "SoulCostUpgradeCost": "10sr",
       "SoulUpgradeCostUp": 1.585,
       "SoulDmgEnhanceCost": "10ss",
       "SoulCostEnhanceCost": "7.5ss",
       "SoulEnhanceCostUp": "110K",
       "EpicUpgradeCost": "150",
-      "Power": "10.6af",
       "RagrangeBattleBonus": 4.252,
       "NoSpeed": [
         true,
@@ -3435,17 +3437,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 42.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "Description": "\"A nightmarish day for the staff.\"",
-      "Icon": "assets/weapons/icons/ui_we_coffee.png"
+      "Description": "\"A nightmarish day for the staff.\""
     },
     {
-      "Id": 5076,
+      "Icon": "assets/weapons/icons/ui_we_extinction.png",
       "Name": "Light of Annihilation",
+      "Power (Damage)": "21.1af",
+      "Cooldown": 38.0,
+      "Price": "5js",
+      "Enhance Cost": "2.5js",
+      "Soul Dmg Upgrade": "60tq",
+      "Soul Upgrade Cost": "240tq",
+      "Id": 5076,
       "Key": "we_extinction",
       "Sort": 79,
       "IsDefault": false,
@@ -3453,17 +3460,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "5js",
-      "EnhanceCost": "2.5js",
       "EnhanceCostUp": 1.2575,
-      "SoulDmgUpgradeCost": "60tq",
-      "SoulCostUpgradeCost": "240tq",
       "SoulUpgradeCostUp": 1.59,
       "SoulDmgEnhanceCost": "240tr",
       "SoulCostEnhanceCost": "180tr",
       "SoulEnhanceCostUp": "112.5K",
       "EpicUpgradeCost": "150",
-      "Power": "21.1af",
       "RagrangeBattleBonus": 4.295,
       "NoSpeed": [
         true,
@@ -3478,17 +3480,22 @@
         true
       ],
       "UseSkill": true,
-      "Cooldown": 38.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a"
       ],
-      "Description": "\"True annihilation is being erased from memory.\"",
-      "Icon": "assets/weapons/icons/ui_we_extinction.png"
+      "Description": "\"True annihilation is being erased from memory.\""
     },
     {
-      "Id": 5077,
+      "Icon": "assets/weapons/icons/ui_we_singular_point.png",
       "Name": "Singular Point",
+      "Power (Damage)": "42.3af",
+      "Cooldown": 35.0,
+      "Price": "200ks",
+      "Enhance Cost": "100ks",
+      "Soul Dmg Upgrade": "300vt",
+      "Soul Upgrade Cost": "120vt",
+      "Id": 5077,
       "Key": "we_singular_point",
       "Sort": 80,
       "IsDefault": false,
@@ -3496,17 +3503,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "200ks",
-      "EnhanceCost": "100ks",
       "EnhanceCostUp": 1.26,
-      "SoulDmgUpgradeCost": "300vt",
-      "SoulCostUpgradeCost": "120vt",
       "SoulUpgradeCostUp": 1.595,
       "SoulDmgEnhanceCost": "120vu",
       "SoulCostEnhanceCost": "90vu",
       "SoulEnhanceCostUp": "115K",
       "EpicUpgradeCost": "150",
-      "Power": "42.3af",
       "RagrangeBattleBonus": 4.338,
       "NoSpeed": [
         true,
@@ -3521,17 +3523,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 35.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/#a"
       ],
-      "Description": "\"Even light loses its way there.\"",
-      "Icon": "assets/weapons/icons/ui_we_singular_point.png"
+      "Description": "\"Even light loses its way there.\""
     },
     {
-      "Id": 5078,
+      "Icon": "assets/weapons/icons/ui_we_pencil.png",
       "Name": "Colored Pencil",
+      "Power (Damage)": "84.6af",
+      "Cooldown": 52.0,
+      "Price": "4lj",
+      "Enhance Cost": "2lj",
+      "Soul Dmg Upgrade": "9xb",
+      "Soul Upgrade Cost": "2.6xb",
+      "Id": 5078,
       "Key": "we_pencil",
       "Sort": 81,
       "IsDefault": false,
@@ -3539,17 +3546,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "4lj",
-      "EnhanceCost": "2lj",
       "EnhanceCostUp": 1.2625,
-      "SoulDmgUpgradeCost": "9xb",
-      "SoulCostUpgradeCost": "2.6xb",
       "SoulUpgradeCostUp": 1.6,
       "SoulDmgEnhanceCost": "2.6xc",
       "SoulCostEnhanceCost": "1.95xc",
       "SoulEnhanceCostUp": "117.5K",
       "EpicUpgradeCost": "150",
-      "Power": "84.6af",
       "RagrangeBattleBonus": 4.381,
       "NoSpeed": [
         false,
@@ -3564,17 +3566,22 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 52.0,
       "BasicData": "",
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "Description": "\"A tool that draws the world can also become a tool that erases it.\"",
-      "Icon": "assets/weapons/icons/ui_we_pencil.png"
+      "Description": "\"A tool that draws the world can also become a tool that erases it.\""
     },
     {
-      "Id": 5079,
+      "Icon": "assets/weapons/icons/ui_we_dimension_box.png",
       "Name": "Dimensional Box",
+      "Power (Damage)": "169af",
+      "Cooldown": 55.0,
+      "Price": "10lz",
+      "Enhance Cost": "5lz",
+      "Soul Dmg Upgrade": "15yi",
+      "Soul Upgrade Cost": "5yi",
+      "Id": 5079,
       "Key": "we_dimension_box",
       "Sort": 82,
       "IsDefault": false,
@@ -3582,17 +3589,12 @@
       "UnlockWeapons": [],
       "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
-      "Price": "10lz",
-      "EnhanceCost": "5lz",
       "EnhanceCostUp": 1.265,
-      "SoulDmgUpgradeCost": "15yi",
-      "SoulCostUpgradeCost": "5yi",
       "SoulUpgradeCostUp": 1.605,
       "SoulDmgEnhanceCost": "5yj",
       "SoulCostEnhanceCost": "3.75yj",
       "SoulEnhanceCostUp": "120K",
       "EpicUpgradeCost": "150",
-      "Power": "169af",
       "RagrangeBattleBonus": 4.425,
       "NoSpeed": [
         false,
@@ -3607,15 +3609,13 @@
         false
       ],
       "UseSkill": true,
-      "Cooldown": 55.0,
       "BasicData": "",
       "InfoData": [
         "i/c/a/t/w",
         "i/c:bt_dimension_box_split/a:bt_dimension_box_atk/t:bt_dimension_box_time",
         "$i/$c:bt_dimension_box_split_l/$a:bt_dimension_box_atk/$t:bt_dimension_box_time"
       ],
-      "Description": "\"Have you ever wondered where the missing bricks go?\"",
-      "Icon": "assets/weapons/icons/ui_we_dimension_box.png"
+      "Description": "\"Have you ever wondered where the missing bricks go?\""
     }
   ]
 }
