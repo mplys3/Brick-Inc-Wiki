@@ -195,6 +195,48 @@ def localize_row(row: dict, texts: dict) -> None:
             break
 
 
+def humanize_weapon_key(key: str) -> str:
+    if not isinstance(key, str):
+        return ""
+    clean = key
+    for prefix in ("we_", "ui_we_"):
+        if clean.startswith(prefix):
+            clean = clean[len(prefix):]
+            break
+    return " ".join(part.capitalize() for part in clean.split("_") if part)
+
+
+def apply_weapon_presentation(rows: list[dict]) -> None:
+    names_by_key = {
+        row["Name"]: row.get("English") or humanize_weapon_key(row["Name"])
+        for row in rows
+        if isinstance(row.get("Name"), str) and row.get("Name")
+    }
+
+    for row in rows:
+        key = row.get("Name")
+        if not isinstance(key, str) or not key:
+            continue
+
+        display_name = names_by_key.get(key) or humanize_weapon_key(key)
+        presented = {}
+        for field_name, value in row.items():
+            if field_name == "Name":
+                presented["Name"] = display_name
+                presented["Key"] = key
+            elif field_name == "UnlockWeapons":
+                presented["UnlockWeapons"] = [
+                    names_by_key.get(unlock_key, humanize_weapon_key(unlock_key))
+                    for unlock_key in value
+                ]
+                presented["UnlockWeaponKeys"] = value
+            elif field_name != "English":
+                presented[field_name] = value
+
+        row.clear()
+        row.update(presented)
+
+
 def flatten(value: object) -> str:
     if isinstance(value, list):
         return ", ".join(str(v) for v in value)
@@ -253,6 +295,8 @@ def decode_all() -> dict:
                 if (WIKI / icon_path).exists():
                     row["Icon"] = icon_path
             rows.append(row)
+        if item["name"] == "Weapon":
+            apply_weapon_presentation(rows)
         tables[item["name"]] = {
             "type": item["type"],
             "index": item["index"],

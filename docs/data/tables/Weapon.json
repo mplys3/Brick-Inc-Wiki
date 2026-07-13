@@ -168,11 +168,13 @@
   "rows": [
     {
       "Id": 5001,
-      "Name": "we_default_main",
+      "Name": "Default Main",
+      "Key": "we_default_main",
       "Sort": 3,
       "IsDefault": true,
       "UnlockIndex": 0,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "",
       "EnhanceCost": "",
@@ -203,11 +205,13 @@
     },
     {
       "Id": 5099,
-      "Name": "we_default_main_e",
+      "Name": "Default Main E",
+      "Key": "we_default_main_e",
       "Sort": 4,
       "IsDefault": true,
       "UnlockIndex": 0,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "",
       "EnhanceCost": "",
@@ -238,11 +242,13 @@
     },
     {
       "Id": 5002,
-      "Name": "we_axe",
+      "Name": "Double Axe",
+      "Key": "we_axe",
       "Sort": 5,
       "IsDefault": false,
       "UnlockIndex": 0,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.00E+01",
       "EnhanceCost": "5.00E+00",
@@ -274,17 +280,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Double Axe",
       "Description": "\"There's a better use for it than cutting wood.\"",
       "Icon": "assets/weapons/icons/ui_we_axe.png"
     },
     {
       "Id": 5003,
-      "Name": "we_bee_missile",
+      "Name": "Bee Missile",
+      "Key": "we_bee_missile",
       "Sort": 6,
       "IsDefault": false,
       "UnlockIndex": 1,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+01",
       "EnhanceCost": "4.00E+01",
@@ -317,17 +324,18 @@
         "i/c/a",
         "$i/$c/$a"
       ],
-      "English": "Bee Missile",
       "Description": "\"Sweeter than bombs. More destructive than honey.\"",
       "Icon": "assets/weapons/icons/ui_we_bee_missile.png"
     },
     {
       "Id": 5004,
-      "Name": "we_shuriken",
+      "Name": "Ninja Stars",
+      "Key": "we_shuriken",
       "Sort": 7,
       "IsDefault": false,
       "UnlockIndex": 2,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "5.00E+02",
       "EnhanceCost": "2.50E+02",
@@ -359,17 +367,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "Ninja Stars",
       "Description": "\"They won't even know how many I threw.\"",
       "Icon": "assets/weapons/icons/ui_we_shuriken.png"
     },
     {
       "Id": 5005,
-      "Name": "we_gatling",
+      "Name": "Gatling",
+      "Key": "we_gatling",
       "Sort": 8,
       "IsDefault": false,
       "UnlockIndex": 3,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "7.50E+03",
       "EnhanceCost": "3.75E+03",
@@ -401,17 +410,18 @@
       "InfoData": [
         "i/#c/#a"
       ],
-      "English": "Gatling",
       "Description": "\"Sometimes it's good just to spray and pray.\"",
       "Icon": "assets/weapons/icons/ui_we_gatling.png"
     },
     {
       "Id": 5006,
-      "Name": "we_durian",
+      "Name": "Durian",
+      "Key": "we_durian",
       "Sort": 9,
       "IsDefault": false,
       "UnlockIndex": 4,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.00E+05",
       "EnhanceCost": "5.00E+04",
@@ -444,17 +454,18 @@
         "i/#c/a",
         "i/n:bt_durian_thorn/#c/a"
       ],
-      "English": "Durian",
       "Description": "\"Who would have thought something as sharp as thorns would be hidden in that smell?\"",
       "Icon": "assets/weapons/icons/ui_we_durian.png"
     },
     {
       "Id": 5007,
-      "Name": "we_wheel",
+      "Name": "Heavy Wheel",
+      "Key": "we_wheel",
       "Sort": 10,
       "IsDefault": false,
       "UnlockIndex": 5,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.00E+06",
       "EnhanceCost": "1.00E+06",
@@ -487,17 +498,18 @@
         "i/c/a",
         "$i/$n:bt_wheel_fire/$a/$t"
       ],
-      "English": "Heavy Wheel",
       "Description": "\"Careful you don't get flattened, too.\"",
       "Icon": "assets/weapons/icons/ui_we_wheel.png"
     },
     {
       "Id": 5008,
-      "Name": "we_sniper",
+      "Name": "Sniper",
+      "Key": "we_sniper",
       "Sort": 11,
       "IsDefault": false,
       "UnlockIndex": 6,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6.00E+07",
       "EnhanceCost": "3.00E+07",
@@ -529,17 +541,18 @@
       "InfoData": [
         "i/a/t/$w"
       ],
-      "English": "Sniper",
       "Description": "\"Alpha. Bravo. Shh. Tango Down.\"",
       "Icon": "assets/weapons/icons/ui_we_sniper.png"
     },
     {
       "Id": 5009,
-      "Name": "we_rugby_ball",
+      "Name": "Rugby Ball",
+      "Key": "we_rugby_ball",
       "Sort": 12,
       "IsDefault": false,
       "UnlockIndex": 7,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.00E+09",
       "EnhanceCost": "1.00E+09",
@@ -571,17 +584,18 @@
       "InfoData": [
         "i/#c/a/#b"
       ],
-      "English": "Rugby Ball",
       "Description": "\"That bounced everywhere, destroying everything.\"",
       "Icon": "assets/weapons/icons/ui_we_rugby_ball.png"
     },
     {
       "Id": 5010,
-      "Name": "we_wheel_saw",
+      "Name": "Buzz Saw Blade",
+      "Key": "we_wheel_saw",
       "Sort": 13,
       "IsDefault": false,
       "UnlockIndex": 8,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.00E+11",
       "EnhanceCost": "5.00E+10",
@@ -613,17 +627,18 @@
       "InfoData": [
         "i/a/at/t/w"
       ],
-      "English": "Buzz Saw Blade",
       "Description": "\"Have you heard of a saw blade that became self-aware?\"",
       "Icon": "assets/weapons/icons/ui_we_wheel_saw.png"
     },
     {
       "Id": 5011,
-      "Name": "we_blaze_flask",
+      "Name": "Inferno Flask",
+      "Key": "we_blaze_flask",
       "Sort": 14,
       "IsDefault": false,
       "UnlockIndex": 9,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "5.00E+12",
       "EnhanceCost": "2.50E+12",
@@ -655,17 +670,18 @@
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "English": "Inferno Flask",
       "Description": "\"Let's see. Where is this mad scientist?\"",
       "Icon": "assets/weapons/icons/ui_we_blaze_flask.png"
     },
     {
       "Id": 5012,
-      "Name": "we_elephant_foot",
+      "Name": "Elephant Foot",
+      "Key": "we_elephant_foot",
       "Sort": 15,
       "IsDefault": false,
       "UnlockIndex": 10,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.00E+14",
       "EnhanceCost": "1.00E+14",
@@ -698,17 +714,18 @@
         "i/a",
         "$i/$n:bt_elephant_foot_fire/$a/$at/$t"
       ],
-      "English": "Elephant Foot",
       "Description": "\"The true king among the animals. And on your side.\"",
       "Icon": "assets/weapons/icons/ui_we_elephant_foot.png"
     },
     {
       "Id": 5013,
-      "Name": "we_billiard_ball",
+      "Name": "Billiard Ball",
+      "Key": "we_billiard_ball",
       "Sort": 16,
       "IsDefault": false,
       "UnlockIndex": 11,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+15",
       "EnhanceCost": "4.00E+15",
@@ -740,17 +757,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "Billiard Ball",
       "Description": "\"It's round and hard. No, it's not a bowling ball.\"",
       "Icon": "assets/weapons/icons/ui_we_billiard_ball.png"
     },
     {
       "Id": 5014,
-      "Name": "we_fidget_spinner",
+      "Name": "Fidget Spinner",
+      "Key": "we_fidget_spinner",
       "Sort": 17,
       "IsDefault": false,
       "UnlockIndex": 12,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.00E+17",
       "EnhanceCost": "1.00E+17",
@@ -784,17 +802,18 @@
         "$i/$n:bt_fidget_spinner_big/$a/$at",
         "$i/$n:bt_fidget_spinner_r/$c/$a/$at"
       ],
-      "English": "Fidget Spinner",
       "Description": "\"It's possible if you're fast enough.\"",
       "Icon": "assets/weapons/icons/ui_we_fidget_spinner.png"
     },
     {
       "Id": 5015,
-      "Name": "we_moon_flint",
+      "Name": "Moon Flint",
+      "Key": "we_moon_flint",
       "Sort": 18,
       "IsDefault": false,
       "UnlockIndex": 13,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "5.00E+18",
       "EnhanceCost": "2.50E+18",
@@ -827,17 +846,18 @@
         "i/a/#t/w",
         "i/n:bt_moon_flint_spark/#c/a"
       ],
-      "English": "Moon Flint",
       "Description": "\"Look! What a cool rock!\"",
       "Icon": "assets/weapons/icons/ui_we_moon_flint.png"
     },
     {
       "Id": 5016,
-      "Name": "we_bunker_buster",
+      "Name": "Bunker Buster",
+      "Key": "we_bunker_buster",
       "Sort": 19,
       "IsDefault": false,
       "UnlockIndex": 14,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.75E+20",
       "EnhanceCost": "1.88E+20",
@@ -870,17 +890,18 @@
         "i/c/a/t/w",
         "i/n:bt_bunker_buster_boom/a/#p"
       ],
-      "English": "Bunker Buster",
       "Description": "\"An investigation is needed to determine whether this weapon complies with international law.\"",
       "Icon": "assets/weapons/icons/ui_we_bunker_buster.png"
     },
     {
       "Id": 5017,
-      "Name": "we_trump_card",
+      "Name": "Trump Card",
+      "Key": "we_trump_card",
       "Sort": 20,
       "IsDefault": false,
       "UnlockIndex": 15,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "4.00E+22",
       "EnhanceCost": "2.00E+22",
@@ -912,17 +933,18 @@
       "InfoData": [
         "i/#c/a/#t/w"
       ],
-      "English": "Trump Card",
       "Description": "\"A magician that can cut through steel.\"",
       "Icon": "assets/weapons/icons/ui_we_trump_card.png"
     },
     {
       "Id": 5018,
-      "Name": "we_golden_scissors",
+      "Name": "Golden Scissors",
+      "Key": "we_golden_scissors",
       "Sort": 21,
       "IsDefault": false,
       "UnlockIndex": 16,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+24",
       "EnhanceCost": "4.00E+24",
@@ -954,17 +976,18 @@
       "InfoData": [
         "i/c/a/#at:bt_golden_scissors_tick"
       ],
-      "English": "Golden Scissors",
       "Description": "\"Actually, gold isn't appropriate, but it looks cool, doesn't it?\"",
       "Icon": "assets/weapons/icons/ui_we_golden_scissors.png"
     },
     {
       "Id": 5019,
-      "Name": "we_chandelier",
+      "Name": "Chandelier",
+      "Key": "we_chandelier",
       "Sort": 22,
       "IsDefault": false,
       "UnlockIndex": 17,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.50E+27",
       "EnhanceCost": "1.25E+27",
@@ -997,17 +1020,18 @@
         "i/a",
         "i/n:bt_chandelier_frag/#c/a"
       ],
-      "English": "Chandelier",
       "Description": "\"I always thought seeing it fall would be quite the sight.\"",
       "Icon": "assets/weapons/icons/ui_we_chandelier.png"
     },
     {
       "Id": 5020,
-      "Name": "we_monomol_cutter",
+      "Name": "Monomolecular Blade",
+      "Key": "we_monomol_cutter",
       "Sort": 23,
       "IsDefault": false,
       "UnlockIndex": 18,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.00E+30",
       "EnhanceCost": "5.00E+29",
@@ -1039,17 +1063,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Monomolecular Blade",
       "Description": "\"Remember to put the cover back on after using it.\"",
       "Icon": "assets/weapons/icons/ui_we_monomol_cutter.png"
     },
     {
       "Id": 5021,
-      "Name": "we_magic_wand",
+      "Name": "Magic Wand",
+      "Key": "we_magic_wand",
       "Sort": 24,
       "IsDefault": false,
       "UnlockIndex": 19,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.00E+32",
       "EnhanceCost": "1.50E+32",
@@ -1081,17 +1106,18 @@
       "InfoData": [
         "i/#c:bt_magic_wand_set/a"
       ],
-      "English": "Magic Wand",
       "Description": "\"Can't you shoot it properly for once?\"",
       "Icon": "assets/weapons/icons/ui_we_magic_wand.png"
     },
     {
       "Id": 5022,
-      "Name": "we_holy_sword",
+      "Name": "Holy Sword",
+      "Key": "we_holy_sword",
       "Sort": 25,
       "IsDefault": false,
       "UnlockIndex": 20,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.50E+35",
       "EnhanceCost": "7.50E+34",
@@ -1124,17 +1150,18 @@
         "i/c/a/at/t",
         "$i/$n:bt_holy_sword_fire/$a/$at/$t"
       ],
-      "English": "Holy Sword",
       "Description": "\"In the name of justice!\"",
       "Icon": "assets/weapons/icons/ui_we_holy_sword.png"
     },
     {
       "Id": 5023,
-      "Name": "we_snowflake",
+      "Name": "Snowflake Bomb",
+      "Key": "we_snowflake",
       "Sort": 26,
       "IsDefault": false,
       "UnlockIndex": 21,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6.00E+37",
       "EnhanceCost": "3.00E+37",
@@ -1167,17 +1194,18 @@
         "i/#c/a",
         "i/n:bt_snowflake_thorn/c/a"
       ],
-      "English": "Snowflake Bomb",
       "Description": "\"Careful, that's not a child's toy.\"",
       "Icon": "assets/weapons/icons/ui_we_snowflake.png"
     },
     {
       "Id": 5024,
-      "Name": "we_prism",
+      "Name": "P.R.I.S.M.",
+      "Key": "we_prism",
       "Sort": 27,
       "IsDefault": false,
       "UnlockIndex": 22,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.00E+40",
       "EnhanceCost": "1.00E+40",
@@ -1209,17 +1237,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "P.R.I.S.M.",
       "Description": "\"Symmetry and reflections. How beautiful.\"",
       "Icon": "assets/weapons/icons/ui_we_prism.png"
     },
     {
       "Id": 5025,
-      "Name": "we_mirrorball",
+      "Name": "Mirrorball",
+      "Key": "we_mirrorball",
       "Sort": 28,
       "IsDefault": false,
       "UnlockIndex": 23,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.00E+43",
       "EnhanceCost": "1.50E+43",
@@ -1251,17 +1280,18 @@
       "InfoData": [
         "i/#a"
       ],
-      "English": "Mirrorball",
       "Description": "\"A weapon that blinds you, even when you're not looking at it.\"",
       "Icon": "assets/weapons/icons/ui_we_mirrorball.png"
     },
     {
       "Id": 5026,
-      "Name": "we_chain_lighting",
+      "Name": "Chain Lightning",
+      "Key": "we_chain_lighting",
       "Sort": 29,
       "IsDefault": false,
       "UnlockIndex": 24,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+46",
       "EnhanceCost": "4.00E+46",
@@ -1293,17 +1323,18 @@
       "InfoData": [
         "i/#c:bt_chain_lighting_chain/a"
       ],
-      "English": "Chain Lightning",
       "Description": "\"Wearing protective gloves won't help you.\"",
       "Icon": "assets/weapons/icons/ui_we_chain_lighting.png"
     },
     {
       "Id": 5027,
-      "Name": "we_tornado",
+      "Name": "Tornado",
+      "Key": "we_tornado",
       "Sort": 30,
       "IsDefault": false,
       "UnlockIndex": 25,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.50E+50",
       "EnhanceCost": "1.25E+50",
@@ -1335,17 +1366,18 @@
       "InfoData": [
         "i/#a/at"
       ],
-      "English": "Tornado",
       "Description": "\"You want to fly? Then get in there.\"",
       "Icon": "assets/weapons/icons/ui_we_tornado.png"
     },
     {
       "Id": 5028,
-      "Name": "we_volcano",
+      "Name": "Volcano",
+      "Key": "we_volcano",
       "Sort": 31,
       "IsDefault": false,
       "UnlockIndex": 26,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "4.00E+53",
       "EnhanceCost": "2.00E+53",
@@ -1377,17 +1409,18 @@
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "English": "Volcano",
       "Description": "\"Now this is a natural disaster.\"",
       "Icon": "assets/weapons/icons/ui_we_volcano.png"
     },
     {
       "Id": 5029,
-      "Name": "we_nano_machine",
+      "Name": "Nanomachine",
+      "Key": "we_nano_machine",
       "Sort": 32,
       "IsDefault": false,
       "UnlockIndex": 27,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6.50E+56",
       "EnhanceCost": "3.25E+56",
@@ -1419,17 +1452,18 @@
       "InfoData": [
         "i/a/#c"
       ],
-      "English": "Nanomachine",
       "Description": "\"You'll need a very powerful microscope.\"",
       "Icon": "assets/weapons/icons/ui_we_nano_machine.png"
     },
     {
       "Id": 5030,
-      "Name": "we_ufo",
+      "Name": "UFO",
+      "Key": "we_ufo",
       "Sort": 33,
       "IsDefault": false,
       "UnlockIndex": 28,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.00E+60",
       "EnhanceCost": "1.50E+60",
@@ -1461,17 +1495,18 @@
       "InfoData": [
         "i/at/a/t"
       ],
-      "English": "UFO",
       "Description": "\"We've made a deal of sorts.\"",
       "Icon": "assets/weapons/icons/ui_we_ufo.png"
     },
     {
       "Id": 5031,
-      "Name": "we_meteor_shower",
+      "Name": "Meteor Shower",
+      "Key": "we_meteor_shower",
       "Sort": 34,
       "IsDefault": false,
       "UnlockIndex": 29,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.25E+64",
       "EnhanceCost": "1.13E+64",
@@ -1503,17 +1538,18 @@
       "InfoData": [
         "i/a/#c"
       ],
-      "English": "Meteor Shower",
       "Description": "\"Let's stop taking pictures and get back to work.\"",
       "Icon": "assets/weapons/icons/ui_we_meteor_shower.png"
     },
     {
       "Id": 5032,
-      "Name": "we_nova",
+      "Name": "Nova Explosion",
+      "Key": "we_nova",
       "Sort": 35,
       "IsDefault": false,
       "UnlockIndex": 30,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.50E+68",
       "EnhanceCost": "7.50E+67",
@@ -1546,17 +1582,18 @@
         "i/#a",
         "i/n:bt_nova_sub/#c/a/t/w"
       ],
-      "English": "Nova Explosion",
       "Description": "\"The death of a star is splendid.\"",
       "Icon": "assets/weapons/icons/ui_we_nova.png"
     },
     {
       "Id": 5033,
-      "Name": "we_laser",
+      "Name": "Laser Cutter",
+      "Key": "we_laser",
       "Sort": 36,
       "IsDefault": false,
       "UnlockIndex": 31,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6.00E+71",
       "EnhanceCost": "3.00E+71",
@@ -1588,17 +1625,18 @@
       "InfoData": [
         "i/#c/#a"
       ],
-      "English": "Laser Cutter",
       "Description": "\"Don't worry, we just boosted the output a little bit.\"",
       "Icon": "assets/weapons/icons/ui_we_laser.png"
     },
     {
       "Id": 5034,
-      "Name": "we_thunder_hammer",
+      "Name": "Thunder Hammer",
+      "Key": "we_thunder_hammer",
       "Sort": 37,
       "IsDefault": false,
       "UnlockIndex": 32,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.00E+75",
       "EnhanceCost": "1.50E+75",
@@ -1631,17 +1669,18 @@
         "i/a/t/w",
         "i/n:bt_thunder_hammer_light/#c/a/#p"
       ],
-      "English": "Thunder Hammer",
       "Description": "\"Even if you find it, you won't be able to lift it.\"",
       "Icon": "assets/weapons/icons/ui_we_thunder_hammer.png"
     },
     {
       "Id": 5035,
-      "Name": "we_blackhole",
+      "Name": "Black Hole",
+      "Key": "we_blackhole",
       "Sort": 38,
       "IsDefault": false,
       "UnlockIndex": 33,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.50E+79",
       "EnhanceCost": "7.50E+78",
@@ -1673,17 +1712,18 @@
       "InfoData": [
         "i/#a/at:bt_blackhole_tick/#t"
       ],
-      "English": "Black Hole",
       "Description": "\"If you're lucky, you might come out somewhere.\"",
       "Icon": "assets/weapons/icons/ui_we_blackhole.png"
     },
     {
       "Id": 5036,
-      "Name": "we_portal",
+      "Name": "Portal",
+      "Key": "we_portal",
       "Sort": 39,
       "IsDefault": false,
       "UnlockIndex": 34,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.00E+83",
       "EnhanceCost": "5.00E+82",
@@ -1715,17 +1755,18 @@
       "InfoData": [
         "i/#c/a/p/t"
       ],
-      "English": "Portal",
       "Description": "\"Sometimes I imagine dumping the clutter in my room somewhere else.\"",
       "Icon": "assets/weapons/icons/ui_we_portal.png"
     },
     {
       "Id": 5037,
-      "Name": "we_sphere",
+      "Name": "Brawl",
+      "Key": "we_sphere",
       "Sort": 40,
       "IsDefault": false,
       "UnlockIndex": 35,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.50E+87",
       "EnhanceCost": "7.50E+86",
@@ -1757,17 +1798,18 @@
       "InfoData": [
         "i/a:bt_sphere_sub_atk/#p"
       ],
-      "English": "Brawl",
       "Description": "\"It's the ultimate spectacle.\"",
       "Icon": "assets/weapons/icons/ui_we_sphere.png"
     },
     {
       "Id": 5038,
-      "Name": "we_starlight_trip",
+      "Name": "Starlight Journey",
+      "Key": "we_starlight_trip",
       "Sort": 41,
       "IsDefault": false,
       "UnlockIndex": 36,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.20E+91",
       "EnhanceCost": "6.00E+90",
@@ -1799,17 +1841,18 @@
       "InfoData": [
         "i/#c/a/#t/w"
       ],
-      "English": "Starlight Journey",
       "Description": "\"Look at that searing beauty.\"",
       "Icon": "assets/weapons/icons/ui_we_starlight_trip.png"
     },
     {
       "Id": 5039,
-      "Name": "we_piranha",
+      "Name": "Piranha",
+      "Key": "we_piranha",
       "Sort": 42,
       "IsDefault": false,
       "UnlockIndex": 37,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "7.50E+94",
       "EnhanceCost": "3.75E+94",
@@ -1841,17 +1884,18 @@
       "InfoData": [
         "i/#c/a/#b"
       ],
-      "English": "Piranha",
       "Description": "\"Sometimes you need a helping hand.\"",
       "Icon": "assets/weapons/icons/ui_we_piranha.png"
     },
     {
       "Id": 5040,
-      "Name": "we_umbrella",
+      "Name": "Umbrella",
+      "Key": "we_umbrella",
       "Sort": 43,
       "IsDefault": false,
       "UnlockIndex": 38,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.25E+99",
       "EnhanceCost": "1.13E+99",
@@ -1883,17 +1927,18 @@
       "InfoData": [
         "i/#c/a:bt_umbrella_sub_atk/p/t/w"
       ],
-      "English": "Umbrella",
       "Description": "\"We've tweaked our active defense system.\"",
       "Icon": "assets/weapons/icons/ui_we_umbrella.png"
     },
     {
       "Id": 5041,
-      "Name": "we_bigbang",
+      "Name": "Big Bang",
+      "Key": "we_bigbang",
       "Sort": 44,
       "IsDefault": false,
       "UnlockIndex": 39,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.00E+104",
       "EnhanceCost": "1.50E+104",
@@ -1925,17 +1970,18 @@
       "InfoData": [
         "i/#c:bt_bigbang_fire/a"
       ],
-      "English": "Big Bang",
       "Description": "\"In the beginning, there was an explosion.\"",
       "Icon": "assets/weapons/icons/ui_we_bigbang.png"
     },
     {
       "Id": 5042,
-      "Name": "we_present",
+      "Name": "Present Strike",
+      "Key": "we_present",
       "Sort": 45,
       "IsDefault": false,
       "UnlockIndex": 40,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+109",
       "EnhanceCost": "4.00E+109",
@@ -1967,17 +2013,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Present Strike",
       "Description": "\"I'll shower you with gifts.\"",
       "Icon": "assets/weapons/icons/ui_we_present.png"
     },
     {
       "Id": 5043,
-      "Name": "we_egg",
+      "Name": "Multidimensional Egg",
+      "Key": "we_egg",
       "Sort": 46,
       "IsDefault": false,
       "UnlockIndex": 41,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6.25E+115",
       "EnhanceCost": "3.13E+115",
@@ -2009,17 +2056,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Multidimensional Egg",
       "Description": "\"An egg with an unstable dimension is itself a weapon of universal proportions.\"",
       "Icon": "assets/weapons/icons/ui_we_egg.png"
     },
     {
       "Id": 5044,
-      "Name": "we_gas_barrel",
+      "Name": "Burning Gas Barrel",
+      "Key": "we_gas_barrel",
       "Sort": 47,
       "IsDefault": false,
       "UnlockIndex": 42,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+127",
       "EnhanceCost": "4.00E+127",
@@ -2052,17 +2100,18 @@
         "i/#c/a/w",
         "i/n:bt_gas_barrel_boom/a"
       ],
-      "English": "Burning Gas Barrel",
       "Description": "\"That's exactly why safety protocols are important.\"",
       "Icon": "assets/weapons/icons/ui_we_gas_barrel.png"
     },
     {
       "Id": 5045,
-      "Name": "we_god_finger",
+      "Name": "God Finger",
+      "Key": "we_god_finger",
       "Sort": 48,
       "IsDefault": false,
       "UnlockIndex": 43,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "4.00E+144",
       "EnhanceCost": "2.00E+144",
@@ -2094,17 +2143,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "God Finger",
       "Description": "\"Let there be light.\"",
       "Icon": "assets/weapons/icons/ui_we_god_finger.png"
     },
     {
       "Id": 5046,
-      "Name": "we_thor_hammer",
+      "Name": "Thor's Hammer",
+      "Key": "we_thor_hammer",
       "Sort": 49,
       "IsDefault": false,
       "UnlockIndex": 44,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.00E+161",
       "EnhanceCost": "5.00E+160",
@@ -2137,17 +2187,18 @@
         "i/#a",
         "i/n:bt_thor_hammer_light/#c/a"
       ],
-      "English": "Thor's Hammer",
       "Description": "\"Good heavens, now they're falling from the sky.\"",
       "Icon": "assets/weapons/icons/ui_we_thor_hammer.png"
     },
     {
       "Id": 5047,
-      "Name": "we_atom",
+      "Name": "Atomic Molecule",
+      "Key": "we_atom",
       "Sort": 50,
       "IsDefault": false,
       "UnlockIndex": 45,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.00E+175",
       "EnhanceCost": "1.00E+175",
@@ -2179,17 +2230,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Atomic Molecule",
       "Description": "\"What a fun science lesson.\"",
       "Icon": "assets/weapons/icons/ui_we_atom.png"
     },
     {
       "Id": 5048,
-      "Name": "we_ascension_light",
+      "Name": "Light of Ascension",
+      "Key": "we_ascension_light",
       "Sort": 51,
       "IsDefault": false,
       "UnlockIndex": 46,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "5.00E+187",
       "EnhanceCost": "2.50E+187",
@@ -2221,17 +2273,18 @@
       "InfoData": [
         "i/#c/#a"
       ],
-      "English": "Light of Ascension",
       "Description": "\"Whether for better or worse, it's truly a weapon that makes you 'ascend.'\"",
       "Icon": "assets/weapons/icons/ui_we_ascension_light.png"
     },
     {
       "Id": 5049,
-      "Name": "we_top_toy",
+      "Name": "Spinning Top",
+      "Key": "we_top_toy",
       "Sort": 52,
       "IsDefault": false,
       "UnlockIndex": 47,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8.00E+199",
       "EnhanceCost": "4.00E+199",
@@ -2263,17 +2316,18 @@
       "InfoData": [
         "i/#c/#a/t/w"
       ],
-      "English": "Spinning Top",
       "Description": "\"If you're fast enough, it's possible.\"",
       "Icon": "assets/weapons/icons/ui_we_top_toy.png"
     },
     {
       "Id": 5050,
-      "Name": "we_purify_flame",
+      "Name": "Purifying Flame",
+      "Key": "we_purify_flame",
       "Sort": 53,
       "IsDefault": false,
       "UnlockIndex": 48,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "4.00E+214",
       "EnhanceCost": "2.00E+214",
@@ -2305,17 +2359,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Purifying Flame",
       "Description": "\"Clean down to the soul.\"",
       "Icon": "assets/weapons/icons/ui_we_purify_flame.png"
     },
     {
       "Id": 5051,
-      "Name": "we_star_buster",
+      "Name": "Starbuster",
+      "Key": "we_star_buster",
       "Sort": 54,
       "IsDefault": false,
       "UnlockIndex": 49,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "7.50E+228",
       "EnhanceCost": "3.75E+228",
@@ -2348,17 +2403,18 @@
         "i/c/a/t/w",
         "i/n:bt_star_buster_boom/a/#p"
       ],
-      "English": "Starbuster",
       "Description": "\"It's like watching a star explode.\"",
       "Icon": "assets/weapons/icons/ui_we_star_buster.png"
     },
     {
       "Id": 5052,
-      "Name": "we_prism_ex",
+      "Name": "P.R.I.S.M. -EX-",
+      "Key": "we_prism_ex",
       "Sort": 55,
       "IsDefault": false,
       "UnlockIndex": 50,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.50E+247",
       "EnhanceCost": "1.25E+247",
@@ -2390,17 +2446,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "P.R.I.S.M. -EX-",
       "Description": "\"How would you like it cut?\"",
       "Icon": "assets/weapons/icons/ui_we_prism_ex.png"
     },
     {
       "Id": 5053,
-      "Name": "we_q_machine",
+      "Name": "Quantum Machine",
+      "Key": "we_q_machine",
       "Sort": 56,
       "IsDefault": false,
       "UnlockIndex": 51,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.50E+262",
       "EnhanceCost": "7.50E+261",
@@ -2432,17 +2489,18 @@
       "InfoData": [
         "i/a/#c"
       ],
-      "English": "Quantum Machine",
       "Description": "\"Ever heard the expression 'quantum perfection'?\"",
       "Icon": "assets/weapons/icons/ui_we_q_machine.png"
     },
     {
       "Id": 5054,
-      "Name": "we_gym_ball",
+      "Name": "Exercise Ball",
+      "Key": "we_gym_ball",
       "Sort": 57,
       "IsDefault": false,
       "UnlockIndex": 52,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "7.50E+278",
       "EnhanceCost": "3.75E+278",
@@ -2474,17 +2532,18 @@
       "InfoData": [
         "i/#c/a/b"
       ],
-      "English": "Exercise Ball",
       "Description": "\"Excuse me, that's not how you use the exercise ball!\"",
       "Icon": "assets/weapons/icons/ui_we_gym_ball.png"
     },
     {
       "Id": 5055,
-      "Name": "we_holy_shield",
+      "Name": "Divine Shield",
+      "Key": "we_holy_shield",
       "Sort": 58,
       "IsDefault": false,
       "UnlockIndex": 53,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.50E+297",
       "EnhanceCost": "1.25E+297",
@@ -2517,17 +2576,18 @@
         "i/#c/a",
         "i/n:bt_holy_shield_sub/c/a/t/w"
       ],
-      "English": "Divine Shield",
       "Description": "\"Who knew shield bashing was actually a real technique.\"",
       "Icon": "assets/weapons/icons/ui_we_holy_shield.png"
     },
     {
       "Id": 5056,
-      "Name": "we_ares",
+      "Name": "Sword of Ares",
+      "Key": "we_ares",
       "Sort": 59,
       "IsDefault": false,
       "UnlockIndex": 54,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8E+311",
       "EnhanceCost": "4e311",
@@ -2559,17 +2619,18 @@
       "InfoData": [
         "i/#c:bt_ares_repeat/a"
       ],
-      "English": "Sword of Ares",
       "Description": "\"I came to end this war.\"",
       "Icon": "assets/weapons/icons/ui_we_ares.png"
     },
     {
       "Id": 5057,
-      "Name": "we_hell_chain",
+      "Name": "Infernal Chain",
+      "Key": "we_hell_chain",
       "Sort": 60,
       "IsDefault": false,
       "UnlockIndex": 55,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6E+330",
       "EnhanceCost": "3e330",
@@ -2601,17 +2662,18 @@
       "InfoData": [
         "i/#c/#a"
       ],
-      "English": "Infernal Chain",
       "Description": "\"Even your soul shall be bound.\"",
       "Icon": "assets/weapons/icons/ui_we_hell_chain.png"
     },
     {
       "Id": 5058,
-      "Name": "we_zeus",
+      "Name": "Zeus' Trident",
+      "Key": "we_zeus",
       "Sort": 61,
       "IsDefault": false,
       "UnlockIndex": 56,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3E+349",
       "EnhanceCost": "1.5e349",
@@ -2644,17 +2706,18 @@
         "i/#c/a",
         "i/n:bt_zeus_thunder/c/a/p"
       ],
-      "English": "Zeus' Trident",
       "Description": "\"You'll be lightning-charred in an instant.\"",
       "Icon": "assets/weapons/icons/ui_we_zeus.png"
     },
     {
       "Id": 5059,
-      "Name": "we_god_punch",
+      "Name": "God Punch",
+      "Key": "we_god_punch",
       "Sort": 62,
       "IsDefault": false,
       "UnlockIndex": 57,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "5e374",
       "EnhanceCost": "2.5e374",
@@ -2686,17 +2749,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "God Punch",
       "Description": "\"Have you committed an unforgivable sin?\"",
       "Icon": "assets/weapons/icons/ui_we_god_punch.png"
     },
     {
       "Id": 5060,
-      "Name": "we_soul_shuriken",
+      "Name": "Soul Ninja Stars",
+      "Key": "we_soul_shuriken",
       "Sort": 63,
       "IsDefault": false,
       "UnlockIndex": 58,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1e394",
       "EnhanceCost": "5e393",
@@ -2728,17 +2792,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "Soul Ninja Stars",
       "Description": "\"Even the soul shall be split.\"",
       "Icon": "assets/weapons/icons/ui_we_soul_shuriken.png"
     },
     {
       "Id": 5061,
-      "Name": "we_uranium",
+      "Name": "Uranium Flask",
+      "Key": "we_uranium",
       "Sort": 64,
       "IsDefault": false,
       "UnlockIndex": 59,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.5e416",
       "EnhanceCost": "1.25e416",
@@ -2770,17 +2835,18 @@
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "English": "Uranium Flask",
       "Description": "\"A terrifying weapon that melts everything from the inside out.\"",
       "Icon": "assets/weapons/icons/ui_we_uranium.png"
     },
     {
       "Id": 5062,
-      "Name": "we_odin",
+      "Name": "Odin's Judgment",
+      "Key": "we_odin",
       "Sort": 65,
       "IsDefault": false,
       "UnlockIndex": 60,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8e444",
       "EnhanceCost": "4e444",
@@ -2812,17 +2878,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Odin's Judgment",
       "Description": "\"Not simply lightning, but divine punishment.\"",
       "Icon": "assets/weapons/icons/ui_we_odin.png"
     },
     {
       "Id": 5063,
-      "Name": "we_diamond_scissors",
+      "Name": "Diamond Scissors",
+      "Key": "we_diamond_scissors",
       "Sort": 66,
       "IsDefault": false,
       "UnlockIndex": 61,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "6e464",
       "EnhanceCost": "3e464",
@@ -2854,17 +2921,18 @@
       "InfoData": [
         "i/#c/a/at:bt_diamond_scissors_tick"
       ],
-      "English": "Diamond Scissors",
       "Description": "\"They aren't just slightly harder than before.\"",
       "Icon": "assets/weapons/icons/ui_we_diamond_scissors.png"
     },
     {
       "Id": 5064,
-      "Name": "we_cherry_banana",
+      "Name": "Cherry & Banana",
+      "Key": "we_cherry_banana",
       "Sort": 67,
       "IsDefault": false,
       "UnlockIndex": 62,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.5e486",
       "EnhanceCost": "1.75e486",
@@ -2899,17 +2967,18 @@
         "i/n:bt_cherry_sub/c/a",
         "i/n:bt_banana_sub/c/a"
       ],
-      "English": "Cherry & Banana",
       "Description": "\"Sweet juice that goes pop pop!\"",
       "Icon": "assets/weapons/icons/ui_we_cherry_banana.png"
     },
     {
       "Id": 5065,
-      "Name": "we_osiris",
+      "Name": "Eye of Osiris",
+      "Key": "we_osiris",
       "Sort": 68,
       "IsDefault": false,
       "UnlockIndex": 63,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "7.5e508",
       "EnhanceCost": "3.75e508",
@@ -2941,17 +3010,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Eye of Osiris",
       "Description": "\"It can see and destroy all.\"",
       "Icon": "assets/weapons/icons/ui_we_osiris.png"
     },
     {
       "Id": 5066,
-      "Name": "we_sun",
+      "Name": "Sun of Ra",
+      "Key": "we_sun",
       "Sort": 69,
       "IsDefault": false,
       "UnlockIndex": 64,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2e528",
       "EnhanceCost": "1e528",
@@ -2983,17 +3053,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Sun of Ra",
       "Description": "\"Have you ever imagined the sun right in front of your eyes?\"",
       "Icon": "assets/weapons/icons/ui_we_sun.png"
     },
     {
       "Id": 5067,
-      "Name": "we_rat",
+      "Name": "Radioactive Rat",
+      "Key": "we_rat",
       "Sort": 70,
       "IsDefault": false,
       "UnlockIndex": 65,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "3.5e548",
       "EnhanceCost": "1.75e548",
@@ -3025,17 +3096,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Radioactive Rat",
       "Description": "\"Be careful with rats. You never know what germs they may carry.\"",
       "Icon": "assets/weapons/icons/ui_we_rat.png"
     },
     {
       "Id": 5068,
-      "Name": "we_tsunami",
+      "Name": "Tsunami",
+      "Key": "we_tsunami",
       "Sort": 71,
       "IsDefault": false,
       "UnlockIndex": 66,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "9e572",
       "EnhanceCost": "4.5e572",
@@ -3067,17 +3139,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Tsunami",
       "Description": "\"A disaster beyond human comprehension.\"",
       "Icon": "assets/weapons/icons/ui_we_tsunami.png"
     },
     {
       "Id": 5069,
-      "Name": "we_gale",
+      "Name": "Storm Blade",
+      "Key": "we_gale",
       "Sort": 72,
       "IsDefault": false,
       "UnlockIndex": 67,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1.5e593",
       "EnhanceCost": "7.5e592",
@@ -3109,17 +3182,18 @@
       "InfoData": [
         "i/#c/#a"
       ],
-      "English": "Storm Blade",
       "Description": "\"Wind moving fast enough can become a blade.\"",
       "Icon": "assets/weapons/icons/ui_we_gale.png"
     },
     {
       "Id": 5070,
-      "Name": "we_light_orb",
+      "Name": "Orb of Light",
+      "Key": "we_light_orb",
       "Sort": 73,
       "IsDefault": false,
       "UnlockIndex": 68,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "4e614",
       "EnhanceCost": "2e614",
@@ -3151,17 +3225,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "Orb of Light",
       "Description": "\"I shall destroy all with the power of light.\"",
       "Icon": "assets/weapons/icons/ui_we_light_orb.png"
     },
     {
       "Id": 5071,
-      "Name": "we_chicken",
+      "Name": "Crispy Chicken",
+      "Key": "we_chicken",
       "Sort": 74,
       "IsDefault": false,
       "UnlockIndex": 69,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "8e647",
       "EnhanceCost": "4e647",
@@ -3193,17 +3268,18 @@
       "InfoData": [
         "i/#c/a/#b"
       ],
-      "English": "Crispy Chicken",
       "Description": "\"Everything tastes good when fried. Even a Brick.\"",
       "Icon": "assets/weapons/icons/ui_we_chicken.png"
     },
     {
       "Id": 5072,
-      "Name": "we_chaos_orb",
+      "Name": "Chaos Staff",
+      "Key": "we_chaos_orb",
       "Sort": 75,
       "IsDefault": false,
       "UnlockIndex": 70,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2e673",
       "EnhanceCost": "1e673",
@@ -3235,17 +3311,18 @@
       "InfoData": [
         "i/#c:bt_chaos_orb_set/a"
       ],
-      "English": "Chaos Staff",
       "Description": "\"I wonder about the mental state of whoever made this weapon.\"",
       "Icon": "assets/weapons/icons/ui_we_chaos_orb.png"
     },
     {
       "Id": 5073,
-      "Name": "we_party_missile",
+      "Name": "Party Missile",
+      "Key": "we_party_missile",
       "Sort": 76,
       "IsDefault": false,
       "UnlockIndex": 71,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "7.5e701",
       "EnhanceCost": "3.75e701",
@@ -3277,17 +3354,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Party Missile",
       "Description": "\"I just came to congratulate you.\"",
       "Icon": "assets/weapons/icons/ui_we_party_missile.png"
     },
     {
       "Id": 5074,
-      "Name": "we_mirror",
+      "Name": "Dimension Mirror",
+      "Key": "we_mirror",
       "Sort": 77,
       "IsDefault": false,
       "UnlockIndex": 72,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2.5e755",
       "EnhanceCost": "1.25e755",
@@ -3319,17 +3397,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "Dimension Mirror",
       "Description": "\"Can you find the truth among the countless mirrors?\"",
       "Icon": "assets/weapons/icons/ui_we_mirror.png"
     },
     {
       "Id": 5075,
-      "Name": "we_coffee",
+      "Name": "Hot Coffee Cup",
+      "Key": "we_coffee",
       "Sort": 78,
       "IsDefault": false,
       "UnlockIndex": 73,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1e801",
       "EnhanceCost": "5e800",
@@ -3361,17 +3440,18 @@
       "InfoData": [
         "i/#c/a/at/t"
       ],
-      "English": "Hot Coffee Cup",
       "Description": "\"A nightmarish day for the staff.\"",
       "Icon": "assets/weapons/icons/ui_we_coffee.png"
     },
     {
       "Id": 5076,
-      "Name": "we_extinction",
+      "Name": "Light of Annihilation",
+      "Key": "we_extinction",
       "Sort": 79,
       "IsDefault": false,
       "UnlockIndex": 74,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "5e849",
       "EnhanceCost": "2.5e849",
@@ -3403,17 +3483,18 @@
       "InfoData": [
         "i/#c/a"
       ],
-      "English": "Light of Annihilation",
       "Description": "\"True annihilation is being erased from memory.\"",
       "Icon": "assets/weapons/icons/ui_we_extinction.png"
     },
     {
       "Id": 5077,
-      "Name": "we_singular_point",
+      "Name": "Singular Point",
+      "Key": "we_singular_point",
       "Sort": 80,
       "IsDefault": false,
       "UnlockIndex": 75,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "2e929",
       "EnhanceCost": "1e929",
@@ -3445,17 +3526,18 @@
       "InfoData": [
         "i/#c/#a"
       ],
-      "English": "Singular Point",
       "Description": "\"Even light loses its way there.\"",
       "Icon": "assets/weapons/icons/ui_we_singular_point.png"
     },
     {
       "Id": 5078,
-      "Name": "we_pencil",
+      "Name": "Colored Pencil",
+      "Key": "we_pencil",
       "Sort": 81,
       "IsDefault": false,
       "UnlockIndex": 76,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "4e978",
       "EnhanceCost": "2e978",
@@ -3487,17 +3569,18 @@
       "InfoData": [
         "i/#c/a/t/w"
       ],
-      "English": "Colored Pencil",
       "Description": "\"A tool that draws the world can also become a tool that erases it.\"",
       "Icon": "assets/weapons/icons/ui_we_pencil.png"
     },
     {
       "Id": 5079,
-      "Name": "we_dimension_box",
+      "Name": "Dimensional Box",
+      "Key": "we_dimension_box",
       "Sort": 82,
       "IsDefault": false,
       "UnlockIndex": 77,
       "UnlockWeapons": [],
+      "UnlockWeaponKeys": [],
       "UnlockWeaponEnhance": 0,
       "Price": "1e1027",
       "EnhanceCost": "5e1026",
@@ -3531,7 +3614,6 @@
         "i/c:bt_dimension_box_split/a:bt_dimension_box_atk/t:bt_dimension_box_time",
         "$i/$c:bt_dimension_box_split_l/$a:bt_dimension_box_atk/$t:bt_dimension_box_time"
       ],
-      "English": "Dimensional Box",
       "Description": "\"Have you ever wondered where the missing bricks go?\"",
       "Icon": "assets/weapons/icons/ui_we_dimension_box.png"
     }
