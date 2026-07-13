@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+from decimal import Decimal, InvalidOperation, ROUND_FLOOR
 import html
 import json
 import re
@@ -23,6 +24,18 @@ CREATE_RE = re.compile(r"public static Offset<(?P<name>Master[A-Za-z0-9_]+)> Cre
 VECTOR_METHOD_RE = re.compile(r"public (?P<return>[A-Za-z0-9_.<>]+) (?P<name>[A-Za-z0-9_]+)\(int j\) \{ \}")
 ROOT_SETTING_RE = re.compile(r"public Nullable<(?P<type>Master[A-Za-z0-9_]+)> (?P<name>[A-Za-z0-9_]+) \{ get; \}")
 ROOT_VECTOR_RE = re.compile(r"public int (?P<name>[A-Za-z0-9_]+)Length \{ get; \}")
+WEAPON_LARGE_NUMBER_FIELDS = {
+    "Price",
+    "EnhanceCost",
+    "SoulDmgUpgradeCost",
+    "SoulCostUpgradeCost",
+    "SoulDmgEnhanceCost",
+    "SoulCostEnhanceCost",
+    "SoulEnhanceCostUp",
+    "EpicUpgradeCost",
+    "Power",
+}
+STANDARD_NUMBER_SUFFIXES = ["", "K", "M", "B", "T"]
 
 
 def split_params(text: str) -> list[str]:
@@ -206,6 +219,57 @@ def humanize_weapon_key(key: str) -> str:
     return " ".join(part.capitalize() for part in clean.split("_") if part)
 
 
+def alphabetic_suffix(index: int) -> str:
+    letters = "abcdefghijklmnopqrstuvwxyz"
+    text = ""
+    while True:
+        text = letters[index % 26] + text
+        index = (index // 26) - 1
+        if index < 0:
+            break
+    return text.rjust(2, "a")
+
+
+def large_number_suffix(group: int) -> str:
+    if group < len(STANDARD_NUMBER_SUFFIXES):
+        return STANDARD_NUMBER_SUFFIXES[group]
+    return alphabetic_suffix(group - len(STANDARD_NUMBER_SUFFIXES))
+
+
+def trim_number(value: Decimal, decimals: int = 2) -> str:
+    quantized = value.quantize(Decimal(1).scaleb(-decimals)).normalize()
+    text = format(quantized, "f")
+    if "." in text:
+        text = text.rstrip("0").rstrip(".")
+    return text
+
+
+def format_large_number(value: object) -> object:
+    if isinstance(value, bool) or value == "":
+        return value
+    if not isinstance(value, (str, int, float, Decimal)):
+        return value
+    try:
+        number = Decimal(str(value))
+    except InvalidOperation:
+        return value
+    if number.is_zero():
+        return "0"
+
+    sign = "-" if number < 0 else ""
+    number = abs(number)
+    if number < Decimal("1000"):
+        return sign + trim_number(number)
+
+    exponent = number.adjusted()
+    group = int((Decimal(exponent) / Decimal(3)).to_integral_value(rounding=ROUND_FLOOR))
+    scaled = number / (Decimal(10) ** (group * 3))
+    if scaled >= Decimal("1000"):
+        scaled /= Decimal(1000)
+        group += 1
+    return f"{sign}{trim_number(scaled)}{large_number_suffix(group)}"
+
+
 def apply_weapon_presentation(rows: list[dict]) -> None:
     names_by_key = {
         row["Name"]: row.get("English") or humanize_weapon_key(row["Name"])
@@ -230,6 +294,8 @@ def apply_weapon_presentation(rows: list[dict]) -> None:
                     for unlock_key in value
                 ]
                 presented["UnlockWeaponKeys"] = value
+            elif field_name in WEAPON_LARGE_NUMBER_FIELDS:
+                presented[field_name] = format_large_number(value)
             elif field_name != "English":
                 presented[field_name] = value
 
